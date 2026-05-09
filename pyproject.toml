@@ -1,0 +1,4 @@
+# Empty pyproject - signals no Python build for Vercel
+# collector.py runs in GitHub Actions, not in Vercel
+[tool.vercel]
+ignore-build = true
