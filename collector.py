@@ -19,9 +19,9 @@ HTTP_HEADERS = {"User-Agent": UA, "Accept": "application/json,text/xml,*/*"}
 HISTORY_DAYS = 60
 
 COMPETITORS = [
-    {"brand": "Nike",         "category": "Sportswear", "queries": ["Nike Football", "Nike Soccer", "Nike"], "color": "#FA5400"},
-    {"brand": "Puma",         "category": "Sportswear", "queries": ["Puma Football", "Puma"], "color": "#E0001A"},
-    {"brand": "New Balance",  "category": "Sportswear", "queries": ["New Balance Football", "New Balance"], "color": "#E50020"},
+    {"brand": "Nike",         "category": "Sportswear", "queries": ["Nike", "Nike Football", "Nike Soccer"], "color": "#FA5400"},
+    {"brand": "Puma",         "category": "Sportswear", "queries": ["Puma", "Puma Football"], "color": "#E0001A"},
+    {"brand": "New Balance",  "category": "Sportswear", "queries": ["New Balance", "New Balance Football"], "color": "#E50020"},
     {"brand": "Under Armour", "category": "Sportswear", "queries": ["Under Armour"], "color": "#E81B23"},
     {"brand": "Mizuno",       "category": "Sportswear", "queries": ["Mizuno"], "color": "#0066CC"},
     {"brand": "Asics",        "category": "Sportswear", "queries": ["Asics"], "color": "#002954"},
