@@ -1,52 +1,52 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-09T20:45:53.761762+00:00",
+  "generated_at": "2026-05-09T20:51:35.412997+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 357,
-      "elapsed_s": 39.1
+      "count": 358,
+      "elapsed_s": 40.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 1.5
+      "elapsed_s": 18.2
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 5.6
+      "elapsed_s": 5.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.5
+      "elapsed_s": 2.7
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 10.2
+      "elapsed_s": 9.9
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 19,
-      "elapsed_s": 39.6
+      "elapsed_s": 48.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 8.6
+      "count": 5,
+      "elapsed_s": 8.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.3
+      "elapsed_s": 4.4
     },
     "wikipedia": {
       "status": "ok",
       "count": 10,
-      "elapsed_s": 4.9
+      "elapsed_s": 4.5
     }
   },
   "competitors": [
@@ -130,8 +130,8 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 5,
-      "signals": 5,
+      "score": 6,
+      "signals": 6,
       "color": "#FFCD00"
     }
   ],
@@ -142,11 +142,11 @@
     "search_leader_brand": "-",
     "search_leader_pct": 0,
     "search_leader_delta_pp": 0,
-    "signals_60d": 88,
-    "signals_delta_pct": 152,
+    "signals_60d": 89,
+    "signals_delta_pct": 142,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 45,
+    "ambush_attempts_total": 46,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 19,
     "fifa_signals_total": 0,
@@ -616,6 +616,19 @@
       "source": "Google News BR",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa016ZS1JbjdHR2doWkppMHRuQ1FBcW1PR01xc3c0Q0ZkbnZNV1QtSkN5WXB6UncwZmF2M3p0QS1ybGpwWURyMVNEMnpYSkVNZ25USzA0c25TbUszaWI3UXZKWDVreHZlU3BmX1FlM3VlN2NFY0h6aVlQOTUzX1BIX0xqOEtvRkhzaXUxN200TlRNalhwYWpsWnRVUGY0WmM?oc=5",
       "timestamp": "Sat, 04 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Adidas y Puma, reyes en patrocinios de las camisetas del Mundial 2026 - MSN",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa2ZxZHBWaFZwY2tWNEliSXVfVThyZGdPMEtnRDM4bUNkaFRZTDZlNjJ0RUF2SmlOM2ExX0JfOFZaS1JTeUJTLUd2V2x3alpYYTJkOUtEdlhnZ0pzOUVpaV9zaERpLWhQMGNMeFJsVUlRQTVjSWpnRzdobnBraVRyMVBRdDlTOEQ4U080aWRyaElwZ1VEX2wweWtvTk9YY3AwUmhSa0hBUnJFWFNQa0sydW5pbWJqTXZRUVFiWklLRTVoVVVYenc?oc=5",
+      "timestamp": "Sun, 05 Apr 2026 17:15:05 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -3701,11 +3714,57 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [],
+  "tiktok_tags": [
+    {
+      "tag": "#albumdacopa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 51700,
+      "raw_query": "album da copa 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#albumvirtualmundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 20450,
+      "raw_query": "album virtual mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#campeonatomundialdefórmula1de2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 350,
+      "raw_query": "campeonato mundial de fórmula 1 de 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#congressomundialdecardiologia2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 140,
+      "raw_query": "congresso mundial de cardiologia 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#mundialtenisdemesa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 90,
+      "raw_query": "mundial tenis de mesa 2026",
+      "seed": "Mundial 2026"
+    }
+  ],
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-35413515",
+      "sku": "signal-85653309",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -3730,7 +3789,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 23,
+      "signals_60d": 24,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -4031,7 +4090,7 @@
     "New Balance": 3,
     "Nike": 19,
     "Umbro": 1,
-    "Puma": 15,
+    "Puma": 16,
     "Under Armour": 2,
     "Penalty": 4,
     "Joma": 1
