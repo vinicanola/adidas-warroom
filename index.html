@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adidas War Room - Mundial 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/theme/mermaid.min.css">
+<style>
+:root{--coca:#000000;--coca-dark:#1A1A1A;--coca-deep:#333333;--ink:#1C1C1C;--muted:#6B6B6B;--border:#ECECEC;--bg:#FAFAFA;--card:#FFF;--green:#1FA868;--yellow:#F5A623;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,sans-serif;font-size:14px;-webkit-font-smoothing:antialiased}
+.header{position:relative;overflow:hidden;background:linear-gradient(135deg,#000000 0%,#1A1A1A 50%,#333333 100%);color:#fff;padding:28px 32px 80px}
+.header-content{max-width:1320px;margin:0 auto;display:flex;justify-content:space-between;gap:24px;position:relative;z-index:2}
+.brand-mark{display:flex;align-items:center;gap:16px}
+.wordmark{height:54px;display:block;filter:invert(1) drop-shadow(0 2px 6px rgba(0,0,0,.5))}
+.titles h1{margin:0;font-size:22px;font-weight:700}
+.titles .sub{font-size:13px;opacity:.88;margin-top:4px}
+.live{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.18);padding:4px 12px;border-radius:999px;font-size:11px;font-weight:600;margin-left:10px;text-transform:uppercase}
+.dot{width:7px;height:7px;background:#6BFF95;border-radius:50%;animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(107,255,149,.6)}70%{box-shadow:0 0 0 8px rgba(107,255,149,0)}}
+.meta{text-align:right;font-size:12px;opacity:.95;line-height:1.6}
+.health{margin-top:8px;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.health-pill{background:rgba(255,255,255,.16);padding:2px 7px;border-radius:4px;font-size:10px;font-weight:500}
+.bubbles{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.bubble{position:absolute;bottom:-20px;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.55),rgba(255,255,255,.15));border-radius:50%;animation:float linear infinite}
+@keyframes float{0%{transform:translateY(0);opacity:0}10%{opacity:.8}90%{opacity:.6}100%{transform:translateY(-220px);opacity:0}}
+.ribbon{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:60px;z-index:2}
+.container{max-width:1320px;margin:-50px auto 60px;padding:0 24px;position:relative;z-index:3}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;background:#fff;padding:14px 16px;border-radius:14px;border:1px solid var(--border)}
+.flabel{font-size:10px;color:var(--muted);align-self:center;margin-right:4px;text-transform:uppercase;letter-spacing:.8px;font-weight:700}
+.chip{background:#F4F4F4;color:#333;border:1px solid #E5E5E5;padding:6px 13px;border-radius:999px;font-size:12px;cursor:pointer;font-weight:500}
+.chip:hover{background:#ECECEC}
+.chip.active{background:linear-gradient(180deg,#F40000,#B7050F);color:#fff;border-color:var(--coca-dark);box-shadow:0 2px 6px rgba(244,0,0,.3)}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:18px}
+.kpi{background:#fff;border-radius:14px;padding:18px 20px;border:1px solid var(--border);position:relative;transition:transform .2s,box-shadow .2s}
+.kpi:hover{transform:translateY(-2px);box-shadow:0 4px 18px rgba(244,0,0,.1)}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--coca),var(--coca-deep))}
+.kpi-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;font-weight:700}
+.kpi-value{font-size:30px;font-weight:800;margin-top:6px;line-height:1}
+.kpi-value.coca{color:var(--coca)}
+.kpi-sub{font-size:12px;color:var(--muted);margin-top:6px}
+.up{color:var(--green);font-weight:600}
+.down{color:var(--coca);font-weight:600}
+.card{background:#fff;border-radius:14px;padding:18px 20px;border:1px solid var(--border)}
+.card h3{margin:0 0 14px;font-size:14px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.card h3 .hint{font-size:10px;color:var(--muted);font-weight:500;text-transform:uppercase}
+.grid-main{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:16px}
+.grid-secondary{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.grid-tertiary{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:16px}
+.col-stack{display:grid;grid-template-rows:1fr 1fr;gap:16px;min-height:0}
+.col-stack > .card{display:flex;flex-direction:column;min-height:0}
+.col-stack .lata-grid{grid-template-columns:repeat(2,1fr)}
+.col-stack .map-row{flex-direction:column;gap:6px}
+.card-foot-hint{font-size:10px;color:var(--muted);font-style:italic;margin-top:auto;padding-top:10px;border-top:1px dashed #EEE;line-height:1.45}
+.card-foot-hint b{color:#444;font-style:normal;font-weight:600}
+canvas{max-height:280px}
+.alert-list{list-style:none;padding:0;margin:0;max-height:360px;overflow-y:auto}
+.alert-item{padding:11px 0;border-bottom:1px solid #F1F1F1;display:flex;gap:10px}
+.alert-dot{width:8px;height:8px;border-radius:50%;margin-top:6px;flex-shrink:0}
+.dot-red{background:var(--coca);box-shadow:0 0 0 3px rgba(244,0,0,.18)}
+.dot-yellow{background:var(--yellow)}
+.dot-green{background:var(--green)}
+.alert-content{flex:1;min-width:0}
+.alert-title{font-size:13px;font-weight:600;line-height:1.35}
+.alert-meta{font-size:11px;color:var(--muted);margin-top:4px}
+.alert-tag{display:inline-block;background:#F1F1F1;padding:1px 7px;border-radius:4px;font-size:10px;margin-right:4px;font-weight:500}
+.alert-tag.market{background:rgba(244,0,0,.08);color:var(--coca-dark);font-weight:600}
+.sp-badge{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700;margin-right:4px;cursor:help;text-transform:uppercase;letter-spacing:.3px}
+.sp-badge.fifa{background:#E8F5E9;color:#1B5E20;border:1px solid #A5D6A7}
+.sp-badge.selecao{background:#E3F2FD;color:#0D47A1;border:1px solid #90CAF9}
+.sp-badge.ambush{background:#FFE5E5;color:#C8102E;border:1px solid #F5A0A0}
+.sp-badge.neutral{background:#F5F5F5;color:#888;border:1px solid #E0E0E0}
+.tip{position:relative;display:inline-flex;cursor:help}
+.tip-content{visibility:hidden;opacity:0;position:absolute;bottom:130%;left:50%;transform:translateX(-50%);background:#1C1C1C;color:#fff;padding:10px 14px;border-radius:8px;font-size:12px;font-weight:400;line-height:1.5;width:280px;box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:50;transition:opacity .2s,visibility .2s;text-transform:none;letter-spacing:0}
+.tip-content::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#1C1C1C}
+.tip:hover .tip-content{visibility:visible;opacity:1}
+.tier-card{display:flex;flex-direction:column;gap:12px}
+.tier-row{padding:10px 12px;border-radius:8px;border-left:3px solid #ccc}
+.tier-row.fifa{background:rgba(255,205,0,.08);border-left-color:#FFCD00}
+.tier-row.wcs{background:rgba(0,135,77,.08);border-left-color:#00874D}
+.tier-row.selecao{background:rgba(13,71,161,.06);border-left-color:#0D47A1}
+.tier-row.ambush{background:rgba(244,0,0,.06);border-left-color:#F40000}
+.tier-label.selecao{color:#0D47A1}
+.tier-market-group{margin-bottom:8px}
+.tier-market-flag{display:inline-block;font-size:11px;font-weight:700;color:#0D47A1;margin-right:6px}
+.tier-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px}
+.tier-label.fifa{color:#B87A00}
+.tier-label.wcs{color:#00874D}
+.tier-label.ambush{color:#C8102E}
+.tier-brands{display:flex;flex-wrap:wrap;gap:5px}
+.tier-pill{background:#fff;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:600;border:1px solid #DDD;display:inline-flex;align-items:center;gap:4px}
+.tier-pill.self{background:#F40000;color:#fff;border-color:#F40000}
+.tier-pill.exclusive::after{content:"\1F512";font-size:9px;margin-left:3px}
+.tier-row{padding:8px 12px}
+.tier-pill{padding:2px 8px;font-size:10px}
+.tier-market-group{margin-bottom:4px}
+.tier-collapse{margin-bottom:18px;background:#fff;border-radius:14px;border:1px solid var(--border);overflow:hidden}
+.tier-collapse summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;padding:14px 18px;font-weight:700;font-size:14px}
+.tier-collapse summary::-webkit-details-marker{display:none}
+.tier-collapse summary::after{content:"\25BC";font-size:11px;transition:transform .2s;color:var(--muted)}
+.tier-collapse[open] summary::after{transform:rotate(180deg)}
+.tier-collapse summary .tcount{font-size:10px;color:var(--muted);font-weight:500;text-transform:uppercase;margin-left:auto;margin-right:10px}
+.tier-collapse > .tier-card{padding:0 18px 18px}
+.trends-summary{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.trends-stat{flex:1;min-width:140px;background:#F8F8F8;padding:8px 12px;border-radius:8px;border-left:3px solid #ccc;font-size:11px;line-height:1.4}
+.trends-stat.leader{border-left-color:#5e2b97;background:#F5F0FA}
+.trends-stat.avg{border-left-color:#888;background:#F5F5F5}
+.trends-stat.coca{border-left-color:var(--coca);background:#FFF5F5}
+.trends-stat b{display:block;font-weight:800;font-size:16px;line-height:1.2;color:var(--ink)}
+.trends-stat .lbl{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+.trends-stat .delta-up{color:var(--green);font-weight:700}
+.trends-stat .delta-down{color:var(--coca);font-weight:700}
+.spike-alert{background:linear-gradient(90deg,#FFF5E6,#FFE5E5);border:1px solid #F5A623;border-left:5px solid #F40000;border-radius:10px;padding:10px 14px;margin-bottom:14px;display:flex;align-items:center;gap:10px;font-size:13px}
+.spike-alert .icon{font-size:18px}
+.spike-alert b{color:#C8102E}
+.lata-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.lata{background:linear-gradient(180deg,#FAFAFA,#FFF);border:1px solid var(--border);border-radius:10px;padding:12px;transition:.15s;text-decoration:none;color:inherit;display:block}
+.lata:hover{transform:translateY(-2px);box-shadow:0 4px 18px rgba(244,0,0,.1)}
+.lata.provisional{background:linear-gradient(180deg,#FFF5F5,#FFFAFA);border-left:4px solid var(--coke-red,#F40000)}
+.lata.provisional:hover{box-shadow:0 4px 18px rgba(244,0,0,.25)}
+.can{height:84px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:11px;text-align:center;margin-bottom:8px;padding:4px;box-shadow:inset 0 -8px 14px rgba(0,0,0,.18);text-shadow:0 1px 2px rgba(0,0,0,.25)}
+.lata-brand{font-size:12px;font-weight:700}
+.lata-sku{font-size:10px;color:var(--muted);margin-top:2px}
+.lata-tag{display:inline-block;background:#FFF5E6;color:#B87A00;padding:1px 6px;border-radius:3px;font-size:9px;margin-top:4px;font-weight:600}
+.lata-tag.provisional{background:#FFE5E5;color:#C8102E}
+.lata-source{display:flex;align-items:center;justify-content:space-between;margin-top:8px;padding-top:8px;border-top:1px dashed #EEE;font-size:10px;font-weight:600}
+.lata-source-domain{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:75%}
+.lata-source-link{color:#F40000;text-decoration:none;flex-shrink:0}
+.lata:hover .lata-source-link{text-decoration:underline}
+.lata-source-empty{display:block;margin-top:8px;padding-top:8px;border-top:1px dashed #EEE;font-size:10px;color:var(--muted);font-style:italic}
+.map-row{display:flex;gap:10px}
+.map-card{flex:1;background:#FAFAFA;padding:12px;border-radius:10px;border:1px solid #F1F1F1}
+.map-flag{font-size:22px}
+.map-country{font-size:12px;font-weight:700;margin-top:4px}
+.map-bar{height:6px;background:#F0F0F0;border-radius:3px;margin-top:10px;overflow:hidden}
+.map-bar-fill{height:100%;background:linear-gradient(90deg,var(--coca),var(--coca-dark));border-radius:3px}
+.map-stat{font-size:10px;color:var(--muted);margin-top:5px}
+.tag-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.tag-pill{background:linear-gradient(180deg,#F8F8F8,#EEE);border:1px solid #E0E0E0;border-radius:999px;padding:5px 11px;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:5px;transition:.15s}
+.tag-pill:hover{background:var(--coca);color:#fff}
+.tag-country{background:#fff;color:var(--coca);padding:1px 5px;border-radius:3px;font-size:9px;font-weight:700}
+.tag-pill:hover .tag-country{background:rgba(255,255,255,.3);color:#fff}
+.tag-growth{color:var(--green);font-size:10px;font-weight:600}
+.topics-summary{display:grid;grid-template-columns:repeat(2,1fr);gap:5px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed #EEE}
+.topics-stat{display:flex;flex-direction:column;padding:5px 9px;border-radius:5px;background:#F8F8F8;border-left:2px solid #ccc;line-height:1.2;overflow:hidden}
+.topics-stat .num{font-weight:800;font-size:13px;color:var(--ink);line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topics-stat .lbl{color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-top:2px;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topics-stat.breakout{border-left-color:#F40000;background:#FFEFEF}
+.topics-stat.breakout .num{color:#C8102E}
+.topics-stat.top{border-left-color:#F5A623;background:#FFF8E6}
+.topics-stat.top .num{color:#A06000}
+.topics-stat.avg{border-left-color:#888}
+.tag-list{display:flex;flex-wrap:wrap;gap:4px;max-height:140px;overflow-y:auto;padding:2px 4px 2px 0;align-content:flex-start}
+.tag-list::-webkit-scrollbar{width:6px}
+.tag-list::-webkit-scrollbar-thumb{background:#DDD;border-radius:3px}
+.tag-list::-webkit-scrollbar-track{background:#F8F8F8;border-radius:3px}
+.tag-pill{padding:3px 9px;font-size:10px}
+.tag-pill.tier-breakout{background:linear-gradient(135deg,#FFE0E0,#FFCCCC);border-color:#F40000;color:#7A0007}
+.tag-pill.tier-hot{background:linear-gradient(135deg,#FFF0E0,#FFE0C0);border-color:#F5A623;color:#A06000}
+.tag-pill.tier-warm{background:#FFF9E6;border-color:#FFCD00;color:#7A5800}
+.tag-pill.tier-mild{background:#F5F5F5;border-color:#DDD;color:#555}
+.yt-list{display:flex;flex-direction:column;gap:10px;max-height:540px;overflow-y:auto}
+.yt-item{display:flex;gap:12px;padding:8px;background:#FAFAFA;border-radius:8px;border:1px solid #F1F1F1;text-decoration:none;color:inherit}
+.yt-thumb{width:100px;height:56px;border-radius:6px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700;text-align:center;padding:4px;background:linear-gradient(135deg,#F40000,#7A0007)}
+.yt-info{flex:1;min-width:0}
+.yt-brand{font-size:11px;font-weight:700;color:var(--coca-dark)}
+.yt-title{font-size:12px;font-weight:600;margin-top:2px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.yt-meta{font-size:10px;color:var(--muted);margin-top:4px}
+.empty{text-align:center;color:var(--muted);padding:30px 16px;font-size:12px;line-height:1.6}
+.empty b{color:var(--coca)}
+.loading{text-align:center;padding:60px 20px;color:var(--muted)}
+.footer-note{font-size:11px;color:var(--muted);text-align:center;margin-top:18px;padding:14px;background:rgba(244,0,0,.03);border-radius:10px;border:1px dashed rgba(244,0,0,.15)}
+.footer-note a{color:var(--coca);text-decoration:none}
+/* Tooltip explicativo no titulo dos cards */
+.cardtip{display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;margin-left:5px;background:#EEE;border-radius:50%;font-size:9px;color:#888;cursor:help;font-weight:700;position:relative;text-transform:none;letter-spacing:normal;vertical-align:middle}
+.cardtip:hover{background:var(--coca);color:#fff}
+.cardtip:hover::after{content:attr(data-tip);position:absolute;top:calc(100% + 8px);left:0;width:280px;padding:10px 12px;background:#1C1C1C;color:#fff;font-size:11px;font-weight:400;line-height:1.5;border-radius:8px;z-index:1000;text-transform:none;letter-spacing:normal;box-shadow:0 6px 18px rgba(0,0,0,.2);white-space:normal;text-align:left}
+.cardtip:hover::before{content:"";position:absolute;top:calc(100% + 2px);left:4px;border:6px solid transparent;border-bottom-color:#1C1C1C;z-index:1001}
+
+/* Cards clicaveis de Meta Ads */
+.ads-scroll{max-height:540px;overflow-y:auto;padding-right:4px}
+.ads-scroll::-webkit-scrollbar{width:6px}
+.ads-scroll::-webkit-scrollbar-thumb{background:#DDD;border-radius:3px}
+.ads-scroll::-webkit-scrollbar-thumb:hover{background:#BBB}
+.ads-brand-section{margin-bottom:10px}
+.ads-brand-header{font-size:10px;font-weight:700;color:var(--coca-dark);text-transform:uppercase;letter-spacing:.5px;padding:6px 4px;border-bottom:1px solid #F1F1F1;margin-bottom:8px;position:sticky;top:0;background:#fff;z-index:5}
+.ads-brand-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ad-card{display:block;text-decoration:none;color:inherit;background:#FAFAFA;border:1px solid var(--border);border-radius:8px;padding:10px;transition:transform .15s,box-shadow .15s,border-color .15s}
+.ad-card:hover{transform:translateY(-1px);box-shadow:0 3px 12px rgba(244,0,0,.1);border-color:rgba(244,0,0,.3)}
+.ad-head{display:flex;gap:6px;align-items:center;margin-bottom:3px}
+.ad-brand{font-weight:700;font-size:12px;flex:1}
+.ad-market{background:#EEF;color:#335;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:600}
+.ad-copa-badge{background:linear-gradient(135deg,#1FA868,#0E7B45);color:#fff;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:700;display:inline-flex;align-items:center;gap:2px}
+.ad-page{font-size:10px;color:var(--muted);margin-bottom:5px;font-weight:500}
+.ad-snippet{font-size:11px;line-height:1.4;color:#333;min-height:30px}
+.ad-foot{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--muted);margin-top:6px}
+.ad-cta{color:var(--coca);font-weight:600}
+
+/* Grade de cards de marca (substitui Grid.js no card final) */
+.brands-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:12px}
+.brand-card{background:#fff;border:1px solid var(--border);border-top:3px solid #777;border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px;transition:transform .15s,box-shadow .15s;min-height:220px}
+.brand-card:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.brand-card-header{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.brand-name{font-weight:700;font-size:14px;color:#1c1c1c}
+.brand-tier{font-size:9px;font-weight:700;text-transform:uppercase;padding:3px 8px;border-radius:10px;letter-spacing:.5px;white-space:nowrap}
+.brand-tier.tier-fifa{background:rgba(31,168,104,.15);color:#0E7B45}
+.brand-tier.tier-wcs{background:rgba(31,168,104,.1);color:#1FA868}
+.brand-tier.tier-ambush{background:rgba(244,0,0,.1);color:var(--coca-dark)}
+.brand-tier.tier-neutral{background:#F0F0F0;color:#777}
+.brand-card-cat{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.brand-card-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:4px 0}
+.bs{display:flex;flex-direction:column;align-items:center;background:#FAFAFA;border-radius:6px;padding:7px 4px}
+.bs-num{font-size:18px;font-weight:800;color:#1c1c1c;line-height:1}
+.bs-lbl{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-top:3px;font-weight:700}
+.brand-card-top{margin-top:auto;padding-top:8px;border-top:1px dashed #EEE}
+.brand-card-top.empty{color:var(--muted);font-style:italic;font-size:11px}
+.bt-lbl{font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);font-weight:700;margin-bottom:3px}
+.bt-text{font-size:11px;color:#333;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Movimentos de patrocinio (substitui Topicos em alta) */
+.moves-list{max-height:380px;overflow-y:auto}
+.move-item{padding:11px 0;border-bottom:1px solid #F1F1F1}
+.move-item:last-child{border-bottom:none}
+.move-meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center;font-size:10px}
+.move-date{color:#999;font-weight:600}
+.move-brand{background:rgba(244,0,0,.08);color:var(--coca-dark);padding:2px 8px;border-radius:4px;font-weight:700}
+.move-market{background:#F0F0F0;padding:1px 6px;border-radius:3px;color:#555;font-weight:600}
+.move-level{padding:1px 6px;border-radius:3px;font-weight:600}
+.move-red .move-level{background:rgba(244,0,0,.12);color:var(--coca)}
+.move-yellow .move-level{background:rgba(245,166,35,.15);color:#A06000}
+.move-title{font-size:12px;line-height:1.45;margin-top:6px;color:#333}
+.move-link{font-size:10px;color:var(--coca);text-decoration:none;margin-top:4px;display:inline-block}
+.move-link:hover{text-decoration:underline}
+
+@media (max-width:980px){.kpi-row,.grid-main,.grid-secondary,.grid-tertiary{grid-template-columns:1fr}.map-row{flex-direction:column}.lata-grid{grid-template-columns:repeat(2,1fr)}.header-content{flex-direction:column}.meta{text-align:left}.health{justify-content:flex-start}.wordmark{height:40px}.cardtip:hover::after{width:240px}}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="bubbles" id="bubbles"></div>
+  <div class="header-content">
+    <div class="brand-mark">
+      <img class="wordmark" src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" alt="Adidas" loading="lazy">
+      <div class="titles">
+        <h1>Competitive War Room <span class="live"><span class="dot"></span>Live</span></h1>
+        <div class="sub">FIFA World Cup 2026 - Brasil + LATAM - WPP Media</div>
+      </div>
+    </div>
+    <div class="meta">
+      <div>Ultima atualizacao: <b id="lastupdate">-</b></div>
+      <div class="health" id="health"></div>
+    </div>
+  </div>
+  <svg class="ribbon" viewBox="0 0 1440 60" preserveAspectRatio="none">
+    <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="#FAFAFA"/>
+  </svg>
+</header>
+
+<div class="container">
+
+  <div class="filters">
+    <span class="flabel">Mercado:</span>
+    <span class="chip active" data-filter="market" data-value="all">Todos</span>
+    <span class="chip" data-filter="market" data-value="BR">BR Brasil</span>
+    <span class="chip" data-filter="market" data-value="MX">MX Mexico</span>
+    <span class="chip" data-filter="market" data-value="AR">AR Argentina</span>
+    <span class="chip" data-filter="market" data-value="CO">CO Colombia</span>
+    <span class="flabel" style="margin-left:18px">Periodo:</span>
+    <span class="chip" data-filter="period" data-value="7">7 dias</span>
+    <span class="chip" data-filter="period" data-value="30">30 dias</span>
+    <span class="chip active" data-filter="period" data-value="60">60 dias</span>
+  </div>
+
+  <div id="content"><div class="loading">Carregando dados...</div></div>
+
+  <div class="footer-note">
+    Atualizado a cada hora via GitHub Actions. Fontes publicas: Google News, Google Trends (Search Interest + Topicos em alta), YouTube, INPI, Mercado Livre, GDELT, Wikipedia, Meta Ad Library.<br>
+    <a href="data/latest.json" target="_blank">JSON bruto</a> &middot;
+    <a href="https://github.com/vinicanola/adidas-warroom" target="_blank">Repositorio</a>
+  </div>
+
+</div>
+
+<script>
+let DATA=null;
+let FILTER={market:"all",period:60};
+let chartInst=null,tableInst=null;
+
+function spawnBubbles(){
+  const c=document.getElementById('bubbles');
+  for(let i=0;i<18;i++){
+    const b=document.createElement('div');b.className='bubble';
+    const s=4+Math.random()*14;b.style.width=s+'px';b.style.height=s+'px';
+    b.style.left=(Math.random()*100)+'%';
+    b.style.animationDuration=(5+Math.random()*7)+'s';
+    b.style.animationDelay=(Math.random()*6)+'s';
+    c.appendChild(b);
+  }
+}
+
+async function load(){
+  try{
+    const r=await fetch('data/latest.json?ts='+Date.now());
+    DATA=await r.json();
+    render();
+  }catch(e){
+    document.getElementById('content').innerHTML='<div class="loading" style="color:var(--coca)">Erro: '+esc(e.message)+'</div>';
+  }
+}
+
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}
+function daysAgo(ts){if(!ts)return 999;try{return Math.floor((Date.now()-new Date(ts).getTime())/(1000*60*60*24));}catch(e){return 999;}}
+function isPlaceholder(url){return !url||url==='#'||url.indexOf('example.com')>=0||url.indexOf('example.org')>=0;}
+
+function render(){
+  const d=DATA||{};
+  const ts=d.generated_at?new Date(d.generated_at):new Date();
+  document.getElementById('lastupdate').textContent=ts.toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'});
+
+  const health=Object.entries(d.sources_health||{}).map(function(kv){return '<span class="health-pill">'+esc(kv[0])+': '+(kv[1].count==null?0:kv[1].count)+'</span>';}).join('');
+  document.getElementById('health').innerHTML=health;
+
+  const sigs=(d.signals||[]).filter(function(s){
+    if(FILTER.market!=="all"&&s.market!==FILTER.market)return false;
+    if(daysAgo(s.timestamp)>FILTER.period)return false;
+    return true;
+  });
+  const ads=(d.active_ads||[]).filter(function(a){return FILTER.market==="all"||a.country===FILTER.market;});
+  const yt=(d.youtube_uploads||[]).filter(function(v){
+    if(!v.published_at)return true;
+    return daysAgo(v.published_at)<=FILTER.period;
+  });
+  const tags=(d.tiktok_tags||[]).filter(function(t){return FILTER.market==="all"||t.country===FILTER.market;});
+  const latas=(d.latas||[]).filter(function(l){return FILTER.market==="all"||(l.market||'').indexOf(FILTER.market)>=0;});
+  const k=d.kpis||{};
+
+  var ambushTip='Marcas SEM licenca oficial FIFA NEM da Selecao Nacional do mercado, mas que usam o buzz do Mundial 2026 contra a exclusividade Adidas em apparel/footwear/match-ball. Puma, New Balance, Under Armour, Mizuno, Asics, Umbro, Penalty, Olympikus e Joma operam puro ambush. Nike e excecao: tem licenca CBF (Selecao do Brasil), entao em sinais BR ele vira badge azul "Selecao", mas em MX/AR/CO conta como ambush. Cada deteccao e oportunidade de denuncia/contra-ataque.';
+  const kpiHtml=
+    '<div class="kpi-row">'+
+    '<div class="kpi"><div class="kpi-label tip">Tentativas de ambush <span class="tip-content">'+ambushTip+'</span></div>'+
+    '<div class="kpi-value coca">'+(k.ambush_attempts_total==null?0:k.ambush_attempts_total)+'</div>'+
+    '<div class="kpi-sub">'+(k.ambush_top_brand&&k.ambush_top_brand!=='-'?'Top: <b>'+esc(k.ambush_top_brand)+'</b> ('+(k.ambush_top_count||0)+')':'Sem ambush detectado')+'</div></div>'+
+    '<div class="kpi"><div class="kpi-label">Search interest do lider</div>'+
+    '<div class="kpi-value">'+(k.search_leader_pct==null?0:k.search_leader_pct)+'<span style="font-size:18px;color:var(--muted)">/100</span></div>'+
+    '<div class="kpi-sub"><b>'+esc(k.search_leader_brand||'-')+'</b> '+(k.search_leader_delta_pp!=null?'<span class="'+(k.search_leader_delta_pp>=0?'up':'down')+'">'+(k.search_leader_delta_pp>=0?'&#9650;':'&#9660;')+' '+Math.abs(k.search_leader_delta_pp)+'pp</span>':'')+'</div></div>'+
+    '<div class="kpi"><div class="kpi-label">Sinais ('+FILTER.period+'d)</div>'+
+    '<div class="kpi-value">'+sigs.length+'</div>'+
+    '<div class="kpi-sub">'+(FILTER.market!=='all'?'em '+FILTER.market:'todos os mercados')+'</div></div>'+
+    '<div class="kpi"><div class="kpi-label">Latas detectadas</div>'+
+    '<div class="kpi-value">'+latas.length+'</div>'+
+    '<div class="kpi-sub">'+(FILTER.market!=='all'?'em '+FILTER.market:((k.latas_unvalidated==null?0:k.latas_unvalidated)+' nao validadas'))+'</div></div>'+
+    '</div>';
+
+  let alertsHtml='<ul class="alert-list">';
+  sigs.slice(0,30).forEach(function(a){
+    const realLink=!isPlaceholder(a.url);
+    var spStatus=a.sponsorship_status||'neutral';
+    var spLabel='Neutro',spClass='neutral',spTip='Sinal sem associacao direta com Mundial';
+    if(spStatus==='fifa_official'){
+      spLabel='FIFA';spClass='fifa';
+      spTip='Patrocinador oficial FIFA Mundial 2026 - movimentos esperados, ativacao com licenca global';
+    }else if(spStatus==='selecao_oficial'){
+      spLabel='Selecao';spClass='selecao';
+      spTip='Patrocinador oficial da Selecao Nacional do mercado (CBF/AFA/FMF/FCF) - licenca local, NAO substitui licenca FIFA';
+    }else if(spStatus==='ambush'){
+      spLabel='Ambush';spClass='ambush';
+      spTip='Marca NAO tem licenca FIFA NEM da Selecao deste mercado - usa o buzz do Mundial sem autorizacao. Oportunidade de denuncia/contra-ataque.';
+    }
+    var badge='<span class="tip sp-badge '+spClass+'">'+spLabel+'<span class="tip-content">'+spTip+'</span></span>';
+    alertsHtml+='<li class="alert-item"><div class="alert-dot dot-'+(a.level||'green')+'"></div>'+
+      '<div class="alert-content"><div class="alert-title">'+esc(a.title)+'</div>'+
+      '<div class="alert-meta">'+badge+'<span class="alert-tag market">'+esc(a.market||'-')+'</span>'+
+      '<span class="alert-tag">'+esc(a.source||'')+'</span>'+(a.time_human||'')+
+      (realLink?' &middot; <a href="'+esc(a.url)+'" target="_blank" rel="noopener" style="color:var(--coca)">link</a>':'')+
+      '</div></div></li>';
+  });
+  alertsHtml+='</ul>';
+  if(!sigs.length)alertsHtml='<div class="empty">Nenhum sinal no filtro atual.</div>';
+
+  // Agrupa por marca, dentro de cada marca ordena por (copa_score desc, started_at desc), pega top 5.
+  // Marcas com score COPA > 0 primeiro, depois alfabetica.
+  var adsByBrand={};
+  ads.forEach(function(a){if(!adsByBrand[a.brand])adsByBrand[a.brand]=[];adsByBrand[a.brand].push(a);});
+  var brandsList=Object.keys(adsByBrand);
+  brandsList.forEach(function(b){
+    adsByBrand[b].sort(function(x,y){
+      var sx=x.copa_score||0,sy=y.copa_score||0;
+      if(sy!==sx)return sy-sx;
+      return (y.started_at||'').localeCompare(x.started_at||'');
+    });
+    adsByBrand[b]=adsByBrand[b].slice(0,5);
+  });
+  // Ordena marcas: as com >=1 ad COPA-relevante primeiro (desc por max score), demais alfabetico
+  brandsList.sort(function(a,b){
+    var sa=Math.max.apply(null,adsByBrand[a].map(function(x){return x.copa_score||0;}));
+    var sb=Math.max.apply(null,adsByBrand[b].map(function(x){return x.copa_score||0;}));
+    if(sb!==sa)return sb-sa;
+    return a.localeCompare(b);
+  });
+  function renderAdCard(a){
+    var copaBadge=(a.copa_score>0)?'<span class="ad-copa-badge" title="Score Mundial 2026 - quanto mais alto, mais relevante para Copa/futebol">&#9917; '+a.copa_score+'</span>':'';
+    var hasUrl=!!a.ad_url;
+    var openTag=hasUrl?'<a href="'+esc(a.ad_url)+'" target="_blank" rel="noopener" class="ad-card">':'<div class="ad-card">';
+    var closeTag=hasUrl?'</a>':'</div>';
+    return openTag+
+      '<div class="ad-head"><span class="ad-brand">'+esc(a.brand)+'</span>'+
+      '<span class="ad-market">'+esc(a.country||'')+'</span>'+copaBadge+'</div>'+
+      '<div class="ad-page">'+esc(a.page_name||'')+'</div>'+
+      '<div class="ad-snippet">'+esc((a.body_snippet||a.title||'').substring(0,140))+'</div>'+
+      '<div class="ad-foot"><span>desde '+esc(a.started_at||'-')+'</span>'+
+      (hasUrl?'<span class="ad-cta">Ver Ad Library &rarr;</span>':'')+'</div>'+
+      closeTag;
+  }
+  var totalDisplayed=0;
+  let adsHtml='<div class="ads-scroll">';
+  brandsList.forEach(function(b){
+    var items=adsByBrand[b];
+    if(!items.length)return;
+    totalDisplayed+=items.length;
+    adsHtml+='<div class="ads-brand-section">'+
+      '<div class="ads-brand-header">'+esc(b)+' <span style="opacity:.6;font-weight:500">('+items.length+' ativo'+(items.length>1?'s':'')+')</span></div>'+
+      '<div class="ads-brand-grid">';
+    items.forEach(function(a){adsHtml+=renderAdCard(a);});
+    adsHtml+='</div></div>';
+  });
+  adsHtml+='</div>';
+  if(!ads.length)adsHtml='<div class="empty"><b>Aguardando token Meta Ad Library.</b><br><br>Configure META_AD_LIBRARY_TOKEN nos GitHub Secrets para ativar.</div>';
+
+  let ytHtml='<div class="yt-list">';
+  yt.slice(0,10).forEach(function(v){
+    const realLink=!isPlaceholder(v.url);
+    const thumb=v.thumbnail&&v.video_id?v.thumbnail:'';
+    const tag=realLink?'a':'div';
+    ytHtml+='<'+tag+' class="yt-item"'+(realLink?' href="'+esc(v.url)+'" target="_blank" rel="noopener"':'')+'>'+
+      '<div class="yt-thumb"'+(thumb?' style="background:#DDD url('+esc(thumb)+') center/cover no-repeat;color:transparent"':'')+'>'+(thumb?'':esc((v.brand||'').toUpperCase()))+'</div>'+
+      '<div class="yt-info"><div class="yt-brand">'+esc(v.brand||'')+'</div>'+
+      '<div class="yt-title">'+esc(v.title||'')+'</div>'+
+      '<div class="yt-meta">'+esc(v.channel||'')+(v.published_at?' &middot; '+new Date(v.published_at).toLocaleDateString('pt-BR'):'')+'</div></div></'+tag+'>';
+  });
+  ytHtml+='</div>';
+  if(!yt.length)ytHtml='<div class="empty">Nenhum upload nos ultimos '+FILTER.period+' dias.</div>';
+
+  // Topics summary - contexto pro card "Topicos em alta"
+  // Movimentos detectados: signals classificados como red (acao direta) ou yellow (sinal indireto)
+  // Substitui o card antigo de "Topicos em alta" (Google Trends rate-limitado)
+  var moves=sigs.filter(function(s){return s.level==='red'||s.level==='yellow';});
+  moves.sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
+  var redCount=moves.filter(function(m){return m.level==='red';}).length;
+  var yellowCount=moves.filter(function(m){return m.level==='yellow';}).length;
+  var movesHtml='';
+  if(moves.length){
+    movesHtml+='<div class="topics-summary">';
+    if(redCount)movesHtml+='<div class="topics-stat top"><span class="num" style="color:var(--coca)">'+redCount+'</span><span class="lbl">Diretos</span></div>';
+    if(yellowCount)movesHtml+='<div class="topics-stat avg"><span class="num" style="color:#A06000">'+yellowCount+'</span><span class="lbl">Indiretos</span></div>';
+    var brandsActive={};moves.forEach(function(m){brandsActive[m.brand]=true;});
+    movesHtml+='<div class="topics-stat"><span class="num">'+Object.keys(brandsActive).length+'</span><span class="lbl">Marcas</span></div>';
+    movesHtml+='</div>';
+  }
+  movesHtml+='<div class="moves-list">';
+  moves.slice(0,12).forEach(function(m){
+    var levelLabel=m.level==='red'?'Direto':'Indireto';
+    var levelClass='move-'+m.level;
+    movesHtml+='<div class="move-item '+levelClass+'">'+
+      '<div class="move-meta"><span class="move-date">'+esc((m.date||'').substring(0,10))+'</span>'+
+      '<span class="move-brand">'+esc(m.brand||'')+'</span>'+
+      '<span class="move-market">'+esc(m.market||'')+'</span>'+
+      '<span class="move-level">'+levelLabel+'</span></div>'+
+      '<div class="move-title">'+esc((m.title||'').substring(0,160))+'</div>'+
+      (m.url?'<a href="'+esc(m.url)+'" target="_blank" rel="noopener" class="move-link">ver fonte &rarr;</a>':'')+
+      '</div>';
+  });
+  movesHtml+='</div>';
+  if(!moves.length)movesHtml='<div class="empty">Nenhum movimento de patrocinio detectado no filtro atual.<br>Movimentos = noticias com keywords como "lanca", "patrocinio oficial", "nova campanha", etc.</div>';
+
+  let latasHtml='<div class="lata-grid">';
+  latas.slice(0,9).forEach(function(l){
+    var url=l.url||'';
+    var hasUrl=url && !isPlaceholder(url);
+    var domain='';
+    try{ if(hasUrl) domain=new URL(url).hostname.replace(/^www\./,''); }catch(e){ domain=''; }
+    var tag=(l.tag||'');
+    var isProvisional=tag.toLowerCase().indexOf('sinal')>=0;
+    var openTag=hasUrl?'<a class="lata'+(isProvisional?' provisional':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">':'<div class="lata'+(isProvisional?' provisional':'')+'">';
+    var closeTag=hasUrl?'</a>':'</div>';
+    var sourceHtml=hasUrl
+      ? '<div class="lata-source"><span class="lata-source-domain" title="'+esc(url)+'">'+esc(domain||'fonte')+'</span><span class="lata-source-link">ver fonte &#8599;</span></div>'
+      : '<div class="lata-source-empty">Sem fonte vinculada</div>';
+    latasHtml+=openTag+
+      '<div class="can" style="background:linear-gradient(135deg,'+(l.color||'#888')+','+shade(l.color||'#888',-0.3)+')">'+esc(l.label||'')+'</div>'+
+      '<div class="lata-brand">'+esc(l.brand||'')+'</div>'+
+      '<div class="lata-sku">'+esc(l.market||'')+' &middot; '+esc((l.sku||'').substring(0,16))+'</div>'+
+      '<div class="lata-tag'+(isProvisional?' provisional':'')+'">'+esc(tag)+'</div>'+
+      sourceHtml+
+      closeTag;
+  });
+  latasHtml+='</div>';
+  if(!latas.length)latasHtml='<div class="empty">Nenhum lancamento detectado no filtro.</div>';
+
+  let mapsHtml='';
+  (d.markets||[]).forEach(function(m){
+    mapsHtml+='<div class="map-card"><div class="map-flag">'+esc(m.flag||'')+'</div>'+
+      '<div class="map-country">'+esc(m.country)+'</div>'+
+      '<div class="map-bar"><div class="map-bar-fill" style="width:'+m.score+'%"></div></div>'+
+      '<div class="map-stat">'+m.signals+' sinais - '+m.score+'/100</div></div>';
+  });
+
+  // Spike detector: brands com >200% growth em 24h vs avg 7d previo
+  var spikeHtml='';
+  try{
+    var byBrandHourly={};
+    sigs.forEach(function(s){
+      var d=daysAgo(s.timestamp); if(d>=999) return;
+      byBrandHourly[s.brand]=byBrandHourly[s.brand]||{recent:0,older:[]};
+      if(d<=1) byBrandHourly[s.brand].recent++;
+      else if(d<=7) byBrandHourly[s.brand].older.push(d);
+    });
+    var spikes=[];
+    Object.keys(byBrandHourly).forEach(function(b){
+      var info=byBrandHourly[b];
+      if(info.recent<3) return;
+      var avg7=info.older.length/7;
+      if(avg7<0.5) avg7=0.5;
+      var growth=Math.round(100*(info.recent-avg7)/avg7);
+      if(growth>=200) spikes.push({brand:b,count:info.recent,growth:growth});
+    });
+    spikes.sort(function(a,b){return b.growth-a.growth;});
+    if(spikes.length){
+      spikeHtml='<div class="spike-alert"><span class="icon">&#128293;</span><div>Em alta nas ultimas 24h: '+
+        spikes.slice(0,3).map(function(s){return '<b>'+esc(s.brand)+'</b> ('+s.count+' sinais, +'+s.growth+'%)';}).join(' &middot; ')+
+        '</div></div>';
+    }
+  }catch(e){}
+
+  // Trends summary - contexto pro Search Interest chart
+  var trendsSummaryHtml='';
+  try{
+    var ti=(d.search_interest||{}).global||{};
+    var ser=ti.series||{};
+    var avgs={};
+    Object.keys(ser).forEach(function(b){
+      var arr=(ser[b]||[]).filter(function(v){return typeof v==='number';});
+      if(arr.length) avgs[b]=arr.reduce(function(s,v){return s+v;},0)/arr.length;
+    });
+    var bnames=Object.keys(avgs);
+    if(bnames.length>=2){
+      var avgAll=bnames.reduce(function(s,b){return s+avgs[b];},0)/bnames.length;
+      var sorted=bnames.slice().sort(function(a,b){return avgs[b]-avgs[a];});
+      var leader=sorted[0];
+      var lvl=Math.round(avgs[leader]*10)/10;
+      var avgR=Math.round(avgAll*10)/10;
+      var cv=avgs['Adidas']!=null?Math.round(avgs['Adidas']*10)/10:null;
+      var selfPos=cv!=null?sorted.indexOf('Adidas')+1:null;
+      var totalBrands=bnames.length;
+      trendsSummaryHtml='<div class="trends-summary">'+
+        '<div class="trends-stat leader"><b>'+esc(leader)+' &middot; '+lvl+'pp</b><div class="lbl">Lider da categoria</div></div>'+
+        '<div class="trends-stat avg"><b>'+avgR+'pp</b><div class="lbl">Media das '+totalBrands+' marcas</div></div>';
+      if(cv!=null){
+        var dvsAvg=Math.round((cv-avgAll)*10)/10;
+        var dvsLeader=Math.round((cv-avgs[leader])*10)/10;
+        var dCls=dvsAvg>=0?'delta-up':'delta-down';
+        var dSym=dvsAvg>=0?'+':'';
+        trendsSummaryHtml+='<div class="trends-stat coca"><b>'+cv+'pp <span class="'+dCls+'">'+dSym+dvsAvg+'pp</span></b><div class="lbl">Adidas &middot; '+selfPos+'o lugar &middot; vs lider '+dvsLeader+'pp</div></div>';
+      }
+      trendsSummaryHtml+='</div>';
+    }
+  }catch(e){}
+
+  // Tier card FIFA hierarquia
+  var tiersHtml='';
+  var st=d.sponsorship_tiers||{};
+  var renderTier=function(label,brands,cls,note){
+    if(!brands||!brands.length)return '';
+    var pills=brands.map(function(b){
+      var cls2='tier-pill';
+      if(b.is_self) cls2+=' self';
+      if(b.exclusivity) cls2+=' exclusive';
+      var tip=b.exclusivity?b.exclusivity:(b.ambush_target||b.note||'');
+      var span='<span class="'+cls2+'" title="'+esc(tip)+'">'+esc(b.brand)+'</span>';
+      return span;
+    }).join('');
+    return '<div class="tier-row '+cls+'"><div class="tier-label '+cls+'">'+esc(label)+(note?' &middot; '+esc(note):'')+'</div><div class="tier-brands">'+pills+'</div></div>';
+  };
+  // Renderiza patrocinadores das selecoes (CBF, AFA, FMF, FCF) por mercado
+  var renderSelecaoTier=function(){
+    var ss=d.selecao_sponsors||{};
+    var keys=Object.keys(ss);
+    if(!keys.length) return '';
+    var marketLabels={BR:'\uD83C\uDDE7\uD83C\uDDF7 Brasil',MX:'\uD83C\uDDF2\uD83C\uDDFD Mexico',AR:'\uD83C\uDDE6\uD83C\uDDF7 Argentina',CO:'\uD83C\uDDE8\uD83C\uDDF4 Colombia'};
+    var groups=keys.map(function(mkt){
+      var sponsors=ss[mkt]||[];
+      var pills=sponsors.map(function(b){
+        var cls2='tier-pill';
+        if(b.is_self) cls2+=' self';
+        var tip=b.note||b.exclusivity||(b.tier?'Tier: '+b.tier:'');
+        return '<span class="'+cls2+'" title="'+esc(tip)+'">'+esc(b.brand)+'</span>';
+      }).join('');
+      return '<div class="tier-market-group"><span class="tier-market-flag">'+(marketLabels[mkt]||mkt)+'</span>'+pills+'</div>';
+    }).join('');
+    return '<div class="tier-row selecao"><div class="tier-label selecao">Patrocinadores de Selecao &middot; CBF/AFA/FMF/FCF</div>'+groups+'</div>';
+  };
+
+  if(st.fifa_partners||st.world_cup_sponsors||st.ambush_brands||d.selecao_sponsors){
+    var fifaCount=(st.fifa_partners||[]).length+(st.world_cup_sponsors||[]).length;
+    var ambushCount=(st.ambush_brands||[]).length;
+    var selecaoCount=Object.values(d.selecao_sponsors||{}).reduce(function(s,arr){return s+arr.length;},0);
+    tiersHtml='<details class="tier-collapse"><summary>Hierarquia de patrocinio Mundial 2026 <span class="cardtip" data-tip="Estrutura oficial dos patrocinios da FIFA. Tier 1 (FIFA Partners + World Cup Sponsors) tem direitos globais. Tier 2 (Selecao) tem direitos por pais. Ambush Eligible = sem licenca em nenhum tier mas usa o buzz. Click para expandir e ver as marcas em cada nivel."><b>?</b></span><span class="tcount">'+fifaCount+' oficiais FIFA &middot; '+selecaoCount+' selecoes &middot; '+ambushCount+' ambush eligibles</span></summary>'+
+      '<div class="tier-card">'+
+      renderTier('FIFA Partners',st.fifa_partners||[],'fifa','top tier global')+
+      renderTier('World Cup Sponsors',st.world_cup_sponsors||[],'wcs','event-specific')+
+      renderSelecaoTier()+
+      renderTier('Ambush eligible',st.ambush_brands||[],'ambush','sem licenca FIFA nem Selecao - usam o buzz')+
+      '</div></details>';
+  }
+
+  document.getElementById('content').innerHTML=
+    spikeHtml+
+    tiersHtml+
+    kpiHtml+
+    '<div class="grid-main">'+
+      '<div class="card"><h3>Search Interest <span class="cardtip" data-tip="Interesse relativo de busca de cada marca no Google. Linha mais alta = mais gente pesquisando. Picos costumam acompanhar lancamentos, campanhas ou crises - compare datas para validar timing competitivo."><b>?</b></span><span class="hint">Google Trends - '+FILTER.period+' dias'+(FILTER.market!=='all'?' ('+FILTER.market+')':' (global)')+'</span></h3>'+trendsSummaryHtml+'<canvas id="trendsChart"></canvas></div>'+
+      '<div class="card"><h3>Feed de alertas <span class="cardtip" data-tip="Lista cronologica de noticias coletadas com classificacao por nivel: Vermelho = acao direta de patrocinio, Amarelo = sinal indireto, Verde = baseline. As cores antecipam o que precisa de resposta."><b>?</b></span><span class="hint">'+sigs.length+' sinais</span></h3>'+alertsHtml+'</div>'+
+    '</div>'+
+    '<div class="grid-secondary">'+
+      '<div class="card"><h3>Anuncios ativos por concorrente <span class="cardtip" data-tip="Anuncios pagos rodando agora no Facebook/Instagram (Meta Ad Library). Filtrados por Pages oficiais das marcas. Badge verde marca anuncios com conteudo de Mundial 2026. Click no card para ver o anuncio na Ad Library."><b>?</b></span><span class="hint">Meta Ad Library</span></h3>'+adsHtml+'</div>'+
+      '<div class="card"><h3>YouTube <span class="cardtip" data-tip="Uploads recentes nos canais oficiais das marcas concorrentes. Pre-filtrado para conteudo de futebol/Mundial. Util para detectar campanhas em video antes de virar manchete."><b>?</b></span><span class="hint">canais oficiais ('+FILTER.period+'d)</span></h3>'+ytHtml+'</div>'+
+    '</div>'+
+    '<div class="grid-tertiary">'+
+      '<div class="card"><h3>Movimentos detectados <span class="cardtip" data-tip="Noticias classificadas como acao direta (lancamento, patrocinio oficial, registro de marca) ou sinal indireto (nova campanha, ativacao, anuncia). Cada movimento e candidato a alerta competitivo. Click em ver fonte para abrir a noticia."><b>?</b></span><span class="hint">'+moves.length+' detectados</span></h3>'+movesHtml+
+        '<div class="card-foot-hint"><b>Como ler:</b> cada item e uma noticia recente classificada por intensidade. <span style="color:var(--coca);font-weight:600">Direto</span> = ja aconteceu (lancamento, registro). <span style="color:#A06000;font-weight:600">Indireto</span> = sinal antecipatorio (nova campanha, ativacao). Use para reagir antes do concorrente ganhar ar.</div>'+
+      '</div>'+
+      '<div class="col-stack">'+
+        '<div class="card"><h3>Lancamentos Oficiais <span class="cardtip" data-tip="Camisas das selecoes, chuteiras signature e bolas oficiais detectados em marketplaces (Mercado Libre) ou na imprensa. Cada drop e ativacao Mundial em curso. Tag cinza = ainda na imprensa, nao no varejo. Sinal antecedente: drops aparecem antes de campanhas grandes."><b>?</b></span><span class="hint">'+latas.length+' detectados</span></h3>'+latasHtml+
+          '<div class="card-foot-hint"><b>Como ler:</b> lancamentos oficiais (camisas, chuteiras, bolas) sinalizam ativacao Mundial em curso. Tag cinza = ainda na imprensa, nao no varejo.</div>'+
+        '</div>'+
+        '<div class="card"><h3>Atividade por mercado <span class="cardtip" data-tip="Score agregado de sinais por mercado (BR/MX/AR/CO). Cada sinal vale pontos diferentes (vermelho > amarelo > verde). Mercado mais quente = mais movimento competitivo no momento. Ajuda a priorizar onde dirigir esforco de monitoramento."><b>?</b></span><span class="hint">'+FILTER.period+'d</span></h3><div class="map-row">'+mapsHtml+'</div>'+
+          '<div class="card-foot-hint"><b>Como ler:</b> mercado com score mais alto = mais buzz competitivo. Priorize alocar monitoria/orcamento ali.</div>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+    '<div class="card" style="margin-bottom:18px"><h3>Painel de concorrentes <span class="cardtip" data-tip="Cada card e uma marca monitorada. Mostra a categoria FIFA (verde = patrocinador oficial, vermelho = ambush eligible), os 4 indicadores principais (ads ativos, uploads YouTube, sinais de imprensa, latas comemorativas) e o top movimento detectado. Use para comparar share-of-voice rapido entre concorrentes."><b>?</b></span><span class="hint">'+FILTER.period+'d '+(FILTER.market!=='all'?'em '+FILTER.market:'(todos mercados)')+'</span></h3><div id="ctable"></div><div class="card-foot-hint"><b>Como ler:</b> ordenado por atividade total. <span style="color:#0E7B45;font-weight:600">FIFA Partner</span> e <span style="color:#1FA868;font-weight:600">WC Sponsor</span> tem licenca oficial. <span style="color:var(--coca);font-weight:600">Ambush Eligible</span> opera sem licenca - todo movimento deles e candidato a alerta.</div></div>';
+
+  drawChart(d.search_interest);
+  drawBrandCards(recomputeStats(sigs,latas,ads,yt,d.competitor_stats||[]),d.sponsorship_tiers||{});
+  attachChips();
+}
+
+function recomputeStats(sigs,latas,ads,yt,baseStats){
+  const byBrand={};
+  baseStats.forEach(function(c){byBrand[c.brand]={brand:c.brand,category:c.category,color:c.color,signals_p:0,latas_p:0,ads_p:0,yt_p:0,top_movement:'-'};});
+  sigs.forEach(function(s){
+    if(byBrand[s.brand]){
+      byBrand[s.brand].signals_p++;
+      if(byBrand[s.brand].top_movement==='-'&&s.level!=='green')byBrand[s.brand].top_movement=s.title;
+    }
+  });
+  latas.forEach(function(l){if(byBrand[l.brand])byBrand[l.brand].latas_p++;});
+  ads.forEach(function(a){if(byBrand[a.brand])byBrand[a.brand].ads_p++;});
+  yt.forEach(function(v){if(byBrand[v.brand])byBrand[v.brand].yt_p++;});
+  baseStats.forEach(function(c){
+    if(byBrand[c.brand]&&byBrand[c.brand].top_movement==='-'&&c.top_movement){
+      byBrand[c.brand].top_movement=c.top_movement.length>90?c.top_movement.substring(0,90)+'...':c.top_movement;
+    }
+  });
+  return Object.keys(byBrand).map(function(k){return byBrand[k];});
+}
+
+function drawChart(trends){
+  if(chartInst){try{chartInst.destroy();}catch(e){}}
+  const ctx=document.getElementById('trendsChart');
+  if(!ctx)return;
+  let ds=(trends||{}).global||{labels:[],series:{}};
+  if(FILTER.market!=="all"&&trends&&trends.by_market&&trends.by_market[FILTER.market])ds=trends.by_market[FILTER.market];
+  let labels=ds.labels||[];
+  let series=ds.series||{};
+  if(!labels.length){
+    ctx.parentElement.innerHTML+='<div class="empty">Sem dados de Google Trends ainda.<br>Sera populado quando o coletor rodar com pytrends.</div>';
+    return;
+  }
+  if(FILTER.period<labels.length){
+    const sliced={};
+    Object.keys(series).forEach(function(b){sliced[b]=series[b].slice(-FILTER.period);});
+    labels=labels.slice(-FILTER.period);
+    series=sliced;
+  }
+  const colors={"Adidas":"#000000","Nike":"#FA5400","Puma":"#E0001A","New Balance":"#E50020","Under Armour":"#E81B23","Mizuno":"#0066CC","Asics":"#002954","Umbro":"#1B315E","Penalty":"#FFC000","Olympikus":"#F58220","Joma":"#F39200"};
+  const dsets=Object.keys(series).map(function(b){
+    return {label:b,data:series[b],borderColor:colors[b]||"#888",
+      backgroundColor:b==="Adidas"?"rgba(0,0,0,.08)":"transparent",
+      fill:b==="Adidas",tension:0.3,
+      borderWidth:b==="Adidas"?3:1.8,pointRadius:0,pointHoverRadius:4};
+  });
+  const step=Math.max(1,Math.floor(labels.length/8));
+  const sparse=labels.map(function(l,i){return (i%step===0||i===labels.length-1)?l.substring(5):'';});
+  chartInst=new Chart(ctx.getContext('2d'),{
+    type:'line',data:{labels:sparse,datasets:dsets},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,position:'bottom',labels:{boxWidth:10,font:{size:10}}}},scales:{y:{beginAtZero:true,max:100,ticks:{font:{size:10}}},x:{ticks:{font:{size:10},maxRotation:0}}}}
+  });
+}
+
+function drawBrandCards(stats,tiers){
+  const el=document.getElementById('ctable');
+  if(!el)return;
+  // Build tier lookup
+  var tierMap={};
+  ((tiers&&tiers.fifa_partners)||[]).forEach(function(b){tierMap[b.brand]='fifa';});
+  ((tiers&&tiers.world_cup_sponsors)||[]).forEach(function(b){tierMap[b.brand]='wcs';});
+  ((tiers&&tiers.ambush_brands)||[]).forEach(function(b){tierMap[b.brand]='ambush';});
+  // Sort: Adidas (SELF) primeiro, depois por atividade total desc
+  var sorted=stats.slice().sort(function(a,b){
+    if(a.brand==='Adidas')return -1;
+    if(b.brand==='Adidas')return 1;
+    var ta=(a.ads_p||0)+(a.signals_p||0)+(a.latas_p||0)+(a.yt_p||0);
+    var tb=(b.ads_p||0)+(b.signals_p||0)+(b.latas_p||0)+(b.yt_p||0);
+    return tb-ta;
+  });
+  var tierLabels={fifa:'FIFA Partner',wcs:'WC Sponsor',ambush:'Ambush Eligible',neutral:'-'};
+  var html='<div class="brands-grid">';
+  sorted.forEach(function(c){
+    var tier=tierMap[c.brand]||'neutral';
+    var color=c.color||'#777';
+    var topMov=(c.top_movement&&c.top_movement!=='-')?c.top_movement:'';
+    html+='<div class="brand-card" style="border-top-color:'+esc(color)+'">'+
+      '<div class="brand-card-header">'+
+        '<span class="brand-name">'+esc(c.brand)+'</span>'+
+        '<span class="brand-tier tier-'+tier+'">'+esc(tierLabels[tier])+'</span>'+
+      '</div>'+
+      '<div class="brand-card-cat">'+esc(c.category||'')+'</div>'+
+      '<div class="brand-card-stats">'+
+        '<div class="bs" title="Anuncios ativos no Meta Ad Library"><span class="bs-num">'+(c.ads_p||0)+'</span><span class="bs-lbl">Ads</span></div>'+
+        '<div class="bs" title="Uploads recentes no YouTube"><span class="bs-num">'+(c.yt_p||0)+'</span><span class="bs-lbl">YT</span></div>'+
+        '<div class="bs" title="Sinais (noticias) coletados"><span class="bs-num">'+(c.signals_p||0)+'</span><span class="bs-lbl">Sinais</span></div>'+
+        '<div class="bs" title="Latas comemorativas detectadas"><span class="bs-num">'+(c.latas_p||0)+'</span><span class="bs-lbl">Latas</span></div>'+
+      '</div>'+
+      (topMov?'<div class="brand-card-top" title="'+esc(topMov)+'"><div class="bt-lbl">Top movimento detectado</div><div class="bt-text">'+esc(topMov.substring(0,110))+(topMov.length>110?'...':'')+'</div></div>':'<div class="brand-card-top empty"><div class="bt-lbl">Sem movimentos relevantes</div></div>')+
+      '</div>';
+  });
+  html+='</div>';
+  el.innerHTML=html;
+}
+
+function attachChips(){
+  document.querySelectorAll('.chip').forEach(function(c){
+    c.addEventListener('click',function(){
+      const g=c.dataset.filter;const v=c.dataset.value;
+      document.querySelectorAll('.chip[data-filter="'+g+'"]').forEach(function(s){s.classList.remove('active');});
+      c.classList.add('active');
+      if(g==='market')FILTER.market=v;
+      else if(g==='period')FILTER.period=parseInt(v,10);
+      render();
+    });
+  });
+}
+
+function shade(hex,pct){
+  if(!hex||hex.length!==7)return hex||'#888';
+  const f=parseInt(hex.slice(1),16);
+  const r=Math.max(0,Math.min(255,((f>>16)&0xff)+Math.round(255*pct)));
+  const g=Math.max(0,Math.min(255,((f>>8)&0xff)+Math.round(255*pct)));
+  const b=Math.max(0,Math.min(255,(f&0xff)+Math.round(255*pct)));
+  return '#'+((r<<16)|(g<<8)|b).toString(16).padStart(6,'0');
+}
+
+spawnBubbles();
+load();
+</script>
+</body>
+</html>
