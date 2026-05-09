@@ -24,9 +24,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,sans-serif
 .meta{text-align:right;font-size:12px;opacity:.95;line-height:1.6}
 .health{margin-top:8px;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
 .health-pill{background:rgba(255,255,255,.16);padding:2px 7px;border-radius:4px;font-size:10px;font-weight:500}
-.bubbles{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
-.bubble{position:absolute;bottom:-20px;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.55),rgba(255,255,255,.15));border-radius:50%;animation:float linear infinite}
-@keyframes float{0%{transform:translateY(0);opacity:0}10%{opacity:.8}90%{opacity:.6}100%{transform:translateY(-220px);opacity:0}}
+/* 3-stripes pattern sutil (Adidas brand). Estatico, sem animacao. */
+.bubbles{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1;background-image:repeating-linear-gradient(115deg,transparent 0,transparent 60px,rgba(255,255,255,.03) 60px,rgba(255,255,255,.03) 80px,transparent 80px,transparent 140px,rgba(255,255,255,.03) 140px,rgba(255,255,255,.03) 160px,transparent 160px,transparent 220px,rgba(255,255,255,.03) 220px,rgba(255,255,255,.03) 240px)}
 .ribbon{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:60px;z-index:2}
 .container{max-width:1320px;margin:-50px auto 60px;padding:0 24px;position:relative;z-index:3}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;background:#fff;padding:14px 16px;border-radius:14px;border:1px solid var(--border)}
@@ -290,17 +289,7 @@ let DATA=null;
 let FILTER={market:"all",period:60};
 let chartInst=null,tableInst=null;
 
-function spawnBubbles(){
-  const c=document.getElementById('bubbles');
-  for(let i=0;i<18;i++){
-    const b=document.createElement('div');b.className='bubble';
-    const s=4+Math.random()*14;b.style.width=s+'px';b.style.height=s+'px';
-    b.style.left=(Math.random()*100)+'%';
-    b.style.animationDuration=(5+Math.random()*7)+'s';
-    b.style.animationDelay=(Math.random()*6)+'s';
-    c.appendChild(b);
-  }
-}
+// Bolhas removidas - Adidas usa 3-stripes pattern estatico via CSS background
 
 async function load(){
   try{
@@ -764,7 +753,6 @@ function shade(hex,pct){
   return '#'+((r<<16)|(g<<8)|b).toString(16).padStart(6,'0');
 }
 
-spawnBubbles();
 load();
 </script>
 </body>
