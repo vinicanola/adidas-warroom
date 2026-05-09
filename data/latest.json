@@ -1,0 +1,3687 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-05-09T20:30:51.130175+00:00",
+  "history_days": 60,
+  "sources_health": {
+    "google_news": {
+      "status": "ok",
+      "count": 348,
+      "elapsed_s": 48.1
+    },
+    "gdelt": {
+      "status": "ok",
+      "count": 0,
+      "elapsed_s": 2.1
+    },
+    "inpi_proxy": {
+      "status": "ok",
+      "count": 0,
+      "elapsed_s": 3.9
+    },
+    "mercadolibre": {
+      "status": "ok",
+      "count": 0,
+      "elapsed_s": 6.4
+    },
+    "youtube_rss": {
+      "status": "ok",
+      "count": 13,
+      "elapsed_s": 11.0
+    },
+    "meta_ad_library": {
+      "status": "ok",
+      "count": 0,
+      "elapsed_s": 38.1
+    },
+    "trending_topics": {
+      "status": "ok",
+      "count": 5,
+      "elapsed_s": 14.8
+    },
+    "google_trends": {
+      "status": "ok",
+      "count": 2,
+      "elapsed_s": 4.1
+    },
+    "wikipedia": {
+      "status": "ok",
+      "count": 10,
+      "elapsed_s": 5.6
+    }
+  },
+  "competitors": [
+    {
+      "brand": "Nike",
+      "category": "Sportswear",
+      "color": "#FA5400"
+    },
+    {
+      "brand": "Puma",
+      "category": "Sportswear",
+      "color": "#E0001A"
+    },
+    {
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "color": "#E50020"
+    },
+    {
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "color": "#E81B23"
+    },
+    {
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "color": "#0066CC"
+    },
+    {
+      "brand": "Asics",
+      "category": "Sportswear",
+      "color": "#002954"
+    },
+    {
+      "brand": "Umbro",
+      "category": "Sportswear",
+      "color": "#1B315E"
+    },
+    {
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "color": "#FFC000"
+    },
+    {
+      "brand": "Olympikus",
+      "category": "Sportswear",
+      "color": "#F58220"
+    },
+    {
+      "brand": "Joma",
+      "category": "Sportswear",
+      "color": "#F39200"
+    }
+  ],
+  "markets": [
+    {
+      "country": "Brasil",
+      "code": "BR",
+      "flag": "🇧🇷",
+      "score": 29,
+      "signals": 24,
+      "color": "#F40000"
+    },
+    {
+      "country": "Mexico",
+      "code": "MX",
+      "flag": "🇲🇽",
+      "score": 64,
+      "signals": 37,
+      "color": "#006847"
+    },
+    {
+      "country": "Argentina",
+      "code": "AR",
+      "flag": "🇦🇷",
+      "score": 9,
+      "signals": 9,
+      "color": "#75AADB"
+    },
+    {
+      "country": "Colombia",
+      "code": "CO",
+      "flag": "🇨🇴",
+      "score": 5,
+      "signals": 5,
+      "color": "#FFCD00"
+    }
+  ],
+  "kpis": {
+    "ads_active_total": 0,
+    "ads_active_top_brand": "-",
+    "ads_active_top_count": 0,
+    "search_leader_brand": "-",
+    "search_leader_pct": 0,
+    "search_leader_delta_pp": 0,
+    "signals_60d": 75,
+    "signals_delta_pct": 141,
+    "latas_total": 1,
+    "latas_unvalidated": 1,
+    "ambush_attempts_total": 44,
+    "ambush_top_brand": "Nike",
+    "ambush_top_count": 19,
+    "fifa_signals_total": 0,
+    "selecao_signals_total": 2,
+    "official_signals_total": 0
+  },
+  "signals": [
+    {
+      "level": "red",
+      "title": "New Balance lanza una nueva y deslumbrante colección de botas mientras Eberechi Eze, Timothy Weah y Endrick se preparan para el Mundial - Goal.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOUlDYXlLcm9BNGxmZUMwODJFQnFrUDItZmU0Y0U0YWQ3amxocmQ3cEJ3ZVA3NGx1UzVaVVBHejkyMEQyaWk1RWNZX29QWm9DZnNvS3RNaWJBUEQ5TWF6ZzA0c09RZU5BZldJNV9xb0hsTGJwaEF2OTZWaWFvaVB0eHNDR0k3OTlCZ1RLUnhRNGFsdmlVRDJieHR3NFVUX1dnYU5VOGJVc2lSOEVFZkN4TnNhLW02MDNISTlUeXNpQ3VKTWZrTXBMLXV4NGJBSmtqenlRSDVqT1pKS00yU2kySGhlN0VONV94SEhXNlJsUXpqZ0I4MGNfakRLX1k3cURJOFhrR3A2Z05oM2VaOW9nTHMwWHZrdw?oc=5",
+      "timestamp": "Wed, 11 Mar 2026 07:00:00 GMT",
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Nike Lanza Nuevos Tenis Celebrando el Fútbol Mexicano para la Copa Mundial 2026 - 92.5 maxima",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU0E1UUNvTTcydm1PcTBvQ0FOWkNFV3JmajNaWUxqV3l4UlpfNE5RSWxHQmdLOTBvWDZHYXZFRlozSjRVRnNuU1Z5YXg5OXMtajVNY2tibmYxSU9xcjRZcDJsbWUzX2dDeVhJTXg5VjJ4aHltQW82ck1JaU1iTktHRDJOZEFkMjBFOWY5dmZDVEY0Z0M5aHZBN0RVR3ZTV1pNTTBPaWxoTEowZF9yV190N3pQbw?oc=5",
+      "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTGdaU3FPSlR6dFlPV1FidS1WalBJcDIxRUpjZklvXzFfU2VteEhjenF1cUN1OFhKY0VySmlQMjQ5V2xob2hZM3FOdkoxcm9tZXZ6bkRQV1lEVmo4RDY0LUtFU1ZBX2MxanRtQ25Na0JoMEFGOTJQR1RaRTg5QmlseTRDZS1jeXJreURtVV9kYTN3a09YZWxHWW05Qmd3RWdYLThvY3JPSTRYNTgyejNlT1h4YkZHVDdWbUNJNWFYWXg3NnE3bUk3TDBPREw2UlhyV3c1X1k2dWlZeG4zY0RMbEtjLVRvUkZsc1hZV0FDYmV0Zmw2dkE?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Cambio de sponsor técnico para Botafogo: pasará de vestir Reebok a Mizuno - Marketing Registrado",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMjNvT0NpQXh2WWhMN2JLYkJ3b05GUWRkZFBGa2tvNG51dGNTUF9keWZFekJuSm1PM0lMT0xhZlhSUDFQamxjX0xmNlU4Z0E1UFFqUnNnSEFIcXROR0VGLVh1VDJwZWpBNU1DR0VILXE1VjFrenNyUktHeVEyR0dmVVlOR1RPNUZOMkNXMktyT29WUGhqWlpweVdWMzRidnRfYkNvc1c5Z1g5Z1dZQ2ttWW5haDnSAbgBQVVfeXFMTzItZ21FUWNwdk5rcVh1SWlHNVRPR3ZPekUzWTdlTHBINkdkejdrWEJJc2w1VGx3WjI4Rkd5MUV3QkRwZU8xQ255N3ZHOUZEZ1JDOVlJTU5ydDRmeWlFTFd0YW15ajBmZ3pMN1g3N2hXOWVPbVdZYjk4TkFUQkFkSERxcFJ1c0xMT0x4MXAzeUFWbFcySzNBek9EV0swOUZFSlAyVXdBR3pPaEVvTm5Hd1ZfUmo4R2pOVw?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "red",
+      "title": "Crocs lanza colaboración futbolera con Umbro: la estrategia poco convencional para destacar este Mundial - Revista Merca2.0",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUmtHWjhyUHBVcXFVZ2FOOUpuNDFkYlJtcnA4ZjJjcnd1N1Z2UXRpcUJfZjBULW4tVmxqZlhuTHV6TjNrM3VVcjRuczJ5c0NqcGlWbEI5eklBN1A2b25rc1lhN29LTjVfaXdmZFNxX2NFSkZCNTVqTFpVSE1xc3lMSDV1Tko0WVh3RkcxdFVvZFQ2UXRFdjJtZDhBZzZsRkxkSUl0NHpCMFpoS3k2NHAwRlRHeEN6Zw?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "brand": "Umbro",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Nueva Zelanda para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSWYzZjBucUUtNEMzYjFMQms1anVqdVVFR0k1X0xmbTFXU29jN0NxNHZ6N1hDVnRCS1lKN2xlRDNONkxaOWhxWUhVMVppZHVRclNib3FPQVpmZnhaNV9Ob1hfYXFPaVBEZ2h0V2J6blhGVEZCUkJXSC0xeDMzaWdWbWgwSTZRWWc1TFlDSDlUMU91VTBYT1hTN3U0SExhZVdOUU5NZ0x1S0FaV0thMzFFMjRJWVN1R3lzQ0NRaHU1MVFuSmEtTFJCLTc3Y3lobkRxeGtBMk81TEpFeDdrVWtfbnVraTFmeUM1NmJmanRDTkhvbkkwSTNvZGJ0al92QmM?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "yellow",
+      "title": "It's a Penalty anuncia alianzas globales y una campaña de atletas estrella para la prevención de la trata de personas antes del Torneo Mundial de Fútbol 2026 - Yahoo Finanzas",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWW9lejJpR2pwaTBEYUlCSGl1YzVvM0FyaUhYTlRHLUFLMzFDc1l1R3F2WmFjQ0h2bWE5b3BHcWZUM2JPUjk5UjhEaXdWTTZuQUptOUIwYmhJMC01Y0E1bnNIR05VQ2YtblMzdm5HN0ZyMk5uUGFvRnFFcEFtdUtTUG1HVlVIZEJhTWZOYTJOeVdDQWhTOU9mYklR?oc=5",
+      "timestamp": "Mon, 23 Mar 2026 07:00:00 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "Kylian Mbappé cambiaría de patrocinador oficial durante la celebración del Mundial 2026 - Sports Illustrated",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlJWczMya092aDNLTGljeXVWQ2JicHhWM2JxUWpGY181alUwMVpNS3BPd0l1LWpXU0ZhQl9ZemFXLWxaM3RFZ0Y1V290MjMxUGZwb2czR1JubkdILXZQXzdzZG15NzZTeUhuTWJjRDZNdVNyeDk1Yk5vT1Zubk5udkdwbU1GTERMUWJrZU9jSlhMRmpWTUpFLWNhWE4yRHhoOTZLMlUxbTJkLVFzZUo1QXZIbE1MNE5NQzNB?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "yellow",
+      "title": "Botafogo anuncia saída da Reebok e terá Mizuno a partir do 2º semestre - Máquina do Esporte",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZEJINUM5dm0wMmQ5R1laMTV2dFJsWkhkbEJQanctblpTNjNxMXlaSnZNUnJYMzRqcEZmNWdKeXhmUXdWandieXNGWmZWZ2d5TnlDcU5JdE4wNGI0RlJiU2g0VllRMkVVTE9kR3ZNZGJ4V2t2NjJGT290S0gyR05CRmt2X3V5ajhfeHh1Y3pDZ01JRWhNOUUwTkxONGQ1SlVONU1TdC1lX1dIY1hJanNBQQ?oc=5",
+      "timestamp": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "Botafogo anuncia Mizuno como nova fornecedora de material esportivo - CNN Brasil",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmNKRUN2ZFBoZWJENkdyVzRSTVY1VDQ0cnVPR2xfcTI1cC1Sel8xWEpGancyaVl5SlhJdUk2aWRVSWdKVk1NTFFiUldaUFlZOGVCQW1pUHBibWlObHY1U2ZXc2N3LTktRVE3b3J1TWMwRkRxQ0FzaFlCVDE2bDRCMDhHRXJ1allUUFBkeFlMWEhDd2RyeEJpalUxYjU2OUdLbXNHY0lxaG9KYWR0RzZ1WG0yZXE4VUtEeVB3TXA1S3Q?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "Botafogo anuncia Mizuno como nova fornecedora até 2029 - Revista PLACAR",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjdxaERyUlo1WW5ZN0p5c0hRTFRFZ0RZOUdZQ21oekVFYVJYUXJ0Y2hZUWxpZXJ2ek9sZTNwWW9wOWFraXFHd0xQWldlWjRKME5adkt2MVZFaHRTMlhSckl4MzE5QnRvRERWa3pqZ3FYWER0QUlIZUhlekRITFFzYlV6TVB4TklqM01EcnFn?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "BOTAFOGO ANUNCIA MIZUNO COMO NOVA FORNECEDORA DE MATERIAL ESPORTIVO ATÉ 2029 - FogãoNET",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2daYlhUR0pJME5pMlFNQUFJLWdqZldEY1RXdFBudjZha3FQOUdiaDNybFNWdTJhVDRhLXVKQkd0LXNMQ3JNTjVJVGdMRHNNM3N0bWFsUmtwc2tqUG9VUW1HQVh1R2lEdDdNNW1CdXBJWFBXUWNCLWRFMTU2U1MyRXNGejVjak01ZkhIdGRST3dNNTdjakpoOVhwWTktZFBRMF9henhvcmpOZw?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "Copa do Mundo de 2026 pode ser o catalisador que Nike e Adidas precisam no 2º tri - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdnJ6N1BsalR6cUJnU1oyOGR6NFctX0t2ZWdjQUFnS2p0ekZreWFmdlAyS055dC0zdE53Tlh3clJ0amg2TUFRdDJya1dxN1p2MEJ3NXdyNGdxWndOby0wTFE2WWx5Vlp3M2ZDQ3pEREFOV01hV3JMM1RqQWtMQkxDdEZJRkZOU2s5dmZNR3c3YlZEa0hvejUzMklYb1ZJUHhseHdlMU1RaG1Ocld1eWkya1l6RW5xTGZIVnBqdnFnSFVCVTdrOG16S1I5dDA?oc=5",
+      "timestamp": "Sun, 26 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "yellow",
+      "title": "Joma se convierte en patrocinador técnico del flamante campeón de Copa: la Real Sociedad - Diffusion Sport",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcmlrWTZ1YWdPa2pPWkU1ZGd1ZGxzNExvS0RXbTNXR2VmQ0xqYktaU1VWSmc2SWJZSThLOEJLM0VRWldxT1dsVHU4eWFYa2xlc196MERRVDZHek1PSVpMTHhLRW50SjdENnc4aDk1Y2dQY0FRYUp3ejFCanZYbnhhNw?oc=5",
+      "timestamp": "Wed, 29 Apr 2026 10:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "A New Balance lança um novo e deslumbrante conjunto de chuteiras, enquanto Eberechi Eze, Timothy Weah e Endrick se preparam para a Copa do Mundo - Goal.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPQVNmTmJ6cHdCX3FWM2tIbU9seHFDMXR6ZGZWNDc5elFKZGJ6dHNPMVhrZktaZ25EOElmeTQ3d0x3OXJmVmJaOFZXd1AwZXpwZ09iSGxhSzRuNTV1ZkJIZVFLZ3BHOXk3cXphQldUS0R1TkZXSlZTckVzbEV2YjVOQVlhcEw0bFRTcVRPck9wTzlXR0pUTjIyWFhFd3JnUXExOTAyc0RTa3VocXVnVDZZTzM3NGtHTGpBYWhzYjVDQktxcGZIQ0hsQmlUR3JJbEJRaE9JYVFtN3Z5a1VVdkFLSEJQbEhwaS0zSnBhVkpLR2F5WjJIR2E1THdOUlRiVVJseFRNNUlQekNpdVJ5dU90ZlNkRjYxV0tqQ2ZydDBR?oc=5",
+      "timestamp": "Wed, 11 Mar 2026 07:00:00 GMT",
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike Football presenta las equipaciones de selecciones 2026, diseñadas con Aero-FIT para el mayor escenario mundial — NIKE, Inc. - About Nike",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1IyZVI0N05EWnlRZ0xqUGI4djVkVnZLSlM5cWc2WUJiWnRETE5QZ0drRDlVNGFoemQ5UUpPdmM5V3dGeFRKVlRuV0ZtNTFGVjhybHlFTTZ6U2p0bTM3amZDU2ROUmNuUGJ6dU96YzdNQ18tVmtob1piLXdWaEt2Sll5dlMwbnV6TjBHR0l5TDk0VV91NVhybTY0T3FDRzZrSkltX1A5OTJweFB6a3NNa05pR0s1YUVaQmltSXR2QTR4VzQtX3VlcU9BTGpQd0JQeHR3UXp6Zl8wZ3A2dE81UQ?oc=5",
+      "timestamp": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike Futbol presenta los kits de las selecciones nacionales 2026, diseñados con Aero-FIT para el torneo más importante del mundo — NIKE, Inc. - About Nike",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEZrZFpybjJGQU5fb19QLVNvQzUxZzgxRHNxS1pNNER1azVSUUZDbUZlNTE4eWMzQ0MtYWFCamNaQWVRU0RhTm95OFE0VjF6dlhhOEc4SkpHMEVmd3lrVHZWUEZiMVdXX0dZZXFmcUhzaXhPUktmdjdqV0dpajdWZlptMTFxTm9RbGNDbk9ET2YwWkt4R1pxZEk5dUpGR0U5bFhRakpUNWJyZGNfazRoelhFOGR4dU1LaU96Q2x3dGVtMHZVUXFEeUdWWUtPUVEzQlRHU3hSYzljcXAxV250VUZR?oc=5",
+      "timestamp": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Café União transforma copas da ASICS e Kings League Brazil em concurso com 6 mil empresas - Propmark",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOblUxcE9aTnprVGJESlBhTG9JZXhodnZuek9IUzJSLW9zUklobV9XOHJ2SGN6Sk5iR1Q1b2x5NXRFUlREZ0F5TURrdkE2RmNBR05ibDFLT2huZE1sNFZmRkdZWWlHVWY4Tk01aFlHN2J6RHBtWVFCTmlpb2p0MGpZVzRDekRWNUhjVDhlWXJIZXotRS1RTkFoRVBadnltVnNyUW43WXhqazFNRE9NUmJfbVBCa3M?oc=5",
+      "timestamp": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "brand": "Asics",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Franco Armani - Penalty statistics - Transfermarkt",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWXJhX1ZmbTYzejczNlN0cXdaQTdteldCSGc3UDVjZTZ4X3NzdmhUczZLUDNnRGRIenhCRFBMVkVSRmtfdUVDS09MVDJuc0FqN2xxQ2JzNTREQ01ySDRGMUU4RDlsZzV5REJqMXFrSFN6aHNQdGg4TTJkdUNBZE5kQTd3?oc=5",
+      "timestamp": "Wed, 18 Mar 2026 07:00:00 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Café União dá um \"upgrade\" nas copas da ASICS e Kings League - Live MKT News",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnppbm9pUFIwMTJJOXF3MUM2TS1HaWhHWWVESV94ekZmMmxydmVHOHhQR0tFN3NzaGZoSGpSalduVzRfQnRSUVoxUXdsekkwRmpCdEdBaW5jeFZPenJFUVFsa3JwOEhuRzBTWE1wZlpYNTVZUG9lbTBTbnRGRFZOT0FsS3FnNWZSY0VUSG1KaXk?oc=5",
+      "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "brand": "Asics",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "PUMA presentó sus Jerseys para la Copa del Mundo del 2026 - RÉCORD",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUtPNUp3LXlYMGQ4dFdZZmptYkJSTVlRZWxDQ2phNXZYeXJIdEVqYjJpNGJVVU1pNmZ6T21BUlJiWDgzbE5YcnZSbG9ITC1ZaTYwazkwVkREbEFiRjY5Zk5VNFZMb2F2dFV6T2hMLVFlUXFYX3lQaDgzUjFCWUtLbVNnMzB1MlZrOHA0NDlzT25NT1lhUmt0SGlBUDVCem1tV0dDOFN5cFlNYVE1U0VHeg?oc=5",
+      "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Copa do Mundo: veja os uniformes número 2 das seleções - CNN Brasil",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPczI0ckdhUTJjMUhDdENGcnVRekpCWkVxODh1TUpsQjdYRDdsbmVxN1Q5V0ZGRWFVNE5neW9DeEVHTGVDU0t5aG93cno1Mk9XaDlkWkZIUW1sNlJiRVhsbUpIVlFWTHp5MjRrOFYyWHdpeERSdmRzS1gxd0U2VF9oRGVsM01Ea3owVWJBeU0xZDE3WEZSYS1iUnRFMlFOV1ozTHY5NFZrMWw5SEt5aGVISXlIcVc?oc=5",
+      "timestamp": "Fri, 20 Mar 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Seleção Brasileira e Nike divulgam camisa amarela para a Copa do Mundo - Alagoas 24 Horas",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUprSTM4RDAzemlTbGJnd0dfb3pOcjZ2V0ZobUIwblI4RjQ3Uzk2S1M2TlUtY1d5RG1jdnMzOThLYkJHazRvRlY3cHZ2bGQzaDhQLTZ5T2x6VTlVbGh2c3I1c2hINjdpREdFa3Z1anl3MUxkVmZXUVhnaENRMmJQU1UtOURSblFoZ0RGby1ITXdjMkNIUkNPU1dOVVpQODNzX1pRa2tfUjF3RXc1YUQtSWVmbw?oc=5",
+      "timestamp": "Sun, 22 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Cristiano Ronaldo e companhia ganham um visual renovado! A PUMA lança os novos uniformes da seleção de Portugal com detalhes ondulados antes da Copa do Mundo de 2026 - Goal.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQV3J4cWZBY2s2R0Uwejg5aEl1SzBKaHktRndCaFdac1pHY2E0MDU3RjBFREg3NGpYYms2eUJyT0NPQ1d1SzFZbGlBZTdNaC1KalRiTGpLamhTaTlMZTBBeFhOVU9jQlQwdjZZSWh6QkR5YWxKcjR5Zl9nNGhDVDh3WU94c3Aya29iSERPVzhwVWRrVU8tbHY4blM2RkJIZnVtUEdHdVNMR0pOd25Qc0hDZVNWQ0RpXzg5Vy00YjA3eUc2NnVZMkl1ZDBIX2ZrYWNOdnhEaGo5X0dQWmc2ZUU0N3pBOXphU19kYmoyRm9GSHkzZHpjbklJUzBnT1hpN1RMRzg5NmtmVEpoZFRYZVpuMFpGTUNNeHpQTWU1Nm91ZENMLXZBM2JVdHRpbTltaVVIcWNYa1ZvcHYwbkE?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Mbappé se aproxima do fim de contrato com a Nike e vira alvo de Adidas e Under Armour - MKT Esportivo",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdE1ldld6RHJ2dVVrV2M2eVpKOE5rRVVPUmZFU2hPd3VKd21FTEhVMGlUUjBOZ1kyODZCNW5oWjZ5S1BPTFdPOUZTLVdPV2l5YzJnVjJYbWREQmtIaWw0amR4ejUzQTlBczl0RnUyTHNfZHVKdUdDcUlVUi1GaFBhQVRHaXFmMnFwX2RObmNNckYzN2E0bnNBdWRETUxPTnR0ZlNwaUJjREtNSlE3QndtcHk5WXZkRmdLbTVna1d6R3c?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Penalty reúne arte, poesia e futebol na bola oficial da Copa do Nordeste 2026 - JC",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQWVnbm03OEdCNXotU0lqYkhJZ0x6VXhYZzc0amNhbWtGcjl5MGNueFdXb3BGR3hxYTJkdzYzNTFvU0UtUUpoUDRRbkZnTHRac0NDMS1tQmdzM2doZ0pfVGR5SmdGMWdzc0dOOFo2T2pvVGlHc1ZIVUs0dmdSNjgwLS1IUHgyRGJvZVNvOTdqbENCNnIwVXRPd284YkFmaW5KRk93anE4X3JEREx4SGFnQlBvZmRxNWV1TUhmRUVNOUNzS1RQUF9pVDdoOFBUTWt3STIyQVBnQnV4a0ptaUxBWUdPT2dackFza0I3cQ?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Camisas de Honduras 2026-2027 são lançadas pela JOMA - Mantos do Futebol",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TUEVnc0xpNndYbG9ZdlMxS05kcjNpMGxhak1HVFBBVTlITVlYYS1NQm9JZmppREY4YlY2OEZ4NmRfME1QUzltT0ZZVEJSLUpJVWtxSkNicnhnS1E2UDFQSDd1ekkxM2lmRU11SzRpZFlkdlVh?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Dónde y en qué estadio juegan Italia vs. Irlanda del Norte por el repechaje UEFA al Mundial 2026 - bolavip.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDRLdDFIWHJsd3VOUk9TcWV2T29mNWhWRjJxN2RKSGJCWHpnRXV0aHJ5d1RDQkN5MW5MOVVWMXgzRVQ0azhEN0xPaExocDh4TGM2QmVQc09mdWNvWjVDd0hORU5pcko3SnhldWJYOXpMRWdERDBkNjFYaVQweWlfSUhIdU5fb0duRk1ibXdIcFpQRUxHSVdkT2VPT0V0YVFzbnRWZ2paMnVmRlkyNnZmTTcxVk81NXpkUDRFTkpMR252X3Rn0gHKAUFVX3lxTE9DTDk2dXphWVB4UWx5ZHJlZVBtcWtaaENCc1lDVVFrVWFiM1daUzcyX2t6b296MFdOTDJDb1VxMjJiWkJreVM2ZVc4eXJ2MzRyZDhLeXRGMmFNNmo5Z2psNmpkRHdpZDdRVVZEZElhZjMyV1JDWk5fTm8zRjB6ajBFY0hRRXNoUWhxcTJUMVg2YW1mS1REV202bVJTWnVsa3RlV2pNV19oX2tJdlZIQzhuWmdJSHg0WDZvODNiN0xPeHV4eHVxaFJxa0E?oc=5",
+      "timestamp": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike Football presenta las equipaciones 2026, desarrolladas con Aero-Fit para el mayor escenario del fútbol mundial - FashionUnited",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeVBNVGx3eXRsRFNXT21sbms4VmFyR09nSE5SZ1U5bDJWZjlXLVZ0bTRYc0t6Y0VBRGhMblZYZEJqWGtOajV3V1k2Zzh2ZXM3VWdPNzNpd01nM2V1VnNTVVVuMlhtZWloOXo1cEpCSDh2UUprRTBVNE0zLU1KNXN0LWFSOGhxMjVGZnlLTU1TSGhRYTVBUDh6cklHNlEyU0VTRlo3WHZzeV9hQVNXT29HejZwX2p2RC03cG1ia0hTNzkwd0ZDa0RXRVNMVUNZQzE1dl9wZldVVm1sWFpocWdkRjlpMF9ackxRRU9EbTlGZHlnZjEwajF3?oc=5",
+      "timestamp": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike Mundial 2026: Los diseños y kits que dominarán la cancha - AmericaMalls & Retail",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNnk4U2RyeFFkUXdWMHFZdmxrMW1tU3BUN2RKVXFsWUFvTHJoenA2RmtLSFR1eVZuVkwwcWhxR3I1MXotQTRlSXVmdTVZekVzZjFOUGI1NXF3bFJlM0gwZC1aRVZOV0ZnR1VaM21jRk5oS2h5eEJTdzNYME4yWURYNVhpZ3l5dG0tR1JSWGZ5OERGaFhiRV9VWlN6RGg0a1Q5V2ttMWxVLUlDV1pfOW9UbzJiam1SZw?oc=5",
+      "timestamp": "Tue, 31 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Travis Scott x Nike Phantom 6: una bota lista para el Mundial de 2026 - selecta bisso",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU3hOU05xX3FRWTA5SzhEVUNBQ1RkVDdsOTJsdDBEWUdwMG9pQzFyTFZkMmdyVXRCOW0xN3FPZm9yV2l6ZjVFZk1rVkJOdHVwaF8wQ3FLOFpXSUdmRXlHLVFTNEpVaGVXWlB1S0RCdHNmLV9ucDB4M0J6MmxhdzR0dnVYY3BGaThpaWJjaTRwSEFJWHQ1TVp6OTgzWGxJQjNUR05POV9OT0tqRHpP?oc=5",
+      "timestamp": "Wed, 01 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "La fuerza invisible de Joma: la constancia de un zapatero que convirtió un pueblo de Toledo en una potencia mundial - The Objective",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVRtM2tQeHJHejUwOV90TkloenpaTlJfbmdxTzEtNUJNTm5OSEI4RTdLTDlTcE9DdTBWNWdNdFU4RkpDclY1MVRWYzdDUjltai1YZmtiSThoU094bHlSUHpxaE5fVXZoQlVrb29qSjlLbjNHQ2pZYXdtUmhkdkppZzY0UEVoRmpTUWJLTnpVV281cWhVMXpKcmNJZWZ2ZUw2M0pGcmRFWWUtQTRtb2I4ZmcwVUVJbUxmTFJ3VzZwNA?oc=5",
+      "timestamp": "Mon, 06 Apr 2026 07:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Nike, Adidas, Puma: ¿qué marcas diseñan las camisetas de las selecciones para el Mundial 2026? - Bloomberg Línea",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMG1zTU82dnlRbnYtdGVQdXFnRG5wZ2xicHRHQmtyVXBHUWFic24yZjU5N1NHU3lEUDE3bjFRRmZtd2R1Zk1WU094WUxOZzVNczU1X3NBUklHSmpyN3drc2h6dmRuc2dlN2xodDcyTFEwbzVvdGtRVlNDRFk1dmYxdjNCTzRIM3lGN3FYMnZZNDVZUk5Kczc2dEkyQzVVM21BT0pDaFppYkp6Z0EtWXdibERxTjhHQ044dUU1X2RsZXVocWRoNWFaSWpHWXpnc0owbmfSAeYBQVVfeXFMTTRBNXNRNEt1RUJDRXJ4OF9MeWYwaElHV3VOSDJNampjcDZRZXRSelhYS0RxdzZwSS1pUEw1UTJUZnBBOThPdWRLR3NFYUJ0X0F6dkhEOFNBQTg4MjRBdHdSU1pLQ1l5R3FwWDQ4M3h0c21ScHJOd3oyZERlQlREbzhmbm5tNERwUjY5MzJhckZZdUkzOUhYRGRWN1l4QUM3NWJhdmZZN3dMY1VXaHExeDdjRENOd1AtU01TdEV0bnNDd2JETXNFb1daRnRKZzNkNEZYWnVnQWphdHFYQWc3ZlRHVWVUeWc?oc=5",
+      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Equipaciones para el Mundial 2026: reveladas las camisetas de Argentina, Brasil, Portugal, Inglaterra y todas las grandes selecciones - Goal.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNM2puSWZWbXo1WHNyNTFqclIwWVo1LXRpaXlXeEZGMXlBSHh0eDJBNENFamYyc2ROVnhWV29pZWdhc1BuanBxRWFtQk9iVmZsLTUxcWZTakNWZVgtWXRNTTdzUk9NR0RMUWdMYmVma1dxZThESFNoUzRRZS1UQ25RV1RFOFBuZUJDZXRtUkZnU09tZE1UYXg2YUl6bDVnNjZ5eFBxd1dZVEtuN3FoWWhBOFBaS2ZIeEczZFdLSEFOREg5Z3kwb2ptYzYtWFI5RjBXVGw3SEFEaVdidDQ5cktzbFZRdHlSVS1uc19oaGRLblNjVEhDcFZpLVhmN3VKS0xjUGVTZEN2UDlPaUFXTUJUbWpkdw?oc=5",
+      "timestamp": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Equipaciones para el Mundial 2026: reveladas las camisetas de Argentina, Brasil, Portugal, Inglaterra y todas las grandes selecciones - Goal.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNM2puSWZWbXo1WHNyNTFqclIwWVo1LXRpaXlXeEZGMXlBSHh0eDJBNENFamYyc2ROVnhWV29pZWdhc1BuanBxRWFtQk9iVmZsLTUxcWZTakNWZVgtWXRNTTdzUk9NR0RMUWdMYmVma1dxZThESFNoUzRRZS1UQ25RV1RFOFBuZUJDZXRtUkZnU09tZE1UYXg2YUl6bDVnNjZ5eFBxd1dZVEtuN3FoWWhBOFBaS2ZIeEczZFdLSEFOREg5Z3kwb2ptYzYtWFI5RjBXVGw3SEFEaVdidDQ5cktzbFZRdHlSVS1uc19oaGRLblNjVEhDcFZpLVhmN3VKS0xjUGVTZEN2UDlPaUFXTUJUbWpkdw?oc=5",
+      "timestamp": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Un fallo visible en las camisetas de Nike desata críticas - DW.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU2ZtWkJFZ0htYWlaNmFwODNZRzNRZ3QzaWQ4bi1teHRzN1Z5ekdSaFFqdVF3VFM3WW93NEVwOU1xamJUYi1XeXJYNkNRbVVHTmtncE1nTV9sMXRMVHNJczlMUm1VdGtkU1JJQWVsZEhBeXdacUFhN3REaWlXNkNNeGoyYlc2NDFoYXhpZVV3UzZYYnE1QmszMnNwaHpJSGdVTU5ZNUFRa3VwS0RGUFJGNlR6SG9yUdIBtgFBVV95cUxNMktfMUZ2RUlPTm9zYUhhME1HYk5VM0ZHd0dZNjZyM0t1ZXUzVC1KYm5fY2ZhMDhsVmpEUXF0MWYxZHpLa0hfempsRzNXcEhRWFFTYzBFQWU0XzRDSkMwb01majFtbzU1SkdOeFRoSUxYbk1qWTdlQkNIZjBXYnA2MEhhNmtsYWRFTEk2dUc0d1RnMDg3VDVhZzJNbk03OWpXeWQwRVFPdmpPTGNuUDNKQy1nZjluUQ?oc=5",
+      "timestamp": "Tue, 14 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Under Armour eleva su apuesta por el fútbol con la nueva Shadow Elite 4 - Interempresas Media",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNVljZWlzekJrZjk1SWgyMDh0azdsZnJKMWQ0WVdJa0ppQmtmZ09VQXRHaFB5UEJJaFAyU0JhVlExZjhDRVA5M3BJNUVYOG95STJTQ0tGWTVpZXhnZzJKS2RDZERyanNrVXI2VTJ2UFpwci0xTjNZTHo5b2dhLTFJOElsTTFFXzRBN25kZG9JR2pDRlNDT3A2T2ItbHNVbFVZYWpLUTZjMVMwd0Z6ZGdpRDFSQTJaSzJVR0ZOMUtnWkd1M0x4VkpNMElpTHY?oc=5",
+      "timestamp": "Tue, 14 Apr 2026 13:08:57 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
+      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
+      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Las Shadow Elite 4 de Fermín López van a arrasar en el Mundial - Neo2 Magazine",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUYyOFZ6MVVWUFJGTEFsUXM0TjJJd2QwWHhjTlc0bjhRWG5KTDhjanpITmMzYnd4WUd0V1A2Mjg4WVRIWFFHeGhFTTZlczd1eFQzekhoQ1N6VzZ4ZlZZYXZYYy1ueENDT2Z0SFhzdkZBRHVPbnNDODNEQWZYYU1WQjBDb0ZkMFVuNjhvMnR0MUpiVElaNERIQzlXRmM4dUZTZkpNSDRYZG1Dd244cGJXcnJ3bEphUQ?oc=5",
+      "timestamp": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Botafogo oficializa Mizuno como fornecedora de material esportivo - Máquina do Esporte",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFZvXzNiVDBNZTJQVm1WTnlNNVhRWWxUUE11aTl6VDdlaVVnS3gyY0N4RHZFNzRYRklsdjNrb1NoekExdlBiNjJPWmg3NHI2cEV1U01udXhmSjVFYnVNUTM0TGtQSFBwcWtfblNubDd6RUtsb1M2U19DUnM4b0h6bkc1MnA1cm8weVU3dkQwNzFQdFhfQ0ZvUFM2SFVGWVdYNGc4NDZOakZ6UQ?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Liga Joma: los clubes protagonistas - RFEA",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVFpmT0hOZXlva0JaTzZCSFB0NEUwcHQwcnpMU1luYWlFdFI4MjB2MkFXcjR2UmxHUmw2ZUVZcVBXWjJMcUN0cFVIZXlIeDRqVlNaNHJmb3pGZFpWUzFibkVJaUMxUXhoMGJPdVNxaWNoMDREck9oS1VDN01wMUpsTVpoeGc2SGpNUnk5dUJJQVZuVEVIc01DTm9IUXo3dw?oc=5",
+      "timestamp": "Thu, 23 Apr 2026 07:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "¿Innovación del Mundial en Q2 impulsará rebote que Nike y Adidas necesitan? - Investing.com México - Finanzas, Bolsa y Forex",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaWFwcWx0RjNKM19BYXRwNS1VclNiYUZoUWM1eHpHcDNQSHZNSnZpYWg1eFA3aUdEdkxJckVJYXNRQnNUQzRUc0VSa2lXcmVsUi04YTMzdHFWVHNfRXRNVDRwRlhpTlFMMmY2YTBYZUhCYU1RalozdVByUEdzdFlWMHI3VXRTdGNtU0dPa2x4dFdBU1REdzdlaUJyWWtRTlZmaXpNUkVsem8wX1lZUXNNdG03ZXJLRC13S2R6VjVNWE5JQQ?oc=5",
+      "timestamp": "Sat, 25 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nueva Zelanda Mundial 2026: camisetas Puma All Whites Aotearoa - redamazonica.org",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMC1talhLdUdKUnZDR0syYU94Umx1Y0ZVQk9EYXJuaFBpNzlIb1NMM24xRzlSbThuNGoyZWFoX3k3bEFfUEgxU3U3OWdGcjB3M2lJWUJON2lqUkR4WlM3ckVJMlRZMjlRck5VZUtGMU5aYmE4T3NQQ0w5NHlYVllldlI0OXhOQUJZLU1oVHZHQTI0Qk9XS0pSRTZLWUdIXzVDb0FHbGd3?oc=5",
+      "timestamp": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Tenis Para Futbol Nike - Jomo Kenyatta University of Agriculture and Technology",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNnA1QVB1QW9ha0poTHBGemRJUjNmelZLeVV6Qnk1TGVpck5VM2k0ZTVhVmV3enNhcDhoX0pRUmFZSXN1eTFKN3dkalZwckhyMjZEa0lSekxJcTJmRFZhLUhoNmY2aGRmYnduZFBJLWljRUZ2NGh2NXVONVBuQ1Y2NXlzWTBDX1czSmRLNVRR?oc=5",
+      "timestamp": "Tue, 28 Apr 2026 15:08:12 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Real Sociedad clinch fourth Copa del Rey title after penalty shoot-out win over Atletico Madrid - OneFootball",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2hnUTBQbmJpb3JDMm9sRzRZcDBVbHVwcF9FeFJVWEhQVmlhWXBMOXBoLVRDR3BQdV9IbFIzN0luYXdPYVRwS3ZEZE9KWWdNV1VaOEF4U05RRGlBTVJvbmo3ZGhvcHNuVjBKMnRaYndKTjVJN3RFMk1BcXRSU1ZoNERpdUE5VktuV3Y0MGE1TmhIR00xS3RKd0hEX3ptb0c0YnFOZTZCa2ZUdE5nSXItZzNnMXM0SDNaS3otYmVzWVBUc29GeFhTcmtVVGFFZHhacXlpSV8taw?oc=5",
+      "timestamp": "Wed, 29 Apr 2026 01:53:19 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Puma lanzó una colección de botines especial del Mundial 2026 - Marca en Zona",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeHA1OEFvWHVoLUVfTmE1cVdjZHJGOERmNnoxRnlobEJkaGxFQkNBemktd0RtQUZLN2JaR1g2NGRLNHgzdnozaktsUVBBdGJQTjh2TlpNc3hET2dreFdWZGxGN3o3dk5MblV4amJIa0RzdjR5amxiM0Fsdjhtc09yaWZaWUdOSVVmYllvcTlsdDRVVmtpOXhMR2dTTQ?oc=5",
+      "timestamp": "Thu, 30 Apr 2026 14:52:14 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Puma Rodríguez tem temporada com mais gols na carreira e é artilheiro do Vasco no ano - ge",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbGJrSU1HQy1PMHBMaGd5c1J6VDZhUF9wMU9Qbm9HYnExcGFneWFkNXYwS1hySHUtNkJwUXFubGNtcXBXOFFZbEFSRDNJaHlIZXpDdkxjR1pHdmZzemcwREF5SjNDS3J2cVEtR3MyNmh2OFJrRjNaX2JXWXVRamkzLWY0Q1Z6WnA2ZjE5TnJEQ0VJMTNSMk5OdGRtMjh4a0FjbURDaXBWNVpaNWplWTBTcVgzekEwVThfS1otQ0lGakZXeWhGRW9kX1RNd2NKMGxrYUhuSkNFYWFpV0t3Q2pVZjJEajFTQdIB9AFBVV95cUxNVXZZMFRSRVNQd1hidlotLWNsXzlQVXRTMFhTSC1paWFRV1VrZDJPalgwbkI2LU5yZ19tMk83WUh3Q1docmgxbUdwM2licktrSS1YUV95MkhoSWU5X2t6bTN2ckFHbTFUSGh3LTV1WHZqanQteWxmSzFZbi1IVmtPWEdyRVpaN2QyUDRlWW5aUzJlZHFaeElydjlvaUg5ZEs4Nnh2MnowVmdWeXZxTi1hZGFISmRneWdNQ0M2UDkwZ0Q3dG13VXVXRlFuQll5WXVBUUxSMDFMQmdnNG1wYzlwTnZtWlp5MXVLb1BQTG5seUpwTkFf?oc=5",
+      "timestamp": "Sat, 02 May 2026 13:00:35 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Adidas vs. Nike: el impulso del running y el Mundial redefine la batalla en las bolsas - Bloomberg Línea",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZE94QVVwRW9lblM2WDRhX1hvbk9UTDJzSlFmZTE0dTlDSnRJRTlJUDVnM0dXaEw5U2lKYjRMV3o3N1BZMnlyc0lOUklNRkZlZXlEOG1OcnZwYlZDdHdZeG41R2ZxX2JGZzVObmxmV1JPUmc0MkRVdmVfQUtzOUlQUklYdGR0dFJJQzFRZ0t5Q1V6V3FINGZCNEdiSkR4cHIxV3JLV3JSRWZic3pTMG5rc2x6ak13REVHV29XRkJSWjVleW_SAdcBQVVfeXFMTnljQ29oZDJ4NDM2SnJuWUZCNjRkSDZVa2MzNFcyWXdxRmlpU19IcEItNHlaOHhjLTRhNm9iYWZGanNWQmZRYzZYYzlCR2x6RU8yZWhMZ1BySGRsY0cyQmF2SmtiVGNncXQzVnJDbW9Ib3FfajZib3k2ZzZOa3J2M1c1V2UwWmY3SkdyZ0xYVzJXYXBFQThESVF6d0pHQnhMT1NhSmV1bnYxM2JJRHUwZlRSaHJ5Rm5GdC1WVG1sX3dXVE1KVEZoa0d4c3I5cGlkUnlJTUNwLU0?oc=5",
+      "timestamp": "Sat, 02 May 2026 11:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Cómo Adidas aplastó financieramente a Nike apuntando al Mundial de fútbol - Rosario3",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTGF3c2w3T0p1eEJGem4yWjlyYlF1SUU4cEtJY25XbEpIN3lKbV84VmpyNWYtczI5WjNkbFdxWGFqWk0tNHJXb3NqSW85YVRORXpIQWplSFlmSHdOUlNsNjNObHBmQjZTUzFscEpBc2xJV1NuUXlNMDZMa3FUckhCMHBQRWFvTzN3bkRRNWxhMmdjeHhrYmFoNnNBZUVqS1UyYS0wY3BiaTRveTZWTUN6U0l4a3JJRVZULVJXcjRONXNPdERmaFFOdUV5UlpNcE5QYkFWRExfZmdCSm15Y2cyMndnMGdRX1FZZ3k5X0FNMVluWlJYTDkzY00yZFlIRTNFbkE?oc=5",
+      "timestamp": "Sat, 02 May 2026 23:32:29 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Corre Turbo Edição Especial Maratona de Porto Alegre Olympikus – R$ 699,99 (1) - webrun.com.br",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ2JPWkVUeGRzZ3QtU0ZkU0JtZERiZHZKcFhsMC03MHFpS0tELWNPRGk4SVlfclRLYVcxWjhqOW1pRVVSVjcwWDdwcnN4cWozREQ2czl3SEh0YW80cXhhckFnRGpFV0ZaNzZPdTM4YUZYZWdCN0V6U2NQSE1sWVU1ay1aN1h3OW1LLU1DbGtQV3pZY1hPNG9pVXQ4RWtBTnBHMGFhZU90V3FPZlppOUMybm5Vcll0amgycXUwN2U5N2YzVWY5bnZHd1R4Rk9heDRIMENraXA0VXdMaW04MHA4THF3WWU?oc=5",
+      "timestamp": "Mon, 04 May 2026 07:00:00 GMT",
+      "brand": "Olympikus",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Copa do Mundo 2026: confira os uniformes das seleções classificadas - olympics.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5obWtCMk9WUEhsU0hzemxLZDB3dW96cHlVNERoSlBScm04U0ZBdTh0cE9DT05fa1d3UXhKUG5aWjh1V1R0Q0F2OEpPNmJUSXZSUEJTZlktdVJJUnZDNDZxT1BUc240bl9BUWttazgwYnYxcVp5NDF3eWJmS3JMa00?oc=5",
+      "timestamp": "Tue, 05 May 2026 18:14:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike, Adidas e Puma vestem 77% das seleções na Copa de 2026; veja números sobre a guerra comercial - Estadão",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLXE1c0lEV1h3eVRCdVVkRTNZQllERDZOTTRRUld5cmdUcUpiVmQ3Tnh2dXp4NnJSc0lreDJ3WVdIbVpRcWZDUG1VN0U1aHMwRWFkMUJEaFVUUUgtSWpUNUc3OVM3R0NmNmtja3ZPMHA4R3cxTGJyMThERFc3QW92N0tib05GRXgtS2hVYkhPRkI2ZktpWXB2T3prY1RVVm51UGRyWjRNRkF5OHFKZTI5VWVxTWpXem45UHlHYjVfdkY5OWg4NHBjTzg1MEg3RWNBWnRDSldQONIB3AFBVV95cUxON2E1LVlXbGxFcktOT3pKNnZ6Q1Mza2JjMmpPVl9nSWhlaGpVY3UzQ0RWUlhReUFGejNSTUNVME1Gbl9ZNk15eUVUMXRCbjAzQkp2d3dkOThtTFpheWpua0dzeTlBOFlOSGxvcHAyX2VkcHNRM0lOX3djWUtyLUV6NnJIYkk5YjZNTm1HdkJaWEU1aTZza25JMlFZckRuRFBSeC1tYXd6SVBmT1RsejdlLTJVNFNTcVBlQmhJU0pWTDNiLURKX0RPNVN3S2hNNnNUTnFQdEZXcjVXd0xE?oc=5",
+      "timestamp": "Tue, 05 May 2026 13:32:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Las marcas que visten a las 48 selecciones del Mundial 2026 - Sports Illustrated",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHpndTdUbDZzWXFKMExpX0pkd2oteV9VNlh3RHJzRV9FUVpzQmlBRUVSN3FYcTdLTjB0QkNWN0g2MERzektZQWpYWnp2WWtqeTlpTEpKQW5RVnJqZlRNU2RpUnNfaFJiUHhHcjlFUHlZbllVR01jSkwzT2g1TXJzcW9Ka3RkNlhaSUVLeWJlUVh0Yjl1eWc?oc=5",
+      "timestamp": "Tue, 05 May 2026 16:23:51 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Las marcas que visten a las 48 selecciones del Mundial 2026 - Sports Illustrated",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHpndTdUbDZzWXFKMExpX0pkd2oteV9VNlh3RHJzRV9FUVpzQmlBRUVSN3FYcTdLTjB0QkNWN0g2MERzektZQWpYWnp2WWtqeTlpTEpKQW5RVnJqZlRNU2RpUnNfaFJiUHhHcjlFUHlZbllVR01jSkwzT2g1TXJzcW9Ka3RkNlhaSUVLeWJlUVh0Yjl1eWc?oc=5",
+      "timestamp": "Tue, 05 May 2026 16:23:51 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "PENALTY CORNER TV DA EL SALTO A TELEDEPORTE Y RTVE PLAY CON SU ESPECIAL DE LA COPA 2026 - RFEH",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb013MzdiNEF0ZEJfNnFWeWdLeWpsRE1MMTB4UnNubk5MZ0RadEtQTXVUcTZqdldWRUxHWEhjTDBvX0hfbm90Q2s1YzgtVWhma2h3RWZRV2J5dU56XzZEQUppMWNLQ3BSTkUwdTVuTGpreE5od1ZJSl9tQ293Z01EVW9oLWRnMUVpRWJWTUN0N2U2OHowZVBoTnR1ZXB3NXhGUU41QXdYTXlNWUda?oc=5",
+      "timestamp": "Tue, 05 May 2026 07:40:08 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Confirman un error irreversible en las camisetas de Francia, Brasil y otras 9 selecciones para el Mundial 2026 - bolavip.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQTR3OUJ1bS1MS3hZME9oSzVfcXA1Y29ZeWNIU3hfN1hhUEpPTUNBU3JocnlndWpRVUxreS1hTjZ2SExYUXRZTW5LVUxYU3VXX1VQdXRMZ3FZTENLMU5JbkEzQUROUGxRb3d0N1BsTm1iaTFYdm5tOUtwS2pOY0JrYUtQQXNMLXNsa2xORWRGV0VYcUZSenNXTDk0bUxOcGZiYjRoMDJIUXNwNkZ6Tm4xSEVLaWJCRlc2VzA0VTJJYWJnOG9ZYmRaSzZfUjhQVU1MZ0JmSHNiVdIB3AFBVV95cUxQS0xrUmxndHBTREVqUUlUU2JUZDFtZGhXVXlGQVhDQW1LM0llSGt1cjRXb1ZzQ3pDTDJUbHZYRC1jU2FpOVdDVU1HbU5BeWlzVFQyS1c3Q18xVHBYM1gyMEhlTTNVcGNxN3Z0bzRZNm5UenpLY21IbW93YWhPSTVxU0dVSlUxUl8wbjJURS1lZE5VbUpGcUJxdzliNVpNeEZGVENUdWNySTR2THo3SUUyaHB5a0IxUm9BdTNwME5vQndQNFpwR3FQdjhSOEtpMGVzdzZiNHdzZlBnd3hL?oc=5",
+      "timestamp": "Tue, 05 May 2026 19:53:56 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Palmeiras y Puma presentan camiseta de arquero homenaje para la Copa - OneFootball",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEMwZ3BVYk53ZWxGU3lyTENMVUt3RnhXZlRza1ZiTEY2SHc3R3A0R2hxZFhoaHBraUtrNy1ySEdSR3ZmY0tyUHFObVd5dDZFOGMtWDBzZ3hGN3VtdEs4MXlFNzJSMEdhb2prSzliRHEzOXUwMzNmYnBoSlNwYmp6LVE0Mm5NQW5vYmkybEl0c1B2ak5LX240SWhmYlJSNTlwSlV1MEthT0o3cWJfaFZxLXV2TXhLcUE?oc=5",
+      "timestamp": "Wed, 06 May 2026 06:12:42 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "📹 Tempers flare and penalty miss in São Paulo win in Copa do Brasil - OneFootball",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlRYb2ZFLUxwaG1nRm9ISGlmX2c1SEhWdUdGUGJXVHJ5aHdPRDNhekNLNER3YV9abC1UamN1OXZpX05iVHBhYktwWGtJQVI4eXhSX24ySnFMVkR0OUtTN3ZjWmZpR2xHZ0FDd2c0cGVzNThwRTZrc3c5QXFianpLZTJnd2s4Z2RZSVpCRW9hT19TSF9MX1lrQzUyV2RjNDFJZ3NFaERTTGNDT3htN2VV?oc=5",
+      "timestamp": "Wed, 06 May 2026 08:06:12 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nuevos Tenis Nike Futbol 2016 - Jomo Kenyatta University of Agriculture and Technology",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWJwMUJYOTQ2bTRCVF9LZDh5a1RBZVJDckVta09WT3dKRm5YWFkwOVpyTDVnbldHR1RydE9lWUpNcHJ5Q1dNcTFIQnpiWTF4djlmQ052NlhhQ0RUVnNwMGZpaW5NNWxTLUFtM21oZF9qeGJYcFVGOFVyenNQcndaaFlYcEV2Z0s2UDVSbFJxb19kd0FrcXcySA?oc=5",
+      "timestamp": "Wed, 06 May 2026 16:11:57 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "📸 Nike presenta las camisetas del Mundial de Francia, Brasil y compañía - OneFootball",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSzFlWVB6eWVzZmZRUGd3Rlk0OS05R2t0WExPS2F1a2RSeVREUER6cTQ4U0ZBeThadzE2YkMtenVHWlMza19EbUVEaUllTGQtNmpUUzB2NlZudTg4YmRIWFdlMHh5RzIwRmJBNzFwOFJSeVpSTW9DSUxjLTA2VEhUNXZ2WlFIR2RNQ0RDdGEwOXhnM3A1SUQxX3dBWFlSWmdsTWUteG1hTU5oTXo0eV9PcTNrWQ?oc=5",
+      "timestamp": "Wed, 06 May 2026 14:18:05 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Mientras Nike paga 18 millones a Cristiano Ronaldo, la fortuna que Adidas da a Lionel Messi - bolavip.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbS03TGJnYURsT3FxTGw5MVFwV2lDaE5HMlVldWNJRG52Rk96aDlHSWdGU0NONFRPQWdCdWd5SGU4YzBxMlZHZWRMZ1hIcDdjS3JsYlRmbmQwcjRLdHRMcERqY29tdVNrMl9sVHRvQ0U3UGR5TnhuekJxSTdIYlI5UFRBOGdlV0J6OTZYTFc3ZHZDc2hOSFNlY3hrckZOUEVXQ3l5NXd1YUxIQ2YyZy1jMWNDbzdNSWVQbkJDOFpPNWlPYV9OSnRNWlJTRE1BNm_SAdQBQVVfeXFMUDVsZVBFZno1WlRaVW0zRTFBNDFEdVVfbC1jWjJZV3ZzZFZteWlPN3ZQaUFlWVBEbFFqdlhTNkZqZGlpd0lIX3JRUHR0ZUEzcHpfWmRZOW9DaFVsWXFjaUpOMWRybTVDQm1lc1plWGFlUFEwbjNVR3RZaTRGRWFqTDJFYXVkUGhlWWs2YnM4UlZoWmZtaXh4dnFBRVg5QS1vcmpXcHNfU2w3TU5GNW5TYmc3em5ybGtaUkpaOTBrTElodWNqVFBHQy1vSUI5QWNuZnFFc3g?oc=5",
+      "timestamp": "Wed, 06 May 2026 16:57:56 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 | El Colombiano - El Colombiano",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdFo5UzVmS0UxRTFoSVZ2VXVIckVtdnh1MXJZa0tJdmFBeU9aOHJuT2d4dm5CRjBSWVdiWG5lbDhiekJIaHVTN0hSLVNEQnJxb2FQMDBoOUQ0LWhESkJIUk1uSnFwdzF3MWZ5YVl6WXRSdXZoOFBvRDFvWlVlRjd6bDBHNUV1MnF2NWpmWEsyZE5YVHpINHZZVzRKTdIBoAFBVV95cUxOVms0SjVPbkFKYU9PSWRoclpWRjVoNDZIaElEMXVIUWxzOWJrM05PZlJ5ZGpQQXFmanRXeGRaaS1RU29WZVNXYWZlZkR0VW5XVjdlUlp6V2VGMTlTNXAtWDM4MEdtUDE0TjNhQlBFRFNyTDNaNUljWmlQVW5iNndYeXpfcEZGekFIWFBOaXVaNjB5R2ZJRE5WZmJzMnE5R3VI?oc=5",
+      "timestamp": "Wed, 06 May 2026 19:55:04 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - El Periódico Mediterráneo",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
+      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Deportivo Táchira Wins in Penalty Shootout vs The Strongest in Copa Libertadores 2026 - beIN SPORTS",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQVVKRVJCMnZhMGtWWEdMR2NxMm82WmpWM0xHU3dhZi1BWEVoMzJhRjRNR3VnYnNPckthdVpVUURpdzVpY3N1eGgyMV9lZFRGeEhnS3Z0TW5FYU5VMEVaaURHYlJXdWxFX2c3N3FVVUpGdlZNaFR3YjRtVk5EZmdPUTNBSW9HOVJDU0hBUXNidGR2SmphUDI2amZISW05TU9yR3lsdTFHMjl5V1BVa2R2MHFRaXJtZHd1NHctb1EzNU1fcFd6SWFtQlFEaTN4WmpPMEUtU1ZrcHJ4WlpSU2dDZ0J3bUpsY2w4MWtpWFZTaFBsZ2hGYjVGaWVJQ1dOTWlMbDNIQ2UwNTRaUl9Wd3ZtSlNR?oc=5",
+      "timestamp": "Wed, 06 May 2026 06:54:17 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Rosario wins despite Di Maria penalty shocker - beIN SPORTS",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeEpiYVVZblVPR3J3R1JaT1FkYzhFcWVlSlg1YnB3cDk3VFptWE5oWFpnT0YxQUdhaE55T1N3eF92TTVTY3FkT0x5Q3NYZndRSFl6ZjJxYlkxb09CZ2JBVTFjRzdtWkZ3MWxDNjBTSUZ3QVpVeGEyUFRrQ3BzR0RhQTVIdkIyZlVWSG5RSWJjWHhkeUxNcWR2MDAzZnVzNEZEMjVDT2ItaUFlazRNZTA1OXNBTEdUbGh5c2dYT003SWdtTXI3YzZleTZkenFBc0NP?oc=5",
+      "timestamp": "Wed, 06 May 2026 01:55:14 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 | El Colombiano - El Colombiano",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdFo5UzVmS0UxRTFoSVZ2VXVIckVtdnh1MXJZa0tJdmFBeU9aOHJuT2d4dm5CRjBSWVdiWG5lbDhiekJIaHVTN0hSLVNEQnJxb2FQMDBoOUQ0LWhESkJIUk1uSnFwdzF3MWZ5YVl6WXRSdXZoOFBvRDFvWlVlRjd6bDBHNUV1MnF2NWpmWEsyZE5YVHpINHZZVzRKTdIBoAFBVV95cUxOVms0SjVPbkFKYU9PSWRoclpWRjVoNDZIaElEMXVIUWxzOWJrM05PZlJ5ZGpQQXFmanRXeGRaaS1RU29WZVNXYWZlZkR0VW5XVjdlUlp6V2VGMTlTNXAtWDM4MEdtUDE0TjNhQlBFRFNyTDNaNUljWmlQVW5iNndYeXpfcEZGekFIWFBOaXVaNjB5R2ZJRE5WZmJzMnE5R3VI?oc=5",
+      "timestamp": "Wed, 06 May 2026 19:55:04 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Paraguai na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmRfT24yc0EySXhWekt6dks1TFhXWkRJTWVXRldHZkM0SXVURDRYMUdUV21fSVFLd3BoVndaUng0MkNKWWtJNE8tUG5OUTJNVmxGMlNtc0dGNFJzMHhObDNuRmE3Mk94a0Joa3R1X1pnNlpLUlVKMTN6WmF2UlFCRk9tTXBRRTF5SXBsbWpHal9zSXNOWjBOb084NkwwT3hsaTlfZXh5VU4tN1c5UWUtaw?oc=5",
+      "timestamp": "Thu, 07 May 2026 18:31:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Brice Samba saves penalty for Rennes against Angers, reassures Didier Deschamps before the World Cup - OneFootball",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS1JOUEZLMm4xUGtxeEZUOHdWdUhTMHRSVUl6bDNnS3h6UzV4SmlnN1lwWTgySmFMYTQ3ZzlUM2hneEZPdWxCZzBBOTBxOW8xSUxLX3pSRWlFRTZHZlM4QjJvd1Q4SER4VHY5U2pHRlVzWmo1UFREbHE1N2E3ejVSODc5TndtZVRfeU9wU3ZabFg4ZW5LUlhONGNvMGJ3THFWT2R5eHBDMFhRd0NkOVEtbFNRbl91VmVrX1N2QnlaWDdMa0lLSmZ4ajBBZDNHMTJ5ck9vUTFJX0ZFbTNNTzQ5dg?oc=5",
+      "timestamp": "Thu, 07 May 2026 14:32:03 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Las colecciones de Nike y Adidas para el Mundial de 2026 son muy similares - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVBpTFJmRDNtSVQ4SnlMc19xQnlDR0lLZ2E0OFZEX2RMX2dvU1NMaFdTN0tudVVLQTQ4blBNNWZxYVQtZGRrbnMtakF5amZJaHJXanpfZTBhR0JrOXVNY3RpcU5lbXVMdk0tcjVfTDZ5YzUwRG5yS3FGZFE3dlVvWTItdjAyUk8xUjc0bC1NREpUU25mQXQwcGFJSG9NMmFKWjRTSHJ6a1Z5aEZJeVZ4N0Q0RQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 05:03:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "World Cup 2026 kits spotlight Adidas and Nike duopoly as Puma leans on Africa - OneFootball",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGNZVVUyb3pzN3h4R0w1amM5OWkyN0RtSFBwTHZfd2xUZDA5YzFUU0VCelRpVVVHLU43dzBadUprYmZEcjdYRTItaDgteTRjNEUtOExsOUNBUXNhU1B4VnBoLUdyUmx3SWNFNVNDX1ZwT3FHcWVQaGY4ZUFLTE5qQnNKeEQzWWQwSGxOTEFGR3N6SE9CWl9nRHdya044dVVTV3Zxdm1aZzRyRzhEdW1TOU5hYXlJNjlUT3ZDU2hqMA?oc=5",
+      "timestamp": "Thu, 07 May 2026 11:15:02 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "‘Puma’ Carranza motiva a Universitario antes de su duelo contra Coquimbo Unido: “Los chicos saben lo que tienen que hacer” - Infobae",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWXRoZFRrbVE5TU84Wl9wY2hISk9WVzFWbWpoeklzSEJBU2NmV2VkcGsyRU1HTHBncTJEMUtNVjZ0WXBFb2hhQldITDlQZGkwR3NuZzlvYTk2anItUzB5cEUwVm1jbjN0MXhSN3kyUm91djBjS1VvNkdPUFZfVGE2dXp5LVVIUFVYY21jV3d6WlQ4WEdUMGw1YlNKR2g5ZWRuZXhEUTRqcF8xUnp6VEctam9yUGlFMFZmRnAtZmlkeTc5cnZKZVpZQ1RXWWtBN2pTVUdVa2RvM1RLSnFqejNERzdlVzluSE5RTEdoWi1aZzJBV0ZpUWljMEkxY9IBlgJBVV95cUxQbGVkanRmclFXb3o2bTdranMyeTF5ZFV2RTkzSFFBQUpuWjQzY3ExbzAyWnVocUlCRkVIeEFWYTBLdHl5eVNOTnQ2WlVCZnRLcUEydTVjaUh5MDM3OFpsQlFzcm1pRGc5djRUU0tuXzNGaFN6OWdVb0gwdE0wUEw4UjJHSVYwaFlMWWROcWJ5VzJJaHB3ZjEzWjFhQTZPZmxoMy1SeDlIdnRuT2RjX1p4ZDhfOFc2My1pb3hvVThITHBnNzJ2bk56b2xKcDg1VWVJdGJZdlNoSVBCM3Fic1Z1NmkzYnZwWmxCQW55ZTZpemNDbDZIRXJ3dXhmTUgtSlRoc0s5NC1IS2JYN2hlSVVsaE84eWZYQQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 02:34:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Adidas, Nike, Puma y una 'batalla' mundial: \"Vivimos en un duopolio\" - MSN",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSkpWV0NiSWdUa3E4dVNSWWRQanpxZHkxWDBZc00yV29EcC1Cb19WME8wSGEwbzluM014VDR6Q1JrUDNNTFZFbnh1X3prS3YtbDJOTTh6VmJha2FyZVFKSzF0NFlJbklfSHdVVHU4Y1hMNkI3Yks3SndRUEM1UzdBc0pGYnkyZ3JiLVdGRWp5eDlqWkJBMmdXY2UzU3Y0eHZ1OVplNF9lR2s3R1hSaThaX0JKNGpZM1VVbmxNRWEzTnc?oc=5",
+      "timestamp": "Wed, 06 May 2026 21:46:14 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Camiseta Nike España Baloncesto - Jomo Kenyatta University of Agriculture and Technology",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTJZOWktejZIWnBiN1NObTFXdlJRdlFQNGxBOFU0YW0xRnBZUkpDQTRQNHpYU3VWZndxZDJLN3M5aDRYZjNnbnBjaTRTbktqWWl1RmxKRkR5NkpsbUJBVXIxd2QxMkczZ0lvRFhON2pXeWM3dkJISHhfV290LWNuSkpKZnctb2t4WjF3QUk3dWRzYmlxdWUwVFdOVWd1VXk2WlE?oc=5",
+      "timestamp": "Thu, 07 May 2026 12:35:20 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "08.05.26 - Guia de Compras: extratora, kit Copa 2026, fone Samsung, tênis Olympikus - UOL",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40OTJ5TXJWOVBpMThqcUpWdWpheXI2SXFhNzU3LUJ5Ul81NjFZeTY3Qi0tckNWQ1JyY0NQc2VNMWNzenY0TVBSNV85eC1XNUZQOGJBTGdqMkVHWi1wUWdBZ21sTUFkbVlTNTA5bDJPZGJ4dGJwTEVUUmt1Zzk?oc=5",
+      "timestamp": "Fri, 08 May 2026 07:22:39 GMT",
+      "brand": "Olympikus",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    }
+  ],
+  "search_interest": {
+    "global": {
+      "labels": [],
+      "series": {}
+    },
+    "by_market": {}
+  },
+  "wikipedia_pageviews": {
+    "Adidas": [
+      {
+        "date": "20260310",
+        "views": 151
+      },
+      {
+        "date": "20260311",
+        "views": 151
+      },
+      {
+        "date": "20260312",
+        "views": 157
+      },
+      {
+        "date": "20260313",
+        "views": 184
+      },
+      {
+        "date": "20260314",
+        "views": 180
+      },
+      {
+        "date": "20260315",
+        "views": 160
+      },
+      {
+        "date": "20260316",
+        "views": 146
+      },
+      {
+        "date": "20260317",
+        "views": 145
+      },
+      {
+        "date": "20260318",
+        "views": 205
+      },
+      {
+        "date": "20260319",
+        "views": 163
+      },
+      {
+        "date": "20260320",
+        "views": 284
+      },
+      {
+        "date": "20260321",
+        "views": 230
+      },
+      {
+        "date": "20260322",
+        "views": 235
+      },
+      {
+        "date": "20260323",
+        "views": 163
+      },
+      {
+        "date": "20260324",
+        "views": 211
+      },
+      {
+        "date": "20260325",
+        "views": 180
+      },
+      {
+        "date": "20260326",
+        "views": 180
+      },
+      {
+        "date": "20260327",
+        "views": 157
+      },
+      {
+        "date": "20260328",
+        "views": 200
+      },
+      {
+        "date": "20260329",
+        "views": 193
+      },
+      {
+        "date": "20260330",
+        "views": 152
+      },
+      {
+        "date": "20260331",
+        "views": 171
+      },
+      {
+        "date": "20260401",
+        "views": 173
+      },
+      {
+        "date": "20260402",
+        "views": 135
+      },
+      {
+        "date": "20260403",
+        "views": 141
+      },
+      {
+        "date": "20260404",
+        "views": 146
+      },
+      {
+        "date": "20260405",
+        "views": 194
+      },
+      {
+        "date": "20260406",
+        "views": 160
+      },
+      {
+        "date": "20260407",
+        "views": 198
+      },
+      {
+        "date": "20260408",
+        "views": 171
+      },
+      {
+        "date": "20260409",
+        "views": 211
+      },
+      {
+        "date": "20260410",
+        "views": 192
+      },
+      {
+        "date": "20260411",
+        "views": 181
+      },
+      {
+        "date": "20260412",
+        "views": 189
+      },
+      {
+        "date": "20260413",
+        "views": 183
+      },
+      {
+        "date": "20260414",
+        "views": 214
+      },
+      {
+        "date": "20260415",
+        "views": 203
+      },
+      {
+        "date": "20260416",
+        "views": 189
+      },
+      {
+        "date": "20260417",
+        "views": 194
+      },
+      {
+        "date": "20260418",
+        "views": 139
+      },
+      {
+        "date": "20260419",
+        "views": 176
+      },
+      {
+        "date": "20260420",
+        "views": 191
+      },
+      {
+        "date": "20260421",
+        "views": 186
+      },
+      {
+        "date": "20260422",
+        "views": 218
+      },
+      {
+        "date": "20260423",
+        "views": 152
+      },
+      {
+        "date": "20260424",
+        "views": 156
+      },
+      {
+        "date": "20260425",
+        "views": 186
+      },
+      {
+        "date": "20260426",
+        "views": 221
+      },
+      {
+        "date": "20260427",
+        "views": 185
+      },
+      {
+        "date": "20260428",
+        "views": 193
+      },
+      {
+        "date": "20260429",
+        "views": 214
+      },
+      {
+        "date": "20260430",
+        "views": 161
+      },
+      {
+        "date": "20260501",
+        "views": 294
+      },
+      {
+        "date": "20260502",
+        "views": 208
+      },
+      {
+        "date": "20260503",
+        "views": 169
+      },
+      {
+        "date": "20260504",
+        "views": 192
+      },
+      {
+        "date": "20260505",
+        "views": 179
+      },
+      {
+        "date": "20260506",
+        "views": 166
+      },
+      {
+        "date": "20260507",
+        "views": 206
+      },
+      {
+        "date": "20260508",
+        "views": 156
+      }
+    ],
+    "Nike": [
+      {
+        "date": "20260310",
+        "views": 131
+      },
+      {
+        "date": "20260311",
+        "views": 144
+      },
+      {
+        "date": "20260312",
+        "views": 162
+      },
+      {
+        "date": "20260313",
+        "views": 179
+      },
+      {
+        "date": "20260314",
+        "views": 163
+      },
+      {
+        "date": "20260315",
+        "views": 138
+      },
+      {
+        "date": "20260316",
+        "views": 131
+      },
+      {
+        "date": "20260317",
+        "views": 149
+      },
+      {
+        "date": "20260318",
+        "views": 156
+      },
+      {
+        "date": "20260319",
+        "views": 148
+      },
+      {
+        "date": "20260320",
+        "views": 206
+      },
+      {
+        "date": "20260321",
+        "views": 143
+      },
+      {
+        "date": "20260322",
+        "views": 186
+      },
+      {
+        "date": "20260323",
+        "views": 195
+      },
+      {
+        "date": "20260324",
+        "views": 209
+      },
+      {
+        "date": "20260325",
+        "views": 232
+      },
+      {
+        "date": "20260326",
+        "views": 241
+      },
+      {
+        "date": "20260327",
+        "views": 177
+      },
+      {
+        "date": "20260328",
+        "views": 140
+      },
+      {
+        "date": "20260329",
+        "views": 134
+      },
+      {
+        "date": "20260330",
+        "views": 161
+      },
+      {
+        "date": "20260331",
+        "views": 152
+      },
+      {
+        "date": "20260401",
+        "views": 159
+      },
+      {
+        "date": "20260402",
+        "views": 153
+      },
+      {
+        "date": "20260403",
+        "views": 126
+      },
+      {
+        "date": "20260404",
+        "views": 128
+      },
+      {
+        "date": "20260405",
+        "views": 148
+      },
+      {
+        "date": "20260406",
+        "views": 214
+      },
+      {
+        "date": "20260407",
+        "views": 144
+      },
+      {
+        "date": "20260408",
+        "views": 151
+      },
+      {
+        "date": "20260409",
+        "views": 188
+      },
+      {
+        "date": "20260410",
+        "views": 140
+      },
+      {
+        "date": "20260411",
+        "views": 173
+      },
+      {
+        "date": "20260412",
+        "views": 153
+      },
+      {
+        "date": "20260413",
+        "views": 146
+      },
+      {
+        "date": "20260414",
+        "views": 170
+      },
+      {
+        "date": "20260415",
+        "views": 172
+      },
+      {
+        "date": "20260416",
+        "views": 137
+      },
+      {
+        "date": "20260417",
+        "views": 158
+      },
+      {
+        "date": "20260418",
+        "views": 130
+      },
+      {
+        "date": "20260419",
+        "views": 117
+      },
+      {
+        "date": "20260420",
+        "views": 132
+      },
+      {
+        "date": "20260421",
+        "views": 146
+      },
+      {
+        "date": "20260422",
+        "views": 121
+      },
+      {
+        "date": "20260423",
+        "views": 124
+      },
+      {
+        "date": "20260424",
+        "views": 155
+      },
+      {
+        "date": "20260425",
+        "views": 136
+      },
+      {
+        "date": "20260426",
+        "views": 177
+      },
+      {
+        "date": "20260427",
+        "views": 178
+      },
+      {
+        "date": "20260428",
+        "views": 140
+      },
+      {
+        "date": "20260429",
+        "views": 168
+      },
+      {
+        "date": "20260430",
+        "views": 135
+      },
+      {
+        "date": "20260501",
+        "views": 126
+      },
+      {
+        "date": "20260502",
+        "views": 117
+      },
+      {
+        "date": "20260503",
+        "views": 161
+      },
+      {
+        "date": "20260504",
+        "views": 123
+      },
+      {
+        "date": "20260505",
+        "views": 170
+      },
+      {
+        "date": "20260506",
+        "views": 128
+      },
+      {
+        "date": "20260507",
+        "views": 154
+      },
+      {
+        "date": "20260508",
+        "views": 118
+      }
+    ],
+    "Puma": [
+      {
+        "date": "20260310",
+        "views": 1
+      },
+      {
+        "date": "20260313",
+        "views": 1
+      },
+      {
+        "date": "20260318",
+        "views": 2
+      },
+      {
+        "date": "20260320",
+        "views": 1
+      },
+      {
+        "date": "20260323",
+        "views": 1
+      },
+      {
+        "date": "20260325",
+        "views": 1
+      },
+      {
+        "date": "20260328",
+        "views": 1
+      },
+      {
+        "date": "20260405",
+        "views": 1
+      },
+      {
+        "date": "20260407",
+        "views": 3
+      },
+      {
+        "date": "20260408",
+        "views": 1
+      },
+      {
+        "date": "20260410",
+        "views": 1
+      },
+      {
+        "date": "20260413",
+        "views": 1
+      },
+      {
+        "date": "20260420",
+        "views": 2
+      },
+      {
+        "date": "20260424",
+        "views": 1
+      },
+      {
+        "date": "20260425",
+        "views": 1
+      },
+      {
+        "date": "20260430",
+        "views": 1
+      },
+      {
+        "date": "20260504",
+        "views": 1
+      },
+      {
+        "date": "20260507",
+        "views": 1
+      }
+    ],
+    "New Balance": [
+      {
+        "date": "20260310",
+        "views": 62
+      },
+      {
+        "date": "20260311",
+        "views": 67
+      },
+      {
+        "date": "20260312",
+        "views": 69
+      },
+      {
+        "date": "20260313",
+        "views": 56
+      },
+      {
+        "date": "20260314",
+        "views": 65
+      },
+      {
+        "date": "20260315",
+        "views": 77
+      },
+      {
+        "date": "20260316",
+        "views": 92
+      },
+      {
+        "date": "20260317",
+        "views": 106
+      },
+      {
+        "date": "20260318",
+        "views": 138
+      },
+      {
+        "date": "20260319",
+        "views": 128
+      },
+      {
+        "date": "20260320",
+        "views": 126
+      },
+      {
+        "date": "20260321",
+        "views": 87
+      },
+      {
+        "date": "20260322",
+        "views": 100
+      },
+      {
+        "date": "20260323",
+        "views": 62
+      },
+      {
+        "date": "20260324",
+        "views": 62
+      },
+      {
+        "date": "20260325",
+        "views": 44
+      },
+      {
+        "date": "20260326",
+        "views": 69
+      },
+      {
+        "date": "20260327",
+        "views": 65
+      },
+      {
+        "date": "20260328",
+        "views": 51
+      },
+      {
+        "date": "20260329",
+        "views": 65
+      },
+      {
+        "date": "20260330",
+        "views": 45
+      },
+      {
+        "date": "20260331",
+        "views": 41
+      },
+      {
+        "date": "20260401",
+        "views": 79
+      },
+      {
+        "date": "20260402",
+        "views": 69
+      },
+      {
+        "date": "20260403",
+        "views": 77
+      },
+      {
+        "date": "20260404",
+        "views": 63
+      },
+      {
+        "date": "20260405",
+        "views": 54
+      },
+      {
+        "date": "20260406",
+        "views": 54
+      },
+      {
+        "date": "20260407",
+        "views": 49
+      },
+      {
+        "date": "20260408",
+        "views": 52
+      },
+      {
+        "date": "20260409",
+        "views": 63
+      },
+      {
+        "date": "20260410",
+        "views": 44
+      },
+      {
+        "date": "20260411",
+        "views": 65
+      },
+      {
+        "date": "20260412",
+        "views": 73
+      },
+      {
+        "date": "20260413",
+        "views": 58
+      },
+      {
+        "date": "20260414",
+        "views": 47
+      },
+      {
+        "date": "20260415",
+        "views": 60
+      },
+      {
+        "date": "20260416",
+        "views": 57
+      },
+      {
+        "date": "20260417",
+        "views": 45
+      },
+      {
+        "date": "20260418",
+        "views": 53
+      },
+      {
+        "date": "20260419",
+        "views": 60
+      },
+      {
+        "date": "20260420",
+        "views": 50
+      },
+      {
+        "date": "20260421",
+        "views": 56
+      },
+      {
+        "date": "20260422",
+        "views": 52
+      },
+      {
+        "date": "20260423",
+        "views": 47
+      },
+      {
+        "date": "20260424",
+        "views": 74
+      },
+      {
+        "date": "20260425",
+        "views": 62
+      },
+      {
+        "date": "20260426",
+        "views": 79
+      },
+      {
+        "date": "20260427",
+        "views": 53
+      },
+      {
+        "date": "20260428",
+        "views": 56
+      },
+      {
+        "date": "20260429",
+        "views": 49
+      },
+      {
+        "date": "20260430",
+        "views": 39
+      },
+      {
+        "date": "20260501",
+        "views": 58
+      },
+      {
+        "date": "20260502",
+        "views": 55
+      },
+      {
+        "date": "20260503",
+        "views": 66
+      },
+      {
+        "date": "20260504",
+        "views": 71
+      },
+      {
+        "date": "20260505",
+        "views": 59
+      },
+      {
+        "date": "20260506",
+        "views": 52
+      },
+      {
+        "date": "20260507",
+        "views": 52
+      },
+      {
+        "date": "20260508",
+        "views": 53
+      }
+    ],
+    "Under Armour": [
+      {
+        "date": "20260310",
+        "views": 31
+      },
+      {
+        "date": "20260311",
+        "views": 36
+      },
+      {
+        "date": "20260312",
+        "views": 28
+      },
+      {
+        "date": "20260313",
+        "views": 29
+      },
+      {
+        "date": "20260314",
+        "views": 26
+      },
+      {
+        "date": "20260315",
+        "views": 29
+      },
+      {
+        "date": "20260316",
+        "views": 45
+      },
+      {
+        "date": "20260317",
+        "views": 24
+      },
+      {
+        "date": "20260318",
+        "views": 28
+      },
+      {
+        "date": "20260319",
+        "views": 27
+      },
+      {
+        "date": "20260320",
+        "views": 37
+      },
+      {
+        "date": "20260321",
+        "views": 30
+      },
+      {
+        "date": "20260322",
+        "views": 24
+      },
+      {
+        "date": "20260323",
+        "views": 32
+      },
+      {
+        "date": "20260324",
+        "views": 36
+      },
+      {
+        "date": "20260325",
+        "views": 30
+      },
+      {
+        "date": "20260326",
+        "views": 33
+      },
+      {
+        "date": "20260327",
+        "views": 28
+      },
+      {
+        "date": "20260328",
+        "views": 32
+      },
+      {
+        "date": "20260329",
+        "views": 30
+      },
+      {
+        "date": "20260330",
+        "views": 35
+      },
+      {
+        "date": "20260331",
+        "views": 25
+      },
+      {
+        "date": "20260401",
+        "views": 18
+      },
+      {
+        "date": "20260402",
+        "views": 22
+      },
+      {
+        "date": "20260403",
+        "views": 35
+      },
+      {
+        "date": "20260404",
+        "views": 30
+      },
+      {
+        "date": "20260405",
+        "views": 32
+      },
+      {
+        "date": "20260406",
+        "views": 36
+      },
+      {
+        "date": "20260407",
+        "views": 40
+      },
+      {
+        "date": "20260408",
+        "views": 37
+      },
+      {
+        "date": "20260409",
+        "views": 33
+      },
+      {
+        "date": "20260410",
+        "views": 25
+      },
+      {
+        "date": "20260411",
+        "views": 36
+      },
+      {
+        "date": "20260412",
+        "views": 35
+      },
+      {
+        "date": "20260413",
+        "views": 45
+      },
+      {
+        "date": "20260414",
+        "views": 27
+      },
+      {
+        "date": "20260415",
+        "views": 38
+      },
+      {
+        "date": "20260416",
+        "views": 26
+      },
+      {
+        "date": "20260417",
+        "views": 18
+      },
+      {
+        "date": "20260418",
+        "views": 30
+      },
+      {
+        "date": "20260419",
+        "views": 16
+      },
+      {
+        "date": "20260420",
+        "views": 30
+      },
+      {
+        "date": "20260421",
+        "views": 27
+      },
+      {
+        "date": "20260422",
+        "views": 24
+      },
+      {
+        "date": "20260423",
+        "views": 41
+      },
+      {
+        "date": "20260424",
+        "views": 28
+      },
+      {
+        "date": "20260425",
+        "views": 23
+      },
+      {
+        "date": "20260426",
+        "views": 45
+      },
+      {
+        "date": "20260427",
+        "views": 36
+      },
+      {
+        "date": "20260428",
+        "views": 22
+      },
+      {
+        "date": "20260429",
+        "views": 31
+      },
+      {
+        "date": "20260430",
+        "views": 27
+      },
+      {
+        "date": "20260501",
+        "views": 27
+      },
+      {
+        "date": "20260502",
+        "views": 22
+      },
+      {
+        "date": "20260503",
+        "views": 36
+      },
+      {
+        "date": "20260504",
+        "views": 31
+      },
+      {
+        "date": "20260505",
+        "views": 36
+      },
+      {
+        "date": "20260506",
+        "views": 32
+      },
+      {
+        "date": "20260507",
+        "views": 24
+      },
+      {
+        "date": "20260508",
+        "views": 21
+      }
+    ],
+    "Mizuno": [
+      {
+        "date": "20260310",
+        "views": 5
+      },
+      {
+        "date": "20260311",
+        "views": 8
+      },
+      {
+        "date": "20260312",
+        "views": 5
+      },
+      {
+        "date": "20260313",
+        "views": 4
+      },
+      {
+        "date": "20260314",
+        "views": 6
+      },
+      {
+        "date": "20260315",
+        "views": 7
+      },
+      {
+        "date": "20260316",
+        "views": 4
+      },
+      {
+        "date": "20260317",
+        "views": 4
+      },
+      {
+        "date": "20260318",
+        "views": 10
+      },
+      {
+        "date": "20260319",
+        "views": 4
+      },
+      {
+        "date": "20260320",
+        "views": 4
+      },
+      {
+        "date": "20260321",
+        "views": 6
+      },
+      {
+        "date": "20260322",
+        "views": 2
+      },
+      {
+        "date": "20260323",
+        "views": 3
+      },
+      {
+        "date": "20260324",
+        "views": 5
+      },
+      {
+        "date": "20260325",
+        "views": 7
+      },
+      {
+        "date": "20260326",
+        "views": 7
+      },
+      {
+        "date": "20260327",
+        "views": 8
+      },
+      {
+        "date": "20260328",
+        "views": 12
+      },
+      {
+        "date": "20260329",
+        "views": 6
+      },
+      {
+        "date": "20260330",
+        "views": 6
+      },
+      {
+        "date": "20260331",
+        "views": 10
+      },
+      {
+        "date": "20260401",
+        "views": 3
+      },
+      {
+        "date": "20260402",
+        "views": 3
+      },
+      {
+        "date": "20260403",
+        "views": 3
+      },
+      {
+        "date": "20260404",
+        "views": 5
+      },
+      {
+        "date": "20260405",
+        "views": 4
+      },
+      {
+        "date": "20260406",
+        "views": 7
+      },
+      {
+        "date": "20260407",
+        "views": 2
+      },
+      {
+        "date": "20260408",
+        "views": 10
+      },
+      {
+        "date": "20260409",
+        "views": 4
+      },
+      {
+        "date": "20260410",
+        "views": 7
+      },
+      {
+        "date": "20260411",
+        "views": 3
+      },
+      {
+        "date": "20260412",
+        "views": 4
+      },
+      {
+        "date": "20260413",
+        "views": 7
+      },
+      {
+        "date": "20260414",
+        "views": 8
+      },
+      {
+        "date": "20260415",
+        "views": 5
+      },
+      {
+        "date": "20260416",
+        "views": 5
+      },
+      {
+        "date": "20260417",
+        "views": 2
+      },
+      {
+        "date": "20260418",
+        "views": 6
+      },
+      {
+        "date": "20260419",
+        "views": 6
+      },
+      {
+        "date": "20260420",
+        "views": 5
+      },
+      {
+        "date": "20260421",
+        "views": 3
+      },
+      {
+        "date": "20260423",
+        "views": 10
+      },
+      {
+        "date": "20260424",
+        "views": 3
+      },
+      {
+        "date": "20260425",
+        "views": 9
+      },
+      {
+        "date": "20260426",
+        "views": 4
+      },
+      {
+        "date": "20260427",
+        "views": 6
+      },
+      {
+        "date": "20260428",
+        "views": 8
+      },
+      {
+        "date": "20260429",
+        "views": 5
+      },
+      {
+        "date": "20260430",
+        "views": 4
+      },
+      {
+        "date": "20260501",
+        "views": 4
+      },
+      {
+        "date": "20260502",
+        "views": 5
+      },
+      {
+        "date": "20260503",
+        "views": 6
+      },
+      {
+        "date": "20260504",
+        "views": 9
+      },
+      {
+        "date": "20260505",
+        "views": 5
+      },
+      {
+        "date": "20260506",
+        "views": 8
+      },
+      {
+        "date": "20260507",
+        "views": 5
+      },
+      {
+        "date": "20260508",
+        "views": 2
+      }
+    ],
+    "Asics": [
+      {
+        "date": "20260310",
+        "views": 32
+      },
+      {
+        "date": "20260311",
+        "views": 40
+      },
+      {
+        "date": "20260312",
+        "views": 31
+      },
+      {
+        "date": "20260313",
+        "views": 31
+      },
+      {
+        "date": "20260314",
+        "views": 31
+      },
+      {
+        "date": "20260315",
+        "views": 40
+      },
+      {
+        "date": "20260316",
+        "views": 32
+      },
+      {
+        "date": "20260317",
+        "views": 31
+      },
+      {
+        "date": "20260318",
+        "views": 36
+      },
+      {
+        "date": "20260319",
+        "views": 36
+      },
+      {
+        "date": "20260320",
+        "views": 31
+      },
+      {
+        "date": "20260321",
+        "views": 43
+      },
+      {
+        "date": "20260322",
+        "views": 31
+      },
+      {
+        "date": "20260323",
+        "views": 30
+      },
+      {
+        "date": "20260324",
+        "views": 33
+      },
+      {
+        "date": "20260325",
+        "views": 36
+      },
+      {
+        "date": "20260326",
+        "views": 21
+      },
+      {
+        "date": "20260327",
+        "views": 28
+      },
+      {
+        "date": "20260328",
+        "views": 31
+      },
+      {
+        "date": "20260329",
+        "views": 26
+      },
+      {
+        "date": "20260330",
+        "views": 30
+      },
+      {
+        "date": "20260331",
+        "views": 26
+      },
+      {
+        "date": "20260401",
+        "views": 41
+      },
+      {
+        "date": "20260402",
+        "views": 31
+      },
+      {
+        "date": "20260403",
+        "views": 38
+      },
+      {
+        "date": "20260404",
+        "views": 34
+      },
+      {
+        "date": "20260405",
+        "views": 37
+      },
+      {
+        "date": "20260406",
+        "views": 41
+      },
+      {
+        "date": "20260407",
+        "views": 45
+      },
+      {
+        "date": "20260408",
+        "views": 45
+      },
+      {
+        "date": "20260409",
+        "views": 37
+      },
+      {
+        "date": "20260410",
+        "views": 40
+      },
+      {
+        "date": "20260411",
+        "views": 31
+      },
+      {
+        "date": "20260412",
+        "views": 53
+      },
+      {
+        "date": "20260413",
+        "views": 41
+      },
+      {
+        "date": "20260414",
+        "views": 40
+      },
+      {
+        "date": "20260415",
+        "views": 43
+      },
+      {
+        "date": "20260416",
+        "views": 38
+      },
+      {
+        "date": "20260417",
+        "views": 42
+      },
+      {
+        "date": "20260418",
+        "views": 35
+      },
+      {
+        "date": "20260419",
+        "views": 35
+      },
+      {
+        "date": "20260420",
+        "views": 33
+      },
+      {
+        "date": "20260421",
+        "views": 41
+      },
+      {
+        "date": "20260422",
+        "views": 38
+      },
+      {
+        "date": "20260423",
+        "views": 45
+      },
+      {
+        "date": "20260424",
+        "views": 46
+      },
+      {
+        "date": "20260425",
+        "views": 43
+      },
+      {
+        "date": "20260426",
+        "views": 43
+      },
+      {
+        "date": "20260427",
+        "views": 44
+      },
+      {
+        "date": "20260428",
+        "views": 44
+      },
+      {
+        "date": "20260429",
+        "views": 35
+      },
+      {
+        "date": "20260430",
+        "views": 48
+      },
+      {
+        "date": "20260501",
+        "views": 55
+      },
+      {
+        "date": "20260502",
+        "views": 51
+      },
+      {
+        "date": "20260503",
+        "views": 52
+      },
+      {
+        "date": "20260504",
+        "views": 40
+      },
+      {
+        "date": "20260505",
+        "views": 41
+      },
+      {
+        "date": "20260506",
+        "views": 38
+      },
+      {
+        "date": "20260507",
+        "views": 27
+      },
+      {
+        "date": "20260508",
+        "views": 32
+      }
+    ],
+    "Umbro": [
+      {
+        "date": "20260310",
+        "views": 53
+      },
+      {
+        "date": "20260311",
+        "views": 60
+      },
+      {
+        "date": "20260312",
+        "views": 86
+      },
+      {
+        "date": "20260313",
+        "views": 69
+      },
+      {
+        "date": "20260314",
+        "views": 90
+      },
+      {
+        "date": "20260315",
+        "views": 92
+      },
+      {
+        "date": "20260316",
+        "views": 70
+      },
+      {
+        "date": "20260317",
+        "views": 67
+      },
+      {
+        "date": "20260318",
+        "views": 70
+      },
+      {
+        "date": "20260319",
+        "views": 72
+      },
+      {
+        "date": "20260320",
+        "views": 71
+      },
+      {
+        "date": "20260321",
+        "views": 70
+      },
+      {
+        "date": "20260322",
+        "views": 77
+      },
+      {
+        "date": "20260323",
+        "views": 54
+      },
+      {
+        "date": "20260324",
+        "views": 67
+      },
+      {
+        "date": "20260325",
+        "views": 89
+      },
+      {
+        "date": "20260326",
+        "views": 85
+      },
+      {
+        "date": "20260327",
+        "views": 96
+      },
+      {
+        "date": "20260328",
+        "views": 68
+      },
+      {
+        "date": "20260329",
+        "views": 76
+      },
+      {
+        "date": "20260330",
+        "views": 76
+      },
+      {
+        "date": "20260331",
+        "views": 108
+      },
+      {
+        "date": "20260401",
+        "views": 83
+      },
+      {
+        "date": "20260402",
+        "views": 61
+      },
+      {
+        "date": "20260403",
+        "views": 93
+      },
+      {
+        "date": "20260404",
+        "views": 64
+      },
+      {
+        "date": "20260405",
+        "views": 81
+      },
+      {
+        "date": "20260406",
+        "views": 66
+      },
+      {
+        "date": "20260407",
+        "views": 71
+      },
+      {
+        "date": "20260408",
+        "views": 49
+      },
+      {
+        "date": "20260409",
+        "views": 56
+      },
+      {
+        "date": "20260410",
+        "views": 59
+      },
+      {
+        "date": "20260411",
+        "views": 93
+      },
+      {
+        "date": "20260412",
+        "views": 107
+      },
+      {
+        "date": "20260413",
+        "views": 66
+      },
+      {
+        "date": "20260414",
+        "views": 74
+      },
+      {
+        "date": "20260415",
+        "views": 69
+      },
+      {
+        "date": "20260416",
+        "views": 53
+      },
+      {
+        "date": "20260417",
+        "views": 53
+      },
+      {
+        "date": "20260418",
+        "views": 62
+      },
+      {
+        "date": "20260419",
+        "views": 68
+      },
+      {
+        "date": "20260420",
+        "views": 50
+      },
+      {
+        "date": "20260421",
+        "views": 63
+      },
+      {
+        "date": "20260422",
+        "views": 50
+      },
+      {
+        "date": "20260423",
+        "views": 62
+      },
+      {
+        "date": "20260424",
+        "views": 47
+      },
+      {
+        "date": "20260425",
+        "views": 46
+      },
+      {
+        "date": "20260426",
+        "views": 57
+      },
+      {
+        "date": "20260427",
+        "views": 76
+      },
+      {
+        "date": "20260428",
+        "views": 47
+      },
+      {
+        "date": "20260429",
+        "views": 56
+      },
+      {
+        "date": "20260430",
+        "views": 51
+      },
+      {
+        "date": "20260501",
+        "views": 44
+      },
+      {
+        "date": "20260502",
+        "views": 81
+      },
+      {
+        "date": "20260503",
+        "views": 56
+      },
+      {
+        "date": "20260504",
+        "views": 64
+      },
+      {
+        "date": "20260505",
+        "views": 59
+      },
+      {
+        "date": "20260506",
+        "views": 41
+      },
+      {
+        "date": "20260507",
+        "views": 48
+      },
+      {
+        "date": "20260508",
+        "views": 39
+      }
+    ],
+    "Penalty": [
+      {
+        "date": "20260310",
+        "views": 1
+      },
+      {
+        "date": "20260313",
+        "views": 1
+      },
+      {
+        "date": "20260324",
+        "views": 1
+      },
+      {
+        "date": "20260326",
+        "views": 1
+      },
+      {
+        "date": "20260401",
+        "views": 1
+      },
+      {
+        "date": "20260404",
+        "views": 1
+      },
+      {
+        "date": "20260412",
+        "views": 1
+      },
+      {
+        "date": "20260422",
+        "views": 1
+      },
+      {
+        "date": "20260429",
+        "views": 1
+      }
+    ],
+    "Olympikus": [
+      {
+        "date": "20260310",
+        "views": 67
+      },
+      {
+        "date": "20260311",
+        "views": 50
+      },
+      {
+        "date": "20260312",
+        "views": 66
+      },
+      {
+        "date": "20260313",
+        "views": 80
+      },
+      {
+        "date": "20260314",
+        "views": 56
+      },
+      {
+        "date": "20260315",
+        "views": 67
+      },
+      {
+        "date": "20260316",
+        "views": 90
+      },
+      {
+        "date": "20260317",
+        "views": 82
+      },
+      {
+        "date": "20260318",
+        "views": 275
+      },
+      {
+        "date": "20260319",
+        "views": 363
+      },
+      {
+        "date": "20260320",
+        "views": 76
+      },
+      {
+        "date": "20260321",
+        "views": 189
+      },
+      {
+        "date": "20260322",
+        "views": 234
+      },
+      {
+        "date": "20260323",
+        "views": 276
+      },
+      {
+        "date": "20260324",
+        "views": 451
+      },
+      {
+        "date": "20260325",
+        "views": 339
+      },
+      {
+        "date": "20260326",
+        "views": 197
+      },
+      {
+        "date": "20260327",
+        "views": 333
+      },
+      {
+        "date": "20260328",
+        "views": 280
+      },
+      {
+        "date": "20260329",
+        "views": 165
+      },
+      {
+        "date": "20260330",
+        "views": 113
+      },
+      {
+        "date": "20260331",
+        "views": 67
+      },
+      {
+        "date": "20260401",
+        "views": 81
+      },
+      {
+        "date": "20260402",
+        "views": 203
+      },
+      {
+        "date": "20260403",
+        "views": 125
+      },
+      {
+        "date": "20260404",
+        "views": 90
+      },
+      {
+        "date": "20260405",
+        "views": 85
+      },
+      {
+        "date": "20260406",
+        "views": 229
+      },
+      {
+        "date": "20260407",
+        "views": 148
+      },
+      {
+        "date": "20260408",
+        "views": 220
+      },
+      {
+        "date": "20260409",
+        "views": 91
+      },
+      {
+        "date": "20260410",
+        "views": 121
+      },
+      {
+        "date": "20260411",
+        "views": 182
+      },
+      {
+        "date": "20260412",
+        "views": 161
+      },
+      {
+        "date": "20260413",
+        "views": 115
+      },
+      {
+        "date": "20260414",
+        "views": 167
+      },
+      {
+        "date": "20260415",
+        "views": 92
+      },
+      {
+        "date": "20260416",
+        "views": 107
+      },
+      {
+        "date": "20260417",
+        "views": 55
+      },
+      {
+        "date": "20260418",
+        "views": 65
+      },
+      {
+        "date": "20260419",
+        "views": 53
+      },
+      {
+        "date": "20260420",
+        "views": 50
+      },
+      {
+        "date": "20260421",
+        "views": 41
+      },
+      {
+        "date": "20260422",
+        "views": 41
+      },
+      {
+        "date": "20260423",
+        "views": 44
+      },
+      {
+        "date": "20260424",
+        "views": 59
+      },
+      {
+        "date": "20260425",
+        "views": 48
+      },
+      {
+        "date": "20260426",
+        "views": 69
+      },
+      {
+        "date": "20260427",
+        "views": 49
+      },
+      {
+        "date": "20260428",
+        "views": 49
+      },
+      {
+        "date": "20260429",
+        "views": 57
+      },
+      {
+        "date": "20260430",
+        "views": 42
+      },
+      {
+        "date": "20260501",
+        "views": 43
+      },
+      {
+        "date": "20260502",
+        "views": 88
+      },
+      {
+        "date": "20260503",
+        "views": 78
+      },
+      {
+        "date": "20260504",
+        "views": 73
+      },
+      {
+        "date": "20260505",
+        "views": 64
+      },
+      {
+        "date": "20260506",
+        "views": 41
+      },
+      {
+        "date": "20260507",
+        "views": 53
+      },
+      {
+        "date": "20260508",
+        "views": 47
+      }
+    ]
+  },
+  "active_ads": [],
+  "youtube_uploads": [
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "\"What do I know about soccer? Nothing.I know about football, Benito, football”. #YouGotThi",
+      "published_at": "2026-05-09T08:59:17+00:00",
+      "video_id": "bHcgiOGSR28",
+      "thumbnail": "https://i.ytimg.com/vi/bHcgiOGSR28/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/bHcgiOGSR28"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "Greece New Away Jersey is just beautiful 🇬🇷💙 #adidas #football #Greece",
+      "published_at": "2026-05-08T08:00:48+00:00",
+      "video_id": "cZ2snkwjL3o",
+      "thumbnail": "https://i.ytimg.com/vi/cZ2snkwjL3o/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/cZ2snkwjL3o"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "adidas Backyard Legends | The Greatest Football Story Ever Told",
+      "published_at": "2026-05-07T08:00:40+00:00",
+      "video_id": "mJJY53qhJe0",
+      "thumbnail": "https://i.ytimg.com/vi/mJJY53qhJe0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mJJY53qhJe0"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "Algeria New Away Jersey is a thing of art 🇩🇿😮‍💨 #adidas #football #Algeria",
+      "published_at": "2026-05-06T13:01:27+00:00",
+      "video_id": "oMeE2mF_A3M",
+      "thumbnail": "https://i.ytimg.com/vi/oMeE2mF_A3M/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/oMeE2mF_A3M"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "passed the FC Bayern new home jersey vibe check ✅🤝 #adidas #football #bayernmunich",
+      "published_at": "2026-05-06T08:00:51+00:00",
+      "video_id": "pVNzaPI2TQA",
+      "thumbnail": "https://i.ytimg.com/vi/pVNzaPI2TQA/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/pVNzaPI2TQA"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "Real Madrid",
+      "title": "🌪️ Vini Jr., just unstoppable. #RealMadrid #LaLigaHighlights #EspanyolRealMadrid",
+      "published_at": "2026-05-05T08:23:57+00:00",
+      "video_id": "KRTMUBt4ypU",
+      "thumbnail": "https://i.ytimg.com/vi/KRTMUBt4ypU/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/KRTMUBt4ypU"
+    },
+    {
+      "brand": "New Balance",
+      "channel": "newbalance",
+      "title": "Yan Diomande | New Balance Football",
+      "published_at": "2026-04-08T17:02:56+00:00",
+      "video_id": "M6VTC-N-diw",
+      "thumbnail": "https://i.ytimg.com/vi/M6VTC-N-diw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "Show Dem Nike Football",
+      "published_at": "2025-12-17T09:00:33+00:00",
+      "video_id": "_XDt6Vf51fc",
+      "thumbnail": "https://i.ytimg.com/vi/_XDt6Vf51fc/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/_XDt6Vf51fc"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "Show Dem Nike Football",
+      "published_at": "2025-12-17T09:00:33+00:00",
+      "video_id": "_XDt6Vf51fc",
+      "thumbnail": "https://i.ytimg.com/vi/_XDt6Vf51fc/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/_XDt6Vf51fc"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "Show Dem Nike Football",
+      "published_at": "2025-12-17T09:00:22+00:00",
+      "video_id": "ZakydYptTOw",
+      "thumbnail": "https://i.ytimg.com/vi/ZakydYptTOw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZakydYptTOw"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "The world’s most dangerous striker is back... #NikeFootball",
+      "published_at": "2025-09-02T07:01:19+00:00",
+      "video_id": "D4JNL9Lg6W8",
+      "thumbnail": "https://i.ytimg.com/vi/D4JNL9Lg6W8/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/D4JNL9Lg6W8"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "The Canarinha flies to the top—again. 9x South American Champions. #NikeFootball",
+      "published_at": "2025-08-03T00:09:07+00:00",
+      "video_id": "6eYHGIGXlbo",
+      "thumbnail": "https://i.ytimg.com/vi/6eYHGIGXlbo/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/6eYHGIGXlbo"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "The Brazil Women's National Team is out to prove the future haunts like the past. #NikeFoo",
+      "published_at": "2025-07-31T00:17:57+00:00",
+      "video_id": "-W6fabnwXJk",
+      "thumbnail": "https://i.ytimg.com/vi/-W6fabnwXJk/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
+    }
+  ],
+  "tiktok_tags": [
+    {
+      "tag": "#albumdacopa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 50650,
+      "raw_query": "album da copa 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#campeonatomundialdefórmula1de2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 350,
+      "raw_query": "campeonato mundial de fórmula 1 de 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#congressomundialdecardiologia2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 140,
+      "raw_query": "congresso mundial de cardiologia 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#mundialtenisdemesa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 90,
+      "raw_query": "mundial tenis de mesa 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#libertadores2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 80,
+      "raw_query": "libertadores 2026",
+      "seed": "Mundial 2026"
+    }
+  ],
+  "latas": [
+    {
+      "brand": "New Balance",
+      "sku": "signal-71394240",
+      "label": "New Balance lanza una nueva y deslumbrante colección de",
+      "color": "#E50020",
+      "market": "MX",
+      "tag": "Sinal de imprensa - aguardando estoque",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOUlDYXlLcm9BNGxmZUMwODJFQnFrUDItZmU0Y0U0YWQ3amxocmQ3cEJ3ZVA3NGx1UzVaVVBHejkyMEQyaWk1RWNZX29QWm9DZnNvS3RNaWJBUEQ5TWF6ZzA0c09RZU5BZldJNV9xb0hsTGJwaEF2OTZWaWFvaVB0eHNDR0k3OTlCZ1RLUnhRNGFsdmlVRDJieHR3NFVUX1dnYU5VOGJVc2lSOEVFZkN4TnNhLW02MDNISTlUeXNpQ3VKTWZrTXBMLXV4NGJBSmtqenlRSDVqT1pKS00yU2kySGhlN0VONV94SEhXNlJsUXpqZ0I4MGNfakRLX1k3cURJOFhrR3A2Z05oM2VaOW9nTHMwWHZrdw?oc=5",
+      "price": null
+    }
+  ],
+  "competitor_stats": [
+    {
+      "brand": "Nike",
+      "category": "Sportswear",
+      "color": "#FA5400",
+      "signals_60d": 24,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Nike Lanza Nuevos Tenis Celebrando el Fútbol Mexicano para la Copa Mundial 2026 - 92.5 max",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Puma",
+      "category": "Sportswear",
+      "color": "#E0001A",
+      "signals_60d": 20,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Equipaciones de Nueva Zelanda para la Copa Mundial de la FIFA 2026: local, visitante, fech",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "color": "#E50020",
+      "signals_60d": 3,
+      "latas_detected": 1,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "New Balance lanza una nueva y deslumbrante colección de botas mientras Eberechi Eze, Timot",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "color": "#E81B23",
+      "signals_60d": 4,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Kylian Mbappé cambiaría de patrocinador oficial durante la celebración del Mundial 2026 - ",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "color": "#0066CC",
+      "signals_60d": 6,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Cambio de sponsor técnico para Botafogo: pasará de vestir Reebok a Mizuno - Marketing Regi",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Asics",
+      "category": "Sportswear",
+      "color": "#002954",
+      "signals_60d": 2,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Café União transforma copas da ASICS e Kings League Brazil em concurso com 6 mil empresas ",
+      "top_source": "Google News BR"
+    },
+    {
+      "brand": "Umbro",
+      "category": "Sportswear",
+      "color": "#1B315E",
+      "signals_60d": 1,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Crocs lanza colaboración futbolera con Umbro: la estrategia poco convencional para destaca",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "color": "#FFC000",
+      "signals_60d": 9,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "It's a Penalty anuncia alianzas globales y una campaña de atletas estrella para la prevenc",
+      "top_source": "Google News MX"
+    },
+    {
+      "brand": "Olympikus",
+      "category": "Sportswear",
+      "color": "#F58220",
+      "signals_60d": 2,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Corre Turbo Edição Especial Maratona de Porto Alegre Olympikus – R$ 699,99 (1) - webrun.co",
+      "top_source": "Google News BR"
+    },
+    {
+      "brand": "Joma",
+      "category": "Sportswear",
+      "color": "#F39200",
+      "signals_60d": 4,
+      "latas_detected": 0,
+      "ads_active": 0,
+      "youtube_uploads_30d": 0,
+      "top_movement": "Joma se convierte en patrocinador técnico del flamante campeón de Copa: la Real Sociedad -",
+      "top_source": "Google News MX"
+    }
+  ],
+  "sponsorship_tiers": {
+    "fifa_partners": [
+      {
+        "brand": "Adidas",
+        "category": "Sportswear",
+        "exclusivity": "Apparel/Footwear/Match Ball",
+        "is_self": true
+      },
+      {
+        "brand": "Coca-Cola",
+        "category": "Refrigerantes",
+        "exclusivity": "Soft drinks (categoria fechada)"
+      },
+      {
+        "brand": "Hyundai-Kia",
+        "category": "Automotivo"
+      },
+      {
+        "brand": "Visa",
+        "category": "Pagamentos"
+      },
+      {
+        "brand": "Qatar Airways",
+        "category": "Aviacao"
+      },
+      {
+        "brand": "Aramco",
+        "category": "Energia"
+      }
+    ],
+    "world_cup_sponsors": [
+      {
+        "brand": "Budweiser",
+        "parent": "Anheuser-Busch InBev",
+        "category": "Cerveja"
+      },
+      {
+        "brand": "Hisense",
+        "category": "Eletronicos"
+      },
+      {
+        "brand": "McDonald's",
+        "category": "QSR"
+      },
+      {
+        "brand": "Mengniu",
+        "category": "Lacteos"
+      },
+      {
+        "brand": "Vivo (mobile)",
+        "category": "Telefonia"
+      }
+    ],
+    "ambush_brands": [
+      {
+        "brand": "Nike",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity - excecao: Selecao oficial CBF (BR)"
+      },
+      {
+        "brand": "Puma",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "New Balance",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Under Armour",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Mizuno",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Asics",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Umbro",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Penalty",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Olympikus",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      },
+      {
+        "brand": "Joma",
+        "category": "Sportswear",
+        "ambush_target": "Adidas FIFA exclusivity"
+      }
+    ]
+  },
+  "selecao_sponsors": {
+    "BR": [
+      {
+        "brand": "Nike",
+        "category": "Sportswear",
+        "tier": "master",
+        "exclusivity": "Apparel oficial CBF - threat principal pro Adidas no BR"
+      },
+      {
+        "brand": "Itau",
+        "category": "Banco",
+        "tier": "master"
+      },
+      {
+        "brand": "Guarana Antarctica",
+        "category": "Refrigerante",
+        "tier": "master"
+      },
+      {
+        "brand": "Powerade",
+        "category": "Isotonico",
+        "tier": "official"
+      },
+      {
+        "brand": "Vivo",
+        "category": "Telecom",
+        "tier": "official"
+      },
+      {
+        "brand": "Banco do Brasil",
+        "category": "Banco",
+        "tier": "supporter"
+      },
+      {
+        "brand": "Brahma",
+        "category": "Cerveja",
+        "tier": "supporter"
+      }
+    ],
+    "AR": [
+      {
+        "brand": "Adidas",
+        "category": "Sportswear",
+        "tier": "master",
+        "is_self": true
+      },
+      {
+        "brand": "Quilmes",
+        "category": "Cerveja",
+        "tier": "master"
+      },
+      {
+        "brand": "YPF",
+        "category": "Energia",
+        "tier": "official"
+      }
+    ],
+    "MX": [
+      {
+        "brand": "Adidas",
+        "category": "Sportswear",
+        "tier": "master",
+        "is_self": true
+      },
+      {
+        "brand": "Coca-Cola",
+        "category": "Refrigerante",
+        "tier": "master",
+        "note": "Coca-Cola FEMSA - dupla licenca FIFA + FMF"
+      },
+      {
+        "brand": "Aeromexico",
+        "category": "Aviacao",
+        "tier": "official"
+      }
+    ],
+    "CO": [
+      {
+        "brand": "Adidas",
+        "category": "Sportswear",
+        "tier": "master",
+        "is_self": true
+      },
+      {
+        "brand": "Aguila",
+        "category": "Cerveja",
+        "tier": "master"
+      },
+      {
+        "brand": "Postobon",
+        "category": "Refrigerante",
+        "tier": "master"
+      }
+    ]
+  },
+  "ambush_by_brand": {
+    "New Balance": 3,
+    "Nike": 19,
+    "Umbro": 1,
+    "Puma": 14,
+    "Under Armour": 2,
+    "Penalty": 4,
+    "Joma": 1
+  }
+}
