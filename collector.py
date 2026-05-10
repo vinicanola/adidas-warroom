@@ -379,7 +379,12 @@ def collect_google_news():
                 feed = feedparser.parse(url)
                 for entry in feed.entries[:8]:
                     title = entry.get("title", "")
-                    if not is_relevant(title) and q.lower() not in title.lower():
+                    title_lower = title.lower()
+                    # Hard block: exclusao keyword ALWAYS pula, mesmo se a marca esta no titulo
+                    # (resolve "Di Maria penalty shocker" capturando query "Penalty")
+                    if any(kw in title_lower for kw in EXCLUSION_KEYWORDS):
+                        continue
+                    if not is_relevant(title) and q.lower() not in title_lower:
                         continue
                     signals.append(Signal(
                         level=classify(title),
