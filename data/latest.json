@@ -1,53 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T07:52:40.669742+00:00",
+  "generated_at": "2026-05-10T09:51:35.390959+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 361,
-      "elapsed_s": 41.8
+      "count": 247,
+      "elapsed_s": 34.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.8
+      "elapsed_s": 87.7
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.5
+      "elapsed_s": 4.6
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.4
+      "elapsed_s": 6.5
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.9
+      "elapsed_s": 8.7
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 21,
-      "elapsed_s": 53.8
+      "count": 0,
+      "elapsed_s": 31.8,
+      "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.5
+      "elapsed_s": 5.4
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.2,
+      "elapsed_s": 1.8,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
-      "count": 10,
-      "elapsed_s": 5.3
+      "count": 7,
+      "elapsed_s": 3.8
     }
   },
   "competitors": [
@@ -77,24 +78,9 @@
       "color": "#0066CC"
     },
     {
-      "brand": "Asics",
-      "category": "Sportswear",
-      "color": "#002954"
-    },
-    {
-      "brand": "Umbro",
-      "category": "Sportswear",
-      "color": "#1B315E"
-    },
-    {
       "brand": "Penalty",
       "category": "Sportswear",
       "color": "#FFC000"
-    },
-    {
-      "brand": "Olympikus",
-      "category": "Sportswear",
-      "color": "#F58220"
     },
     {
       "brand": "Joma",
@@ -107,16 +93,16 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 49,
-      "signals": 40,
+      "score": 45,
+      "signals": 36,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 66,
-      "signals": 39,
+      "score": 61,
+      "signals": 38,
       "color": "#006847"
     },
     {
@@ -143,11 +129,11 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 69.1,
     "search_leader_delta_pp": 0.7,
-    "signals_60d": 98,
-    "signals_delta_pct": 150,
+    "signals_60d": 93,
+    "signals_delta_pct": 158,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 50,
+    "ambush_attempts_total": 49,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 19,
     "fifa_signals_total": 0,
@@ -206,19 +192,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
-    },
-    {
-      "level": "red",
-      "title": "Crocs lanza colaboración futbolera con Umbro: la estrategia poco convencional para destacar este Mundial - Revista Merca2.0",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUmtHWjhyUHBVcXFVZ2FOOUpuNDFkYlJtcnA4ZjJjcnd1N1Z2UXRpcUJfZjBULW4tVmxqZlhuTHV6TjNrM3VVcjRuczJ5c0NqcGlWbEI5eklBN1A2b25rc1lhN29LTjVfaXdmZFNxX2NFSkZCNTVqTFpVSE1xc3lMSDV1Tko0WVh3RkcxdFVvZFQ2UXRFdjJtZDhBZzZsRkxkSUl0NHpCMFpoS3k2NHAwRlRHeEN6Zw?oc=5",
-      "timestamp": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "brand": "Umbro",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
     },
     {
       "level": "red",
@@ -443,38 +416,12 @@
     },
     {
       "level": "green",
-      "title": "Café União transforma copas da ASICS e Kings League Brazil em concurso com 6 mil empresas - Propmark",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOblUxcE9aTnprVGJESlBhTG9JZXhodnZuek9IUzJSLW9zUklobV9XOHJ2SGN6Sk5iR1Q1b2x5NXRFUlREZ0F5TURrdkE2RmNBR05ibDFLT2huZE1sNFZmRkdZWWlHVWY4Tk01aFlHN2J6RHBtWVFCTmlpb2p0MGpZVzRDekRWNUhjVDhlWXJIZXotRS1RTkFoRVBadnltVnNyUW43WXhqazFNRE9NUmJfbVBCa3M?oc=5",
-      "timestamp": "Tue, 17 Mar 2026 07:00:00 GMT",
-      "brand": "Asics",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Franco Armani - Penalty statistics - Transfermarkt",
       "market": "AR",
       "source": "Google News AR",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWXJhX1ZmbTYzejczNlN0cXdaQTdteldCSGc3UDVjZTZ4X3NzdmhUczZLUDNnRGRIenhCRFBMVkVSRmtfdUVDS09MVDJuc0FqN2xxQ2JzNTREQ01ySDRGMUU4RDlsZzV5REJqMXFrSFN6aHNQdGg4TTJkdUNBZE5kQTd3?oc=5",
       "timestamp": "Wed, 18 Mar 2026 07:00:00 GMT",
       "brand": "Penalty",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Café União dá um \"upgrade\" nas copas da ASICS e Kings League - Live MKT News",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnppbm9pUFIwMTJJOXF3MUM2TS1HaWhHWWVESV94ekZmMmxydmVHOHhQR0tFN3NzaGZoSGpSalduVzRfQnRSUVoxUXdsekkwRmpCdEdBaW5jeFZPenJFUVFsa3JwOEhuRzBTWE1wZlpYNTVZUG9lbTBTbnRGRFZOT0FsS3FnNWZSY0VUSG1KaXk?oc=5",
-      "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
-      "brand": "Asics",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -846,6 +793,19 @@
     },
     {
       "level": "green",
+      "title": "Botafogo oficializa Mizuno como nova fornecedora de material esportivo - Tribuna do Sertão",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNTZ0amhXcUhqVzhKTU14MWlIUEd3eU1BOHlEM3BNMU0yZ3RQUjNza0Y1cGJDdHFtSE1hUFdwN0hiTHE3Y2oxd2ZjSFBKb1I4dGM2T1h6RjB5UldLV01BMnhvTWZkcTk0UW03WXlNNnNxVkpzbkQwcnpHUGJ4VW9XS1l0Tmc5RWd1Y0lKOGV2cXBtZTFTLVJhd3czZ0Zac241bndlZTFCQWxSLWNXT2NqSmZ3Q1JZbTNFVVVMZVloaFN2dmJ6VVNma0tzd3labDRLWElMQg?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Liga Joma: los clubes protagonistas - RFEA",
       "market": "MX",
       "source": "Google News MX",
@@ -982,19 +942,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTGF3c2w3T0p1eEJGem4yWjlyYlF1SUU4cEtJY25XbEpIN3lKbV84VmpyNWYtczI5WjNkbFdxWGFqWk0tNHJXb3NqSW85YVRORXpIQWplSFlmSHdOUlNsNjNObHBmQjZTUzFscEpBc2xJV1NuUXlNMDZMa3FUckhCMHBQRWFvTzN3bkRRNWxhMmdjeHhrYmFoNnNBZUVqS1UyYS0wY3BiaTRveTZWTUN6U0l4a3JJRVZULVJXcjRONXNPdERmaFFOdUV5UlpNcE5QYkFWRExfZmdCSm15Y2cyMndnMGdRX1FZZ3k5X0FNMVluWlJYTDkzY00yZFlIRTNFbkE?oc=5",
       "timestamp": "Sat, 02 May 2026 23:32:29 GMT",
       "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Corre Turbo Edição Especial Maratona de Porto Alegre Olympikus – R$ 699,99 (1) - webrun.com.br",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ2JPWkVUeGRzZ3QtU0ZkU0JtZERiZHZKcFhsMC03MHFpS0tELWNPRGk4SVlfclRLYVcxWjhqOW1pRVVSVjcwWDdwcnN4cWozREQ2czl3SEh0YW80cXhhckFnRGpFV0ZaNzZPdTM4YUZYZWdCN0V6U2NQSE1sWVU1ay1aN1h3OW1LLU1DbGtQV3pZY1hPNG9pVXQ4RWtBTnBHMGFhZU90V3FPZlppOUMybm5Vcll0amgycXUwN2U5N2YzVWY5bnZHd1R4Rk9heDRIMENraXA0VXdMaW04MHA4THF3WWU?oc=5",
-      "timestamp": "Mon, 04 May 2026 07:00:00 GMT",
-      "brand": "Olympikus",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1262,19 +1209,6 @@
     },
     {
       "level": "green",
-      "title": "Lucro do dono da Olympikus cresce 11,2% e atinge R$ 313,5 milhões - ND Mais",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3JSMmc1c3h0VWFZMF9IbzRKcWFJYWdDU2NSUmlQQzBaTmxkRllBSW9xbTNYR0M0cUVDQTI5ajJyS0JnN3FLY01kTTdfZGRPbXd4cVpwSVVMYU1kalh0eUpxd3Awa0pKQVB5eURaQjFjbWhpZDZXbHJrYm5mVWk4RFBiaDc2ZFhkOXA4U0pIaGZlaHVZdm5RMlJOSXd1cXVQWXU5eA?oc=5",
-      "timestamp": "Wed, 06 May 2026 22:15:09 GMT",
-      "brand": "Olympikus",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Adidas, Nike, Puma y una 'batalla' mundial: \"Vivimos en un duopolio\" - MSN",
       "market": "AR",
       "source": "Google News AR",
@@ -1372,19 +1306,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTJZOWktejZIWnBiN1NObTFXdlJRdlFQNGxBOFU0YW0xRnBZUkpDQTRQNHpYU3VWZndxZDJLN3M5aDRYZjNnbnBjaTRTbktqWWl1RmxKRkR5NkpsbUJBVXIxd2QxMkczZ0lvRFhON2pXeWM3dkJISHhfV290LWNuSkpKZnctb2t4WjF3QUk3dWRzYmlxdWUwVFdOVWd1VXk2WlE?oc=5",
       "timestamp": "Thu, 07 May 2026 12:35:20 GMT",
       "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "08.05.26 - Guia de Compras: extratora, kit Copa 2026, fone Samsung, tênis Olympikus - UOL",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40OTJ5TXJWOVBpMThqcUpWdWpheXI2SXFhNzU3LUJ5Ul81NjFZeTY3Qi0tckNWQ1JyY0NQc2VNMWNzenY0TVBSNV85eC1XNUZQOGJBTGdqMkVHWi1wUWdBZ21sTUFkbVlTNTA5bDJPZGJ4dGJwTEVUUmt1Zzk?oc=5",
-      "timestamp": "Fri, 08 May 2026 07:22:39 GMT",
-      "brand": "Olympikus",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1866,130 +1787,6 @@
           3,
           3,
           3
-        ],
-        "Asics": [
-          12,
-          11,
-          12,
-          14,
-          14,
-          12,
-          11,
-          11,
-          11,
-          12,
-          14,
-          15,
-          12,
-          14,
-          13,
-          13,
-          14,
-          18,
-          19,
-          15,
-          15,
-          18,
-          17,
-          16,
-          18,
-          19,
-          18,
-          16,
-          15,
-          16,
-          15,
-          19,
-          19,
-          16,
-          15,
-          16,
-          17,
-          17,
-          19,
-          17,
-          15,
-          15,
-          14,
-          14,
-          14,
-          13,
-          14,
-          12,
-          11,
-          12,
-          11,
-          13,
-          14,
-          14,
-          13,
-          12,
-          13,
-          13,
-          13,
-          14
-        ],
-        "Umbro": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
         ],
         "Penalty": [
           7,
@@ -2492,130 +2289,6 @@
             13,
             14
           ],
-          "Asics": [
-            13,
-            14,
-            14,
-            18,
-            17,
-            13,
-            13,
-            13,
-            12,
-            13,
-            14,
-            15,
-            13,
-            12,
-            13,
-            11,
-            13,
-            15,
-            17,
-            14,
-            14,
-            13,
-            13,
-            16,
-            17,
-            15,
-            14,
-            13,
-            13,
-            12,
-            13,
-            15,
-            17,
-            14,
-            13,
-            13,
-            13,
-            13,
-            14,
-            15,
-            15,
-            18,
-            14,
-            12,
-            14,
-            15,
-            16,
-            14,
-            14,
-            13,
-            14,
-            17,
-            17,
-            17,
-            15,
-            15,
-            15,
-            14,
-            14,
-            16
-          ],
-          "Umbro": [
-            5,
-            6,
-            6,
-            6,
-            7,
-            5,
-            5,
-            5,
-            6,
-            7,
-            7,
-            6,
-            6,
-            8,
-            8,
-            8,
-            7,
-            10,
-            9,
-            7,
-            7,
-            7,
-            7,
-            9,
-            8,
-            7,
-            6,
-            6,
-            6,
-            6,
-            6,
-            8,
-            7,
-            6,
-            7,
-            5,
-            6,
-            6,
-            6,
-            7,
-            6,
-            6,
-            5,
-            5,
-            6,
-            6,
-            6,
-            5,
-            5,
-            5,
-            5,
-            6,
-            6,
-            6,
-            5,
-            5,
-            5,
-            5,
-            5,
-            6
-          ],
           "Penalty": [
             4,
             4,
@@ -3115,130 +2788,6 @@
             1,
             1,
             1
-          ],
-          "Asics": [
-            6,
-            6,
-            6,
-            9,
-            11,
-            7,
-            6,
-            5,
-            6,
-            6,
-            8,
-            9,
-            6,
-            7,
-            6,
-            6,
-            6,
-            8,
-            10,
-            8,
-            8,
-            8,
-            10,
-            8,
-            7,
-            9,
-            8,
-            7,
-            6,
-            6,
-            8,
-            6,
-            8,
-            8,
-            5,
-            6,
-            5,
-            6,
-            7,
-            6,
-            6,
-            7,
-            6,
-            7,
-            6,
-            8,
-            8,
-            7,
-            6,
-            6,
-            6,
-            6,
-            7,
-            7,
-            7,
-            6,
-            5,
-            5,
-            6,
-            7
-          ],
-          "Umbro": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
           ],
           "Penalty": [
             3,
@@ -3740,130 +3289,6 @@
             0,
             1
           ],
-          "Asics": [
-            4,
-            4,
-            4,
-            4,
-            5,
-            4,
-            3,
-            3,
-            4,
-            3,
-            5,
-            3,
-            5,
-            6,
-            5,
-            4,
-            3,
-            4,
-            6,
-            5,
-            4,
-            4,
-            4,
-            5,
-            4,
-            4,
-            3,
-            4,
-            4,
-            4,
-            3,
-            4,
-            4,
-            4,
-            3,
-            3,
-            4,
-            4,
-            4,
-            3,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            3,
-            3,
-            3,
-            4,
-            4,
-            4,
-            3,
-            3,
-            3,
-            3,
-            3,
-            4
-          ],
-          "Umbro": [
-            2,
-            2,
-            1,
-            2,
-            2,
-            2,
-            2,
-            1,
-            2,
-            2,
-            3,
-            2,
-            1,
-            3,
-            3,
-            2,
-            2,
-            2,
-            2,
-            3,
-            2,
-            2,
-            3,
-            3,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            3,
-            2,
-            2,
-            2,
-            3,
-            3,
-            2,
-            1,
-            1,
-            2,
-            1,
-            2,
-            2,
-            3,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2
-          ],
           "Penalty": [
             2,
             2,
@@ -4363,130 +3788,6 @@
             1,
             1,
             1
-          ],
-          "Asics": [
-            5,
-            6,
-            5,
-            7,
-            9,
-            7,
-            7,
-            6,
-            7,
-            7,
-            9,
-            8,
-            8,
-            7,
-            6,
-            5,
-            6,
-            8,
-            12,
-            10,
-            9,
-            8,
-            7,
-            8,
-            8,
-            9,
-            8,
-            7,
-            6,
-            5,
-            5,
-            6,
-            6,
-            6,
-            5,
-            5,
-            6,
-            7,
-            7,
-            6,
-            6,
-            6,
-            4,
-            6,
-            5,
-            6,
-            7,
-            7,
-            5,
-            5,
-            5,
-            7,
-            8,
-            8,
-            7,
-            7,
-            5,
-            5,
-            5,
-            6
-          ],
-          "Umbro": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            2,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            2,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0
           ],
           "Penalty": [
             2,
@@ -5831,490 +5132,6 @@
         "views": 8
       }
     ],
-    "Asics": [
-      {
-        "date": "20260311",
-        "views": 40
-      },
-      {
-        "date": "20260312",
-        "views": 31
-      },
-      {
-        "date": "20260313",
-        "views": 31
-      },
-      {
-        "date": "20260314",
-        "views": 31
-      },
-      {
-        "date": "20260315",
-        "views": 40
-      },
-      {
-        "date": "20260316",
-        "views": 32
-      },
-      {
-        "date": "20260317",
-        "views": 31
-      },
-      {
-        "date": "20260318",
-        "views": 36
-      },
-      {
-        "date": "20260319",
-        "views": 36
-      },
-      {
-        "date": "20260320",
-        "views": 31
-      },
-      {
-        "date": "20260321",
-        "views": 43
-      },
-      {
-        "date": "20260322",
-        "views": 31
-      },
-      {
-        "date": "20260323",
-        "views": 30
-      },
-      {
-        "date": "20260324",
-        "views": 33
-      },
-      {
-        "date": "20260325",
-        "views": 36
-      },
-      {
-        "date": "20260326",
-        "views": 21
-      },
-      {
-        "date": "20260327",
-        "views": 28
-      },
-      {
-        "date": "20260328",
-        "views": 31
-      },
-      {
-        "date": "20260329",
-        "views": 26
-      },
-      {
-        "date": "20260330",
-        "views": 30
-      },
-      {
-        "date": "20260331",
-        "views": 26
-      },
-      {
-        "date": "20260401",
-        "views": 41
-      },
-      {
-        "date": "20260402",
-        "views": 31
-      },
-      {
-        "date": "20260403",
-        "views": 38
-      },
-      {
-        "date": "20260404",
-        "views": 34
-      },
-      {
-        "date": "20260405",
-        "views": 37
-      },
-      {
-        "date": "20260406",
-        "views": 41
-      },
-      {
-        "date": "20260407",
-        "views": 45
-      },
-      {
-        "date": "20260408",
-        "views": 45
-      },
-      {
-        "date": "20260409",
-        "views": 37
-      },
-      {
-        "date": "20260410",
-        "views": 40
-      },
-      {
-        "date": "20260411",
-        "views": 31
-      },
-      {
-        "date": "20260412",
-        "views": 53
-      },
-      {
-        "date": "20260413",
-        "views": 41
-      },
-      {
-        "date": "20260414",
-        "views": 40
-      },
-      {
-        "date": "20260415",
-        "views": 43
-      },
-      {
-        "date": "20260416",
-        "views": 38
-      },
-      {
-        "date": "20260417",
-        "views": 42
-      },
-      {
-        "date": "20260418",
-        "views": 35
-      },
-      {
-        "date": "20260419",
-        "views": 35
-      },
-      {
-        "date": "20260420",
-        "views": 33
-      },
-      {
-        "date": "20260421",
-        "views": 41
-      },
-      {
-        "date": "20260422",
-        "views": 38
-      },
-      {
-        "date": "20260423",
-        "views": 45
-      },
-      {
-        "date": "20260424",
-        "views": 46
-      },
-      {
-        "date": "20260425",
-        "views": 43
-      },
-      {
-        "date": "20260426",
-        "views": 43
-      },
-      {
-        "date": "20260427",
-        "views": 44
-      },
-      {
-        "date": "20260428",
-        "views": 44
-      },
-      {
-        "date": "20260429",
-        "views": 35
-      },
-      {
-        "date": "20260430",
-        "views": 48
-      },
-      {
-        "date": "20260501",
-        "views": 55
-      },
-      {
-        "date": "20260502",
-        "views": 51
-      },
-      {
-        "date": "20260503",
-        "views": 52
-      },
-      {
-        "date": "20260504",
-        "views": 40
-      },
-      {
-        "date": "20260505",
-        "views": 41
-      },
-      {
-        "date": "20260506",
-        "views": 38
-      },
-      {
-        "date": "20260507",
-        "views": 27
-      },
-      {
-        "date": "20260508",
-        "views": 32
-      },
-      {
-        "date": "20260509",
-        "views": 40
-      }
-    ],
-    "Umbro": [
-      {
-        "date": "20260311",
-        "views": 60
-      },
-      {
-        "date": "20260312",
-        "views": 86
-      },
-      {
-        "date": "20260313",
-        "views": 69
-      },
-      {
-        "date": "20260314",
-        "views": 90
-      },
-      {
-        "date": "20260315",
-        "views": 92
-      },
-      {
-        "date": "20260316",
-        "views": 70
-      },
-      {
-        "date": "20260317",
-        "views": 67
-      },
-      {
-        "date": "20260318",
-        "views": 70
-      },
-      {
-        "date": "20260319",
-        "views": 72
-      },
-      {
-        "date": "20260320",
-        "views": 71
-      },
-      {
-        "date": "20260321",
-        "views": 70
-      },
-      {
-        "date": "20260322",
-        "views": 77
-      },
-      {
-        "date": "20260323",
-        "views": 54
-      },
-      {
-        "date": "20260324",
-        "views": 67
-      },
-      {
-        "date": "20260325",
-        "views": 89
-      },
-      {
-        "date": "20260326",
-        "views": 85
-      },
-      {
-        "date": "20260327",
-        "views": 96
-      },
-      {
-        "date": "20260328",
-        "views": 68
-      },
-      {
-        "date": "20260329",
-        "views": 76
-      },
-      {
-        "date": "20260330",
-        "views": 76
-      },
-      {
-        "date": "20260331",
-        "views": 108
-      },
-      {
-        "date": "20260401",
-        "views": 83
-      },
-      {
-        "date": "20260402",
-        "views": 61
-      },
-      {
-        "date": "20260403",
-        "views": 93
-      },
-      {
-        "date": "20260404",
-        "views": 64
-      },
-      {
-        "date": "20260405",
-        "views": 81
-      },
-      {
-        "date": "20260406",
-        "views": 66
-      },
-      {
-        "date": "20260407",
-        "views": 71
-      },
-      {
-        "date": "20260408",
-        "views": 49
-      },
-      {
-        "date": "20260409",
-        "views": 56
-      },
-      {
-        "date": "20260410",
-        "views": 59
-      },
-      {
-        "date": "20260411",
-        "views": 93
-      },
-      {
-        "date": "20260412",
-        "views": 107
-      },
-      {
-        "date": "20260413",
-        "views": 66
-      },
-      {
-        "date": "20260414",
-        "views": 74
-      },
-      {
-        "date": "20260415",
-        "views": 69
-      },
-      {
-        "date": "20260416",
-        "views": 53
-      },
-      {
-        "date": "20260417",
-        "views": 53
-      },
-      {
-        "date": "20260418",
-        "views": 62
-      },
-      {
-        "date": "20260419",
-        "views": 68
-      },
-      {
-        "date": "20260420",
-        "views": 50
-      },
-      {
-        "date": "20260421",
-        "views": 63
-      },
-      {
-        "date": "20260422",
-        "views": 50
-      },
-      {
-        "date": "20260423",
-        "views": 62
-      },
-      {
-        "date": "20260424",
-        "views": 47
-      },
-      {
-        "date": "20260425",
-        "views": 46
-      },
-      {
-        "date": "20260426",
-        "views": 57
-      },
-      {
-        "date": "20260427",
-        "views": 76
-      },
-      {
-        "date": "20260428",
-        "views": 47
-      },
-      {
-        "date": "20260429",
-        "views": 56
-      },
-      {
-        "date": "20260430",
-        "views": 51
-      },
-      {
-        "date": "20260501",
-        "views": 44
-      },
-      {
-        "date": "20260502",
-        "views": 81
-      },
-      {
-        "date": "20260503",
-        "views": 56
-      },
-      {
-        "date": "20260504",
-        "views": 64
-      },
-      {
-        "date": "20260505",
-        "views": 59
-      },
-      {
-        "date": "20260506",
-        "views": 41
-      },
-      {
-        "date": "20260507",
-        "views": 48
-      },
-      {
-        "date": "20260508",
-        "views": 39
-      },
-      {
-        "date": "20260509",
-        "views": 52
-      }
-    ],
     "Penalty": [
       {
         "date": "20260313",
@@ -6347,248 +5164,6 @@
       {
         "date": "20260429",
         "views": 1
-      }
-    ],
-    "Olympikus": [
-      {
-        "date": "20260311",
-        "views": 50
-      },
-      {
-        "date": "20260312",
-        "views": 66
-      },
-      {
-        "date": "20260313",
-        "views": 80
-      },
-      {
-        "date": "20260314",
-        "views": 56
-      },
-      {
-        "date": "20260315",
-        "views": 67
-      },
-      {
-        "date": "20260316",
-        "views": 90
-      },
-      {
-        "date": "20260317",
-        "views": 82
-      },
-      {
-        "date": "20260318",
-        "views": 275
-      },
-      {
-        "date": "20260319",
-        "views": 363
-      },
-      {
-        "date": "20260320",
-        "views": 76
-      },
-      {
-        "date": "20260321",
-        "views": 189
-      },
-      {
-        "date": "20260322",
-        "views": 234
-      },
-      {
-        "date": "20260323",
-        "views": 276
-      },
-      {
-        "date": "20260324",
-        "views": 451
-      },
-      {
-        "date": "20260325",
-        "views": 339
-      },
-      {
-        "date": "20260326",
-        "views": 197
-      },
-      {
-        "date": "20260327",
-        "views": 333
-      },
-      {
-        "date": "20260328",
-        "views": 280
-      },
-      {
-        "date": "20260329",
-        "views": 165
-      },
-      {
-        "date": "20260330",
-        "views": 113
-      },
-      {
-        "date": "20260331",
-        "views": 67
-      },
-      {
-        "date": "20260401",
-        "views": 81
-      },
-      {
-        "date": "20260402",
-        "views": 203
-      },
-      {
-        "date": "20260403",
-        "views": 125
-      },
-      {
-        "date": "20260404",
-        "views": 90
-      },
-      {
-        "date": "20260405",
-        "views": 85
-      },
-      {
-        "date": "20260406",
-        "views": 229
-      },
-      {
-        "date": "20260407",
-        "views": 148
-      },
-      {
-        "date": "20260408",
-        "views": 220
-      },
-      {
-        "date": "20260409",
-        "views": 91
-      },
-      {
-        "date": "20260410",
-        "views": 121
-      },
-      {
-        "date": "20260411",
-        "views": 182
-      },
-      {
-        "date": "20260412",
-        "views": 161
-      },
-      {
-        "date": "20260413",
-        "views": 115
-      },
-      {
-        "date": "20260414",
-        "views": 167
-      },
-      {
-        "date": "20260415",
-        "views": 92
-      },
-      {
-        "date": "20260416",
-        "views": 107
-      },
-      {
-        "date": "20260417",
-        "views": 55
-      },
-      {
-        "date": "20260418",
-        "views": 65
-      },
-      {
-        "date": "20260419",
-        "views": 53
-      },
-      {
-        "date": "20260420",
-        "views": 50
-      },
-      {
-        "date": "20260421",
-        "views": 41
-      },
-      {
-        "date": "20260422",
-        "views": 41
-      },
-      {
-        "date": "20260423",
-        "views": 44
-      },
-      {
-        "date": "20260424",
-        "views": 59
-      },
-      {
-        "date": "20260425",
-        "views": 48
-      },
-      {
-        "date": "20260426",
-        "views": 69
-      },
-      {
-        "date": "20260427",
-        "views": 49
-      },
-      {
-        "date": "20260428",
-        "views": 49
-      },
-      {
-        "date": "20260429",
-        "views": 57
-      },
-      {
-        "date": "20260430",
-        "views": 42
-      },
-      {
-        "date": "20260501",
-        "views": 43
-      },
-      {
-        "date": "20260502",
-        "views": 88
-      },
-      {
-        "date": "20260503",
-        "views": 78
-      },
-      {
-        "date": "20260504",
-        "views": 73
-      },
-      {
-        "date": "20260505",
-        "views": 64
-      },
-      {
-        "date": "20260506",
-        "views": 41
-      },
-      {
-        "date": "20260507",
-        "views": 53
-      },
-      {
-        "date": "20260508",
-        "views": 47
-      },
-      {
-        "date": "20260509",
-        "views": 57
       }
     ]
   },
@@ -6969,7 +5544,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-97398269",
+      "sku": "signal-98810715",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -6979,7 +5554,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-23797639",
+      "sku": "signal-63437785",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7037,33 +5612,11 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 8,
+      "signals_60d": 9,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
       "top_movement": "Cambio de sponsor técnico para Botafogo: pasará de vestir Reebok a Mizuno - Marketing Regi",
-      "top_source": "Google News MX"
-    },
-    {
-      "brand": "Asics",
-      "category": "Sportswear",
-      "color": "#002954",
-      "signals_60d": 2,
-      "latas_detected": 0,
-      "ads_active": 0,
-      "youtube_uploads_30d": 0,
-      "top_movement": "Café União transforma copas da ASICS e Kings League Brazil em concurso com 6 mil empresas ",
-      "top_source": "Google News BR"
-    },
-    {
-      "brand": "Umbro",
-      "category": "Sportswear",
-      "color": "#1B315E",
-      "signals_60d": 1,
-      "latas_detected": 0,
-      "ads_active": 0,
-      "youtube_uploads_30d": 0,
-      "top_movement": "Crocs lanza colaboración futbolera con Umbro: la estrategia poco convencional para destaca",
       "top_source": "Google News MX"
     },
     {
@@ -7076,17 +5629,6 @@
       "youtube_uploads_30d": 0,
       "top_movement": "It's a Penalty anuncia alianzas globales y una campaña de atletas estrella para la prevenc",
       "top_source": "Google News MX"
-    },
-    {
-      "brand": "Olympikus",
-      "category": "Sportswear",
-      "color": "#F58220",
-      "signals_60d": 3,
-      "latas_detected": 0,
-      "ads_active": 0,
-      "youtube_uploads_30d": 0,
-      "top_movement": "Corre Turbo Edição Especial Maratona de Porto Alegre Olympikus – R$ 699,99 (1) - webrun.co",
-      "top_source": "Google News BR"
     },
     {
       "brand": "Joma",
@@ -7180,22 +5722,7 @@
         "ambush_target": "Adidas FIFA exclusivity"
       },
       {
-        "brand": "Asics",
-        "category": "Sportswear",
-        "ambush_target": "Adidas FIFA exclusivity"
-      },
-      {
-        "brand": "Umbro",
-        "category": "Sportswear",
-        "ambush_target": "Adidas FIFA exclusivity"
-      },
-      {
         "brand": "Penalty",
-        "category": "Sportswear",
-        "ambush_target": "Adidas FIFA exclusivity"
-      },
-      {
-        "brand": "Olympikus",
         "category": "Sportswear",
         "ambush_target": "Adidas FIFA exclusivity"
       },
@@ -7304,7 +5831,6 @@
   "ambush_by_brand": {
     "New Balance": 3,
     "Nike": 19,
-    "Umbro": 1,
     "Puma": 18,
     "Under Armour": 2,
     "Penalty": 4,
