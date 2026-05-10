@@ -1,43 +1,43 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T09:51:35.390959+00:00",
+  "generated_at": "2026-05-10T09:57:40.565559+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 247,
-      "elapsed_s": 34.7
+      "count": 245,
+      "elapsed_s": 32.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 87.7
+      "elapsed_s": 41.4
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.6
+      "elapsed_s": 4.5
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.5
+      "elapsed_s": 3.2
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.7
+      "elapsed_s": 7.3
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 31.8,
+      "elapsed_s": 25.5,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.4
+      "elapsed_s": 5.2
     },
     "google_trends": {
       "status": "ok",
@@ -48,7 +48,7 @@
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.8
+      "elapsed_s": 3.2
     }
   },
   "competitors": [
@@ -5544,7 +5544,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-98810715",
+      "sku": "signal-5404097",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -5554,7 +5554,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-63437785",
+      "sku": "signal-30837226",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
