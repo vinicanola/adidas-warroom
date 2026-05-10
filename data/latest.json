@@ -1,54 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T15:36:18.435603+00:00",
+  "generated_at": "2026-05-10T19:49:45.116855+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 241,
-      "elapsed_s": 43.5
+      "elapsed_s": 37.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.7
+      "elapsed_s": 20.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 11.7
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.3
+      "elapsed_s": 8.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.8
+      "elapsed_s": 8.3
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 37.3,
+      "elapsed_s": 42.6,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 7.7
+      "elapsed_s": 6.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.1,
+      "elapsed_s": 2.5,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.8
+      "elapsed_s": 4.2
     }
   },
   "competitors": [
@@ -93,24 +93,24 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 46,
-      "signals": 37,
+      "score": 49,
+      "signals": 40,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 63,
-      "signals": 40,
+      "score": 64,
+      "signals": 41,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 16,
-      "signals": 12,
+      "score": 21,
+      "signals": 13,
       "color": "#75AADB"
     },
     {
@@ -129,15 +129,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 68.3,
     "search_leader_delta_pp": 3.9,
-    "signals_60d": 98,
-    "signals_delta_pct": 150,
+    "signals_60d": 103,
+    "signals_delta_pct": 155,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 53,
+    "ambush_attempts_total": 54,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 23,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 9,
+    "selecao_signals_total": 10,
     "official_signals_total": 0
   },
   "signals": [
@@ -179,6 +179,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la Sudamericana - Ambito",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPam12aExrYWMzRWtNN1Ruc0d3bV9VZTFQZXA3T0p2UDhtYjFiSGYzYXY2T2JrbHRwb01tazQ1SXk5bWcycFh2Qlc5b0FvSUVNM2twRDNIWklIZ05zR0JiVllkSVlrLVZ4dHdaWlFHV0ZFYkFHZEJlOWFfN3hMWlFNcXZ2TEg0V3RaaFV3RkFFdW9QVmdQOXVhTjlRTG5hUWw5VGhkUjNvTFVqM3VnSGQtXzYxNUFkWFE2Sk43NUFtaWZURF81ajRRUGFDONIB0AFBVV95cUxQNVI5OGVURG9YLXp5d0JOdG9DbldJUDFxSFhzVEFMbG1yS2VjTDdqcEhGSmpYankyZFhwRThwX0VrMzVRN2s4RS1sNVZhTWRDb2s2MThsaXd5Q2o4ck1CM28xNG1BZTcyTTZKenpCU1VlazJJdjlQMUdQS0tvRllpTjJMTkZ0SHMtM0g4SUlCZmxOUWR5QV84U0w4S0hZU0g1RmhLUmQ4bzdjdHNPdmI2dUpmRFZsdEVIRUFqTEFTUzRRaDBNeWIwRjdXejRQRlFf?oc=5",
+      "timestamp": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     },
     {
       "level": "red",
@@ -396,6 +409,19 @@
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPQVNmTmJ6cHdCX3FWM2tIbU9seHFDMXR6ZGZWNDc5elFKZGJ6dHNPMVhrZktaZ25EOElmeTQ3d0x3OXJmVmJaOFZXd1AwZXpwZ09iSGxhSzRuNTV1ZkJIZVFLZ3BHOXk3cXphQldUS0R1TkZXSlZTckVzbEV2YjVOQVlhcEw0bFRTcVRPck9wTzlXR0pUTjIyWFhFd3JnUXExOTAyc0RTa3VocXVnVDZZTzM3NGtHTGpBYWhzYjVDQktxcGZIQ0hsQmlUR3JJbEJRaE9JYVFtN3Z5a1VVdkFLSEJQbEhwaS0zSnBhVkpLR2F5WjJIR2E1THdOUlRiVVJseFRNNUlQekNpdVJ5dU90ZlNkRjYxV0tqQ2ZydDBR?oc=5",
       "timestamp": "Wed, 11 Mar 2026 07:00:00 GMT",
       "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Seis camisas da Puma para as seleções nacionais de 2026 (Copa do Mundo) vazaram - Footy Headlines",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaFFYaWJya21yN1l1QndmdHRrejhSNTFIb3Npay1JODNCV1h5clM5MzVDSmhxbXEzejl6aHMtUnJVU004RTJPeGNZbHVlanRqaURMakZNenJIdkRtY2FadWZzV3ZvbG16dURhdTQ4bjc5ckYwd0poQy1ySDhXQ3NlalpyTi1qZGo4UDREOHRmYkp3enVhS0NyNEJUUzlTQUlwQTdTZzA0eWEwMWp3S1BqMEdzNjlBMG8?oc=5",
+      "timestamp": "Fri, 13 Mar 2026 07:00:00 GMT",
+      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1066,19 +1092,6 @@
     },
     {
       "level": "green",
-      "title": "Confirman un error irreversible en las camisetas de Francia, Brasil y otras 9 selecciones para el Mundial 2026 - bolavip.com",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQTR3OUJ1bS1MS3hZME9oSzVfcXA1Y29ZeWNIU3hfN1hhUEpPTUNBU3JocnlndWpRVUxreS1hTjZ2SExYUXRZTW5LVUxYU3VXX1VQdXRMZ3FZTENLMU5JbkEzQUROUGxRb3d0N1BsTm1iaTFYdm5tOUtwS2pOY0JrYUtQQXNMLXNsa2xORWRGV0VYcUZSenNXTDk0bUxOcGZiYjRoMDJIUXNwNkZ6Tm4xSEVLaWJCRlc2VzA0VTJJYWJnOG9ZYmRaSzZfUjhQVU1MZ0JmSHNiVdIB3AFBVV95cUxQS0xrUmxndHBTREVqUUlUU2JUZDFtZGhXVXlGQVhDQW1LM0llSGt1cjRXb1ZzQ3pDTDJUbHZYRC1jU2FpOVdDVU1HbU5BeWlzVFQyS1c3Q18xVHBYM1gyMEhlTTNVcGNxN3Z0bzRZNm5UenpLY21IbW93YWhPSTVxU0dVSlUxUl8wbjJURS1lZE5VbUpGcUJxdzliNVpNeEZGVENUdWNySTR2THo3SUUyaHB5a0IxUm9BdTNwME5vQndQNFpwR3FQdjhSOEtpMGVzdzZiNHdzZlBnd3hL?oc=5",
-      "timestamp": "Tue, 05 May 2026 19:53:56 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "Copa do Mundo 2026: confira os uniformes das seleções classificadas - olympics.com",
       "market": "BR",
       "source": "Google News BR",
@@ -1089,6 +1102,32 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Nike, Adidas e Puma vestem 77% das seleções na Copa de 2026 - Sport Insider",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQTRxbE8tdFlMdzRkejVmV2dCY3VWem5Jc09NbnkwUEd6eXdVVWNNem1hWTFBcElaNkk3Y0FfbmpvQnZBU2lNVHp5VGVwakhYcS13SF94b0dXVXRCaUtyZFdXWm9Fa0ZKbDJ5SDM0WU9hRllCNTlaczRPdldQUWl0LUtyZmRNQ3g0YWY4QU5kNlN5ZWsxVmJ6LVViSzhaUQ?oc=5",
+      "timestamp": "Tue, 05 May 2026 11:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Confirman un error irreversible en las camisetas de Francia, Brasil y otras 9 selecciones para el Mundial 2026 - bolavip.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQTR3OUJ1bS1MS3hZME9oSzVfcXA1Y29ZeWNIU3hfN1hhUEpPTUNBU3JocnlndWpRVUxreS1hTjZ2SExYUXRZTW5LVUxYU3VXX1VQdXRMZ3FZTENLMU5JbkEzQUROUGxRb3d0N1BsTm1iaTFYdm5tOUtwS2pOY0JrYUtQQXNMLXNsa2xORWRGV0VYcUZSenNXTDk0bUxOcGZiYjRoMDJIUXNwNkZ6Tm4xSEVLaWJCRlc2VzA0VTJJYWJnOG9ZYmRaSzZfUjhQVU1MZ0JmSHNiVdIB3AFBVV95cUxQS0xrUmxndHBTREVqUUlUU2JUZDFtZGhXVXlGQVhDQW1LM0llSGt1cjRXb1ZzQ3pDTDJUbHZYRC1jU2FpOVdDVU1HbU5BeWlzVFQyS1c3Q18xVHBYM1gyMEhlTTNVcGNxN3Z0bzRZNm5UenpLY21IbW93YWhPSTVxU0dVSlUxUl8wbjJURS1lZE5VbUpGcUJxdzliNVpNeEZGVENUdWNySTR2THo3SUUyaHB5a0IxUm9BdTNwME5vQndQNFpwR3FQdjhSOEtpMGVzdzZiNHdzZlBnd3hL?oc=5",
+      "timestamp": "Tue, 05 May 2026 19:53:56 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -1206,6 +1245,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - Diario de Mallorca",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODJHYXFLS3dUNDcxTC1QM3dSLVh2R3p0WmxpbWlPQmhqcU5OUXMwS0xLdFhidlpSYzg1azVjUEdDWGg1VEFfRU1SMlJBZWI0WVNjaEZOcUhURW94Szdza1RxMTdyVlpwVGk1YUlxUm0xQ1luaVNROTB0MzN1ajhrM3ZWZnhsc3VDSXNsNk96QnZUMlZyakNCZGxFNHNDWjho0gGmAUFVX3lxTFB4S2NOUVQ2SHVoVmJKZm50dWVWS0ZWZFV0VThOcV8zYmxaMDJ4RmlSQkEyZlJuR0k2RVdrQmVtZjRqS1psT015SVQ0NDJfZTAtUy1SVzdsZmNPN2dnR2FwRUhxNmZsWnRxLXEwN0plLW42cVdIY2s0MFdER0J4UFRxWmtubUwxZjNLVU1FOU9NTXNSQnZkZXJ5bTlKM3BfUUV5Y2Y1YkE?oc=5",
+      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1352,6 +1404,19 @@
     },
     {
       "level": "green",
+      "title": "Copa do Mundo: Adidas e Nike lançam campanhas com reunião de craques; veja os vídeos - Lance!",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeE00bzRFcFduX3B6WGFDWkxLSFFzOEpqVWJPaGJsYjN2QVQzMC1OS3QwNEV0dnFncDcxUjduWVpneExmSWhSa1ZTZEktdDFKa2VXZUpYbXF6Z1pMM01raXFCWFNTOWtrcmZ1NmJnRmpjYmE4cGtnY1BSY3ZOTVhLU0NsNUZLU0p0dndOMlp3ZVpwZWQ4dGRIc05uN1ZqZXZFT1JpM01hb0hFWlVBZ1FTU0o4aE9qdURyOUp0TjN6N1NDSEhL?oc=5",
+      "timestamp": "Thu, 07 May 2026 17:32:09 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
       "title": "Austrália na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -1378,19 +1443,6 @@
     },
     {
       "level": "green",
-      "title": "Nike Mundial Femenino - Jomo Kenyatta University of Agriculture and Technology",
-      "market": "CO",
-      "source": "Google News CO",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeE9za0NQREdtRUs4RDQzaGp5TWQwaXpyS2h4X2hPeW5lQXdydmhZQVVOX3VhYWk2YnB6WllzN0w2eVVUYlZ2ZG0ycXg5am02T2c4V1VlSzRacGtHazgzbW1PWWptSU12bE9FeUhZSFBMVjhPQkl2eWFKemJtVjUwTWVwYm4zaXRWOGQwMQ?oc=5",
-      "timestamp": "Sat, 09 May 2026 09:23:31 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 - MSN",
       "market": "AR",
       "source": "Google News AR",
@@ -1401,6 +1453,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike Mundial Femenino - Jomo Kenyatta University of Agriculture and Technology",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeE9za0NQREdtRUs4RDQzaGp5TWQwaXpyS2h4X2hPeW5lQXdydmhZQVVOX3VhYWk2YnB6WllzN0w2eVVUYlZ2ZG0ycXg5am02T2c4V1VlSzRacGtHazgzbW1PWWptSU12bE9FeUhZSFBMVjhPQkl2eWFKemJtVjUwTWVwYm4zaXRWOGQwMQ?oc=5",
+      "timestamp": "Sat, 09 May 2026 09:23:31 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -3670,7 +3735,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-76247508",
+      "sku": "signal-10051349",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -3680,7 +3745,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-88431610",
+      "sku": "signal-31293950",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3694,7 +3759,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 41,
+      "signals_60d": 42,
       "latas_detected": 0,
       "ads_active": 21,
       "youtube_uploads_30d": 0,
@@ -3705,12 +3770,12 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 27,
+      "signals_60d": 31,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
-      "top_movement": "Equipaciones de Nueva Zelanda para la Copa Mundial de la FIFA 2026: local, visitante, fech",
-      "top_source": "Google News MX"
+      "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
+      "top_source": "Google News AR"
     },
     {
       "brand": "New Balance",
@@ -3957,7 +4022,7 @@
   "ambush_by_brand": {
     "New Balance": 3,
     "Nike": 23,
-    "Puma": 18,
+    "Puma": 19,
     "Under Armour": 2,
     "Penalty": 4,
     "Joma": 2,
