@@ -1,48 +1,48 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T10:23:57.959300+00:00",
+  "generated_at": "2026-05-10T11:30:33.013746+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 243,
-      "elapsed_s": 33.5
+      "count": 242,
+      "elapsed_s": 33.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.5
+      "elapsed_s": 2.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.8
+      "elapsed_s": 4.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.1
+      "elapsed_s": 3.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.0
+      "elapsed_s": 7.8
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 32.7,
+      "elapsed_s": 31.2,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.6
+      "elapsed_s": 5.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.3,
+      "elapsed_s": 2.0,
       "fallback": "kept_previous"
     },
     "wikipedia": {
@@ -109,8 +109,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 11,
-      "signals": 11,
+      "score": 16,
+      "signals": 12,
       "color": "#75AADB"
     },
     {
@@ -129,13 +129,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 68.3,
     "search_leader_delta_pp": 3.9,
-    "signals_60d": 95,
-    "signals_delta_pct": 152,
+    "signals_60d": 96,
+    "signals_delta_pct": 143,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 50,
+    "ambush_attempts_total": 51,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 20,
+    "ambush_top_count": 21,
     "fifa_signals_total": 0,
     "selecao_signals_total": 9,
     "official_signals_total": 0
@@ -161,6 +161,19 @@
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU0E1UUNvTTcydm1PcTBvQ0FOWkNFV3JmajNaWUxqV3l4UlpfNE5RSWxHQmdLOTBvWDZHYXZFRlozSjRVRnNuU1Z5YXg5OXMtajVNY2tibmYxSU9xcjRZcDJsbWUzX2dDeVhJTXg5VjJ4aHltQW82ck1JaU1iTktHRDJOZEFkMjBFOWY5dmZDVEY0Z0M5aHZBN0RVR3ZTV1pNTTBPaWxoTEowZF9yV190N3pQbw?oc=5",
       "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Australia para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVXI2Z1hzemVBRnhLQmRYWkk2WldSZ0NhZTBybDl5NEJ2N1FMclYxMlZwUlZLWjRhbVNFd0JUS0tRdjlRQV9pU1pLeEJmMV9qeDRDYklqVWQxY0xuSjFDZzVrNmFNT3ZrR21FcGJtTmN6cmFYbHRXOVIzVFdXWUNkTzNYbzFSZUtGWUpndDBZejJGd3dnd3REUmUyNTdDSFdJaW9sZ21maVpDSk96d2FERnZ4em5Wak1hQ0FONU11OXlUcTRLZHNMTF9lcWExZURHbEx0SVhWc0h0a2dFRzBOT19ISHA5MEhOcXdGbXpXSHpaMUJkbktvNm5R?oc=5",
+      "timestamp": "Tue, 31 Mar 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -923,19 +936,6 @@
     },
     {
       "level": "green",
-      "title": "Puma Rodríguez tem temporada com mais gols na carreira e é artilheiro do Vasco no ano - ge",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbGJrSU1HQy1PMHBMaGd5c1J6VDZhUF9wMU9Qbm9HYnExcGFneWFkNXYwS1hySHUtNkJwUXFubGNtcXBXOFFZbEFSRDNJaHlIZXpDdkxjR1pHdmZzemcwREF5SjNDS3J2cVEtR3MyNmh2OFJrRjNaX2JXWXVRamkzLWY0Q1Z6WnA2ZjE5TnJEQ0VJMTNSMk5OdGRtMjh4a0FjbURDaXBWNVpaNWplWTBTcVgzekEwVThfS1otQ0lGakZXeWhGRW9kX1RNd2NKMGxrYUhuSkNFYWFpV0t3Q2pVZjJEajFTQdIB9AFBVV95cUxNVXZZMFRSRVNQd1hidlotLWNsXzlQVXRTMFhTSC1paWFRV1VrZDJPalgwbkI2LU5yZ19tMk83WUh3Q1docmgxbUdwM2licktrSS1YUV95MkhoSWU5X2t6bTN2ckFHbTFUSGh3LTV1WHZqanQteWxmSzFZbi1IVmtPWEdyRVpaN2QyUDRlWW5aUzJlZHFaeElydjlvaUg5ZEs4Nnh2MnowVmdWeXZxTi1hZGFISmRneWdNQ0M2UDkwZ0Q3dG13VXVXRlFuQll5WXVBUUxSMDFMQmdnNG1wYzlwTnZtWlp5MXVLb1BQTG5seUpwTkFf?oc=5",
-      "timestamp": "Sat, 02 May 2026 13:00:35 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Adidas vs. Nike: el impulso del running y el Mundial redefine la batalla en las bolsas - Bloomberg Línea",
       "market": "MX",
       "source": "Google News MX",
@@ -946,6 +946,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Puma Rodríguez tem temporada com mais gols na carreira e é artilheiro do Vasco no ano - ge",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbGJrSU1HQy1PMHBMaGd5c1J6VDZhUF9wMU9Qbm9HYnExcGFneWFkNXYwS1hySHUtNkJwUXFubGNtcXBXOFFZbEFSRDNJaHlIZXpDdkxjR1pHdmZzemcwREF5SjNDS3J2cVEtR3MyNmh2OFJrRjNaX2JXWXVRamkzLWY0Q1Z6WnA2ZjE5TnJEQ0VJMTNSMk5OdGRtMjh4a0FjbURDaXBWNVpaNWplWTBTcVgzekEwVThfS1otQ0lGakZXeWhGRW9kX1RNd2NKMGxrYUhuSkNFYWFpV0t3Q2pVZjJEajFTQdIB9AFBVV95cUxNVXZZMFRSRVNQd1hidlotLWNsXzlQVXRTMFhTSC1paWFRV1VrZDJPalgwbkI2LU5yZ19tMk83WUh3Q1docmgxbUdwM2licktrSS1YUV95MkhoSWU5X2t6bTN2ckFHbTFUSGh3LTV1WHZqanQteWxmSzFZbi1IVmtPWEdyRVpaN2QyUDRlWW5aUzJlZHFaeElydjlvaUg5ZEs4Nnh2MnowVmdWeXZxTi1hZGFISmRneWdNQ0M2UDkwZ0Q3dG13VXVXRlFuQll5WXVBUUxSMDFMQmdnNG1wYzlwTnZtWlp5MXVLb1BQTG5seUpwTkFf?oc=5",
+      "timestamp": "Sat, 02 May 2026 13:00:35 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1118,6 +1131,32 @@
     },
     {
       "level": "green",
+      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - El Periódico Mediterráneo",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
+      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - El Periódico Mediterráneo",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
+      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Nuevos Tenis Nike Futbol 2016 - Jomo Kenyatta University of Agriculture and Technology",
       "market": "MX",
       "source": "Google News MX",
@@ -1167,19 +1206,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - El Periódico Mediterráneo",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
-      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1235,19 +1261,6 @@
     },
     {
       "level": "green",
-      "title": "Adidas, Nike, Puma y una 'batalla' Mundial: \"Vivimos en un duopolio\" - El Periódico Mediterráneo",
-      "market": "CO",
-      "source": "Google News CO",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
-      "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Las colecciones de Nike y Adidas para el Mundial de 2026 son muy similares - Footy Headlines",
       "market": "MX",
       "source": "Google News MX",
@@ -1274,6 +1287,19 @@
     },
     {
       "level": "green",
+      "title": "World Cup 2026 kits spotlight Adidas and Nike duopoly as Puma leans on Africa - OneFootball",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGNZVVUyb3pzN3h4R0w1amM5OWkyN0RtSFBwTHZfd2xUZDA5YzFUU0VCelRpVVVHLU43dzBadUprYmZEcjdYRTItaDgteTRjNEUtOExsOUNBUXNhU1B4VnBoLUdyUmx3SWNFNVNDX1ZwT3FHcWVQaGY4ZUFLTE5qQnNKeEQzWWQwSGxOTEFGR3N6SE9CWl9nRHdya044dVVTV3Zxdm1aZzRyRzhEdW1TOU5hYXlJNjlUT3ZDU2hqMA?oc=5",
+      "timestamp": "Thu, 07 May 2026 11:15:02 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "Paraguai na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -1293,19 +1319,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS1JOUEZLMm4xUGtxeEZUOHdWdUhTMHRSVUl6bDNnS3h6UzV4SmlnN1lwWTgySmFMYTQ3ZzlUM2hneEZPdWxCZzBBOTBxOW8xSUxLX3pSRWlFRTZHZlM4QjJvd1Q4SER4VHY5U2pHRlVzWmo1UFREbHE1N2E3ejVSODc5TndtZVRfeU9wU3ZabFg4ZW5LUlhONGNvMGJ3THFWT2R5eHBDMFhRd0NkOVEtbFNRbl91VmVrX1N2QnlaWDdMa0lLSmZ4ajBBZDNHMTJ5ck9vUTFJX0ZFbTNNTzQ5dg?oc=5",
       "timestamp": "Thu, 07 May 2026 14:32:03 GMT",
       "brand": "Penalty",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "World Cup 2026 kits spotlight Adidas and Nike duopoly as Puma leans on Africa - OneFootball",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGNZVVUyb3pzN3h4R0w1amM5OWkyN0RtSFBwTHZfd2xUZDA5YzFUU0VCelRpVVVHLU43dzBadUprYmZEcjdYRTItaDgteTRjNEUtOExsOUNBUXNhU1B4VnBoLUdyUmx3SWNFNVNDX1ZwT3FHcWVQaGY4ZUFLTE5qQnNKeEQzWWQwSGxOTEFGR3N6SE9CWl9nRHdya044dVVTV3Zxdm1aZzRyRzhEdW1TOU5hYXlJNjlUT3ZDU2hqMA?oc=5",
-      "timestamp": "Thu, 07 May 2026 11:15:02 GMT",
-      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -3631,7 +3644,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-85806098",
+      "sku": "signal-40922731",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -3641,7 +3654,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-70177856",
+      "sku": "signal-22924522",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3655,7 +3668,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 38,
+      "signals_60d": 39,
       "latas_detected": 0,
       "ads_active": 21,
       "youtube_uploads_30d": 0,
@@ -3917,7 +3930,7 @@
   },
   "ambush_by_brand": {
     "New Balance": 3,
-    "Nike": 20,
+    "Nike": 21,
     "Puma": 18,
     "Under Armour": 2,
     "Penalty": 4,
