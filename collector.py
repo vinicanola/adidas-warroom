@@ -949,10 +949,14 @@ def load_existing(path):
 def merge_signals(existing, new_signals):
     by_key = {}
     # Filtra mock data (URLs example.com) ao ler existente
+    # E re-aplica EXCLUSION_KEYWORDS pra limpar signals coletados quando o filtro era mais frouxo
     for s in existing:
         url = s.get("url", "")
         if "example.com" in url or "example.org" in url:
             continue  # descarta mock seed
+        title_l = (s.get("title", "") or "").lower()
+        if any(kw in title_l for kw in EXCLUSION_KEYWORDS):
+            continue  # signal antigo agora considerado off-topic - drop
         key = re.sub(r"\W+", "", (s.get("title", "")).lower())[:80] + s.get("brand", "")
         by_key[key] = s
     for s in new_signals:
@@ -1071,9 +1075,13 @@ def main(dry_run=False):
     if not active_ads:
         prev = (existing or {}).get("active_ads")
         if prev:
-            prev = [a for a in prev if a.get("brand", "") in _active_brands]
+            # Re-aplica filtros atuais no fallback (page_name blacklist + brand whitelist)
+            # pra evitar que ads bloqueados por filtros novos sobrevivam via kept_previous
+            prev = [a for a in prev
+                    if a.get("brand", "") in _active_brands
+                    and _is_legit_brand_page(a.get("brand", ""), a.get("page_name", ""))]
         if prev:
-            log.info("active_ads vazio - reaproveitando dados do run anterior")
+            log.info("active_ads vazio - reaproveitando %d ads do run anterior (apos re-filter)", len(prev))
             active_ads = prev
             sources_health.setdefault("meta_ad_library", {})["fallback"] = "kept_previous"
 
