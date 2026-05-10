@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-09T23:37:19.319767+00:00",
+  "generated_at": "2026-05-10T07:52:40.669742+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 360,
-      "elapsed_s": 66.2
+      "count": 361,
+      "elapsed_s": 41.8
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 15.1
+      "elapsed_s": 4.8
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 12.7
+      "count": 12,
+      "elapsed_s": 5.5
     },
     "mercadolibre": {
       "status": "ok",
@@ -26,27 +26,28 @@
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 10.2
+      "elapsed_s": 9.9
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 18,
-      "elapsed_s": 54.0
+      "count": 21,
+      "elapsed_s": 53.8
     },
     "trending_topics": {
       "status": "ok",
-      "count": 17,
-      "elapsed_s": 20.7
+      "count": 0,
+      "elapsed_s": 8.5
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.1
+      "elapsed_s": 2.2,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 10,
-      "elapsed_s": 5.4
+      "elapsed_s": 5.3
     }
   },
   "competitors": [
@@ -106,16 +107,16 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 46,
-      "signals": 37,
+      "score": 49,
+      "signals": 40,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 65,
-      "signals": 38,
+      "score": 66,
+      "signals": 39,
       "color": "#006847"
     },
     {
@@ -136,17 +137,17 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 18,
+    "ads_active_total": 21,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 18,
+    "ads_active_top_count": 21,
     "search_leader_brand": "Nike",
     "search_leader_pct": 69.1,
     "search_leader_delta_pp": 0.7,
-    "signals_60d": 94,
-    "signals_delta_pct": 162,
+    "signals_60d": 98,
+    "signals_delta_pct": 150,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 47,
+    "ambush_attempts_total": 50,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 19,
     "fifa_signals_total": 0,
@@ -819,6 +820,32 @@
     },
     {
       "level": "green",
+      "title": "BOTAFOGO + MIZUNO - Botafogo de Futebol e Regatas",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsdWdHNDVjRzZRZTAxaTRZQ2RGc09CT2FnQkV2VHFCdk1EckI5cWlxdXVSM3BTVEY2YmpLckhZYUV3RXhYaUhaYk5TMVA4Y3RIWm95Y055VncwTWJsWVIxSFZn?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Mizuno assume Botafogo e promete mudança no uniforme até 2029 - diário do estado",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3FTS3BOMWpmTGt1YlJ3UGlwQUJKeURjZ0NCVm5WM0RzWkRTWXhzX1pfUUNiZFFVT2xzeWt4Q09PUTVuV0FlZFF3STU0NjEzb0s2UjE3Q1Y1ZnJlMkxzZXUzZmhDTGRjOHRxN0RPUXZnajVUSVNVV1o2NlB0a1JEaFRNbE1RQV83d0doUmpQRGJaV00ycFRhdi1B?oc=5",
+      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Liga Joma: los clubes protagonistas - RFEA",
       "market": "MX",
       "source": "Google News MX",
@@ -897,6 +924,19 @@
     },
     {
       "level": "green",
+      "title": "Joma vestirá a la Real Sociedad las próximas cinco temporadas - OneFootball",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelhZaEhOWjdBR2I2MWxwSFFIcU9sSVZhSG1wX04tM0ZTclNrM1Q1WHI2a1I5M2JRVDdFdnhwSTZITlRiMEVJMEc5NzdIOS1acXVQU1NmTmx0NVp5aFFJbml0b0FUWmhGamU3UERLRmhrYWkxdnBpOF8yTjlRS3RyUnFLV0pzNkFCUXVsdmtUdjRxdWJWcTN2dVFxMkktMG13NjUybFhRb3pzb2xhTmc?oc=5",
+      "timestamp": "Wed, 29 Apr 2026 07:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "Puma lanzó una colección de botines especial del Mundial 2026 - Marca en Zona",
       "market": "AR",
       "source": "Google News AR",
@@ -962,6 +1002,19 @@
     },
     {
       "level": "green",
+      "title": "PENALTY CORNER TV DA EL SALTO A TELEDEPORTE Y RTVE PLAY CON SU ESPECIAL DE LA COPA 2026 - RFEH",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb013MzdiNEF0ZEJfNnFWeWdLeWpsRE1MMTB4UnNubk5MZ0RadEtQTXVUcTZqdldWRUxHWEhjTDBvX0hfbm90Q2s1YzgtVWhma2h3RWZRV2J5dU56XzZEQUppMWNLQ3BSTkUwdTVuTGpreE5od1ZJSl9tQ293Z01EVW9oLWRnMUVpRWJWTUN0N2U2OHowZVBoTnR1ZXB3NXhGUU41QXdYTXlNWUda?oc=5",
+      "timestamp": "Tue, 05 May 2026 07:40:08 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Copa do Mundo 2026: confira os uniformes das seleções classificadas - olympics.com",
       "market": "BR",
       "source": "Google News BR",
@@ -1011,19 +1064,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "PENALTY CORNER TV DA EL SALTO A TELEDEPORTE Y RTVE PLAY CON SU ESPECIAL DE LA COPA 2026 - RFEH",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb013MzdiNEF0ZEJfNnFWeWdLeWpsRE1MMTB4UnNubk5MZ0RadEtQTXVUcTZqdldWRUxHWEhjTDBvX0hfbm90Q2s1YzgtVWhma2h3RWZRV2J5dU56XzZEQUppMWNLQ3BSTkUwdTVuTGpreE5od1ZJSl9tQ293Z01EVW9oLWRnMUVpRWJWTUN0N2U2OHowZVBoTnR1ZXB3NXhGUU41QXdYTXlNWUda?oc=5",
-      "timestamp": "Tue, 05 May 2026 07:40:08 GMT",
-      "brand": "Penalty",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1076,6 +1116,32 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Deportivo Táchira Wins in Penalty Shootout vs The Strongest in Copa Libertadores 2026 - beIN SPORTS",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQVVKRVJCMnZhMGtWWEdMR2NxMm82WmpWM0xHU3dhZi1BWEVoMzJhRjRNR3VnYnNPckthdVpVUURpdzVpY3N1eGgyMV9lZFRGeEhnS3Z0TW5FYU5VMEVaaURHYlJXdWxFX2c3N3FVVUpGdlZNaFR3YjRtVk5EZmdPUTNBSW9HOVJDU0hBUXNidGR2SmphUDI2amZISW05TU9yR3lsdTFHMjl5V1BVa2R2MHFRaXJtZHd1NHctb1EzNU1fcFd6SWFtQlFEaTN4WmpPMEUtU1ZrcHJ4WlpSU2dDZ0J3bUpsY2w4MWtpWFZTaFBsZ2hGYjVGaWVJQ1dOTWlMbDNIQ2UwNTRaUl9Wd3ZtSlNR?oc=5",
+      "timestamp": "Wed, 06 May 2026 06:54:17 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Rosario wins despite Di Maria penalty shocker - beIN SPORTS",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeEpiYVVZblVPR3J3R1JaT1FkYzhFcWVlSlg1YnB3cDk3VFptWE5oWFpnT0YxQUdhaE55T1N3eF92TTVTY3FkT0x5Q3NYZndRSFl6ZjJxYlkxb09CZ2JBVTFjRzdtWkZ3MWxDNjBTSUZ3QVpVeGEyUFRrQ3BzR0RhQTVIdkIyZlVWSG5RSWJjWHhkeUxNcWR2MDAzZnVzNEZEMjVDT2ItaUFlazRNZTA1OXNBTEdUbGh5c2dYT003SWdtTXI3YzZleTZkenFBc0NP?oc=5",
+      "timestamp": "Wed, 06 May 2026 01:55:14 GMT",
+      "brand": "Penalty",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1150,32 +1216,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1JiWlFxczRodXNGdl9IR3VhamswZVNzLUI2QkhFVUUwTlkwU2lKbDFuOVFpaVdTYWpuaTVDQV9YODZsNGJMRG9LenJuNmU0RTlWV29vUll3SG83UmF6QVB4ZW1xLWppbVlNZjExQ0NjMjlrQm03X2hpM0V5R3pLbEtraEZzZXBvRU9hTWdBZHI1NUFQS21kcVFGa2NQVVR3V0pHRTNZMTBZdEXSAbABQVVfeXFMT0F4RUJYQ1NEQjU4NmF2R2JLOEszdU1OVzZIa0FMWmVFWWQwNmt6WHRwMnpUUFl0d2NFZWhxLXVvbm4xaDBqWjVjQU5RMGxud1FpT09UcVdKNE9UVi1BZEM1ZXE3bTB3WkRXY2tLRHZNa1BReXczb3J5V0RlbFRXT1JGMng5UENwSTEyX21VQlk4MkVoS3NGczFxOVp5bkV2RnNtaXg0V3UwOTFtMXp4TUs?oc=5",
       "timestamp": "Wed, 06 May 2026 11:13:53 GMT",
       "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Deportivo Táchira Wins in Penalty Shootout vs The Strongest in Copa Libertadores 2026 - beIN SPORTS",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQVVKRVJCMnZhMGtWWEdMR2NxMm82WmpWM0xHU3dhZi1BWEVoMzJhRjRNR3VnYnNPckthdVpVUURpdzVpY3N1eGgyMV9lZFRGeEhnS3Z0TW5FYU5VMEVaaURHYlJXdWxFX2c3N3FVVUpGdlZNaFR3YjRtVk5EZmdPUTNBSW9HOVJDU0hBUXNidGR2SmphUDI2amZISW05TU9yR3lsdTFHMjl5V1BVa2R2MHFRaXJtZHd1NHctb1EzNU1fcFd6SWFtQlFEaTN4WmpPMEUtU1ZrcHJ4WlpSU2dDZ0J3bUpsY2w4MWtpWFZTaFBsZ2hGYjVGaWVJQ1dOTWlMbDNIQ2UwNTRaUl9Wd3ZtSlNR?oc=5",
-      "timestamp": "Wed, 06 May 2026 06:54:17 GMT",
-      "brand": "Penalty",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Rosario wins despite Di Maria penalty shocker - beIN SPORTS",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeEpiYVVZblVPR3J3R1JaT1FkYzhFcWVlSlg1YnB3cDk3VFptWE5oWFpnT0YxQUdhaE55T1N3eF92TTVTY3FkT0x5Q3NYZndRSFl6ZjJxYlkxb09CZ2JBVTFjRzdtWkZ3MWxDNjBTSUZ3QVpVeGEyUFRrQ3BzR0RhQTVIdkIyZlVWSG5RSWJjWHhkeUxNcWR2MDAzZnVzNEZEMjVDT2ItaUFlazRNZTA1OXNBTEdUbGh5c2dYT003SWdtTXI3YzZleTZkenFBc0NP?oc=5",
-      "timestamp": "Wed, 06 May 2026 01:55:14 GMT",
-      "brand": "Penalty",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1261,6 +1301,32 @@
     },
     {
       "level": "green",
+      "title": "Las colecciones de Nike y Adidas para el Mundial de 2026 son muy similares - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVBpTFJmRDNtSVQ4SnlMc19xQnlDR0lLZ2E0OFZEX2RMX2dvU1NMaFdTN0tudVVLQTQ4blBNNWZxYVQtZGRrbnMtakF5amZJaHJXanpfZTBhR0JrOXVNY3RpcU5lbXVMdk0tcjVfTDZ5YzUwRG5yS3FGZFE3dlVvWTItdjAyUk8xUjc0bC1NREpUU25mQXQwcGFJSG9NMmFKWjRTSHJ6a1Z5aEZJeVZ4N0Q0RQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 05:03:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "‘Puma’ Carranza motiva a Universitario antes de su duelo contra Coquimbo Unido: “Los chicos saben lo que tienen que hacer” - Infobae",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWXRoZFRrbVE5TU84Wl9wY2hISk9WVzFWbWpoeklzSEJBU2NmV2VkcGsyRU1HTHBncTJEMUtNVjZ0WXBFb2hhQldITDlQZGkwR3NuZzlvYTk2anItUzB5cEUwVm1jbjN0MXhSN3kyUm91djBjS1VvNkdPUFZfVGE2dXp5LVVIUFVYY21jV3d6WlQ4WEdUMGw1YlNKR2g5ZWRuZXhEUTRqcF8xUnp6VEctam9yUGlFMFZmRnAtZmlkeTc5cnZKZVpZQ1RXWWtBN2pTVUdVa2RvM1RLSnFqejNERzdlVzluSE5RTEdoWi1aZzJBV0ZpUWljMEkxY9IBlgJBVV95cUxQbGVkanRmclFXb3o2bTdranMyeTF5ZFV2RTkzSFFBQUpuWjQzY3ExbzAyWnVocUlCRkVIeEFWYTBLdHl5eVNOTnQ2WlVCZnRLcUEydTVjaUh5MDM3OFpsQlFzcm1pRGc5djRUU0tuXzNGaFN6OWdVb0gwdE0wUEw4UjJHSVYwaFlMWWROcWJ5VzJJaHB3ZjEzWjFhQTZPZmxoMy1SeDlIdnRuT2RjX1p4ZDhfOFc2My1pb3hvVThITHBnNzJ2bk56b2xKcDg1VWVJdGJZdlNoSVBCM3Fic1Z1NmkzYnZwWmxCQW55ZTZpemNDbDZIRXJ3dXhmTUgtSlRoc0s5NC1IS2JYN2hlSVVsaE84eWZYQQ?oc=5",
+      "timestamp": "Thu, 07 May 2026 02:34:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Paraguai na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -1287,19 +1353,6 @@
     },
     {
       "level": "green",
-      "title": "Las colecciones de Nike y Adidas para el Mundial de 2026 son muy similares - Footy Headlines",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVBpTFJmRDNtSVQ4SnlMc19xQnlDR0lLZ2E0OFZEX2RMX2dvU1NMaFdTN0tudVVLQTQ4blBNNWZxYVQtZGRrbnMtakF5amZJaHJXanpfZTBhR0JrOXVNY3RpcU5lbXVMdk0tcjVfTDZ5YzUwRG5yS3FGZFE3dlVvWTItdjAyUk8xUjc0bC1NREpUU25mQXQwcGFJSG9NMmFKWjRTSHJ6a1Z5aEZJeVZ4N0Q0RQ?oc=5",
-      "timestamp": "Thu, 07 May 2026 05:03:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "World Cup 2026 kits spotlight Adidas and Nike duopoly as Puma leans on Africa - OneFootball",
       "market": "MX",
       "source": "Google News MX",
@@ -1310,19 +1363,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "‘Puma’ Carranza motiva a Universitario antes de su duelo contra Coquimbo Unido: “Los chicos saben lo que tienen que hacer” - Infobae",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWXRoZFRrbVE5TU84Wl9wY2hISk9WVzFWbWpoeklzSEJBU2NmV2VkcGsyRU1HTHBncTJEMUtNVjZ0WXBFb2hhQldITDlQZGkwR3NuZzlvYTk2anItUzB5cEUwVm1jbjN0MXhSN3kyUm91djBjS1VvNkdPUFZfVGE2dXp5LVVIUFVYY21jV3d6WlQ4WEdUMGw1YlNKR2g5ZWRuZXhEUTRqcF8xUnp6VEctam9yUGlFMFZmRnAtZmlkeTc5cnZKZVpZQ1RXWWtBN2pTVUdVa2RvM1RLSnFqejNERzdlVzluSE5RTEdoWi1aZzJBV0ZpUWljMEkxY9IBlgJBVV95cUxQbGVkanRmclFXb3o2bTdranMyeTF5ZFV2RTkzSFFBQUpuWjQzY3ExbzAyWnVocUlCRkVIeEFWYTBLdHl5eVNOTnQ2WlVCZnRLcUEydTVjaUh5MDM3OFpsQlFzcm1pRGc5djRUU0tuXzNGaFN6OWdVb0gwdE0wUEw4UjJHSVYwaFlMWWROcWJ5VzJJaHB3ZjEzWjFhQTZPZmxoMy1SeDlIdnRuT2RjX1p4ZDhfOFc2My1pb3hvVThITHBnNzJ2bk56b2xKcDg1VWVJdGJZdlNoSVBCM3Fic1Z1NmkzYnZwWmxCQW55ZTZpemNDbDZIRXJ3dXhmTUgtSlRoc0s5NC1IS2JYN2hlSVVsaE84eWZYQQ?oc=5",
-      "timestamp": "Thu, 07 May 2026 02:34:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1362,6 +1402,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 - MSN",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd1h4eVJsd2JTYVduU3Zmd3g5VldUZjJLa3VlLXY3bzlnTnQ2ZWhKMVNGeTNlXzhGSkw3N01SU0tLbExwOWpiczNyOTQwa29jbVJhWHlabG1VSGpHRm5nbWJoNC1qeE1wRzBPakliSE1kV2p0cFV1Rml2SllkXzh1TTZnYnRjbEFuMW13b1FLV3Z3T3RYY0dLN2VUYXVqMmJ5Mk9wajZyLXVaTDdZVXktRTI1ZFdRREUyTV9JcUhKOXBSOElEbjlFYnp3NFZ5XzhZcjJQRERDeVNrd2JVZHFodg?oc=5",
+      "timestamp": "Fri, 08 May 2026 17:03:20 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -4504,10 +4557,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260310",
-        "views": 151
-      },
-      {
         "date": "20260311",
         "views": 151
       },
@@ -4742,13 +4791,13 @@
       {
         "date": "20260508",
         "views": 156
+      },
+      {
+        "date": "20260509",
+        "views": 155
       }
     ],
     "Nike": [
-      {
-        "date": "20260310",
-        "views": 131
-      },
       {
         "date": "20260311",
         "views": 144
@@ -4984,13 +5033,13 @@
       {
         "date": "20260508",
         "views": 118
+      },
+      {
+        "date": "20260509",
+        "views": 132
       }
     ],
     "Puma": [
-      {
-        "date": "20260310",
-        "views": 1
-      },
       {
         "date": "20260313",
         "views": 1
@@ -5061,10 +5110,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260310",
-        "views": 62
-      },
       {
         "date": "20260311",
         "views": 67
@@ -5300,13 +5345,13 @@
       {
         "date": "20260508",
         "views": 53
+      },
+      {
+        "date": "20260509",
+        "views": 47
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260310",
-        "views": 31
-      },
       {
         "date": "20260311",
         "views": 36
@@ -5542,13 +5587,13 @@
       {
         "date": "20260508",
         "views": 21
+      },
+      {
+        "date": "20260509",
+        "views": 26
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260310",
-        "views": 5
-      },
       {
         "date": "20260311",
         "views": 8
@@ -5780,13 +5825,13 @@
       {
         "date": "20260508",
         "views": 2
+      },
+      {
+        "date": "20260509",
+        "views": 8
       }
     ],
     "Asics": [
-      {
-        "date": "20260310",
-        "views": 32
-      },
       {
         "date": "20260311",
         "views": 40
@@ -6022,13 +6067,13 @@
       {
         "date": "20260508",
         "views": 32
+      },
+      {
+        "date": "20260509",
+        "views": 40
       }
     ],
     "Umbro": [
-      {
-        "date": "20260310",
-        "views": 53
-      },
       {
         "date": "20260311",
         "views": 60
@@ -6264,13 +6309,13 @@
       {
         "date": "20260508",
         "views": 39
+      },
+      {
+        "date": "20260509",
+        "views": 52
       }
     ],
     "Penalty": [
-      {
-        "date": "20260310",
-        "views": 1
-      },
       {
         "date": "20260313",
         "views": 1
@@ -6305,10 +6350,6 @@
       }
     ],
     "Olympikus": [
-      {
-        "date": "20260310",
-        "views": 67
-      },
       {
         "date": "20260311",
         "views": 50
@@ -6544,10 +6585,26 @@
       {
         "date": "20260508",
         "views": 47
+      },
+      {
+        "date": "20260509",
+        "views": 57
       }
     ]
   },
   "active_ads": [
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=756683820768304",
+      "ad_id": "756683820768304",
+      "copa_score": 0
+    },
     {
       "brand": "Nike",
       "page_name": "Lopez Brody Nike",
@@ -6592,6 +6649,18 @@
       "started_at": "2026-05-09",
       "body_snippet": "",
       "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1723894808794072",
+      "ad_id": "1723894808794072",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
       "ad_url": "https://www.facebook.com/ads/library/?id=1897050781004805",
       "ad_id": "1897050781004805",
       "copa_score": 0
@@ -6611,18 +6680,6 @@
     {
       "brand": "Nike",
       "page_name": "Lopez Brody Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network",
-      "started_at": "2026-05-09",
-      "body_snippet": "",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26508391502164973",
-      "ad_id": "26508391502164973",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Lopez Brody Nike",
       "country": "MX",
       "platform": "facebook,instagram,audience_network",
       "started_at": "2026-05-09",
@@ -6635,37 +6692,13 @@
     {
       "brand": "Nike",
       "page_name": "Lopez Brody Nike",
-      "country": "MX",
+      "country": "AR",
       "platform": "facebook,instagram,audience_network",
       "started_at": "2026-05-09",
       "body_snippet": "",
       "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1897050781004805",
-      "ad_id": "1897050781004805",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Lopez Brody Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network",
-      "started_at": "2026-05-09",
-      "body_snippet": "",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2117022299153944",
-      "ad_id": "2117022299153944",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Lopez Brody Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network",
-      "started_at": "2026-05-09",
-      "body_snippet": "",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26508391502164973",
-      "ad_id": "26508391502164973",
+      "ad_url": "https://www.facebook.com/ads/library/?id=756683820768304",
+      "ad_id": "756683820768304",
       "copa_score": 0
     },
     {
@@ -6678,6 +6711,30 @@
       "title": "",
       "ad_url": "https://www.facebook.com/ads/library/?id=940604245483293",
       "ad_id": "940604245483293",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1494154016059100",
+      "ad_id": "1494154016059100",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1723894808794072",
+      "ad_id": "1723894808794072",
       "copa_score": 0
     },
     {
@@ -6707,13 +6764,13 @@
     {
       "brand": "Nike",
       "page_name": "Lopez Brody Nike",
-      "country": "AR",
+      "country": "CO",
       "platform": "facebook,instagram,audience_network",
       "started_at": "2026-05-09",
       "body_snippet": "",
       "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26508391502164973",
-      "ad_id": "26508391502164973",
+      "ad_url": "https://www.facebook.com/ads/library/?id=940604245483293",
+      "ad_id": "940604245483293",
       "copa_score": 0
     },
     {
@@ -6724,8 +6781,20 @@
       "started_at": "2026-05-09",
       "body_snippet": "",
       "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=940604245483293",
-      "ad_id": "940604245483293",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1494154016059100",
+      "ad_id": "1494154016059100",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "CO",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1723894808794072",
+      "ad_id": "1723894808794072",
       "copa_score": 0
     },
     {
@@ -6750,6 +6819,18 @@
       "title": "",
       "ad_url": "https://www.facebook.com/ads/library/?id=2117022299153944",
       "ad_id": "2117022299153944",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Lopez Brody Nike",
+      "country": "CO",
+      "platform": "facebook,instagram,audience_network",
+      "started_at": "2026-05-09",
+      "body_snippet": "",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=3445679162274976",
+      "ad_id": "3445679162274976",
       "copa_score": 0
     },
     {
@@ -6884,165 +6965,11 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#dondecomprarelalbumdelmundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 59150,
-      "raw_query": "donde comprar el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 48050,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#álbummundial2026costco",
-      "country": "MX",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 15050,
-      "raw_query": "álbum mundial 2026 costco",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 8100,
-      "raw_query": "caja de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumpastaduramundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 6500,
-      "raw_query": "album pasta dura mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajasobresmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 4700,
-      "raw_query": "caja sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 3200,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 2950,
-      "raw_query": "sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 1750,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 1250,
-      "raw_query": "caja del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 1050,
-      "raw_query": "sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 1000,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumdelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 500,
-      "raw_query": "album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albummundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 500,
-      "raw_query": "album mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#paninimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 300,
-      "raw_query": "panini mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#mundialdeclubes",
-      "country": "BR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 70,
-      "raw_query": "mundial de clubes",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albummundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 70,
-      "raw_query": "album mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-6466559",
+      "sku": "signal-97398269",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -7052,7 +6979,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-2782118",
+      "sku": "signal-23797639",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7068,7 +6995,7 @@
       "color": "#FA5400",
       "signals_60d": 36,
       "latas_detected": 0,
-      "ads_active": 18,
+      "ads_active": 21,
       "youtube_uploads_30d": 0,
       "top_movement": "Nike Lanza Nuevos Tenis Celebrando el Fútbol Mexicano para la Copa Mundial 2026 - 92.5 max",
       "top_source": "Google News MX"
@@ -7077,7 +7004,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 26,
+      "signals_60d": 27,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7110,7 +7037,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 6,
+      "signals_60d": 8,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7165,7 +7092,7 @@
       "brand": "Joma",
       "category": "Sportswear",
       "color": "#F39200",
-      "signals_60d": 4,
+      "signals_60d": 5,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7378,9 +7305,10 @@
     "New Balance": 3,
     "Nike": 19,
     "Umbro": 1,
-    "Puma": 17,
+    "Puma": 18,
     "Under Armour": 2,
     "Penalty": 4,
-    "Joma": 1
+    "Joma": 2,
+    "Mizuno": 1
   }
 }
