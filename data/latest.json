@@ -1,53 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T10:03:19.118374+00:00",
+  "generated_at": "2026-05-10T10:09:51.006090+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 242,
-      "elapsed_s": 38.9
+      "count": 241,
+      "elapsed_s": 31.8
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 76.6
+      "elapsed_s": 72.6
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 5.4
+      "count": 13,
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.8
+      "elapsed_s": 4.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.4
+      "elapsed_s": 8.0
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 23.4,
+      "elapsed_s": 25.5,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 11.5
+      "elapsed_s": 6.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 7.7
+      "elapsed_s": 2.4,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.9
+      "elapsed_s": 3.6
     }
   },
   "competitors": [
@@ -108,8 +109,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 10,
-      "signals": 10,
+      "score": 11,
+      "signals": 11,
       "color": "#75AADB"
     },
     {
@@ -128,13 +129,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 68.3,
     "search_leader_delta_pp": 3.9,
-    "signals_60d": 93,
-    "signals_delta_pct": 158,
+    "signals_60d": 94,
+    "signals_delta_pct": 162,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 49,
+    "ambush_attempts_total": 50,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 19,
+    "ambush_top_count": 20,
     "fifa_signals_total": 0,
     "selecao_signals_total": 8,
     "official_signals_total": 0
@@ -1348,6 +1349,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 - MSN",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd1h4eVJsd2JTYVduU3Zmd3g5VldUZjJLa3VlLXY3bzlnTnQ2ZWhKMVNGeTNlXzhGSkw3N01SU0tLbExwOWpiczNyOTQwa29jbVJhWHlabG1VSGpHRm5nbWJoNC1qeE1wRzBPakliSE1kV2p0cFV1Rml2SllkXzh1TTZnYnRjbEFuMW13b1FLV3Z3T3RYY0dLN2VUYXVqMmJ5Mk9wajZyLXVaTDdZVXktRTI1ZFdRREUyTV9JcUhKOXBSOElEbjlFYnp3NFZ5XzhZcjJQRERDeVNrd2JVZHFodg?oc=5",
+      "timestamp": "Fri, 08 May 2026 17:03:20 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -3604,7 +3618,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-66291286",
+      "sku": "signal-38297091",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -3614,7 +3628,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-79824252",
+      "sku": "signal-46179635",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3628,7 +3642,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 36,
+      "signals_60d": 37,
       "latas_detected": 0,
       "ads_active": 21,
       "youtube_uploads_30d": 0,
@@ -3890,7 +3904,7 @@
   },
   "ambush_by_brand": {
     "New Balance": 3,
-    "Nike": 19,
+    "Nike": 20,
     "Puma": 18,
     "Under Armour": 2,
     "Penalty": 4,
