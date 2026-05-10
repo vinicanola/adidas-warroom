@@ -60,3 +60,19 @@ jobs:
             git commit -m "chore(data): auto-update $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Deploy to Vercel
+        if: success()
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: team_zelDzRiWO9olGyym691h9iPk
+          VERCEL_PROJECT_ID: prj_yWj1LLKbWzHvo1UQWRkTosMtaYva
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN nao configurado em Secrets. Pulando deploy."
+            echo "Para ativar: gere token em https://vercel.com/account/tokens"
+            echo "  e adicione em https://github.com/vinicanola/adidas-warroom/settings/secrets/actions"
+            exit 0
+          fi
+          npm install -g vercel@latest
+          vercel deploy --prod --yes --token="$VERCEL_TOKEN"

@@ -675,7 +675,7 @@ function drawChart(trends){
     labels=labels.slice(-FILTER.period);
     series=sliced;
   }
-  const colors={"Adidas":"#000000","Nike":"#FA5400","Puma":"#E0001A","New Balance":"#E50020","Under Armour":"#E81B23","Mizuno":"#0066CC","Asics":"#002954","Umbro":"#1B315E","Penalty":"#FFC000","Olympikus":"#F58220","Joma":"#F39200"};
+  const colors={"Adidas":"#000000","Nike":"#FA5400","Puma":"#E0001A","New Balance":"#E50020","Under Armour":"#E81B23","Mizuno":"#0066CC","Penalty":"#FFC000","Joma":"#F39200"};
   const dsets=Object.keys(series).map(function(b){
     return {label:b,data:series[b],borderColor:colors[b]||"#888",
       backgroundColor:b==="Adidas"?"rgba(0,0,0,.08)":"transparent",

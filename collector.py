@@ -24,11 +24,10 @@ COMPETITORS = [
     {"brand": "New Balance",  "category": "Sportswear", "queries": ["New Balance", "New Balance Football"], "color": "#E50020"},
     {"brand": "Under Armour", "category": "Sportswear", "queries": ["Under Armour"], "color": "#E81B23"},
     {"brand": "Mizuno",       "category": "Sportswear", "queries": ["Mizuno"], "color": "#0066CC"},
-    {"brand": "Asics",        "category": "Sportswear", "queries": ["Asics"], "color": "#002954"},
-    {"brand": "Umbro",        "category": "Sportswear", "queries": ["Umbro"], "color": "#1B315E"},
-    {"brand": "Penalty",      "category": "Sportswear", "queries": ["Penalty"], "color": "#FFC000"},
-    {"brand": "Olympikus",    "category": "Sportswear", "queries": ["Olympikus"], "color": "#F58220"},
+    # Penalty (Cambuci BR) - keep but rely heavily on EXCLUSION pra evitar 'penalty kick' / 'cobrou penalti'
+    {"brand": "Penalty",      "category": "Sportswear", "queries": ["Penalty Esportes", "Penalty futebol"], "color": "#FFC000"},
     {"brand": "Joma",         "category": "Sportswear", "queries": ["Joma"], "color": "#F39200"},
+    # DROPADAS por low signal/noise: Asics (running), Umbro (heritage minor), Olympikus (running brand)
 ]
 
 SELF = {"brand": "Adidas", "category": "Sportswear", "queries": ["Adidas"], "color": "#000000"}
@@ -50,10 +49,7 @@ YOUTUBE_CHANNELS = [
     {"brand": "New Balance",  "handle": "@newbalance"},
     {"brand": "Under Armour", "handle": "@UnderArmour"},
     {"brand": "Mizuno",       "handle": "@MizunoOfficial"},
-    {"brand": "Asics",        "handle": "@asics"},
-    {"brand": "Umbro",        "handle": "@umbro"},
     {"brand": "Penalty",      "handle": "@PenaltyOficial"},
-    {"brand": "Olympikus",    "handle": "@OlympikusOficial"},
 ]
 
 COPA_KEYWORDS = [
@@ -98,12 +94,20 @@ META_BRAND_PAGE_KEYWORDS = {
     "New Balance": [["new balance"], ["newbalance"]],
     "Under Armour": [["under armour"], ["underarmour"]],
     "Mizuno": [["mizuno"]],
-    "Asics": [["asics"]],
-    "Umbro": [["umbro"]],
     "Penalty": [["penalty"]],
-    "Olympikus": [["olympikus"]],
     "Joma": [["joma"]],
 }
+
+# Page names suspeitos: revendas, marketplaces, scams, contas que abusam do nome da marca.
+# Se page_name CONTÉM qualquer dessas, o ad é dropado mesmo se passou no whitelist da marca.
+META_PAGE_NAME_BLACKLIST = [
+    "lopez brody",     # caso real Adidas: 21 ads de "Lopez Brody Nike" não-oficial
+    "revenda", "atacado", "outlet store", "loja virtual",
+    "promocao", "promoção", "desconto",
+    "alibaba", "aliexpress", "shein",
+    "anyreel", "spotagem",
+    # patterns de bot/scam farms
+]
 
 # ========== HIERARQUIA OFICIAL FIFA WORLD CUP 2026 ==========
 SPONSORSHIP_TIERS = {
@@ -128,10 +132,7 @@ SPONSORSHIP_TIERS = {
         {"brand": "New Balance", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
         {"brand": "Under Armour", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
         {"brand": "Mizuno", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
-        {"brand": "Asics", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
-        {"brand": "Umbro", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
         {"brand": "Penalty", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
-        {"brand": "Olympikus", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
         {"brand": "Joma", "category": "Sportswear", "ambush_target": "Adidas FIFA exclusivity"},
     ],
 }
@@ -214,6 +215,17 @@ EXCLUSION_KEYWORDS = [
     # Cultura / musica
     "festival", "concerto", "concert", "show musical",
     "rock in rio", "lollapalooza",
+    # Esportes nao-soccer (running/maraton) - importante para dropar Mizuno/Olympikus running content
+    "maratona", "marathon", "corrida de rua", "ultramaraton",
+    # Falsos positivos especificos do contexto Adidas (queries colidem com termos comuns)
+    "penalty kick", "cobrou penalti", "cobrou pênalti", "marcou penalti", "marcou pênalti",
+    "penalty statistics", "perdeu penalti", "perdeu pênalti", "missed penalty",
+    "penalty shocker", "penalty shootout", "disputa de penaltis", "disputa de pênaltis",
+    "puma rodriguez", "puma rodríguez",  # jogador de futebol do Vasco
+    # Noticias de marca registrada / propriedade intelectual - puro noise
+    "registro de marca", "registra marca", "propriedade intelectual",
+    "lei da propriedade", "infracao de marca", "infração de marca",
+    "perde direito", "alto renome", "marca de alto renome",
 ]
 
 
@@ -498,7 +510,7 @@ def collect_google_trends():
     out = {"global": {"labels": [], "series": {}}, "by_market": {}}
     groups = [
         ["Adidas", "Nike", "Puma", "New Balance", "Under Armour"],
-        ["Adidas", "Mizuno", "Asics", "Umbro", "Penalty"],
+        ["Adidas", "Mizuno", "Penalty", "Joma"],
     ]
     geos = {"global": "", "BR": "BR", "MX": "MX", "AR": "AR", "CO": "CO"}
     for geo_label, geo in geos.items():
@@ -542,10 +554,8 @@ def collect_wikipedia_pageviews():
         ("New Balance", "pt.wikipedia", "New_Balance"),
         ("Under Armour", "pt.wikipedia", "Under_Armour"),
         ("Mizuno", "pt.wikipedia", "Mizuno"),
-        ("Asics", "pt.wikipedia", "Asics"),
-        ("Umbro", "pt.wikipedia", "Umbro"),
         ("Penalty", "pt.wikipedia", "Penalty_(empresa)"),
-        ("Olympikus", "pt.wikipedia", "Olympikus"),
+        ("Joma", "pt.wikipedia", "Joma_Sport"),
     ]
     for brand, project, article in articles:
         url = (f"{base}/{project}/all-access/all-agents/{article}/daily/"
@@ -612,6 +622,10 @@ def _is_legit_brand_page(brand, page_name):
     pn = (page_name or "").lower()
     if not pn:
         return False
+    # Blacklist explicita de patterns suspeitos (revendas, marketplaces, scams)
+    for blocked in META_PAGE_NAME_BLACKLIST:
+        if blocked in pn:
+            return False
     groups = META_BRAND_PAGE_KEYWORDS.get(brand, [[brand.lower()]])
     for grp in groups:
         if all(kw in pn for kw in grp):
@@ -1006,7 +1020,7 @@ def main(dry_run=False):
 
     # Brands ativos em trends (vide groups em collect_google_trends + Coca-Cola)
     _trends_brands = {"Adidas", "Nike", "Puma", "New Balance", "Under Armour",
-                       "Mizuno", "Asics", "Umbro", "Penalty"}
+                       "Mizuno", "Penalty", "Joma"}
 
     def _prune_trends(t):
         if not t: return t
