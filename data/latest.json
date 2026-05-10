@@ -1,54 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-10T10:09:51.006090+00:00",
+  "generated_at": "2026-05-10T10:16:41.962431+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 241,
-      "elapsed_s": 31.8
+      "count": 242,
+      "elapsed_s": 41.5
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 72.6
+      "elapsed_s": 20.5
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 5.0
+      "elapsed_s": 5.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.3
+      "elapsed_s": 7.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.0
+      "elapsed_s": 10.1
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 25.5,
+      "elapsed_s": 24.4,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.7
+      "elapsed_s": 8.9
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.4,
+      "elapsed_s": 3.6,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 4.4
     }
   },
   "competitors": [
@@ -93,8 +93,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 45,
-      "signals": 36,
+      "score": 46,
+      "signals": 37,
       "color": "#F40000"
     },
     {
@@ -129,15 +129,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 68.3,
     "search_leader_delta_pp": 3.9,
-    "signals_60d": 94,
-    "signals_delta_pct": 162,
+    "signals_60d": 95,
+    "signals_delta_pct": 152,
     "latas_total": 2,
     "latas_unvalidated": 2,
     "ambush_attempts_total": 50,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 20,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 8,
+    "selecao_signals_total": 9,
     "official_signals_total": 0
   },
   "signals": [
@@ -460,6 +460,19 @@
       "source": "Google News BR",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUprSTM4RDAzemlTbGJnd0dfb3pOcjZ2V0ZobUIwblI4RjQ3Uzk2S1M2TlUtY1d5RG1jdnMzOThLYkJHazRvRlY3cHZ2bGQzaDhQLTZ5T2x6VTlVbGh2c3I1c2hINjdpREdFa3Z1anl3MUxkVmZXUVhnaENRMmJQU1UtOURSblFoZ0RGby1ITXdjMkNIUkNPU1dOVVpQODNzX1pRa2tfUjF3RXc1YUQtSWVmbw?oc=5",
       "timestamp": "Sun, 22 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "França, Inglaterra, Uruguai, Holanda: seleções lançam camisas para a Copa do Mundo 2026 - ge",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR1dNaEh3dkdmclBPbXRLQ2xfSEU1OHlsaEJSQVRLcUZfOGhDRlZFM2lpUzliblJSRlZlY1k5Z21qVnNYc3ZzTHh2dmoxYVlSdW1URURqUERaMkxVRG1rcFZ3Q2ZPUFR6ZEVYVEpqX3J2VTJwOTlZNFFodnVQb280X1A1SjVKbTZQY1hGak05SmgyZ1YzbnZVS282QlVrVzFtZEpldHdhVlVhQU9QbzVUV2xWU0JzY2t0U1ExUHFRUXFRcjMzUmFINjVMYl83Wk5ESHM5VHc0Qjk3WkU3cHJLenZ4M1djcVh3Y0HSAfgBQVVfeXFMT29zTllkNzFXMU1DWG5DUWRIRFYwdDJKNXdydEc1RnlmQk9SZHdYcm53NThVUUN0Q1JtcENndHpyTHdJbXVwWllnSlFCaXZwMEQtU0lHMmxzZ1IweDBSS3BhWjV3WmFPdjllVFM4TVBIaDJzSVh5M21KeVp0dDdvalkzeFcyZ3hVYml0Wi14MVptMjNSbDlrLUdNa1NxRDJLRllpb3d6OVRxU3hJZnNYbjFkME1uODJoLTdIMm5YajlTOWkyZW5UZ1VvVlNCU1BZQlBhUXVPRzI4M0M3cFR4OWRRc0w1dXdLdTgyLTZCdjlkYnZCOWhYbXA?oc=5",
+      "timestamp": "Mon, 23 Mar 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -3618,7 +3631,7 @@
   "latas": [
     {
       "brand": "New Balance",
-      "sku": "signal-38297091",
+      "sku": "signal-44082762",
       "label": "New Balance lanza una nueva y deslumbrante colección de",
       "color": "#E50020",
       "market": "MX",
@@ -3628,7 +3641,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-46179635",
+      "sku": "signal-16943710",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3642,7 +3655,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 37,
+      "signals_60d": 38,
       "latas_detected": 0,
       "ads_active": 21,
       "youtube_uploads_30d": 0,
