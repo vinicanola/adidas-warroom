@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T13:42:33.595134+00:00",
+  "generated_at": "2026-05-11T14:34:08.056589+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 231,
-      "elapsed_s": 33.2
+      "elapsed_s": 41.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 10.5
+      "elapsed_s": 116.6
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.9
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.4
+      "elapsed_s": 8.8
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.9
+      "elapsed_s": 8.7
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 32.4
+      "elapsed_s": 41.5
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.5
+      "elapsed_s": 3.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 3.1,
+      "elapsed_s": 2.2,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.8
+      "elapsed_s": 4.2
     }
   },
   "competitors": [
@@ -92,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 48,
-      "signals": 38,
+      "score": 49,
+      "signals": 39,
       "color": "#F40000"
     },
     {
@@ -128,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 69.3,
     "search_leader_delta_pp": 2.2,
-    "signals_60d": 100,
-    "signals_delta_pct": 112,
+    "signals_60d": 101,
+    "signals_delta_pct": 116,
     "latas_total": 1,
     "latas_unvalidated": 1,
     "ambush_attempts_total": 54,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 28,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 11,
+    "selecao_signals_total": 12,
     "official_signals_total": 0
   },
   "signals": [
@@ -1439,6 +1439,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Turquia na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVJBT2k4a1M0dTg3a2pLZmRPTVpscGszdE9jTm5ZNnVINW1xdlYza0dxRlVCM0tOdXJTVHYyTW5USnJmcFRzV1JxeF8ydXdxeUVZcVd6VkxtN1ItNkdNM0JuUW80bEgxYXFYVTVBQlRHSklTbFZlZ3M3U0pvemw5d3FrbGwtc18yb2JLYUZWT21NWUZRaU1kRUpXYU10TGgwdktWTDMyLUZlZk1xdThN?oc=5",
+      "timestamp": "Mon, 11 May 2026 13:58:11 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
     }
   ],
   "search_interest": {
@@ -5695,7 +5708,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-14374484",
+      "sku": "signal-97854477",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -5709,7 +5722,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 48,
+      "signals_60d": 49,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
