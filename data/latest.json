@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T12:57:36.226992+00:00",
+  "generated_at": "2026-05-11T13:00:37.352932+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 232,
-      "elapsed_s": 35.3
+      "elapsed_s": 37.4
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 10.3
+      "elapsed_s": 3.2
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.0
+      "elapsed_s": 5.3
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.4
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.0
+      "elapsed_s": 9.4
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 2,
-      "elapsed_s": 36.0
+      "count": 0,
+      "elapsed_s": 21.1
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.5
+      "elapsed_s": 6.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.2,
+      "elapsed_s": 3.6,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.5
     }
   },
   "competitors": [
@@ -92,16 +92,16 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 50,
-      "signals": 40,
+      "score": 48,
+      "signals": 38,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 57,
-      "signals": 38,
+      "score": 55,
+      "signals": 36,
       "color": "#006847"
     },
     {
@@ -122,17 +122,17 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 2,
-    "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 2,
+    "ads_active_total": 0,
+    "ads_active_top_brand": "-",
+    "ads_active_top_count": 0,
     "search_leader_brand": "Nike",
     "search_leader_pct": 69.3,
     "search_leader_delta_pp": 2.2,
-    "signals_60d": 103,
-    "signals_delta_pct": 132,
+    "signals_60d": 99,
+    "signals_delta_pct": 119,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 56,
+    "ambush_attempts_total": 53,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 27,
     "fifa_signals_total": 0,
@@ -935,19 +935,6 @@
     },
     {
       "level": "green",
-      "title": "Real Sociedad clinch fourth Copa del Rey title after penalty shoot-out win over Atletico Madrid - OneFootball",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2hnUTBQbmJpb3JDMm9sRzRZcDBVbHVwcF9FeFJVWEhQVmlhWXBMOXBoLVRDR3BQdV9IbFIzN0luYXdPYVRwS3ZEZE9KWWdNV1VaOEF4U05RRGlBTVJvbmo3ZGhvcHNuVjBKMnRaYndKTjVJN3RFMk1BcXRSU1ZoNERpdUE5VktuV3Y0MGE1TmhIR00xS3RKd0hEX3ptb0c0YnFOZTZCa2ZUdE5nSXItZzNnMXM0SDNaS3otYmVzWVBUc29GeFhTcmtVVGFFZHhacXlpSV8taw?oc=5",
-      "timestamp": "Wed, 29 Apr 2026 01:53:19 GMT",
-      "brand": "Penalty",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "Joma vestirá a la Real Sociedad las próximas cinco temporadas - OneFootball",
       "market": "BR",
       "source": "Google News BR",
@@ -993,19 +980,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTGF3c2w3T0p1eEJGem4yWjlyYlF1SUU4cEtJY25XbEpIN3lKbV84VmpyNWYtczI5WjNkbFdxWGFqWk0tNHJXb3NqSW85YVRORXpIQWplSFlmSHdOUlNsNjNObHBmQjZTUzFscEpBc2xJV1NuUXlNMDZMa3FUckhCMHBQRWFvTzN3bkRRNWxhMmdjeHhrYmFoNnNBZUVqS1UyYS0wY3BiaTRveTZWTUN6U0l4a3JJRVZULVJXcjRONXNPdERmaFFOdUV5UlpNcE5QYkFWRExfZmdCSm15Y2cyMndnMGdRX1FZZ3k5X0FNMVluWlJYTDkzY00yZFlIRTNFbkE?oc=5",
       "timestamp": "Sat, 02 May 2026 23:32:29 GMT",
       "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "PENALTY CORNER TV DA EL SALTO A TELEDEPORTE Y RTVE PLAY CON SU ESPECIAL DE LA COPA 2026 - RFEH",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb013MzdiNEF0ZEJfNnFWeWdLeWpsRE1MMTB4UnNubk5MZ0RadEtQTXVUcTZqdldWRUxHWEhjTDBvX0hfbm90Q2s1YzgtVWhma2h3RWZRV2J5dU56XzZEQUppMWNLQ3BSTkUwdTVuTGpreE5od1ZJSl9tQ293Z01EVW9oLWRnMUVpRWJWTUN0N2U2OHowZVBoTnR1ZXB3NXhGUU41QXdYTXlNWUda?oc=5",
-      "timestamp": "Tue, 05 May 2026 07:40:08 GMT",
-      "brand": "Penalty",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1123,19 +1097,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEMwZ3BVYk53ZWxGU3lyTENMVUt3RnhXZlRza1ZiTEY2SHc3R3A0R2hxZFhoaHBraUtrNy1ySEdSR3ZmY0tyUHFObVd5dDZFOGMtWDBzZ3hGN3VtdEs4MXlFNzJSMEdhb2prSzliRHEzOXUwMzNmYnBoSlNwYmp6LVE0Mm5NQW5vYmkybEl0c1B2ak5LX240SWhmYlJSNTlwSlV1MEthT0o3cWJfaFZxLXV2TXhLcUE?oc=5",
       "timestamp": "Wed, 06 May 2026 06:12:42 GMT",
       "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "📹 Tempers flare and penalty miss in São Paulo win in Copa do Brasil - OneFootball",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlRYb2ZFLUxwaG1nRm9ISGlmX2c1SEhWdUdGUGJXVHJ5aHdPRDNhekNLNER3YV9abC1UamN1OXZpX05iVHBhYktwWGtJQVI4eXhSX24ySnFMVkR0OUtTN3ZjWmZpR2xHZ0FDd2c0cGVzNThwRTZrc3c5QXFianpLZTJnd2s4Z2RZSVpCRW9hT19TSF9MX1lrQzUyV2RjNDFJZ3NFaERTTGNDT3htN2VV?oc=5",
-      "timestamp": "Wed, 06 May 2026 08:06:12 GMT",
-      "brand": "Penalty",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1370,19 +1331,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWDZyVlRWTk4xSTNlb2c3N3FaRkJIaTZFcHZ1OWt1aThKajdfN3JxYTludW5Hck5yTjRjX3pWTDFjTG9pUDBYaFFYdmlKeWJCNFp2MERRTmtvQUJfV0w0NmtCdmNoN0FqeEJrZmFGcFMyOUllaVAtUlJoRlkxNE5fejBoZS1RN1dvWjFV?oc=5",
       "timestamp": "Thu, 07 May 2026 12:00:54 GMT",
       "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Brice Samba saves penalty for Rennes against Angers, reassures Didier Deschamps before the World Cup - OneFootball",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS1JOUEZLMm4xUGtxeEZUOHdWdUhTMHRSVUl6bDNnS3h6UzV4SmlnN1lwWTgySmFMYTQ3ZzlUM2hneEZPdWxCZzBBOTBxOW8xSUxLX3pSRWlFRTZHZlM4QjJvd1Q4SER4VHY5U2pHRlVzWmo1UFREbHE1N2E3ejVSODc5TndtZVRfeU9wU3ZabFg4ZW5LUlhONGNvMGJ3THFWT2R5eHBDMFhRd0NkOVEtbFNRbl91VmVrX1N2QnlaWDdMa0lLSmZ4ajBBZDNHMTJ5ck9vUTFJX0ZFbTNNTzQ5dg?oc=5",
-      "timestamp": "Thu, 07 May 2026 14:32:03 GMT",
-      "brand": "Penalty",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -5610,32 +5558,7 @@
       }
     ]
   },
-  "active_ads": [
-    {
-      "brand": "Puma",
-      "page_name": "Jonathan Puma",
-      "country": "MX",
-      "platform": "instagram",
-      "started_at": "2026-05-10",
-      "body_snippet": "Dia 13 Out 🔥🔥🔥🔥🔥🎵🎶",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1937631613786246",
-      "ad_id": "1937631613786246",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "Jonathan Puma",
-      "country": "AR",
-      "platform": "instagram",
-      "started_at": "2026-05-10",
-      "body_snippet": "Dia 13 Out 🔥🔥🔥🔥🔥🎵🎶",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1937631613786246",
-      "ad_id": "1937631613786246",
-      "copa_score": 0
-    }
-  ],
+  "active_ads": [],
   "youtube_uploads": [
     {
       "brand": "Adidas",
@@ -5759,7 +5682,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-38148064",
+      "sku": "signal-4200484",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -5786,7 +5709,7 @@
       "color": "#E0001A",
       "signals_60d": 30,
       "latas_detected": 1,
-      "ads_active": 2,
+      "ads_active": 0,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -5828,7 +5751,7 @@
       "brand": "Penalty",
       "category": "Sportswear",
       "color": "#FFC000",
-      "signals_60d": 6,
+      "signals_60d": 2,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -6037,7 +5960,7 @@
     "Nike": 27,
     "Puma": 19,
     "Under Armour": 2,
-    "Penalty": 4,
+    "Penalty": 1,
     "Joma": 2,
     "New Balance": 1,
     "Mizuno": 1
