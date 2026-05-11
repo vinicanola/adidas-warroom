@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T13:19:51.998317+00:00",
+  "generated_at": "2026-05-11T13:29:08.125532+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 229,
-      "elapsed_s": 42.6
+      "count": 234,
+      "elapsed_s": 35.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 28.5
+      "elapsed_s": 10.7
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.0
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.4
+      "elapsed_s": 2.8
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.0
+      "elapsed_s": 8.0
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 38.7
+      "elapsed_s": 33.2
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.7
+      "elapsed_s": 3.4
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.3,
+      "elapsed_s": 2.2,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.2
+      "elapsed_s": 3.1
     }
   },
   "competitors": [
@@ -5682,7 +5682,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-80899459",
+      "sku": "signal-99648235",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
