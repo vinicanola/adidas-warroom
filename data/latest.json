@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T13:36:30.272908+00:00",
+  "generated_at": "2026-05-11T13:42:33.595134+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 235,
-      "elapsed_s": 31.6
+      "count": 231,
+      "elapsed_s": 33.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 40.8
+      "elapsed_s": 10.5
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.7
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.9
+      "elapsed_s": 4.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.5
+      "elapsed_s": 7.9
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 31.0
+      "elapsed_s": 32.4
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.6
+      "elapsed_s": 5.5
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.8,
+      "elapsed_s": 3.1,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.4
+      "elapsed_s": 3.8
     }
   },
   "competitors": [
@@ -108,8 +108,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 21,
-      "signals": 13,
+      "score": 26,
+      "signals": 14,
       "color": "#75AADB"
     },
     {
@@ -128,13 +128,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 69.3,
     "search_leader_delta_pp": 2.2,
-    "signals_60d": 99,
-    "signals_delta_pct": 119,
+    "signals_60d": 100,
+    "signals_delta_pct": 112,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 53,
+    "ambush_attempts_total": 54,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 27,
+    "ambush_top_count": 28,
     "fifa_signals_total": 0,
     "selecao_signals_total": 11,
     "official_signals_total": 0
@@ -147,6 +147,19 @@
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU0E1UUNvTTcydm1PcTBvQ0FOWkNFV3JmajNaWUxqV3l4UlpfNE5RSWxHQmdLOTBvWDZHYXZFRlozSjRVRnNuU1Z5YXg5OXMtajVNY2tibmYxSU9xcjRZcDJsbWUzX2dDeVhJTXg5VjJ4aHltQW82ck1JaU1iTktHRDJOZEFkMjBFOWY5dmZDVEY0Z0M5aHZBN0RVR3ZTV1pNTTBPaWxoTEowZF9yV190N3pQbw?oc=5",
       "timestamp": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Francia para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMlZheDF3MnExeGkyODBuVElsbG8wVkJHU1NGRUpSczZobnBtNW9jZzdHdk5tNU5sTzNBdnJlOVF4allWNFJPTlhULTZYa3lHUmJjbkQzZ0U2Tkp5Z0ZaWjZoanhxZkRidEphUlFNRnNBVXdhdDA1NERZMmw3bUlBWFVaaVduQ0lCenhwcWkxbHg3VWVwOU84VzhoRXVsMVFTVmcyLWxCM0pXWXlidm9XX2YzUTBEdTNkN2hwYnUzaEM0YlFtS0lLaFNSeXZpTkNPVkh2VEx5VTJ3TVRKREZjaFNGTUpBeGZESlo3M3IzblZKVjd4UFNr?oc=5",
+      "timestamp": "Wed, 25 Mar 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -5682,7 +5695,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-98623594",
+      "sku": "signal-14374484",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -5696,7 +5709,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 47,
+      "signals_60d": 48,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -5957,7 +5970,7 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 27,
+    "Nike": 28,
     "Puma": 19,
     "Under Armour": 2,
     "Penalty": 1,
