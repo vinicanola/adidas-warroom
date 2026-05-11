@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T14:34:08.056589+00:00",
+  "generated_at": "2026-05-11T18:09:13.880314+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 231,
-      "elapsed_s": 41.1
+      "count": 238,
+      "elapsed_s": 42.5
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 116.6
+      "elapsed_s": 89.9
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 5.0
+      "count": 13,
+      "elapsed_s": 5.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.8
+      "elapsed_s": 7.5
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.7
+      "elapsed_s": 10.5
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 41.5
+      "elapsed_s": 34.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 3.7
+      "count": 5,
+      "elapsed_s": 13.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.2,
+      "elapsed_s": 3.2,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.2
+      "elapsed_s": 4.4
     }
   },
   "competitors": [
@@ -1039,19 +1039,6 @@
     },
     {
       "level": "green",
-      "title": "Copa do Mundo 2026: confira os uniformes das seleções classificadas - olympics.com",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5obWtCMk9WUEhsU0hzemxLZDB3dW96cHlVNERoSlBScm04U0ZBdTh0cE9DT05fa1d3UXhKUG5aWjh1V1R0Q0F2OEpPNmJUSXZSUEJTZlktdVJJUnZDNDZxT1BUc240bl9BUWttazgwYnYxcVp5NDF3eWJmS3JMa00?oc=5",
-      "timestamp": "Tue, 05 May 2026 18:14:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "Las marcas que visten a las 48 selecciones del Mundial 2026 - Sports Illustrated",
       "market": "MX",
       "source": "Google News MX",
@@ -1070,6 +1057,19 @@
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHpndTdUbDZzWXFKMExpX0pkd2oteV9VNlh3RHJzRV9FUVpzQmlBRUVSN3FYcTdLTjB0QkNWN0g2MERzektZQWpYWnp2WWtqeTlpTEpKQW5RVnJqZlRNU2RpUnNfaFJiUHhHcjlFUHlZbllVR01jSkwzT2g1TXJzcW9Ka3RkNlhaSUVLeWJlUVh0Yjl1eWc?oc=5",
       "timestamp": "Tue, 05 May 2026 16:23:51 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Copa do Mundo 2026: confira os uniformes das seleções classificadas - olympics.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5obWtCMk9WUEhsU0hzemxLZDB3dW96cHlVNERoSlBScm04U0ZBdTh0cE9DT05fa1d3UXhKUG5aWjh1V1R0Q0F2OEpPNmJUSXZSUEJTZlktdVJJUnZDNDZxT1BUc240bl9BUWttazgwYnYxcVp5NDF3eWJmS3JMa00?oc=5",
+      "timestamp": "Tue, 05 May 2026 18:14:00 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -1351,19 +1351,6 @@
     },
     {
       "level": "green",
-      "title": "Paraguai na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmRfT24yc0EySXhWekt6dks1TFhXWkRJTWVXRldHZkM0SXVURDRYMUdUV21fSVFLd3BoVndaUng0MkNKWWtJNE8tUG5OUTJNVmxGMlNtc0dGNFJzMHhObDNuRmE3Mk94a0Joa3R1X1pnNlpLUlVKMTN6WmF2UlFCRk9tTXBRRTF5SXBsbWpHal9zSXNOWjBOb084NkwwT3hsaTlfZXh5VU4tN1c5UWUtaw?oc=5",
-      "timestamp": "Thu, 07 May 2026 18:31:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "Copa do Mundo: Adidas e Nike lançam campanhas com reunião de craques; veja os vídeos - Lance!",
       "market": "BR",
       "source": "Google News BR",
@@ -1377,16 +1364,16 @@
     },
     {
       "level": "green",
-      "title": "Austrália na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "title": "Paraguai na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmVFMjg5Y1lCNnk4YThyT2NlNWptUThGUHhLQzdQS29XWURGN2hjQW9DRVNzdlhPeUZJUEJQVmdRQ3FIZi1OanAxWVpZenVoVWlYTlVNYlZKRU1XUG9uZkt4c2Z2RWpiRFVoNHM0RnZ3SW9GN3JhX3lhakVnRV8wY1pSNWN5VWFydk5tNU9uV3Nyem5mY0N0YzR6cERnZUxiOGdaVGk0anJ0RmVIX0JqYXFB?oc=5",
-      "timestamp": "Fri, 08 May 2026 18:23:00 GMT",
-      "brand": "Nike",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmRfT24yc0EySXhWekt6dks1TFhXWkRJTWVXRldHZkM0SXVURDRYMUdUV21fSVFLd3BoVndaUng0MkNKWWtJNE8tUG5OUTJNVmxGMlNtc0dGNFJzMHhObDNuRmE3Mk94a0Joa3R1X1pnNlpLUlVKMTN6WmF2UlFCRk9tTXBRRTF5SXBsbWpHal9zSXNOWjBOb084NkwwT3hsaTlfZXh5VU4tN1c5UWUtaw?oc=5",
+      "timestamp": "Thu, 07 May 2026 18:31:00 GMT",
+      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -1413,6 +1400,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Austrália na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORmVFMjg5Y1lCNnk4YThyT2NlNWptUThGUHhLQzdQS29XWURGN2hjQW9DRVNzdlhPeUZJUEJQVmdRQ3FIZi1OanAxWVpZenVoVWlYTlVNYlZKRU1XUG9uZkt4c2Z2RWpiRFVoNHM0RnZ3SW9GN3JhX3lhakVnRV8wY1pSNWN5VWFydk5tNU9uV3Nyem5mY0N0YzR6cERnZUxiOGdaVGk0anJ0RmVIX0JqYXFB?oc=5",
+      "timestamp": "Fri, 08 May 2026 18:23:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
     },
     {
       "level": "green",
@@ -5704,11 +5704,57 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [],
+  "tiktok_tags": [
+    {
+      "tag": "#díamundialdelacuántica",
+      "country": "CO",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 82600,
+      "raw_query": "día mundial de la cuántica",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#díamundialdelacuántica2026",
+      "country": "CO",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 3400,
+      "raw_query": "día mundial de la cuántica 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#dondecomprarelalbumdelmundial2",
+      "country": "CO",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 3050,
+      "raw_query": "donde comprar el album del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#sobresdelmundial2026",
+      "country": "CO",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 2050,
+      "raw_query": "sobres del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#cajadelmundial2026",
+      "country": "CO",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 1800,
+      "raw_query": "caja del mundial 2026",
+      "seed": "Mundial 2026"
+    }
+  ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-97854477",
+      "sku": "signal-19015971",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
