@@ -339,7 +339,7 @@ function render(){
     '<div class="kpi"><div class="kpi-label">Sinais ('+FILTER.period+'d)</div>'+
     '<div class="kpi-value">'+sigs.length+'</div>'+
     '<div class="kpi-sub">'+(FILTER.market!=='all'?'em '+FILTER.market:'todos os mercados')+'</div></div>'+
-    '<div class="kpi"><div class="kpi-label">Latas detectadas</div>'+
+    '<div class="kpi"><div class="kpi-label">Lancamentos detectados</div>'+
     '<div class="kpi-value">'+latas.length+'</div>'+
     '<div class="kpi-sub">'+(FILTER.market!=='all'?'em '+FILTER.market:((k.latas_unvalidated==null?0:k.latas_unvalidated)+' nao validadas'))+'</div></div>'+
     '</div>';
@@ -722,7 +722,7 @@ function drawBrandCards(stats,tiers){
         '<div class="bs" title="Anuncios ativos no Meta Ad Library"><span class="bs-num">'+(c.ads_p||0)+'</span><span class="bs-lbl">Ads</span></div>'+
         '<div class="bs" title="Uploads recentes no YouTube"><span class="bs-num">'+(c.yt_p||0)+'</span><span class="bs-lbl">YT</span></div>'+
         '<div class="bs" title="Sinais (noticias) coletados"><span class="bs-num">'+(c.signals_p||0)+'</span><span class="bs-lbl">Sinais</span></div>'+
-        '<div class="bs" title="Latas comemorativas detectadas"><span class="bs-num">'+(c.latas_p||0)+'</span><span class="bs-lbl">Latas</span></div>'+
+        '<div class="bs" title="Lancamentos oficiais detectados (camisas, chuteiras, bolas)"><span class="bs-num">'+(c.latas_p||0)+'</span><span class="bs-lbl">Drops</span></div>'+
       '</div>'+
       (topMov?'<div class="brand-card-top" title="'+esc(topMov)+'"><div class="bt-lbl">Top movimento detectado</div><div class="bt-text">'+esc(topMov.substring(0,110))+(topMov.length>110?'...':'')+'</div></div>':'<div class="brand-card-top empty"><div class="bt-lbl">Sem movimentos relevantes</div></div>')+
       '</div>';

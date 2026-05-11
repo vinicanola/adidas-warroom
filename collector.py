@@ -89,6 +89,7 @@ YELLOW_KEYWORDS = ["nova campanha", "new campaign", "investimento", "invierte",
 # Whitelist de keywords obrigatorias no page_name para o ad ser considerado da marca.
 # Filtra lixo do search_terms da Meta (Anyreel, Ns-XXX, Alibaba, etc).
 META_BRAND_PAGE_KEYWORDS = {
+    "Adidas": [["adidas"]],
     "Nike": [["nike"]],
     "Puma": [["puma"]],
     "New Balance": [["new balance"], ["newbalance"]],
@@ -665,8 +666,10 @@ def collect_meta_ad_library():
     # v21.0 - v18 deprecada em ago/2026 mas ainda funciona; v21 da margem
     base = "https://graph.facebook.com/v21.0/ads_archive"
     fields = "id,page_name,ad_creative_bodies,ad_creative_link_titles,ad_creative_link_descriptions,ad_delivery_start_time,publisher_platforms"
+    # Inclui SELF na busca - util para benchmarking de share-of-voice e sanity check da integracao
+    brands_to_search = [SELF, *COMPETITORS]
     for country in ["BR", "MX", "AR", "CO"]:
-        for comp in COMPETITORS:
+        for comp in brands_to_search:
             params = {
                 "search_terms": comp["queries"][0],
                 "ad_active_status": "ACTIVE",
