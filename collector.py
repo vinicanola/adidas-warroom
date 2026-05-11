@@ -102,6 +102,7 @@ META_BRAND_PAGE_KEYWORDS = {
 # Se page_name CONTÉM qualquer dessas, o ad é dropado mesmo se passou no whitelist da marca.
 META_PAGE_NAME_BLACKLIST = [
     "lopez brody",     # caso real Adidas: 21 ads de "Lopez Brody Nike" não-oficial
+    "jonathan puma",   # pessoa, nao a marca
     "revenda", "atacado", "outlet store", "loja virtual",
     "promocao", "promoção", "desconto",
     "alibaba", "aliexpress", "shein",
@@ -220,7 +221,9 @@ EXCLUSION_KEYWORDS = [
     # Falsos positivos especificos do contexto Adidas (queries colidem com termos comuns)
     "penalty kick", "cobrou penalti", "cobrou pênalti", "marcou penalti", "marcou pênalti",
     "penalty statistics", "perdeu penalti", "perdeu pênalti", "missed penalty",
-    "penalty shocker", "penalty shootout", "disputa de penaltis", "disputa de pênaltis",
+    "penalty shocker", "penalty shootout", "penalty shoot-out", "penalty shoot out",
+    "disputa de penaltis", "disputa de pênaltis", "penalty corner",
+    "penalty miss", "saves penalty", "save penalty", "saved a penalty",
     "puma rodriguez", "puma rodríguez",  # jogador de futebol do Vasco
     # Noticias de marca registrada / propriedade intelectual - puro noise
     "registro de marca", "registra marca", "propriedade intelectual",
