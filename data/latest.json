@@ -1,47 +1,47 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-12T08:19:14.991528+00:00",
+  "generated_at": "2026-05-12T17:25:46.223882+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 241,
-      "elapsed_s": 36.0
+      "count": 245,
+      "elapsed_s": 40.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 100.0
+      "elapsed_s": 72.6
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 4.9
+      "count": 12,
+      "elapsed_s": 5.3
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.3
+      "elapsed_s": 6.5
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.2
+      "elapsed_s": 9.5
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 49.6
+      "elapsed_s": 33.5
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.1
+      "elapsed_s": 7.4
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.5,
+      "elapsed_s": 3.3,
       "fallback": "kept_previous"
     },
     "wikipedia": {
@@ -92,16 +92,16 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 49,
-      "signals": 39,
+      "score": 54,
+      "signals": 44,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 60,
-      "signals": 37,
+      "score": 62,
+      "signals": 39,
       "color": "#006847"
     },
     {
@@ -128,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 70.7,
     "search_leader_delta_pp": 4.7,
-    "signals_60d": 103,
-    "signals_delta_pct": 122,
+    "signals_60d": 110,
+    "signals_delta_pct": 133,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 56,
+    "ambush_attempts_total": 60,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 30,
+    "ambush_top_count": 32,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 12,
+    "selecao_signals_total": 13,
     "official_signals_total": 0
   },
   "signals": [
@@ -675,6 +675,19 @@
     },
     {
       "level": "green",
+      "title": "Las mejores playeras Nike para el Mundial 2026 - GQ México y Latinoamérica",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2SmlaMGdwRnREdFZtb29HTTd3Z1UzX3RmMVBDN0daWmVnT1VsMkk4WU42eE9tWmRBSDc0aUhiUk1uaU5uQVpTNmJRTm1zaUUybDdQSl9oQjV1Y2lQc08xWC00ZWRhdWxra0xkWTQ5Z1JZWDA?oc=5",
+      "timestamp": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "Adidas gana el Mundial 2026 antes de empezar (al menos fuera de la cancha) - El Economista: Últimas noticias económicas y financieras",
       "market": "AR",
       "source": "Google News AR",
@@ -915,6 +928,19 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNTZ0amhXcUhqVzhKTU14MWlIUEd3eU1BOHlEM3BNMU0yZ3RQUjNza0Y1cGJDdHFtSE1hUFdwN0hiTHE3Y2oxd2ZjSFBKb1I4dGM2T1h6RjB5UldLV01BMnhvTWZkcTk0UW03WXlNNnNxVkpzbkQwcnpHUGJ4VW9XS1l0Tmc5RWd1Y0lKOGV2cXBtZTFTLVJhd3czZ0Zac241bndlZTFCQWxSLWNXT2NqSmZ3Q1JZbTNFVVVMZVloaFN2dmJ6VVNma0tzd3labDRLWElMQg?oc=5",
       "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
       "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Em chegada do Vasco a Belém, Puma projeta segunda chance na Copa do Brasil: \"Pelejar pelo título\" - ge",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaVo0enpOQXFnSUlnbXQ0S00xQzMxbjMwa1dHMUVQb19lejllbGV5ZmZqZjZsbzAtOVZaMnZaWWRUQkRmSnZUckpIVkY0NXpnVkRiRERhUkxSWklHMHg3UmRoODVuQnJuaDhTdXh5NjhRUXJfY0k1eUp1dktQRlJ1MXJsRlVlRlJUOVdxSXQ1dXQ0QXNubFVxSjNSN09qZVZxbHEwckcwVjljVnJJaXJ2Mm1ncXNEdzdvaHAxdHdFbXpQaGtXSnIyb1hpaFd1NVlSZ3hIdEVRbk5KM01fa0hSYThFTnlldEEtQTZyUUJsbG7SAf8BQVVfeXFMT3BfZC1hSlBHd2pQUUtqdVFGQmxnb0dtaFVTQUFLNFE1QjlzVGFUNXFyZWJpVWNfeDR3ZmhRYnVCRG1feVRkeDZwRVNQMzNrblZqMTM4OXVPV05zSEVkYlN3dUhRYWtmcTJfVFJMaklWTUFtUktSNXRSaUJ6bURlWExSVWpvaTRvU2VSWV8wc0xfb1pva2tEMVdHeDAxT1RiQ3hOWTN5Uy1UMEVRdHhTRm53aE01TWptQTV4ZTZrVERMdy1mTlQyRWNQN2E1dlhfVndydi1EV2FuUTEzci1jM3VLaTVfeFhpZFJ0VWEwVXg2Q01vcE45VVMwXzlqTnd3?oc=5",
+      "timestamp": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1468,6 +1494,19 @@
     },
     {
       "level": "green",
+      "title": "A Brahma entendeu o Brasil que a Nike esqueceu - Exame",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMWZxU0JZZE9VYzRpNHdjbU5ycXQwOC1BOWVweXhLa3MwOE5BY2VaWTI2Y293S1EzQ1BGZVZLLXNGZTNVdE1oekRFZTJHSjRkS1JvSUktWW9xeHdWRE14dy1KNlZITXR0SE9ocmFhSGpIVWgzVEMzbjRyVEFrSXRJYQ?oc=5",
+      "timestamp": "Sat, 09 May 2026 18:39:26 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Turquia na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -1478,6 +1517,58 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Uniformes da Copa do Mundo de 2026: Argentina, Brasil, Portugal, Inglaterra e as camisas de todas as principais seleções reveladas - Goal.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOakhUeHkzOGFtU1luMzV4VVJ6ak95aG1HZ3hNdk0xNEIzcTdkakRlcjNwRjlNemVCNFdsUEl5eFF4LXFWcXd2eUt2VFRoVVNqQ2F6d2pmLWRfUks3Ym1mcVNybXlhNGxaZE5uVW53RmctY0JoQ1FZalBnX3E0WHZFM0Z0d3NyU3RCdGxhTjNlWEhyUl9pMEVHai1IYUVOU1JjYmRMLXk0czNoZHFHQmtUVGUyMVE2NGdweVhDX1NPODN2dWhJUjhrNkduV1FqQTg0aG8tVEpFS19EX3NqVVNZMk9HOHNIYUZpbDQyQmFnbVdybW1FVDRJUjFWbmZLaHpqdXg0S1RQZVc?oc=5",
+      "timestamp": "Tue, 12 May 2026 17:19:58 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Uniformes da Copa do Mundo de 2026: Argentina, Brasil, Portugal, Inglaterra e as camisas de todas as principais seleções reveladas - Goal.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOakhUeHkzOGFtU1luMzV4VVJ6ak95aG1HZ3hNdk0xNEIzcTdkakRlcjNwRjlNemVCNFdsUEl5eFF4LXFWcXd2eUt2VFRoVVNqQ2F6d2pmLWRfUks3Ym1mcVNybXlhNGxaZE5uVW53RmctY0JoQ1FZalBnX3E0WHZFM0Z0d3NyU3RCdGxhTjNlWEhyUl9pMEVHai1IYUVOU1JjYmRMLXk0czNoZHFHQmtUVGUyMVE2NGdweVhDX1NPODN2dWhJUjhrNkduV1FqQTg0aG8tVEpFS19EX3NqVVNZMk9HOHNIYUZpbDQyQmFnbVdybW1FVDRJUjFWbmZLaHpqdXg0S1RQZVc?oc=5",
+      "timestamp": "Tue, 12 May 2026 17:19:58 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Costa do Marfim na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEpzTFprd3dSeWpRQnVtMklkajNmaE5uUDM5S1EzSHY3QVMySUE3U3RHYU5HUkdnMXNENF9qdXVFcE4tRjdvLWZXZEdwZFVHNmQwTHVFSW15TjIyM2oyd2cxa0IxLW5WLW5SQmJ0SGQySFhrVTZOTHFXVW53Wkg1OXd3MjBuMDdVT19zanozb3BYeWgzNHZod1JKSVN0VVpoVUtvdUUtN0JlNzNzTWh6MjFhVXlrVV9ZMlE?oc=5",
+      "timestamp": "Tue, 12 May 2026 16:25:59 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Con estas gafas de sol de Nike deportivas veremos el Mundial - Neo2 Magazine",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbGZWVG42YTJGSC1oaTRpU3lqaU04NEpMMm91ZHoxOUNZSXJfVjBabWpoSms2RTVVaVloR2I1bjUwU3RBUjJvd0dtcGRPdTdzOFE3bmpuMVhxM0dobXE2R3h4UndQdTB2V2M3eHJyMWpxbl84TDZodlNkYTZrX2dNM3JtdnRxdkxkMHRnaktxOFJBWW41aVNCYnJWS21ZT2luVWMzMUtNclBvUmZ1LVNwOU9lQlZpUEN5?oc=5",
+      "timestamp": "Tue, 12 May 2026 10:33:11 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -3485,7 +3576,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-25772085",
+      "sku": "signal-88008065",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3499,7 +3590,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 50,
+      "signals_60d": 54,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3510,7 +3601,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 30,
+      "signals_60d": 33,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3760,8 +3851,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 30,
-    "Puma": 19,
+    "Nike": 32,
+    "Puma": 21,
     "Under Armour": 2,
     "Penalty": 1,
     "Joma": 2,
