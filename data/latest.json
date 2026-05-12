@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-12T17:25:46.223882+00:00",
+  "generated_at": "2026-05-12T22:41:42.496264+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 245,
-      "elapsed_s": 40.1
+      "count": 244,
+      "elapsed_s": 37.0
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 72.6
+      "elapsed_s": 93.5
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 5.3
+      "count": 13,
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.5
+      "elapsed_s": 3.8
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.5
+      "elapsed_s": 7.6
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 33.5
+      "elapsed_s": 32.1
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 7.4
+      "elapsed_s": 5.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 3.3,
+      "elapsed_s": 2.0,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.0
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -92,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 54,
-      "signals": 44,
+      "score": 57,
+      "signals": 46,
       "color": "#F40000"
     },
     {
@@ -128,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 70.7,
     "search_leader_delta_pp": 4.7,
-    "signals_60d": 110,
-    "signals_delta_pct": 133,
+    "signals_60d": 112,
+    "signals_delta_pct": 129,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 60,
+    "ambush_attempts_total": 61,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 32,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 13,
+    "selecao_signals_total": 14,
     "official_signals_total": 0
   },
   "signals": [
@@ -425,6 +425,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "yellow",
+      "title": "Com surpresas, Suécia anuncia lista de convocados para a Copa do Mundo 2026 - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVDZJdDRyTlEwZlVqR0xlTFVKbklpRzd4Vm1kdDB3eWpIRkxaVzFwM3hEUFNVd0VCYjVTbkRnSm54Y0hZb3VWX0tnYnhJaW0tV1diTlFqdkRpeEtiTElpVkpCdWtfNGF6LTlTMVBub1NqeE5HS1V4OXRBX2JrRHR0MFczV3RFemFWeVBmcms0eUhnYnFDNklVZXRsSHZqb0RZZXVvcXhJTDlVOUsyTXhSRw?oc=5",
+      "timestamp": "Tue, 12 May 2026 20:18:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -737,6 +750,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike admite erro na costura das camisas fabricadas para a Copa do Mundo, diz jornal - O Globo",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGU0ZVItZkRKcko3azNiSzhOaWRxNFJ0Ukh6QlhmQlY0aFZrZ0QzRkNkbGV3Nk9FZ3Uwa2YtMFdlS2ZMTjUweUYxZ2ZJQzJWZFh3anZFblVoNERQTnc4WDRLRG1RS1RLaTJ0dm9rYjRxWWNtSW41X25zam9GZURZVENZUVZpOXBMTlFqZnBCbl9fbTZPRzB2eFZSdEtNQUpyVUFtZ1RwQTRRZ0dvRFZRQmlVNkxKNng3RFhzZWQwYnlSa05SX01ETHNEQ0RDZ0RxclpiSE9VbFfSAecBQVVfeXFMTTJPOW02eFAxTlhiX2NEeDVGOWtQdkVfZ2Z3MXBnSU9UOWtnREVYV0ZoTTNYc1ZUTy1sR2NvN0VSMWFRanhLdG1nUk1PUm1pX2ZaOUtTRi0tZVVHZmQweTAwblFPeTVPUEduNzU0NWdtY0p2NmVnWGxSZXBhSno5UjBXZC1BSlRTeC1wdVpXcG1HdUd4akRnNWlEVUdNamR0SzF2N0s5dVIyWFNmMm85WEpfQnRzVTJReGpVR2tyeEYzN2FjOWVlREtOM1IzOWppN3ltS2s4QVpnLXNQbUJ6RENWaUFCeGcw?oc=5",
+      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
     },
     {
       "level": "green",
@@ -1481,19 +1507,6 @@
     },
     {
       "level": "green",
-      "title": "Francia presenta sus uniformes para el Mundial 2026: los diseños de Nike combinan tradición y simbolismo - OneFootball",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORkxCTk5tS0lodFRZaUNhckRMNVB2U1ZMOUNEOHduY1l2ZGRwT0VabTdCUlRWNEl5NFRLMVpWUFk5NVhYd2IxcXhMYUxOd0N6WWV2X1VfZWVhYmRHZUlRQl9COEVGWGNSc0dVVzlMSlJwTzg3Q3Y0YVRQRzN4NFBMRzI5REhabEFiZ2VxdExxV1VreUVhdHZCdE94TlFzZEwxcnRMQ09uZXRmZTVZZEllVm9Xc0N1S1Q4T1hjSjZrN0VGTXJiNUVCTHIzbG9FT3NpTWNyMUp5ZVBMWkdQSGYzejRR?oc=5",
-      "timestamp": "Sun, 10 May 2026 09:51:48 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
       "title": "A Brahma entendeu o Brasil que a Nike esqueceu - Exame",
       "market": "BR",
       "source": "Google News BR",
@@ -1504,6 +1517,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Francia presenta sus uniformes para el Mundial 2026: los diseños de Nike combinan tradición y simbolismo - OneFootball",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORkxCTk5tS0lodFRZaUNhckRMNVB2U1ZMOUNEOHduY1l2ZGRwT0VabTdCUlRWNEl5NFRLMVpWUFk5NVhYd2IxcXhMYUxOd0N6WWV2X1VfZWVhYmRHZUlRQl9COEVGWGNSc0dVVzlMSlJwTzg3Q3Y0YVRQRzN4NFBMRzI5REhabEFiZ2VxdExxV1VreUVhdHZCdE94TlFzZEwxcnRMQ09uZXRmZTVZZEllVm9Xc0N1S1Q4T1hjSjZrN0VGTXJiNUVCTHIzbG9FT3NpTWNyMUp5ZVBMWkdQSGYzejRR?oc=5",
+      "timestamp": "Sun, 10 May 2026 09:51:48 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -3576,7 +3602,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-88008065",
+      "sku": "signal-12772765",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3590,7 +3616,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 54,
+      "signals_60d": 55,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3601,7 +3627,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 33,
+      "signals_60d": 34,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3852,7 +3878,7 @@
   },
   "ambush_by_brand": {
     "Nike": 32,
-    "Puma": 21,
+    "Puma": 22,
     "Under Armour": 2,
     "Penalty": 1,
     "Joma": 2,
