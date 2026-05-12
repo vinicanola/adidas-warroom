@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-11T22:40:03.248897+00:00",
+  "generated_at": "2026-05-12T08:19:14.991528+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 235,
-      "elapsed_s": 39.9
+      "count": 241,
+      "elapsed_s": 36.0
     },
     "gdelt": {
       "status": "ok",
@@ -15,33 +15,34 @@
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 5.3
+      "count": 13,
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.6
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 10.1
+      "elapsed_s": 9.2
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 30.7
+      "elapsed_s": 49.6
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 12.8
+      "elapsed_s": 4.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 10.8
+      "elapsed_s": 2.5,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
@@ -91,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 51,
-      "signals": 40,
+      "score": 49,
+      "signals": 39,
       "color": "#F40000"
     },
     {
@@ -107,8 +108,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 26,
-      "signals": 14,
+      "score": 27,
+      "signals": 15,
       "color": "#75AADB"
     },
     {
@@ -131,9 +132,9 @@
     "signals_delta_pct": 122,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 55,
+    "ambush_attempts_total": 56,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 29,
+    "ambush_top_count": 30,
     "fifa_signals_total": 0,
     "selecao_signals_total": 12,
     "official_signals_total": 0
@@ -255,19 +256,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "yellow",
-      "title": "[Registro/marca] O caso total 90 (Nike): lições sobre a proteção de marca - Migalhas",
-      "market": "BR",
-      "source": "INPI proxy",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHU5cEphb29hcDNxTU1HMmZhejlMOXY2ZEJPeVNoRUlmdFVpZWptd2ppSm9HQzFpS0NsQVlIbTJoWHhDMkwtSEEtMmRLTlZrMHh0RXA4NDB6emlzc1NTVnFRbldTV3FKNS1FZ1FPcTE0djBKaDVOdmtBekp3SnFhYV80aXprQWZNbnNMWHVMVURuN0lPa1RFaF83ZDA?oc=5",
-      "timestamp": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "yellow",
@@ -684,6 +672,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Adidas gana el Mundial 2026 antes de empezar (al menos fuera de la cancha) - El Economista: Últimas noticias económicas y financieras",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUlo5Y1NObS1VRWV6WVd3ZDEwaE9CYVU5Mzd2aEo4dEIxTWxUcWg1bFJSY3ZKdzFidFBnSG10NFp0U3dsb0Rta2djc0xOb2xwd19xZGlid1dqMktHdm81RXdFLXU0dWM1cE5fbS1kdEJxd2F6LUF5RGVad0VmRjhwVtIBhgFBVV95cUxObFgxaVV6VU1Xb0U4SmhRRjZaUXl0UkNnYkk5MWZTdkxZekJBTU4wVmV5SDdiTUQwTUJnaG5qaExPalpLZkdFeElBX2JQNVZYQVQ3Ykg3eVNjOWtjTjl6b0FhRW1JejNpT2hmcHBNQjczQ2NHdDl0VGY4UFhIZ2pHM3JqUkwxQQ?oc=5",
+      "timestamp": "Wed, 08 Apr 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -2047,10 +2048,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260312",
-        "views": 157
-      },
-      {
         "date": "20260313",
         "views": 184
       },
@@ -2285,13 +2282,13 @@
       {
         "date": "20260510",
         "views": 168
+      },
+      {
+        "date": "20260511",
+        "views": 163
       }
     ],
     "Nike": [
-      {
-        "date": "20260312",
-        "views": 162
-      },
       {
         "date": "20260313",
         "views": 179
@@ -2527,6 +2524,10 @@
       {
         "date": "20260510",
         "views": 133
+      },
+      {
+        "date": "20260511",
+        "views": 129
       }
     ],
     "Puma": [
@@ -2604,10 +2605,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260312",
-        "views": 69
-      },
       {
         "date": "20260313",
         "views": 56
@@ -2843,13 +2840,13 @@
       {
         "date": "20260510",
         "views": 67
+      },
+      {
+        "date": "20260511",
+        "views": 44
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260312",
-        "views": 28
-      },
       {
         "date": "20260313",
         "views": 29
@@ -3085,13 +3082,13 @@
       {
         "date": "20260510",
         "views": 23
+      },
+      {
+        "date": "20260511",
+        "views": 28
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260312",
-        "views": 5
-      },
       {
         "date": "20260313",
         "views": 4
@@ -3323,6 +3320,10 @@
       {
         "date": "20260510",
         "views": 4
+      },
+      {
+        "date": "20260511",
+        "views": 7
       }
     ],
     "Penalty": [
@@ -3365,6 +3366,15 @@
     {
       "brand": "Adidas",
       "channel": "adidas",
+      "title": "Chloe Kelly 🤝 the perfect football fit #chloekelly #arsenal #football",
+      "published_at": "2026-05-12T07:59:34+00:00",
+      "video_id": "YPwECp4s2Dg",
+      "thumbnail": "https://i.ytimg.com/vi/YPwECp4s2Dg/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/YPwECp4s2Dg"
+    },
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
       "title": "\"What do I know about soccer? Nothing.I know about football, Benito, football”. #YouGotThi",
       "published_at": "2026-05-09T08:59:17+00:00",
       "video_id": "bHcgiOGSR28",
@@ -3397,15 +3407,6 @@
       "video_id": "oMeE2mF_A3M",
       "thumbnail": "https://i.ytimg.com/vi/oMeE2mF_A3M/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/oMeE2mF_A3M"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "passed the FC Bayern new home jersey vibe check ✅🤝 #adidas #football #bayernmunich",
-      "published_at": "2026-05-06T08:00:51+00:00",
-      "video_id": "pVNzaPI2TQA",
-      "thumbnail": "https://i.ytimg.com/vi/pVNzaPI2TQA/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/pVNzaPI2TQA"
     },
     {
       "brand": "Adidas",
@@ -3484,7 +3485,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-12816951",
+      "sku": "signal-25772085",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3759,7 +3760,7 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 29,
+    "Nike": 30,
     "Puma": 19,
     "Under Armour": 2,
     "Penalty": 1,
