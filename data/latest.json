@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-12T22:41:42.496264+00:00",
+  "generated_at": "2026-05-13T09:35:35.373803+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 244,
-      "elapsed_s": 37.0
+      "count": 249,
+      "elapsed_s": 40.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 93.5
+      "elapsed_s": 45.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 4.9
+      "elapsed_s": 5.5
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.8
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.6
+      "elapsed_s": 9.3
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 32.1
+      "elapsed_s": 31.2
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.0
+      "elapsed_s": 9.2
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.0,
+      "elapsed_s": 3.5,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 4.0
     }
   },
   "competitors": [
@@ -92,32 +92,32 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 57,
-      "signals": 46,
+      "score": 54,
+      "signals": 44,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 62,
-      "signals": 39,
+      "score": 77,
+      "signals": 50,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 27,
-      "signals": 15,
+      "score": 30,
+      "signals": 17,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 16,
-      "signals": 12,
+      "score": 17,
+      "signals": 13,
       "color": "#FFCD00"
     }
   ],
@@ -128,13 +128,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 70.7,
     "search_leader_delta_pp": 4.7,
-    "signals_60d": 112,
-    "signals_delta_pct": 129,
+    "signals_60d": 124,
+    "signals_delta_pct": 188,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 61,
+    "ambush_attempts_total": 73,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 32,
+    "ambush_top_count": 41,
     "fifa_signals_total": 0,
     "selecao_signals_total": 14,
     "official_signals_total": 0
@@ -258,6 +258,19 @@
       "sponsorship_status": "ambush"
     },
     {
+      "level": "red",
+      "title": "Lanzamiento de las camisetas pre-partido de Puma para el Mundial 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXNkbTdLcmVVazQtc09NcG9ZMENmdS1pZVA4RmgwRDg4MkhkdVJHLUNYWERSQTRhNEVNdWhYYUxkeTU5RThqcUY4MGd2WjZUbkQ3MFVMbWNwd3hfMnhKVzNTc0k1dnRwa0tVOF9OX0NESlVYY21fcHNNN1lla1h6S0p5aVZCN05ramF3b25xWFc0NTUtaFRGWXZpczhEZHROSHRzS1A0NEhqekVf?oc=5",
+      "timestamp": "Wed, 13 May 2026 03:47:45 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
       "level": "yellow",
       "title": "It's a Penalty anuncia alianzas globales y una campaña de atletas estrella para la prevención de la trata de personas antes del Torneo Mundial de Fútbol 2026 - Yahoo Finanzas",
       "market": "MX",
@@ -282,19 +295,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "yellow",
-      "title": "[Registro/marca] Mondelez perde direito às marcas de chiclete Ploc e Ping Pong - Folha de S.Paulo",
-      "market": "BR",
-      "source": "INPI proxy",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNOS0tWXd3cnBwM2E1MDloSE56WmV6ZEprUGpyUGltN0szbUpiTXQ0dzJVaXdVRHlOdV9UYzlRX19FdTVCU25kcWJoWGpEa09KQmZkcnk2dHdwTXNTV2FjYlJtY2JWMG5HRU9vblN0SXZxc3lOcFdQYl9WWTFaSTVtV1p6WHd0ckhicUVDLVdWeGFjX2RrVzhYODJ1REo4bnp6N05KejNLN1dhelRYWXpsSnZCSDBkM0tBckhoanBYX0gtT0x2cmhnd1kwUEFIQTFUTjk4eUZpOEIzUDVxZHdBZDNyNFNFWUZRQ1FHbDNTWWxwb0Qz0gH6AUFVX3lxTFA0T2hhLUpDN18wUVJ3dVdHYXZfN3dra21uZlFBUWFnXzFVZTNNZU9wVHV4MC12ZkRiTDlZa3hkUWRZNW4tTG1zdVpxTlFTUGhrVEJtbkVjNE9tczJQbUFOWmxEeEJ4Z1JfOVkwV2dMLWVjT0hOUkMya20zSnFDMUJlekd2WnlES1VRTFVPdmxrMkJmdjE3bThpZzJIOVpTQmdrOUl1TF9JeXlGVzJPNHRxUU03SGlRdlA3b1hhdjJRdHhHRG9xQmFVSWY5ZEo5RHNodzFXS2VQc3cxbm5lRU13VXB0R3FjM3VTVkhFYjVuMGxhTThQSGZMYWc?oc=5",
-      "timestamp": "Tue, 07 Apr 2026 07:00:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "yellow",
@@ -440,17 +440,17 @@
       "sponsorship_status": "ambush"
     },
     {
-      "level": "green",
-      "title": "Seis camisas da Puma para as seleções nacionais de 2026 (Copa do Mundo) vazaram - Footy Headlines",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaFFYaWJya21yN1l1QndmdHRrejhSNTFIb3Npay1JODNCV1h5clM5MzVDSmhxbXEzejl6aHMtUnJVU004RTJPeGNZbHVlanRqaURMakZNenJIdkRtY2FadWZzV3ZvbG16dURhdTQ4bjc5ckYwd0poQy1ySDhXQ3NlalpyTi1qZGo4UDREOHRmYkp3enVhS0NyNEJUUzlTQUlwQTdTZzA0eWEwMWp3S1BqMEdzNjlBMG8?oc=5",
-      "timestamp": "Fri, 13 Mar 2026 07:00:00 GMT",
-      "brand": "Puma",
+      "level": "yellow",
+      "title": "El Botafogo anuncia un acuerdo con Mizuno para la camiseta: se acabó Reebok - Footy Headlines",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMXVCdHFlQ054NWZ0OE1hNXdSNlNMbEFDWGJYU2V2RGtwV3g1YUF4MjNDU0x6NVRDaGFHdUVDY0dQczFrMHBIRTJuUVE4d2Q1VEJLV05odkZwaE9VX01SY2VUUEFKTDhFNFd4SUxCb0tsdVNfSG13MHRObUs5N3VmZjNrcXdGSzBZWTZvMWJvZFM1OG1yemg5eEZXWVlhMUY2ZUFMdmpSemx4LXhnVEVtcHhzeG5RQVA2UVRLb1R2aWpHQQ?oc=5",
+      "timestamp": "Tue, 12 May 2026 23:19:03 GMT",
+      "brand": "Mizuno",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
-      "sponsorship_status": "ambush"
+      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -1595,6 +1595,162 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se han presentado todas las camisetas de portero de Nike para el Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRnJYZFJsY1ZtNDBrelFXdl9Fa194cTFMYVR2cnh0VXpwTVpvMHlBLXRObHlSOW1XczVTVGVSV0tiempDTGxhSHF2TGhEQ0p2QnRvLXJqdXotLUhKWHhVTHN3NmlHQXF3STVtbTBlM2Y3YXE1SU02dWhMb0EtQkZaQlIxSmU1Q0psYlZ2RUxLYTZ1RXdqdnRWV2FCT3VqQzlTSnp2T29GblJyd0U0NjJvaVVDbGM2cVlfNWtaalRkNzRBY09pZmdxd0x3WEdDOGtGM1ZGWXc4MGhKMmphSW1vT0F5Yw?oc=5",
+      "timestamp": "Wed, 13 May 2026 03:48:36 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Marcas de camisetas para el Mundial de 2026: 42 equipos, 13 fabricantes - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUjZhaEJhMGhFU0ozOHB1M2tOWjQwSW5mRmhVc2djMEh4ZUFBaXhzZ0xUOFhsM2hocGtoZ2NISTdSZElHLUhMWU9XU1ZqdFh6UVc5b1RDdEwyZHBxdFFESkhCaExiZk9zWEh3cmpUamFTTm5HNFdJcDVqZ3k4X2NlYWgxaS1uNWdIQXJtblRtcm4yMk0wXzkxR1M3aVkyVmE2Y1hueUNVZVVwWTZyNXVJUmUyam1XeDVlaVFJcFY1SksxT09aVFJRcFF0cVpKWkV3Rk9DUXNubw?oc=5",
+      "timestamp": "Wed, 13 May 2026 01:49:36 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se produce la filtración de las camisetas lifestyle retro de Nike para el Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV0oxQ056eG91SFhEZ2ZhNk5hbFE1ZEZscl9yLWQ3bWZCckVUVGJwTGFVSXlIUEE0QnRPMGQtZkgwWTN2UDJfRl9ZTW1LMXd5eHlBdV8yOXJCZnZ3UURUc0tZVDhfMEZ6amNJcTJNcXhybV9mY2pjNWFSVURSdUc5cDA5Tmw4QlBvdTJUbENrdWtTTlVfbU9FcXhIZFBFMm9CczhsaHotMFB1dw?oc=5",
+      "timestamp": "Wed, 13 May 2026 01:50:38 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Rosa | Se produce la filtración de las botas Nike para el Mundial 2026 + Imágenes oficiales - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjJEd0hxeFVMRjVUN1hHNmdJMW9rcGliWlNpc1huUmNzYmlDaHpvODBnTkNTVjFEVkFUTmgyTDBVUU5adnpBLW1ORkhiXzVsS3NlellMaFBWTkw3RjBCMk5pVDF2bFVOY1dvdGU4YXVLelVYTUkzdXRuRTl0ci1LMy15VEpjVUJVNjk3NDdIamhBaHl0cEF0cHE4NzkzTDY5d0QxTmhoOHRscDJfZDR6VmQ4bDZ5dw?oc=5",
+      "timestamp": "Tue, 12 May 2026 22:21:25 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se puede arreglar con vapor: Nike reconoce el extraño defecto en los hombros de las camisetas del Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUERyOUlvLVliNW9XOXhlOXljV2FJZm11cGZwdkM3TERVVGZyS2JQeDc2el93cEtnUjFxNmVKN0pLdzlKU29lMU9NRS1ma3JfUURyTER4UW9pNVVzdmUtc3k4V0xpLTVXYlVpRW16eHdKZ1d6ckpCcWp4LUlscnhJWkxJNGYyb01KRHJjakN0bkprclVUSEQ0OUczcE42ZGNobDZPZFlPbkROekhkMnRSQ2ZGLTJ2NU5Za3FTMFZ5YWkzQVp0T0pBZVpVQk9ScGJaSnZ6eko4c3pyNDEzVkE?oc=5",
+      "timestamp": "Wed, 13 May 2026 00:15:27 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Lo que podría haber sido: Nike perdió una gran oportunidad con la camiseta local de EE. UU. para el Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdl9jUnRtYW94Ul9zRFk5NWJYTjZzWUdqZkt4QnRMVm5xQ3FsNVhQUHRVdnM3bk9GZWdYTW1PVDBBUDhfUDVjZFpDb2Q1X0N1eGxzVF84NUNSbFhTVGd6ZUpQXzJjNWVWNXJUVnZOOGNtMklFQk9HVDMxSmQ0NUo0bGNMVDZESFZnUWxVUU1GV29kSUVUc2JzTHhHWFN2Q3Q0MnZtbEhjMFgtUEdjRlR0bWJKQWtPYnRLTW1BME01ZElDWGJVRWF5UVBzREJ5LTJxV3dsZENGQTZNTG52QV96ZGltRlFKUQ?oc=5",
+      "timestamp": "Wed, 13 May 2026 04:43:49 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se presenta la chaqueta de malla de Canadá para el Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSDN1cWlSa2lwd3BvY25RcHJiS3BzYUdrVGpNU1RhNlExM1NETFEyeTIzQmE0LW8xck5DNGFjT2V0Y2daWTlIQ1N3aUtQNnc2WUhPXzA4TTk3S0tzU19PbzdvcVcxOEFNdXQ1bGt3VFdEWEU4V0tqc0YtRWJ4aW4tbUl1b0ctaUFEY2tGTnlrZ1loTmdQamxtc1JpM1pOV196SURudERoMTE?oc=5",
+      "timestamp": "Wed, 13 May 2026 02:17:38 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se revelan las fuentes personalizadas de las camisetas de Nike para el Mundial de 2026: Brasil, EE. UU. y Canadá - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOUtZZVdDaG5OZGJnendscGJjdzNacWlyZmx5UkpzNDFlT2xoelFqOTJhU01EVFA2YWp1Sk5ZQTBJNGpsRFRxY19YZldYcXdGNlpXRGZMaTBnc3lzaVhYNmM2OFRUTDBCb29KUHVZQTl6R2NjUWN0TWRxd29tOW9Kall6TGVIVHpBUTVDZ0d0VHJWT2xIcEpnaEc2LUlJM3JuaHFiWGU4OFRVaGc0R2dLN2JMWUNpVkltb0RwLUlnRkoxVWNic2hKRXgtTFdwMDloZW04Y1dkb09TODZJb0lwQjFZWjhrUnVhZXNUclNTNA?oc=5",
+      "timestamp": "Wed, 13 May 2026 05:16:53 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se produce la filtración de seis camisetas de la selección nacional de Puma para 2026 (Mundial) - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHYzaWpZVGFhY2N2YVN0dXg1SzNOUGRlWmR6S0h2TDduUS12cm44VTZYZ0NLczBqSmVPWE5tblA5WC1HM1NkRk1PSmV1RDhCaTF5aFZpR1VuWGVRYktMWFRVMUlVS21zXzJveDZNV0RVa2pQb0UtT0ktS1dpbk4xSDVveXZXUEVtZnNjZGFTWXFDbG43YTROU0xEeTk3NEt2NlpkUERvdEhwRlI5MGZCVkR4ZmNrUk1IeVBLSVh4Vy1qWEF6RHM0aUl6OGk?oc=5",
+      "timestamp": "Wed, 13 May 2026 05:39:54 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se han presentado todas las camisetas de Puma para el Mundial de 2026 - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPek1vVk41bklnd3JRSk1LTDU2c2w4TWJhYVQyLTY0ZDJpNkc3QVJ4NXZCd043QUpkUklUYW5xcmo5a3hoZDNmaHFVNWY1dm9fb2VRSUk4TDFfR0VYWERKYjdkekc4YUM1WU13cjZfN0Jmc3Qtang1UXJvaXZFUlpudmNOUVBkTFo3QlgzaFJFblNjRU9wRjFuYzhTQjlGV0U5N1l4LUF2d2NWdEI2cWRxQU1rQnItbjRMZy1CcVk0V2tnTW8xNzF4dTNzdmMxNG1vWlFTRHJSZ0pxMlRzT2ZZ?oc=5",
+      "timestamp": "Wed, 13 May 2026 04:39:50 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Se produce la filtración de la camiseta visitante de Inglaterra para el Mundial de 2026 - Footy Headlines",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWnpUQ2kteWtxcEk2a0hBUU1HME1KcFVONGhhMFg2ak9OV3J6SzgxV2VqZ3JndGZtUll3akFJWVdpaEFVRzNMNE40dWNqQy1OMnhxMUZXa2g0VVY0YnNuMDlveElnS0M2VTNEVTRnaVlvSmZvZHE2RWtvb1FQcldndUxFVlMtUEZXX2pIUmNhTEVaaGtfSlFmUDB6b1A0c2tpV2R0SjQ2Z1hPU1VoOVlMRkhWVHIwZkVjWHlKVUJBb1FhRmRHNU9MU0t0VnFBTDRXR1l2Y1hkdHU0TFRscVNHb1ppOFNndExP?oc=5",
+      "timestamp": "Wed, 13 May 2026 05:32:02 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Marcas de camisetas para el Mundial de 2026: 42 equipos, 13 fabricantes - Footy Headlines",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUjZhaEJhMGhFU0ozOHB1M2tOWjQwSW5mRmhVc2djMEh4ZUFBaXhzZ0xUOFhsM2hocGtoZ2NISTdSZElHLUhMWU9XU1ZqdFh6UVc5b1RDdEwyZHBxdFFESkhCaExiZk9zWEh3cmpUamFTTm5HNFdJcDVqZ3k4X2NlYWgxaS1uNWdIQXJtblRtcm4yMk0wXzkxR1M3aVkyVmE2Y1hueUNVZVVwWTZyNXVJUmUyam1XeDVlaVFJcFY1SksxT09aVFJRcFF0cVpKWkV3Rk9DUXNubw?oc=5",
+      "timestamp": "Wed, 13 May 2026 01:49:36 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -2165,10 +2321,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260313",
-        "views": 184
-      },
-      {
         "date": "20260314",
         "views": 180
       },
@@ -2403,13 +2555,13 @@
       {
         "date": "20260511",
         "views": 163
+      },
+      {
+        "date": "20260512",
+        "views": 170
       }
     ],
     "Nike": [
-      {
-        "date": "20260313",
-        "views": 179
-      },
       {
         "date": "20260314",
         "views": 163
@@ -2645,13 +2797,13 @@
       {
         "date": "20260511",
         "views": 129
+      },
+      {
+        "date": "20260512",
+        "views": 129
       }
     ],
     "Puma": [
-      {
-        "date": "20260313",
-        "views": 1
-      },
       {
         "date": "20260318",
         "views": 2
@@ -2722,10 +2874,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260313",
-        "views": 56
-      },
       {
         "date": "20260314",
         "views": 65
@@ -2961,13 +3109,13 @@
       {
         "date": "20260511",
         "views": 44
+      },
+      {
+        "date": "20260512",
+        "views": 60
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260313",
-        "views": 29
-      },
       {
         "date": "20260314",
         "views": 26
@@ -3203,13 +3351,13 @@
       {
         "date": "20260511",
         "views": 28
+      },
+      {
+        "date": "20260512",
+        "views": 30
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260313",
-        "views": 4
-      },
       {
         "date": "20260314",
         "views": 6
@@ -3441,13 +3589,13 @@
       {
         "date": "20260511",
         "views": 7
+      },
+      {
+        "date": "20260512",
+        "views": 2
       }
     ],
     "Penalty": [
-      {
-        "date": "20260313",
-        "views": 1
-      },
       {
         "date": "20260324",
         "views": 1
@@ -3602,7 +3750,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-12772765",
+      "sku": "signal-5125870",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -3616,7 +3764,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 55,
+      "signals_60d": 64,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3627,7 +3775,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 34,
+      "signals_60d": 36,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3660,7 +3808,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 11,
+      "signals_60d": 12,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -3877,8 +4025,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 32,
-    "Puma": 22,
+    "Nike": 41,
+    "Puma": 25,
     "Under Armour": 2,
     "Penalty": 1,
     "Joma": 2,
