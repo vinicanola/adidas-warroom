@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-16T16:18:06.389973+00:00",
+  "generated_at": "2026-05-16T20:09:54.364034+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 240,
-      "elapsed_s": 39.0
+      "count": 244,
+      "elapsed_s": 37.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 59.6
+      "elapsed_s": 0.3
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 4.8
+      "elapsed_s": 4.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.2
+      "elapsed_s": 4.2
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.1
+      "elapsed_s": 7.7
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 41.0
+      "elapsed_s": 36.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 27.7
+      "count": 10,
+      "elapsed_s": 11.9
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.8
+      "elapsed_s": 4.6,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.4
+      "elapsed_s": 3.4
     }
   },
   "competitors": [
@@ -91,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 84,
-      "signals": 70,
+      "score": 85,
+      "signals": 71,
       "color": "#F40000"
     },
     {
@@ -100,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 69,
+      "signals": 70,
       "color": "#006847"
     },
     {
@@ -127,8 +128,8 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 63.6,
     "search_leader_delta_pp": -4.7,
-    "signals_60d": 182,
-    "signals_delta_pct": 187,
+    "signals_60d": 184,
+    "signals_delta_pct": 183,
     "latas_total": 1,
     "latas_unvalidated": 1,
     "ambush_attempts_total": 102,
@@ -869,6 +870,19 @@
     },
     {
       "level": "green",
+      "title": "New Balance e São Paulo renovam parceria até 2032; veja todos os detalhes - CNN Brasil",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcW1vYlhVRlgteDV2ckdBUG1lMU41aXZ4SHc5bVJRWHY2Y2lLS3RQdFlSSkk1S1Nnc1dsSTZKRzhHR3VSanN4N3Q0TE9wMXJUaWtDWkQyR0ttVFVCWVhHekYyaXNzYm9FSEx2WFBDOEttODlqaHFFdDVxWEFRa2U4TEVBemY5TGhqLUwxel9YeW5KcEFFUUNPWlIxd1Nyc2FsWk5YSG5xa29XbHdfUkRYY1U3OXJ5QzE5WEkwZURHNjFvWWM?oc=5",
+      "timestamp": "Wed, 08 Apr 2026 07:00:00 GMT",
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "A falha nos uniformes da Nike para a Copa do Mundo - VEJA",
       "market": "BR",
       "source": "Google News BR",
@@ -1519,11 +1533,11 @@
     },
     {
       "level": "green",
-      "title": "Na corrida pelo esporte, Adidas supera Nike às vésperas da Copa do Mundo - Bloomberg Línea Brasil",
+      "title": "Estados Unidos na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdEpqdGppWE5pckt5N1ptRjZVLXJXV1hKNm5HZWpkakJFd1NpbWhKVmRUcWhqUm1CUUdyMk5YR3dYZGpPU1ZrbEF6ellZQVI2M1h1VkFrd0Mtb0FRVFBDa3ZFVHJmbzRnZWJGUW1FdU5xSnhpSHNCQVZzZW9Qb09xcmpqRDF1X3BJVVVrZnVuM19GTjRuX3lXUzcwSllDalMtUS12cTROSDZhTjZCRlZzYjdXbFpod0020gHMAUFVX3lxTE04djhNdzZFMk1IX3pFQ1pBbUpDc3FLSDUxVWRSeVNVcGpTeGtySndLWkpzRDBPSWtjcXdkTkstYktDTld3eTVhakhYOTZIZWhTZ3JJelhJUkNfY3RzOGhhaXN5aFhXVnR5aExDRzFETk5wMnJwdGdJeTU4Qng3NjUwOW9KOU9TWjFOUWlDMUs5b0lqX2tmN3UzbVZzd2ZOcUFBcUprMTVKTEFZaU5ieDRDZ2c0Sml3a1ppLThkSnJKbjN1UGdZVThhaGtrcA?oc=5",
-      "timestamp": "Wed, 06 May 2026 20:10:20 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEkyZXpTd00zVllqM0IyOGFvN09qV0EtOXNobWZvdHVtdFA2RmRQMTgzWW9ra3JDblZoM3l0RGVETS14WkZmbW1NVzVIZ0VMZ3VMSmhIbGlzRVlXVkU0dHRSbUZYRng1LXdyVE1GNWwxQkNYU1dTcVduMVc0MTJ2ajdxa1VIY290WkoxbS1lNEF1am9UZnFqdGRRQUl3S2hfSjBUbTFkdm9tbFZoRWR5NElDd0Nma3I3?oc=5",
+      "timestamp": "Wed, 06 May 2026 18:28:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -1532,11 +1546,11 @@
     },
     {
       "level": "green",
-      "title": "Estados Unidos na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "title": "Na corrida pelo esporte, Adidas supera Nike às vésperas da Copa do Mundo - Bloomberg Línea Brasil",
       "market": "BR",
       "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEkyZXpTd00zVllqM0IyOGFvN09qV0EtOXNobWZvdHVtdFA2RmRQMTgzWW9ra3JDblZoM3l0RGVETS14WkZmbW1NVzVIZ0VMZ3VMSmhIbGlzRVlXVkU0dHRSbUZYRng1LXdyVE1GNWwxQkNYU1dTcVduMVc0MTJ2ajdxa1VIY290WkoxbS1lNEF1am9UZnFqdGRRQUl3S2hfSjBUbTFkdm9tbFZoRWR5NElDd0Nma3I3?oc=5",
-      "timestamp": "Wed, 06 May 2026 18:28:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdEpqdGppWE5pckt5N1ptRjZVLXJXV1hKNm5HZWpkakJFd1NpbWhKVmRUcWhqUm1CUUdyMk5YR3dYZGpPU1ZrbEF6ellZQVI2M1h1VkFrd0Mtb0FRVFBDa3ZFVHJmbzRnZWJGUW1FdU5xSnhpSHNCQVZzZW9Qb09xcmpqRDF1X3BJVVVrZnVuM19GTjRuX3lXUzcwSllDalMtUS12cTROSDZhTjZCRlZzYjdXbFpod0020gHMAUFVX3lxTE04djhNdzZFMk1IX3pFQ1pBbUpDc3FLSDUxVWRSeVNVcGpTeGtySndLWkpzRDBPSWtjcXdkTkstYktDTld3eTVhakhYOTZIZWhTZ3JJelhJUkNfY3RzOGhhaXN5aFhXVnR5aExDRzFETk5wMnJwdGdJeTU4Qng3NjUwOW9KOU9TWjFOUWlDMUs5b0lqX2tmN3UzbVZzd2ZOcUFBcUprMTVKTEFZaU5ieDRDZ2c0Sml3a1ppLThkSnJKbjN1UGdZVThhaGtrcA?oc=5",
+      "timestamp": "Wed, 06 May 2026 20:10:20 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2504,6 +2518,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Tras dejar sin invicto y corona al Puma Martínez, Jesse Rodríguez quiere destronar a Naoya Inoue: “Es inevi... - bolavip.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0JYSlQ5bFRqWUpxTmtJdWlXVGIwa1JJQnRYYlBWZDEyY1hfbmp1SmdINFZoYmI0S2x2UnF3eWNXajFKLUUyUXJMM3NiRmFzS1M5cHFabDRaNW5zV21FSzJoYWpOTzN5T250WXNiNkEtVFEzaWxob2RhUnA3SFpTZlFDZ1RuZVljRy1JMjQzbFJhTGtWTHhWVDludndXTkVNNjlSODlBV1J0VUNwMHRRSlZmQkNYYWNYVE5TcGc3Y1pPRUtxdVJMenpUc09FMGpDRU5nY9IB2gFBVV95cUxPY05WZEVtTjI2NndZZm1IN0d0Mkt2V0hXN2ZEdDI4S1ZqN05wYTNXM2l6YXFsUllmazdiMkN3TUdGbFRKZnJIMVhRN0UtNjQxSEQ3Tm9aUkNJMFJJVUlCU2NBN0VuN0xOcEEzM2N0eHRQTW8tYVNjOU5TWXhlSzU2TzE2SHNPcVFPWXg2dE5EZ09XdmY4X2lPU211SEZ0bkN3QVFzdkU2VmhvSDluYVdQR243aFdOTFBUcEY0aU9Hb3AtbmRtUXlBSU9Na2F1UVpQUGxBaUFHZTRhZw?oc=5",
+      "timestamp": "Sat, 16 May 2026 17:14:30 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -6754,190 +6781,100 @@
   ],
   "tiktok_tags": [
     {
-      "tag": "#codigosalbumvirtualmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 185700,
-      "raw_query": "codigos album virtual mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 55050,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantocuestaelalbumdelmundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 51450,
-      "raw_query": "cuanto cuesta el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
       "tag": "#álbumdelmundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 4,
-      "growth_pct": 51400,
+      "rank": 1,
+      "growth_pct": 44700,
       "raw_query": "álbum del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#albumdoradomundial2026",
-      "country": "CO",
+      "tag": "#listafinalseleccionmexicanamun",
+      "country": "MX",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 33550,
+      "raw_query": "lista final seleccion mexicana mundial 2026",
+      "seed": "Seleccion mexicana"
+    },
+    {
+      "tag": "#listaoficialseleccionmexicana",
+      "country": "MX",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 32650,
+      "raw_query": "lista oficial seleccion mexicana",
+      "seed": "Seleccion mexicana"
+    },
+    {
+      "tag": "#aprendetodoaqui",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 27450,
+      "raw_query": "aprende todo aqui",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#listadeconvocadosselecciónmexi",
+      "country": "MX",
       "posts": 0,
       "rank": 5,
-      "growth_pct": 35000,
-      "raw_query": "album dorado mundial 2026",
-      "seed": "Mundial 2026"
+      "growth_pct": 1850,
+      "raw_query": "lista de convocados selección mexicana",
+      "seed": "Seleccion mexicana"
     },
     {
-      "tag": "#logococacola",
-      "country": "AR",
+      "tag": "#mundialsnooker2026",
+      "country": "BR",
       "posts": 0,
       "rank": 6,
-      "growth_pct": 24450,
-      "raw_query": "logo coca cola",
+      "growth_pct": 950,
+      "raw_query": "mundial snooker 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#codigosparaelalbumvirtualmundi",
-      "country": "AR",
+      "tag": "#concentracionseleccionmexicana",
+      "country": "MX",
       "posts": 0,
       "rank": 7,
-      "growth_pct": 24250,
-      "raw_query": "codigos para el album virtual mundial 2026",
-      "seed": "Mundial 2026"
+      "growth_pct": 500,
+      "raw_query": "concentracion seleccion mexicana",
+      "seed": "Seleccion mexicana"
     },
     {
-      "tag": "#cromoscocacolamundial2026",
+      "tag": "#listaseleccionmexicana",
       "country": "MX",
       "posts": 0,
       "rank": 8,
-      "growth_pct": 13200,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
+      "growth_pct": 450,
+      "raw_query": "lista seleccion mexicana",
+      "seed": "Seleccion mexicana"
     },
     {
-      "tag": "#prelistamexicomundial2026",
-      "country": "MX",
+      "tag": "#campeonatomundialdefórmula1de2",
+      "country": "BR",
       "posts": 0,
       "rank": 9,
-      "growth_pct": 12150,
-      "raw_query": "prelista mexico mundial 2026",
+      "growth_pct": 300,
+      "raw_query": "campeonato mundial de fórmula 1 de 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#prelistacopadomundo2026",
+      "tag": "#albummundial2026",
       "country": "BR",
       "posts": 0,
       "rank": 10,
-      "growth_pct": 7000,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#albumpastaduramundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 5850,
-      "raw_query": "album pasta dura mundial 2026",
+      "growth_pct": 140,
+      "raw_query": "album mundial 2026",
       "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajasobresmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 4000,
-      "raw_query": "caja sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 3850,
-      "raw_query": "caja de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 2950,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadesobresmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 2600,
-      "raw_query": "caja de sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figuritademessimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 2300,
-      "raw_query": "figurita de messi mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#dondecomprarelalbumdelmundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 1850,
-      "raw_query": "donde comprar el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figurinhadacopadomundode2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 1600,
-      "raw_query": "figurinha da copa do mundo de 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#albumcopadomundo2026capadura",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 1350,
-      "raw_query": "album copa do mundo 2026 capa dura",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#figurinhacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 1050,
-      "raw_query": "figurinha copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-15419568",
+      "sku": "signal-9127849",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -6962,7 +6899,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 56,
+      "signals_60d": 57,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -6973,7 +6910,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 2,
+      "signals_60d": 3,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 1,
