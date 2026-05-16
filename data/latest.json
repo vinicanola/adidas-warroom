@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-16T00:13:17.882464+00:00",
+  "generated_at": "2026-05-16T08:25:30.902862+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 245,
-      "elapsed_s": 38.2
+      "count": 244,
+      "elapsed_s": 34.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 84.0
+      "elapsed_s": 59.5
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 4.7
+      "count": 11,
+      "elapsed_s": 4.4
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 2.8
+      "elapsed_s": 3.2
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.6
+      "elapsed_s": 8.3
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 28.7
+      "elapsed_s": 27.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 23.0
+      "count": 0,
+      "elapsed_s": 5.6
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 23.5
+      "elapsed_s": 1.8,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.2
     }
   },
   "competitors": [
@@ -91,32 +92,32 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 77,
-      "signals": 64,
+      "score": 78,
+      "signals": 65,
       "color": "#F40000"
     },
     {
       "country": "Mexico",
       "code": "MX",
       "flag": "🇲🇽",
-      "score": 99,
-      "signals": 68,
+      "score": 98,
+      "signals": 67,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 38,
-      "signals": 25,
+      "score": 40,
+      "signals": 27,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 19,
-      "signals": 15,
+      "score": 24,
+      "signals": 16,
       "color": "#FFCD00"
     }
   ],
@@ -127,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 65.0,
     "search_leader_delta_pp": -2.1,
-    "signals_60d": 172,
-    "signals_delta_pct": 174,
+    "signals_60d": 175,
+    "signals_delta_pct": 189,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 98,
+    "ambush_attempts_total": 99,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 50,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 19,
+    "selecao_signals_total": 20,
     "official_signals_total": 0
   },
   "signals": [
@@ -283,6 +284,19 @@
       "sponsorship_status": "ambush"
     },
     {
+      "level": "red",
+      "title": "Equipaciones de Senegal para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOG5qWUxFNGxNckVzUFlyVGRybFdNZTZ1OUJiaTYtMF8zR2tQTW5lR1Jkc1Jjc2t4a09kUTAwTm45SVZSa3A0aDNQaFJWRnRCLW5jZUl3ejVDRndoWWtaLWNsNEQ0b09qZXE1MUFxZjBEaUd4SENScVRjdXdtNk0zZmtwYXVuNTFuRXFycG0wN3hOeW9oSDZ6MjU1eEk3a1FqdjliZEhReWwwZzU0NnMwV1NsZHRCeUEtMDJueEdDc05fYTBsaEhVMDRXeVc0MWZXc2dqMDYwaFh2bmxLb3paMV9pLW1SQWxOVlllcnYweGUxUnc?oc=5",
+      "timestamp": "Thu, 14 May 2026 12:59:33 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
       "level": "yellow",
       "title": "It's a Penalty anuncia alianzas globales y una campaña de atletas estrella para la prevención de la trata de personas antes del Torneo Mundial de Fútbol 2026 - Yahoo Finanzas",
       "market": "MX",
@@ -310,7 +324,7 @@
     },
     {
       "level": "yellow",
-      "title": "[Registro/marca] Mondelez perde direito às marcas de chiclete Ploc e Ping Pong - Folha de S.Paulo",
+      "title": "[Registro/marca] Mondelez perde direito às marcas de chiclete Ploc e Ping Pong - folha.uol.com.br",
       "market": "BR",
       "source": "INPI proxy",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNOS0tWXd3cnBwM2E1MDloSE56WmV6ZEprUGpyUGltN0szbUpiTXQ0dzJVaXdVRHlOdV9UYzlRX19FdTVCU25kcWJoWGpEa09KQmZkcnk2dHdwTXNTV2FjYlJtY2JWMG5HRU9vblN0SXZxc3lOcFdQYl9WWTFaSTVtV1p6WHd0ckhicUVDLVdWeGFjX2RrVzhYODJ1REo4bnp6N05KejNLN1dhelRYWXpsSnZCSDBkM0tBckhoanBYX0gtT0x2cmhnd1kwUEFIQTFUTjk4eUZpOEIzUDVxZHdBZDNyNFNFWUZRQ1FHbDNTWWxwb0Qz0gH6AUFVX3lxTFA0T2hhLUpDN18wUVJ3dVdHYXZfN3dra21uZlFBUWFnXzFVZTNNZU9wVHV4MC12ZkRiTDlZa3hkUWRZNW4tTG1zdVpxTlFTUGhrVEJtbkVjNE9tczJQbUFOWmxEeEJ4Z1JfOVkwV2dMLWVjT0hOUkMya20zSnFDMUJlekd2WnlES1VRTFVPdmxrMkJmdjE3bThpZzJIOVpTQmdrOUl1TF9JeXlGVzJPNHRxUU03SGlRdlA3b1hhdjJRdHhHRG9xQmFVSWY5ZEo5RHNodzFXS2VQc3cxbm5lRU13VXB0R3FjM3VTVkhFYjVuMGxhTThQSGZMYWc?oc=5",
@@ -498,32 +512,6 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdEw1Qk1iY05zNjA2cnBrcWlIaTh1UG1wRFBlVjdYcldaVHotMUNwa2xCTlNmMU9FaG9MTlpYaDhEbHAyUDQ1WWo4UHlZOUFua2pxRDZkS01HYVdscnFUcFRWSmw2YWJEdVlncVFvMUo4VVh2a3pMQWQwQjM4ZERfSWJDWkRiT2xLN1VVM2EzSlRmdU1HY2JvM1BXem5iejR1TFhFRkZsckI4aGRORWdlMWJIbw?oc=5",
       "timestamp": "Thu, 14 May 2026 19:15:30 GMT",
       "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike Football presenta las equipaciones de selecciones 2026, diseñadas con Aero-FIT para el mayor escenario mundial — NIKE, Inc. - About Nike",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1IyZVI0N05EWnlRZ0xqUGI4djVkVnZLSlM5cWc2WUJiWnRETE5QZ0drRDlVNGFoemQ5UUpPdmM5V3dGeFRKVlRuV0ZtNTFGVjhybHlFTTZ6U2p0bTM3amZDU2ROUmNuUGJ6dU96YzdNQ18tVmtob1piLXdWaEt2Sll5dlMwbnV6TjBHR0l5TDk0VV91NVhybTY0T3FDRzZrSkltX1A5OTJweFB6a3NNa05pR0s1YUVaQmltSXR2QTR4VzQtX3VlcU9BTGpQd0JQeHR3UXp6Zl8wZ3A2dE81UQ?oc=5",
-      "timestamp": "Mon, 16 Mar 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike Futbol presenta los kits de las selecciones nacionales 2026, diseñados con Aero-FIT para el torneo más importante del mundo — NIKE, Inc. - About Nike",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEZrZFpybjJGQU5fb19QLVNvQzUxZzgxRHNxS1pNNER1azVSUUZDbUZlNTE4eWMzQ0MtYWFCamNaQWVRU0RhTm95OFE0VjF6dlhhOEc4SkpHMEVmd3lrVHZWUEZiMVdXX0dZZXFmcUhzaXhPUktmdjdqV0dpajdWZlptMTFxTm9RbGNDbk9ET2YwWkt4R1pxZEk5dUpGR0U5bFhRakpUNWJyZGNfazRoelhFOGR4dU1LaU96Q2x3dGVtMHZVUXFEeUdWWUtPUVEzQlRHU3hSYzljcXAxV250VUZR?oc=5",
-      "timestamp": "Mon, 16 Mar 2026 07:00:00 GMT",
-      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -1987,11 +1975,11 @@
     },
     {
       "level": "green",
-      "title": "México: VENUE Sports y Nike buscan reconectar al fútbol con su origen rumbo al Mundial 2026 - DossierNet",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQXFId0NpaHNBc1dnVkRSYnZBWnZqbUhrcDRNMmFlcmlLZmUzbDdsNk1IRW9LemdWOVVWaFJwYWpUQmQ5U3RBbXhPYTJjVnNZSVhiOHJTa05VMTdHMUt3VGIzcVFGWGNZSWNiM3lIczFBdmViQVVibEI3SXFWd0pLeDRoYU9rMWtPb1UyUTdkWFVveXpzYUFZelhVcw?oc=5",
-      "timestamp": "Wed, 13 May 2026 13:51:11 GMT",
+      "title": "Se han presentado las camisetas locales y visitantes de Uruguay para el Mundial de 2026 - Footy Headlines",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTmtabDRpY1hQR3hqdmxFY1B0M0piMFh4eVl3VTBGYUxKOGtLSVdKRGwxZVFZVW9ydllYNGwtRWx6a0xRY3REXzVSUDhBWFR4TXNkS1IxM1UyNnp0T0lFa25LQUlaNkw4Vmc2T1VYdjVYRm0yM0E4aEE0U3VuUTd4cGlkbk5ZdzkxWkEycFBqekRSN3FtUVZCOEJxbThpdTlkQk80d2FDMWZfdXFWeHY4VEg2TmV5cXp1ZjBEeS1R?oc=5",
+      "timestamp": "Wed, 13 May 2026 05:10:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2000,11 +1988,24 @@
     },
     {
       "level": "green",
-      "title": "Se han presentado las camisetas locales y visitantes de Uruguay para el Mundial de 2026 - Footy Headlines",
+      "title": "Se estrena la camiseta visitante de Uruguay para el Mundial de 2026: estilo Black Panther y tiradas muy limitadas - Footy Headlines",
       "market": "AR",
       "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTmtabDRpY1hQR3hqdmxFY1B0M0piMFh4eVl3VTBGYUxKOGtLSVdKRGwxZVFZVW9ydllYNGwtRWx6a0xRY3REXzVSUDhBWFR4TXNkS1IxM1UyNnp0T0lFa25LQUlaNkw4Vmc2T1VYdjVYRm0yM0E4aEE0U3VuUTd4cGlkbk5ZdzkxWkEycFBqekRSN3FtUVZCOEJxbThpdTlkQk80d2FDMWZfdXFWeHY4VEg2TmV5cXp1ZjBEeS1R?oc=5",
-      "timestamp": "Wed, 13 May 2026 05:10:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVng3eDdoT0lrU3VvdFZ4M3dWYzNGazd1Z2hwbUpSQl9xUzR6WDM1R05VbDE3bFlNWkVncC13TjlDSnJaOW9wcWR2b0ZjU3dwNjdaTC1ZbEpfSi1iMHZZQkhDOXUwRjc2TVRXT05iXzRqWlhmSFhVWmtsZTA3N3ZMSkhMYV9QVUpEMFFuVnRRODdxZnRsQnZWR0l5dWhqUFlOM2pKT3hTVnhCVk81a0lubXFhRmg5U0FyWUlMRE1QSUkyMldQZWRVWVFmc3ZTRjNfRm0tQmROZFlOMGVIUS1aaHRvaw?oc=5",
+      "timestamp": "Wed, 13 May 2026 03:13:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "México: VENUE Sports y Nike buscan reconectar al fútbol con su origen rumbo al Mundial 2026 - DossierNet",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQXFId0NpaHNBc1dnVkRSYnZBWnZqbUhrcDRNMmFlcmlLZmUzbDdsNk1IRW9LemdWOVVWaFJwYWpUQmQ5U3RBbXhPYTJjVnNZSVhiOHJTa05VMTdHMUt3VGIzcVFGWGNZSWNiM3lIczFBdmViQVVibEI3SXFWd0pLeDRoYU9rMWtPb1UyUTdkWFVveXpzYUFZelhVcw?oc=5",
+      "timestamp": "Wed, 13 May 2026 13:51:11 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2338,6 +2339,32 @@
     },
     {
       "level": "green",
+      "title": "Nike cede ante Zara: deja de ser la firma de moda más valiosa - MARCA",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMFpoNEdpN19zUnBRYlNDOWlSUW8yV2ZHTV9jZkNpVUE2c1pPeXZRUmlJT0pwc3pBeTR5QlJ3ZC0ycG1aRC1IZTlWd3pfeHZkWG9BZEFEemh2S0JGTm0yLXNiQkU4VVZkaE1qVlhscTRmUUtabkJ2N3B5Zk9OUTl5NENmSGMwTlBjY25nZVNMNnQxUjRxdEo3WWZBNGNvaHpUUmE40gGjAUFVX3lxTFBocWRKOWxvRHYxYXFqV0hKeVNWaEhVWm9sT2x3cm1uWkp4TG9iUDM0MFRieTdSdDJxOEx6T3FWR3cwVVdzTUloV2F6VFQtYXYyNDBzWDdDNC1NQmFaNmQ3Nmx5Q0s1dG1MMGFpNUlwWlVKMS1ycktfaGlsaEdVclVaaHhFY01kbUdDQWl2ak9nQVZ1RWUzMWtQUlUyc09hdkdWY1U?oc=5",
+      "timestamp": "Fri, 15 May 2026 05:01:42 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Nike lança cartazes cinematográficos para as camisas do Mundial de 2026 - Footy Headlines",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc19SVXoyN05YaUNESjZyOVNOTUZYaGJZQk90UlpPLVZUWXdRTWNrWF9fN2NjRHktWVJmb3hFcDBBdlR6MjdlNUlDSEh4MlV4OHpYaVVaNFlBYThCZlVUNEFoVEExdDF1aE0yZUhZNEZiMm5OazkzblNUY0hTTTBZYXZZajV5SUV5REl1MXp4TGdQbHc2S3FZYVdwQmt6c2M5cUJ6TXJfUS1wbkp2ekdr?oc=5",
+      "timestamp": "Thu, 14 May 2026 20:16:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
       "title": "Craque do Japão fica de fora da convocação para a Copa do Mundo 2026 - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -2364,16 +2391,29 @@
     },
     {
       "level": "green",
-      "title": "Nike cede ante Zara: deja de ser la firma de moda más valiosa - MARCA",
-      "market": "CO",
-      "source": "Google News CO",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMFpoNEdpN19zUnBRYlNDOWlSUW8yV2ZHTV9jZkNpVUE2c1pPeXZRUmlJT0pwc3pBeTR5QlJ3ZC0ycG1aRC1IZTlWd3pfeHZkWG9BZEFEemh2S0JGTm0yLXNiQkU4VVZkaE1qVlhscTRmUUtabkJ2N3B5Zk9OUTl5NENmSGMwTlBjY25nZVNMNnQxUjRxdEo3WWZBNGNvaHpUUmE40gGjAUFVX3lxTFBocWRKOWxvRHYxYXFqV0hKeVNWaEhVWm9sT2x3cm1uWkp4TG9iUDM0MFRieTdSdDJxOEx6T3FWR3cwVVdzTUloV2F6VFQtYXYyNDBzWDdDNC1NQmFaNmQ3Nmx5Q0s1dG1MMGFpNUlwWlVKMS1ycktfaGlsaEdVclVaaHhFY01kbUdDQWl2ak9nQVZ1RWUzMWtQUlUyc09hdkdWY1U?oc=5",
-      "timestamp": "Fri, 15 May 2026 05:01:42 GMT",
+      "title": "Zara supera a Nike y se convierte en la marca de moda más valiosa del mundo - UnoTV",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQVZCMll6R2FiU29LckNCLUJhVTRzRXJ3RGVRdnZYN3RzN3NIMXdidlVmQ0NmcXpOYUxEal93d01oRUJPS3RCUFEtS0lucVNxdm5yQktKV3lTMEEydDhOZHQyeldMTGhqcTZ6emVGRnpidERCQVpwTnJLeXNXSzlWQ3g3N2RROVU?oc=5",
+      "timestamp": "Sat, 16 May 2026 00:29:37 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Seis CEDEARs vinculados al Mundial 2026: Visa, Coca-Cola, Nike, McDonald’s, Google y Ambev - mercado.com.ar",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRkFNczFnbVBlS1o1STRHM3FxVFNDYTNRUE4xSG9TR3NUZmtaU1BzTEdybUFLXzk3WkNtVExGV2tLaDFSNmd4REdybnVBUkJ4QnlRMG9NT3Blc21XaGwzWHhaejktQW96eWZteFBSb2lqSHhyR1dqb3VLN01MWHFDV2FpRmtkaV9TWk9oUDM5a0Zycm1TN3FYaEpUNWlac0tNb2xEZi1Oc0F4ZHdkemJNaDJma0puV28?oc=5",
+      "timestamp": "Fri, 15 May 2026 11:13:24 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -4865,6 +4905,10 @@
       {
         "date": "20260514",
         "views": 179
+      },
+      {
+        "date": "20260515",
+        "views": 186
       }
     ],
     "Nike": [
@@ -5103,6 +5147,10 @@
       {
         "date": "20260514",
         "views": 122
+      },
+      {
+        "date": "20260515",
+        "views": 158
       }
     ],
     "Puma": [
@@ -5415,6 +5463,10 @@
       {
         "date": "20260514",
         "views": 63
+      },
+      {
+        "date": "20260515",
+        "views": 57
       }
     ],
     "Under Armour": [
@@ -5653,6 +5705,10 @@
       {
         "date": "20260514",
         "views": 28
+      },
+      {
+        "date": "20260515",
+        "views": 29
       }
     ],
     "Mizuno": [
@@ -5883,6 +5939,10 @@
       {
         "date": "20260514",
         "views": 6
+      },
+      {
+        "date": "20260515",
+        "views": 3
       }
     ],
     "Penalty": [
@@ -5912,6 +5972,10 @@
       },
       {
         "date": "20260429",
+        "views": 1
+      },
+      {
+        "date": "20260515",
         "views": 1
       }
     ]
@@ -6036,192 +6100,11 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#codigosalbumvirtualmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 183950,
-      "raw_query": "codigos album virtual mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#diamundialdomeioambiente2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 87300,
-      "raw_query": "dia mundial do meio ambiente 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantovaleelalbumdelmundial202",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 83300,
-      "raw_query": "cuanto vale el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cocacolapanini",
-      "country": "AR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 65350,
-      "raw_query": "coca cola panini",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantaslaminastieneelalbumdelm",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 63200,
-      "raw_query": "cuantas laminas tiene el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 59350,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figuritasdecocacolamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 51800,
-      "raw_query": "figuritas de coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#codigospaninimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 41150,
-      "raw_query": "codigos panini mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listafinalseleccionmexicanamun",
-      "country": "MX",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 40350,
-      "raw_query": "lista final seleccion mexicana mundial 2026",
-      "seed": "Seleccion mexicana"
-    },
-    {
-      "tag": "#albumdoradomundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 35200,
-      "raw_query": "album dorado mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickermundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 34300,
-      "raw_query": "extra sticker mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#controledefigurinhascopadomund",
-      "country": "BR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 32800,
-      "raw_query": "controle de figurinhas copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#cajade100sobresmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 31450,
-      "raw_query": "caja de 100 sobres mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickersmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 28900,
-      "raw_query": "extra stickers mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickercopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 21700,
-      "raw_query": "extra sticker copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#cuantasfichastieneelalbumdelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 18850,
-      "raw_query": "cuantas fichas tiene el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajasdesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 16400,
-      "raw_query": "cajas de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 12450,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 9550,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 7300,
-      "raw_query": "caja de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-24872234",
+      "sku": "signal-77234497",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -6235,7 +6118,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 89,
+      "signals_60d": 91,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -6246,7 +6129,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 52,
+      "signals_60d": 53,
       "latas_detected": 1,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -6497,7 +6380,7 @@
   },
   "ambush_by_brand": {
     "Nike": 50,
-    "Puma": 38,
+    "Puma": 39,
     "Under Armour": 4,
     "Penalty": 1,
     "Joma": 2,
