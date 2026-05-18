@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-18T00:18:34.970804+00:00",
+  "generated_at": "2026-05-18T13:01:05.919358+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 245,
-      "elapsed_s": 36.2
+      "count": 244,
+      "elapsed_s": 39.5
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 67.0
+      "elapsed_s": 9.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 4.6
+      "elapsed_s": 5.4
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.5
+      "elapsed_s": 7.8
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.7
+      "elapsed_s": 9.0
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 33.4
+      "count": 5,
+      "elapsed_s": 56.6
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 25.7
+      "count": 0,
+      "elapsed_s": 5.6
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.9
+      "elapsed_s": 2.8,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.7
+      "elapsed_s": 4.2
     }
   },
   "competitors": [
@@ -100,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 71,
+      "signals": 72,
       "color": "#006847"
     },
     {
@@ -121,17 +122,17 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 0,
-    "ads_active_top_brand": "-",
-    "ads_active_top_count": 0,
+    "ads_active_total": 5,
+    "ads_active_top_brand": "Puma",
+    "ads_active_top_count": 5,
     "search_leader_brand": "Nike",
     "search_leader_pct": 60.7,
     "search_leader_delta_pp": -8.4,
-    "signals_60d": 187,
-    "signals_delta_pct": 167,
+    "signals_60d": 188,
+    "signals_delta_pct": 98,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 103,
+    "ambush_attempts_total": 104,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 50,
     "fifa_signals_total": 0,
@@ -297,11 +298,11 @@
     },
     {
       "level": "red",
-      "title": "Equipaciones de Egipto para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "title": "Equipaciones de Ghana para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObmhKTlB4RDFPZ0ctVjV2b05EeEVwbElYcEhQbS1IVk1JcmR6YURIUV9oUUFsYmtudkFFdFluWTlRRG1Eb24za0NvSjdLUm5SS1A5VWJRMXBrcHpENEduU1F6Q0phV2lBYy1HOU9GZi1aN3N2cE1kOXM2SWl3ZDhaS2lTVFFCVHdGei1mUnUySHhkWUxGVjdEbmlOOHM1X1RMeTV1SlZsb24zMTh2eHRDZEQtVFJTR1dvSTZ5RWpGdDBLbWVoYnFJaTdFdUhSMnB0UjB3TWo5MnE1RkdPWlhyVjA0MDUtM3hiQTRYcV80ckJpUTU3cXc?oc=5",
-      "timestamp": "Thu, 14 May 2026 14:09:18 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNejhZMS1qQXlnb1hjZ2k0SDRmM3lKcUEzVTFRa0NFRlRvNFhfODctUHg1VUxwOHMtdURUNlB0S0tTSFp1ZkhIT3dpbE4xRFQzQmtMOEdrbXhfN0xxXzE3STk2SXlGNzR1Rk9DclFFZXhnQVdEQjJtdVRrODBPMFZ1a1NQSGt5VFpXd1pqQV9KN0JpeEZuLVUzOVgyQkk5alY4ZXdZWmphUng1SVZpSmhPRElqVEMtdzN2WW1td1hlQnFYXzk3UnYxTnBSOHVPdE5mUDdTS0tBR3R2eGlwaFlELWQ4YXI5dzFqRmFyTG5ScjRBY2Uy?oc=5",
+      "timestamp": "Thu, 14 May 2026 12:15:24 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -310,11 +311,11 @@
     },
     {
       "level": "red",
-      "title": "Equipaciones de Ghana para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "title": "Equipaciones de Egipto para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNejhZMS1qQXlnb1hjZ2k0SDRmM3lKcUEzVTFRa0NFRlRvNFhfODctUHg1VUxwOHMtdURUNlB0S0tTSFp1ZkhIT3dpbE4xRFQzQmtMOEdrbXhfN0xxXzE3STk2SXlGNzR1Rk9DclFFZXhnQVdEQjJtdVRrODBPMFZ1a1NQSGt5VFpXd1pqQV9KN0JpeEZuLVUzOVgyQkk5alY4ZXdZWmphUng1SVZpSmhPRElqVEMtdzN2WW1td1hlQnFYXzk3UnYxTnBSOHVPdE5mUDdTS0tBR3R2eGlwaFlELWQ4YXI5dzFqRmFyTG5ScjRBY2Uy?oc=5",
-      "timestamp": "Thu, 14 May 2026 12:15:24 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObmhKTlB4RDFPZ0ctVjV2b05EeEVwbElYcEhQbS1IVk1JcmR6YURIUV9oUUFsYmtudkFFdFluWTlRRG1Eb24za0NvSjdLUm5SS1A5VWJRMXBrcHpENEduU1F6Q0phV2lBYy1HOU9GZi1aN3N2cE1kOXM2SWl3ZDhaS2lTVFFCVHdGei1mUnUySHhkWUxGVjdEbmlOOHM1X1RMeTV1SlZsb24zMTh2eHRDZEQtVFJTR1dvSTZ5RWpGdDBLbWVoYnFJaTdFdUhSMnB0UjB3TWo5MnE1RkdPWlhyVjA0MDUtM3hiQTRYcV80ckJpUTU3cXc?oc=5",
+      "timestamp": "Thu, 14 May 2026 14:09:18 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2221,6 +2222,32 @@
     },
     {
       "level": "green",
+      "title": "Nike pierde el trono: Zara ya domina el ranking mundial de moda de Kantar - Revista Merca2.0",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1VYem52T2RwZ1NwU0h1dHNlZkJZWlBGRXNqMm5LcFhjckV4bzIxal8xd0pqWktQaXkyRjhwdkNTcXNINFE2WUxKUFVUYW5zZy1lakd0WXU4bnBKS0pqN0ZuTmdKOWs2aS10bWFrU1d6R0xVSEgyZ0E5LXhNMnUtLUVINjZjeDJXNXIzSDg1N3lyTmk2UjE4U0NmZkRidw?oc=5",
+      "timestamp": "Thu, 14 May 2026 12:19:52 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Nike pierde el trono: Zara ya domina el ranking mundial de moda, según Kantar - Revista Merca2.0",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1VYem52T2RwZ1NwU0h1dHNlZkJZWlBGRXNqMm5LcFhjckV4bzIxal8xd0pqWktQaXkyRjhwdkNTcXNINFE2WUxKUFVUYW5zZy1lakd0WXU4bnBKS0pqN0ZuTmdKOWs2aS10bWFrU1d6R0xVSEgyZ0E5LXhNMnUtLUVINjZjeDJXNXIzSDg1N3lyTmk2UjE4U0NmZkRidw?oc=5",
+      "timestamp": "Thu, 14 May 2026 12:19:52 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Holanda na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
       "market": "BR",
       "source": "Google News BR",
@@ -2260,19 +2287,6 @@
     },
     {
       "level": "green",
-      "title": "Nike pierde el trono: Zara ya domina el ranking mundial de moda de Kantar - Revista Merca2.0",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1VYem52T2RwZ1NwU0h1dHNlZkJZWlBGRXNqMm5LcFhjckV4bzIxal8xd0pqWktQaXkyRjhwdkNTcXNINFE2WUxKUFVUYW5zZy1lakd0WXU4bnBKS0pqN0ZuTmdKOWs2aS10bWFrU1d6R0xVSEgyZ0E5LXhNMnUtLUVINjZjeDJXNXIzSDg1N3lyTmk2UjE4U0NmZkRidw?oc=5",
-      "timestamp": "Thu, 14 May 2026 12:19:52 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "PUMA revela el nuevo uniforme de Egipto para el Mundial 2026 - redamazonica.org",
       "market": "MX",
       "source": "Google News MX",
@@ -2296,19 +2310,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike pierde el trono: Zara ya domina el ranking mundial de moda, según Kantar - Revista Merca2.0",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1VYem52T2RwZ1NwU0h1dHNlZkJZWlBGRXNqMm5LcFhjckV4bzIxal8xd0pqWktQaXkyRjhwdkNTcXNINFE2WUxKUFVUYW5zZy1lakd0WXU4bnBKS0pqN0ZuTmdKOWs2aS10bWFrU1d6R0xVSEgyZ0E5LXhNMnUtLUVINjZjeDJXNXIzSDg1N3lyTmk2UjE4U0NmZkRidw?oc=5",
-      "timestamp": "Thu, 14 May 2026 12:19:52 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -2569,6 +2570,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Se produce la filtración de la colección de Puma para el Mundial 2026: tonos atardecer - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWTVnSnhLNmx2NERBSDFNX2xkbWVGdF9qOTd4d09DOHFTcFc5dFpmbm9TcVVwZ1psNnNuQ0tFREo2VTlyLU42djZyeTRPYm9nbTdyVkdxb0ZBMTFVdnJWdmVXbzVYX3Azd2tUMnN0RlFIandzLXZnQnJqNnkyX3lZdU9YdTlsSVN1cDAtM09uemxlc3lxSWEzSjNrMmozTVN4RnNiQzh5SU15bloyT0Nrc0U0LV8zTTlOVkRfdy1manpQUQ?oc=5",
+      "timestamp": "Mon, 18 May 2026 03:30:17 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -5622,6 +5636,10 @@
       {
         "date": "20260516",
         "views": 186
+      },
+      {
+        "date": "20260517",
+        "views": 186
       }
     ],
     "Nike": [
@@ -5860,6 +5878,10 @@
       {
         "date": "20260516",
         "views": 185
+      },
+      {
+        "date": "20260517",
+        "views": 167
       }
     ],
     "Puma": [
@@ -6168,6 +6190,10 @@
       {
         "date": "20260516",
         "views": 57
+      },
+      {
+        "date": "20260517",
+        "views": 65
       }
     ],
     "Under Armour": [
@@ -6406,6 +6432,10 @@
       {
         "date": "20260516",
         "views": 28
+      },
+      {
+        "date": "20260517",
+        "views": 35
       }
     ],
     "Mizuno": [
@@ -6636,6 +6666,10 @@
       {
         "date": "20260516",
         "views": 2
+      },
+      {
+        "date": "20260517",
+        "views": 6
       }
     ],
     "Penalty": [
@@ -6673,7 +6707,68 @@
       }
     ]
   },
-  "active_ads": [],
+  "active_ads": [
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Noah thought his life was a nightmare thanks to his stepbrother Liam, the hockey captain who stole everything he loved. But when a drunken bet unveils Liam’s dark obsession, Noah realizes he’s walking",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1333896685283117",
+      "ad_id": "1333896685283117",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=996129932828163",
+      "ad_id": "996129932828163",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1453094759455071",
+      "ad_id": "1453094759455071",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2227317214681075",
+      "ad_id": "2227317214681075",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26989357177414197",
+      "ad_id": "26989357177414197",
+      "copa_score": 0
+    }
+  ],
   "youtube_uploads": [
     {
       "brand": "New Balance",
@@ -6793,192 +6888,11 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#prelistacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 112450,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#álbumdelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 56000,
-      "raw_query": "álbum del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aprendetodoaqui",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 29200,
-      "raw_query": "aprende todo aqui",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#dondecomprarsobresdelmundial20",
-      "country": "MX",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 18850,
-      "raw_query": "donde comprar sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandoempiezaelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 18050,
-      "raw_query": "cuando empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 14900,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistamexicomundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 11850,
-      "raw_query": "prelista mexico mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 11100,
-      "raw_query": "caja de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantocuestaunsobredelmundial2",
-      "country": "MX",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 10800,
-      "raw_query": "cuanto cuesta un sobre del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#shakiramundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 3000,
-      "raw_query": "shakira mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 1800,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figurinhadacopadomundode2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 1600,
-      "raw_query": "figurinha da copa do mundo de 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#albumcopadomundo2026capadura",
-      "country": "BR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 1350,
-      "raw_query": "album copa do mundo 2026 capa dura",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#figurinhacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 1150,
-      "raw_query": "figurinha copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocaçãoparacopadomundo2026d",
-      "country": "BR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 1150,
-      "raw_query": "convocação para copa do mundo 2026 data",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#cajamundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 1000,
-      "raw_query": "caja mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumdelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 850,
-      "raw_query": "album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 700,
-      "raw_query": "sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albummundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 650,
-      "raw_query": "album mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albummundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 450,
-      "raw_query": "album mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-54371062",
+      "sku": "signal-59525384",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7003,9 +6917,9 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 57,
+      "signals_60d": 58,
       "latas_detected": 1,
-      "ads_active": 0,
+      "ads_active": 5,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -7254,7 +7168,7 @@
   },
   "ambush_by_brand": {
     "Nike": 50,
-    "Puma": 42,
+    "Puma": 43,
     "Under Armour": 5,
     "Penalty": 1,
     "Joma": 2,
