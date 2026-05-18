@@ -1,27 +1,27 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-18T13:01:05.919358+00:00",
+  "generated_at": "2026-05-18T19:17:54.687715+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 244,
-      "elapsed_s": 39.5
+      "count": 246,
+      "elapsed_s": 36.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 9.9
+      "elapsed_s": 59.5
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 5.4
+      "elapsed_s": 4.6
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 7.8
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
@@ -30,24 +30,24 @@
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 5,
-      "elapsed_s": 56.6
+      "count": 40,
+      "elapsed_s": 40.1
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.6
+      "elapsed_s": 7.2
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.8,
+      "elapsed_s": 2.4,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.2
+      "elapsed_s": 4.1
     }
   },
   "competitors": [
@@ -92,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 87,
-      "signals": 73,
+      "score": 91,
+      "signals": 77,
       "color": "#F40000"
     },
     {
@@ -108,8 +108,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 40,
-      "signals": 27,
+      "score": 42,
+      "signals": 29,
       "color": "#75AADB"
     },
     {
@@ -122,21 +122,21 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 5,
+    "ads_active_total": 40,
     "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 5,
+    "ads_active_top_count": 40,
     "search_leader_brand": "Nike",
     "search_leader_pct": 60.7,
     "search_leader_delta_pp": -8.4,
-    "signals_60d": 188,
-    "signals_delta_pct": 98,
+    "signals_60d": 194,
+    "signals_delta_pct": 108,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 104,
+    "ambush_attempts_total": 108,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 50,
+    "ambush_top_count": 51,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 23,
+    "selecao_signals_total": 24,
     "official_signals_total": 0
   },
   "signals": [
@@ -1533,6 +1533,19 @@
     },
     {
       "level": "green",
+      "title": "Estados Unidos na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEkyZXpTd00zVllqM0IyOGFvN09qV0EtOXNobWZvdHVtdFA2RmRQMTgzWW9ra3JDblZoM3l0RGVETS14WkZmbW1NVzVIZ0VMZ3VMSmhIbGlzRVlXVkU0dHRSbUZYRng1LXdyVE1GNWwxQkNYU1dTcVduMVc0MTJ2ajdxa1VIY290WkoxbS1lNEF1am9UZnFqdGRRQUl3S2hfSjBUbTFkdm9tbFZoRWR5NElDd0Nma3I3?oc=5",
+      "timestamp": "Wed, 06 May 2026 18:28:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
       "title": "Guerra de marcas: Así Adidas, Nike y Puma acaparan el mercado de camisetas del Mundial 2026 | El Colombiano - El Colombiano",
       "market": "MX",
       "source": "Google News MX",
@@ -1556,19 +1569,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Estados Unidos na Copa do Mundo 2026: veja convocados, histórico e datas dos jogos - NSC Total",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEkyZXpTd00zVllqM0IyOGFvN09qV0EtOXNobWZvdHVtdFA2RmRQMTgzWW9ra3JDblZoM3l0RGVETS14WkZmbW1NVzVIZ0VMZ3VMSmhIbGlzRVlXVkU0dHRSbUZYRng1LXdyVE1GNWwxQkNYU1dTcVduMVc0MTJ2ajdxa1VIY290WkoxbS1lNEF1am9UZnFqdGRRQUl3S2hfSjBUbTFkdm9tbFZoRWR5NElDd0Nma3I3?oc=5",
-      "timestamp": "Wed, 06 May 2026 18:28:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
     },
     {
       "level": "green",
@@ -2326,11 +2326,11 @@
     },
     {
       "level": "green",
-      "title": "La piel del campeón: la batalla entre Adidas, Nike y Puma • Nuestra Revista - Forbes México",
+      "title": "Zara lidera clasificación mundial de marcas de moda y supera a Nike - Imagen Poblana",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNnZ5Q1R4eEVoSzdRbXlFYjl0T2d4UFcwcnZxNVpLdFk4NkNqbUk1S2FXa3gzZmFKR1hIaWh3dGRhLVR5bTlLaDVtOWdMMEE0YmZWRXNfNjhSYlFoOUt3MGlhckdPbmloMlBrWFg1UzdRTWh0Z1NGTHhzYXJCYkI2MTlxS2c?oc=5",
-      "timestamp": "Thu, 14 May 2026 20:09:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMU5rUDlPeFo1blZqTks3TnBYYTdQWHRHclMybEs3cktQNWdHZ0dYOExGWk9zMmlrdjJEd0NRWEo5eTFOdXFJMHhxS2Y2dnNOVHFHaUlHNXJmeTlqSElHSjNfUUMyR2JpZFg4VTB3bnhpSUNNbGFjZnpMX2ZscFlXb3BBVi1LbloySDBaVmVLZkk0eW5SVzBWSGhFUUxZZGVkb0JtWA?oc=5",
+      "timestamp": "Thu, 14 May 2026 17:36:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2339,11 +2339,11 @@
     },
     {
       "level": "green",
-      "title": "Zara lidera clasificación mundial de marcas de moda y supera a Nike - Imagen Poblana",
+      "title": "La piel del campeón: la batalla entre Adidas, Nike y Puma • Nuestra Revista - Forbes México",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMU5rUDlPeFo1blZqTks3TnBYYTdQWHRHclMybEs3cktQNWdHZ0dYOExGWk9zMmlrdjJEd0NRWEo5eTFOdXFJMHhxS2Y2dnNOVHFHaUlHNXJmeTlqSElHSjNfUUMyR2JpZFg4VTB3bnhpSUNNbGFjZnpMX2ZscFlXb3BBVi1LbloySDBaVmVLZkk0eW5SVzBWSGhFUUxZZGVkb0JtWA?oc=5",
-      "timestamp": "Thu, 14 May 2026 17:36:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNnZ5Q1R4eEVoSzdRbXlFYjl0T2d4UFcwcnZxNVpLdFk4NkNqbUk1S2FXa3gzZmFKR1hIaWh3dGRhLVR5bTlLaDVtOWdMMEE0YmZWRXNfNjhSYlFoOUt3MGlhckdPbmloMlBrWFg1UzdRTWh0Z1NGTHhzYXJCYkI2MTlxS2c?oc=5",
+      "timestamp": "Thu, 14 May 2026 20:09:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2583,6 +2583,84 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Camisa do Brasil para Copa do Mundo conta com tecnologia inédita da Nike; veja onde comprar - Época Negócios",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONlJiRWNVVVgzd2dSZW92V1pGVy15bHlzMEpLN2NtUVhELUZJWmd5RkliME5ZN3RzVVpJMElGVjhvYk5yVktyWnhtaGg5UWVPcWtNWDVRbXNPOTlCcW1Nc2d5SG5uZG54RHIyaFBHYTFpRnNmdllZWGMxa2NKSDVMM1pxbmNpY2Q5WDVOUEpjeVQ4VVgxX3N6MTcySHZqZjFRekl0U1JCY20xSE5WdzhCblFkRXJtT3NobUdDdnNmRFFQVTE1TnR6V28tb1F2R2hWTE9PVzdIT0Z1bXFiTEVJR0Q3SGdCOUJGbmxJ0gH6AUFVX3lxTE82cDYwNmFFblNyRURINGp0czVPQzEtZVdIR0RSai11VmFyMC01MFlQOU5nZXdQU3NCd0N5QTktcFplcGRwTGdsVk5nVHAxWC1iOWsxWVRmZFRhLWZuLWJmVHdkWVUyMG00R005VTR0Wl80bkJ5a3pRTV93WlZqNXJkT0hXN0N4VFN0aHg2YWtZUm1WRGlOSUtHT2ZFX05HYmU1MnpzaThYXy1CRU9jR0dvVTZ3YTVKSUxsSFRxeE1EM2xRa3QwZWlTSng2SnFXa0lZNWJiWmZKU2VPZ05zQzNZWWhQOXAzaXZRNnlQSFR0b1BPc0xuT0VheXc?oc=5",
+      "timestamp": "Mon, 18 May 2026 16:19:21 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "PUMA e Salehe Bembury lançam coleção especial para a Copa do Mundo 2026 - Mantos do Futebol",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3kyUC02LWtBMFZVaFJ4MUZ0S0NPX3hwX2dGaTNOLWNFMXJGZVR2WjFLZlNBS1N6NkxWd2FxVWh6UHROWEpVb3FON1pDOHNPN0p2WjdIZm8taTBfVlZqYi1LSm9kMlF4U0V2TEticVhhSUdqdUdGVE1zMlljekE0elZBQmRXandrNW1FaURYMW9ueFJ2QlhpcEl6TQ?oc=5",
+      "timestamp": "Mon, 18 May 2026 18:15:10 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Destaque da Espanha sofre fratura e está fora da Copa do Mundo 2026 - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnlLMWV6ZGtiMUFCZ3VieFFuZHJZWENXaDE1Z3JkbmdyYVdzN2c0X0RSZ2hYWGplNDU4bUtBNElGZjdITFFhNmxqS2t5dTU5QVg5Zzd5VzY0aDlzMVpSMjItOTdkZU8xZDROTjlzdVIyak45ZGo0Q3pLamVoZmt1REQ5MFFDdWZQSFVibGtHYmEyemt6SzMyS1VrdVpqUHFldVJMV0ZaUQ?oc=5",
+      "timestamp": "Mon, 18 May 2026 18:07:35 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Carrasco do Brasil na última Copa do Mundo fica de fora da lista de convocados da Croácia - NSC Total",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQajl4eEwxTjRHczBaNEZXWFZmaEVBcUYtb1M0ODZPZmRuVUdnQ1k0WDZzbWJhZ1p0aks0NFlsRmtZcHJQTVBwemJ3eWpSUmFMc1JoVWJrZVVJNlgzdmI1cFEtOWkwOEdJZnJsaW92eXlpaDAtaU1LTUxHVDRyazVoSGVxX01DdHJUTDgwbGFvdFJJOTJTMlZyNTVRQzdBcU13dDZLSzFLQVZxMVotbVoxWDFNbWU1bjRFcGwyd0tWcHZnUjll?oc=5",
+      "timestamp": "Mon, 18 May 2026 18:28:22 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike, Mc Donald's y Google, el mercado mira esas acciones por el Mundial - La Política Online",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmpGaGZLbTBrZllLYzUtd0tFbHF3RnkwMFAyb20tMjlQdC15MTlJM2pjdm5XMVdYZ3c1ZXZxd0N5S1V1UWw3V3E0OWUyZzN1djFkRVgtMGhMQ1NxMFZaSEJ3UWF2YzNyUzYxeENsQVVMMFZtOE8tRWVTTkpkaERHUU9oU1BHbVdmNlFCV20wMDkteXh2aGNZWGZCM1VIWUZ3NTU1NlNtQ2psUTVFdmxXT0IyRk9sUm5k0gG0AUFVX3lxTE5Sc0ZRS0hRbWdxWkNKUGthUDNPV3JhREoyajg2Y0tHd01RMlJYSF9zTkdOMGtZRmJrY0tIS1dZYWlRLUtDV25KRFFrRlk5UnFVcnRKTldXejNQS19lcFNhX2pnVDZnTG9FeWdsV0hiNGtuUmNfdjdZdUM3Z3ZybVFqNzk2ZzR2MkVkdmFDeW9tSXFnbXRDRzVZVkZvb0cyVDFvNWQ2TWotZXBfNUZoT2pQVHNPNg?oc=5",
+      "timestamp": "Mon, 18 May 2026 18:19:41 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Africa Creative idea Legends United, la colaboración Budweiser x Mizuno - Latinspots.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaXNfbU9sa3h1ZkN1MFZmenlFWThIYTNHWTVrLXYtNklPNTc3UGdVaC0yYkRjeXpOWnRoTC1xS1ptMUVDdkgzQ1kwbE5iTDBmMXRrbnpmb2E5N3d3bWliTXRPTGdMbkFTVzZMUTNBbzVLX2d5Tl82NmoyaGhDa1VNSkJ3aHp4cUlpQXdxREFFNGg4VHRBcGk2aWpaakRKZWx5NEpHWTJma2VLQ0J0UGZr?oc=5",
+      "timestamp": "Mon, 18 May 2026 06:00:08 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -6711,13 +6789,289 @@
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=862188846232231",
+      "ad_id": "862188846232231",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=963944986237869",
+      "ad_id": "963944986237869",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=976809098655570",
+      "ad_id": "976809098655570",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=982397744651028",
+      "ad_id": "982397744651028",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1215829017163494",
+      "ad_id": "1215829017163494",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1514264896763526",
+      "ad_id": "1514264896763526",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1607031347035058",
+      "ad_id": "1607031347035058",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1693123692120023",
+      "ad_id": "1693123692120023",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1794632038587255",
+      "ad_id": "1794632038587255",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1877260749605841",
+      "ad_id": "1877260749605841",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2067453670515589",
+      "ad_id": "2067453670515589",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2108773393017506",
+      "ad_id": "2108773393017506",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2217777525688153",
+      "ad_id": "2217777525688153",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2226866404515400",
+      "ad_id": "2226866404515400",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2451882771984834",
+      "ad_id": "2451882771984834",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2623012774766983",
+      "ad_id": "2623012774766983",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26223805867298489",
+      "ad_id": "26223805867298489",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26717611601254791",
+      "ad_id": "26717611601254791",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Elite status can’t hide the truth. When Maya lands a scholarship at an untouchable prep school, Chloe and her puppet Julian launch a scheme to break her. But they didn't count on Maya’s razor-sharp mi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=27767052506229201",
+      "ad_id": "27767052506229201",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
       "country": "MX",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-05-18",
-      "body_snippet": "Noah thought his life was a nightmare thanks to his stepbrother Liam, the hockey captain who stole everything he loved. But when a drunken bet unveils Liam’s dark obsession, Noah realizes he’s walking",
+      "body_snippet": "Exiled heir Raven returns to Redclaw seeking family, only to be rejected by his father. When the brutal Bloodshadow Tribe invades, he awakens his hidden power and turns the tide of battle! ⚔️🔥 Watch t",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1333896685283117",
-      "ad_id": "1333896685283117",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1696293385150949",
+      "ad_id": "1696293385150949",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Exiled heir Raven returns to Redclaw seeking family, only to be rejected by his father. When the brutal Bloodshadow Tribe invades, he awakens his hidden power and turns the tide of battle! ⚔️🔥 Watch t",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=980961474303905",
+      "ad_id": "980961474303905",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=3189705107904512",
+      "ad_id": "3189705107904512",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Exiled heir Raven returns to Redclaw seeking family, only to be rejected by his father. When the brutal Bloodshadow Tribe invades, he awakens his hidden power and turns the tide of battle! ⚔️🔥 Watch t",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=948397627962839",
+      "ad_id": "948397627962839",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "Exiled heir Raven returns to Redclaw seeking family, only to be rejected by his father. When the brutal Bloodshadow Tribe invades, he awakens his hidden power and turns the tide of battle! ⚔️🔥 Watch t",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2025500328383859",
+      "ad_id": "2025500328383859",
       "copa_score": 0
     },
     {
@@ -6730,6 +7084,138 @@
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
       "ad_url": "https://www.facebook.com/ads/library/?id=996129932828163",
       "ad_id": "996129932828163",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1277629744441061",
+      "ad_id": "1277629744441061",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2793515767661861",
+      "ad_id": "2793515767661861",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-18",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1031242792559532",
+      "ad_id": "1031242792559532",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=978209315073731",
+      "ad_id": "978209315073731",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=992208780157148",
+      "ad_id": "992208780157148",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1014590480900904",
+      "ad_id": "1014590480900904",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1154503296822018",
+      "ad_id": "1154503296822018",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1281434354103926",
+      "ad_id": "1281434354103926",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1284723886980995",
+      "ad_id": "1284723886980995",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1323259553082041",
+      "ad_id": "1323259553082041",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1356001133246041",
+      "ad_id": "1356001133246041",
       "copa_score": 0
     },
     {
@@ -6752,8 +7238,8 @@
       "started_at": "2026-05-18",
       "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2227317214681075",
-      "ad_id": "2227317214681075",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1455789456561106",
+      "ad_id": "1455789456561106",
       "copa_score": 0
     },
     {
@@ -6764,8 +7250,20 @@
       "started_at": "2026-05-18",
       "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26989357177414197",
-      "ad_id": "26989357177414197",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1488716416051271",
+      "ad_id": "1488716416051271",
+      "copa_score": 0
+    },
+    {
+      "brand": "Puma",
+      "page_name": "natus Puma Elmer 1076",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-18",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1519896106312459",
+      "ad_id": "1519896106312459",
       "copa_score": 0
     }
   ],
@@ -6892,7 +7390,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-59525384",
+      "sku": "signal-12114472",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -6906,7 +7404,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 94,
+      "signals_60d": 96,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -6917,9 +7415,9 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 58,
+      "signals_60d": 61,
       "latas_detected": 1,
-      "ads_active": 5,
+      "ads_active": 40,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -6950,7 +7448,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 15,
+      "signals_60d": 16,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7167,8 +7665,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 50,
-    "Puma": 43,
+    "Nike": 51,
+    "Puma": 46,
     "Under Armour": 5,
     "Penalty": 1,
     "Joma": 2,
