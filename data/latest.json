@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-19T22:56:31.030599+00:00",
+  "generated_at": "2026-05-20T10:41:46.618658+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 243,
-      "elapsed_s": 39.4
+      "elapsed_s": 42.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 75.7
+      "elapsed_s": 86.8
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 5.3
+      "elapsed_s": 5.4
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.5
+      "elapsed_s": 7.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 9.3
+      "elapsed_s": 9.5
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 49,
-      "elapsed_s": 38.9
+      "count": 33,
+      "elapsed_s": 96.6
     },
     "trending_topics": {
       "status": "ok",
       "count": 20,
-      "elapsed_s": 23.3
+      "elapsed_s": 23.8
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.4
+      "elapsed_s": 3.2,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.2
+      "elapsed_s": 4.6
     }
   },
   "competitors": [
@@ -100,40 +101,40 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 75,
+      "signals": 72,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 44,
-      "signals": 31,
+      "score": 43,
+      "signals": 30,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 25,
-      "signals": 17,
+      "score": 26,
+      "signals": 18,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 49,
+    "ads_active_total": 33,
     "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 49,
+    "ads_active_top_count": 31,
     "search_leader_brand": "Nike",
     "search_leader_pct": 51.4,
     "search_leader_delta_pp": -12.5,
-    "signals_60d": 208,
+    "signals_60d": 205,
     "signals_delta_pct": 120,
     "latas_total": 1,
     "latas_unvalidated": 1,
-    "ambush_attempts_total": 116,
+    "ambush_attempts_total": 114,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 52,
+    "ambush_top_count": 51,
     "fifa_signals_total": 0,
     "selecao_signals_total": 26,
     "official_signals_total": 0
@@ -562,19 +563,6 @@
       "source": "Google News BR",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHFtV1BKM3RMYmc3Q3JmbUI0dmRMS1hNZGJkUzJ1WjdDY29nVnB3dmFIVm83SWMtclVqNi1OUUJyWFVTMXc2U2lfN1haQWFnZG8tX29Ranc4OWtDS2lPWmU0ekFrMzFzaHpHTEdiWGdjOHBjOTRnLTN5QnBfTWNHSjZOOFAzQW1oS0cyeGx6ZlJFSHAzVXptMTNLRDZzbk5ITWozZkVycy1kRUZKYjI4UHVmUHhaRjg?oc=5",
       "timestamp": "Tue, 19 May 2026 02:02:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Copa do Mundo: veja os uniformes número 2 das seleções - CNN Brasil",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPczI0ckdhUTJjMUhDdENGcnVRekpCWkVxODh1TUpsQjdYRDdsbmVxN1Q5V0ZGRWFVNE5neW9DeEVHTGVDU0t5aG93cno1Mk9XaDlkWkZIUW1sNlJiRVhsbUpIVlFWTHp5MjRrOFYyWHdpeERSdmRzS1gxd0U2VF9oRGVsM01Ea3owVWJBeU0xZDE3WEZSYS1iUnRFMlFOV1ozTHY5NFZrMWw5SEt5aGVISXlIcVc?oc=5",
-      "timestamp": "Fri, 20 Mar 2026 07:00:00 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2260,12 +2248,12 @@
     },
     {
       "level": "green",
-      "title": "Uniformes do Gana para a Copa do Mundo da FIFA 2026: titular, visitante, datas de lançamento e preços - Goal.com",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTENxWEs2eG9IMFZ6WjgwdmkzUGVYNVZORV85dzNqR1R3eWt0MFZ5NWpkdE1mOVBvYVNZakhmaUNNQ25kSWd3bldEWWdDSktXMzh4U2M1SkNzUWV5cC16aUlQc2lYeTNwdzlkOUxIbHFjeThNNHM2MGJmQlRhZFhFSUdpa0FCbGJPMlVWbHljcl9qdzI4SXVwd3hBdWh1ZVQtV2RMbXBxMlVlbnBjMGU3NF9YczNlcmhpaFd0TDkzODlKTjZiT2xYVUNrVXlyNTNlMnVabjIxbk5oeWtvZHRHczhmQQ?oc=5",
-      "timestamp": "Thu, 14 May 2026 11:46:20 GMT",
-      "brand": "Puma",
+      "title": "Las camisetas de Inglaterra para el Mundial de 2026 de Nike tienen un corte extraño - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUnZaVHBIcFFXa1kxSFdIVHRPRllyXzBONmJ6SENlZU9xY0ViZFlPZ1N4TC1HR2dzZWtDMEt4Q1M2LVdncGs5NExELUlrdFZLZG96YVdiTFBvQURSTVNKZnZQamptY0g3Wnk2NFdZMlVULVJ3Nng5QzZ3Njc4M3RKRk8yeHEzTmE0ZkV2YzJheEpJREk0Um50UVE2bFlaR0l5T0FzVlZJWmszNjVsRzRBa2RXRWtIcGI3OExKSkRXbw?oc=5",
+      "timestamp": "Thu, 14 May 2026 09:52:42 GMT",
+      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -2273,12 +2261,12 @@
     },
     {
       "level": "green",
-      "title": "Las camisetas de Inglaterra para el Mundial de 2026 de Nike tienen un corte extraño - Footy Headlines",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUnZaVHBIcFFXa1kxSFdIVHRPRllyXzBONmJ6SENlZU9xY0ViZFlPZ1N4TC1HR2dzZWtDMEt4Q1M2LVdncGs5NExELUlrdFZLZG96YVdiTFBvQURSTVNKZnZQamptY0g3Wnk2NFdZMlVULVJ3Nng5QzZ3Njc4M3RKRk8yeHEzTmE0ZkV2YzJheEpJREk0Um50UVE2bFlaR0l5T0FzVlZJWmszNjVsRzRBa2RXRWtIcGI3OExKSkRXbw?oc=5",
-      "timestamp": "Thu, 14 May 2026 09:52:42 GMT",
-      "brand": "Nike",
+      "title": "Uniformes do Gana para a Copa do Mundo da FIFA 2026: titular, visitante, datas de lançamento e preços - Goal.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTENxWEs2eG9IMFZ6WjgwdmkzUGVYNVZORV85dzNqR1R3eWt0MFZ5NWpkdE1mOVBvYVNZakhmaUNNQ25kSWd3bldEWWdDSktXMzh4U2M1SkNzUWV5cC16aUlQc2lYeTNwdzlkOUxIbHFjeThNNHM2MGJmQlRhZFhFSUdpa0FCbGJPMlVWbHljcl9qdzI4SXVwd3hBdWh1ZVQtV2RMbXBxMlVlbnBjMGU3NF9YczNlcmhpaFd0TDkzODlKTjZiT2xYVUNrVXlyNTNlMnVabjIxbk5oeWtvZHRHczhmQQ?oc=5",
+      "timestamp": "Thu, 14 May 2026 11:46:20 GMT",
+      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -2733,6 +2721,19 @@
       "source": "Google News BR",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQajl4eEwxTjRHczBaNEZXWFZmaEVBcUYtb1M0ODZPZmRuVUdnQ1k0WDZzbWJhZ1p0aks0NFlsRmtZcHJQTVBwemJ3eWpSUmFMc1JoVWJrZVVJNlgzdmI1cFEtOWkwOEdJZnJsaW92eXlpaDAtaU1LTUxHVDRyazVoSGVxX01DdHJUTDgwbGFvdFJJOTJTMlZyNTVRQzdBcU13dDZLSzFLQVZxMVotbVoxWDFNbWU1bjRFcGwyd0tWcHZnUjll?oc=5",
       "timestamp": "Mon, 18 May 2026 18:28:22 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Las marcas de ropa deportiva que dominarán el Mundial 2026 - Forbes Ecuador",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWpzbEw2Qkc2OVpVT2tiUG5RMHc2bzlSckhIQV9LckFFblpreE9TSnBMdE5TazlDZ3pZWndWVkRVbVR0bE43X1h1a3NDenJERVR0dnYwejlNcTQ2azkzR0FNTmxtTGJKR25LWGRZbXlYcmlZWGlYSjA4RGlIX2c2Z29WU3pNbElNZ0JGTE01NFB2SXFn0gGaAUFVX3lxTE5feDh4YTRnRXdLaWtkM09CX0lhcVNLcERVLVNYaFZheVMxQUdkNkN6cHNVRkZSZk41Ujd1YkotUHNzZ0NYaEJpV2JtbWlrd0EzVi1OeXFkZkVlellfVmpfeXlqLUMybUhDdjhwbGx4VEVoSFZweFBSWEcydHVINE4wbG00dXp5S21Sbl9xRHZRTllxMlNxOXRfbFE?oc=5",
+      "timestamp": "Mon, 18 May 2026 20:40:00 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -5557,10 +5558,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260320",
-        "views": 284
-      },
-      {
         "date": "20260321",
         "views": 230
       },
@@ -5795,13 +5792,13 @@
       {
         "date": "20260518",
         "views": 182
+      },
+      {
+        "date": "20260519",
+        "views": 190
       }
     ],
     "Nike": [
-      {
-        "date": "20260320",
-        "views": 206
-      },
       {
         "date": "20260321",
         "views": 143
@@ -6037,13 +6034,13 @@
       {
         "date": "20260518",
         "views": 164
+      },
+      {
+        "date": "20260519",
+        "views": 476
       }
     ],
     "Puma": [
-      {
-        "date": "20260320",
-        "views": 1
-      },
       {
         "date": "20260323",
         "views": 1
@@ -6110,10 +6107,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260320",
-        "views": 126
-      },
       {
         "date": "20260321",
         "views": 87
@@ -6349,13 +6342,13 @@
       {
         "date": "20260518",
         "views": 45
+      },
+      {
+        "date": "20260519",
+        "views": 56
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260320",
-        "views": 37
-      },
       {
         "date": "20260321",
         "views": 30
@@ -6591,13 +6584,13 @@
       {
         "date": "20260518",
         "views": 20
+      },
+      {
+        "date": "20260519",
+        "views": 31
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260320",
-        "views": 4
-      },
       {
         "date": "20260321",
         "views": 6
@@ -6825,6 +6818,10 @@
       {
         "date": "20260518",
         "views": 3
+      },
+      {
+        "date": "20260519",
+        "views": 5
       }
     ],
     "Penalty": [
@@ -6859,6 +6856,10 @@
       {
         "date": "20260515",
         "views": 1
+      },
+      {
+        "date": "20260519",
+        "views": 1
       }
     ]
   },
@@ -6867,588 +6868,396 @@
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=829328019828798",
-      "ad_id": "829328019828798",
+      "ad_url": "https://www.facebook.com/ads/library/?id=812906964980819",
+      "ad_id": "812906964980819",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=959479913376136",
-      "ad_id": "959479913376136",
+      "ad_url": "https://www.facebook.com/ads/library/?id=851204534119995",
+      "ad_id": "851204534119995",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=980496471138259",
-      "ad_id": "980496471138259",
+      "ad_url": "https://www.facebook.com/ads/library/?id=915046901584545",
+      "ad_id": "915046901584545",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984564654437349",
-      "ad_id": "984564654437349",
+      "ad_url": "https://www.facebook.com/ads/library/?id=963229546581863",
+      "ad_id": "963229546581863",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=993798933047495",
-      "ad_id": "993798933047495",
+      "ad_url": "https://www.facebook.com/ads/library/?id=968784425851780",
+      "ad_id": "968784425851780",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1002289905711705",
-      "ad_id": "1002289905711705",
+      "ad_url": "https://www.facebook.com/ads/library/?id=996768026091760",
+      "ad_id": "996768026091760",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1462419081747475",
-      "ad_id": "1462419081747475",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1010635958099636",
+      "ad_id": "1010635958099636",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1488789246035584",
-      "ad_id": "1488789246035584",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1024626183463354",
+      "ad_id": "1024626183463354",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1492344985606276",
-      "ad_id": "1492344985606276",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1297733602566875",
+      "ad_id": "1297733602566875",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1518315616667054",
-      "ad_id": "1518315616667054",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1308442131261965",
+      "ad_id": "1308442131261965",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1523830886111225",
-      "ad_id": "1523830886111225",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1528284888651981",
+      "ad_id": "1528284888651981",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1653165362587208",
-      "ad_id": "1653165362587208",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1641393950400405",
+      "ad_id": "1641393950400405",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2028408651094188",
-      "ad_id": "2028408651094188",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1649279423026434",
+      "ad_id": "1649279423026434",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2060774148116617",
-      "ad_id": "2060774148116617",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1651581452744662",
+      "ad_id": "1651581452744662",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
+      "body_snippet": "She was the unloved twin—ignored by family, rejected by her fated mate, betrayed by all. Called worthless. Left for dead. Captured by the ruthless Alpha King, who saw her hidden power. Rise as his que",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2077960099737762",
-      "ad_id": "2077960099737762",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1670591997512291",
+      "ad_id": "1670591997512291",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2111231839437739",
-      "ad_id": "2111231839437739",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1696748944811386",
+      "ad_id": "1696748944811386",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2218357662239878",
-      "ad_id": "2218357662239878",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1710900353446771",
+      "ad_id": "1710900353446771",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2274458373090310",
-      "ad_id": "2274458373090310",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1717011162959597",
+      "ad_id": "1717011162959597",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2370172080140022",
-      "ad_id": "2370172080140022",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1983946349148288",
+      "ad_id": "1983946349148288",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26962338556786420",
-      "ad_id": "26962338556786420",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2036016153979971",
+      "ad_id": "2036016153979971",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=811548345124886",
-      "ad_id": "811548345124886",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2038467210876726",
+      "ad_id": "2038467210876726",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
+      "body_snippet": "Taylor watches from the shadows as her family toasts Emma, the girl who stole her heart to save Noah. Now, as her own parents investigate her gruesome dismemberment, they remain blind to the truth. Sh",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=820904574092921",
-      "ad_id": "820904574092921",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2168944190537550",
+      "ad_id": "2168944190537550",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=966495596228109",
-      "ad_id": "966495596228109",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2838543846499433",
+      "ad_id": "2838543846499433",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=983785557468357",
-      "ad_id": "983785557468357",
+      "ad_url": "https://www.facebook.com/ads/library/?id=3873760316092092",
+      "ad_id": "3873760316092092",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1005361975286002",
-      "ad_id": "1005361975286002",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26598306499871861",
+      "ad_id": "26598306499871861",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=829328019828798",
-      "ad_id": "829328019828798",
+      "ad_url": "https://www.facebook.com/ads/library/?id=812906964980819",
+      "ad_id": "812906964980819",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=959479913376136",
-      "ad_id": "959479913376136",
+      "ad_url": "https://www.facebook.com/ads/library/?id=996768026091760",
+      "ad_id": "996768026091760",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=980496471138259",
-      "ad_id": "980496471138259",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1649279423026434",
+      "ad_id": "1649279423026434",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984564654437349",
-      "ad_id": "984564654437349",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1696748944811386",
+      "ad_id": "1696748944811386",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=993798933047495",
-      "ad_id": "993798933047495",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1710900353446771",
+      "ad_id": "1710900353446771",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-05-20",
       "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
       "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1002289905711705",
-      "ad_id": "1002289905711705",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2838543846499433",
+      "ad_id": "2838543846499433",
       "copa_score": 0
     },
     {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
+      "brand": "Nike",
+      "page_name": "Nike",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
+      "platform": "instagram",
       "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1462419081747475",
-      "ad_id": "1462419081747475",
+      "body_snippet": "You too can be like the goat. It’s A’Two time at Nike Chicago. #TeamNike #NikePartner @nike",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26285662184444542",
+      "ad_id": "26285662184444542",
       "copa_score": 0
     },
     {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
+      "brand": "Nike",
+      "page_name": "Nike",
+      "country": "CO",
+      "platform": "instagram",
       "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1488789246035584",
-      "ad_id": "1488789246035584",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1492344985606276",
-      "ad_id": "1492344985606276",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1518315616667054",
-      "ad_id": "1518315616667054",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1523830886111225",
-      "ad_id": "1523830886111225",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1653165362587208",
-      "ad_id": "1653165362587208",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2028408651094188",
-      "ad_id": "2028408651094188",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2060774148116617",
-      "ad_id": "2060774148116617",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2077960099737762",
-      "ad_id": "2077960099737762",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2111231839437739",
-      "ad_id": "2111231839437739",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2218357662239878",
-      "ad_id": "2218357662239878",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2274458373090310",
-      "ad_id": "2274458373090310",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2370172080140022",
-      "ad_id": "2370172080140022",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=26962338556786420",
-      "ad_id": "26962338556786420",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=811548345124886",
-      "ad_id": "811548345124886",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=820904574092921",
-      "ad_id": "820904574092921",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=966495596228109",
-      "ad_id": "966495596228109",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger",
-      "started_at": "2026-05-19",
-      "body_snippet": "They mocked her, framed her son, and threw her out like trash, never dreaming the school they rule belongs entirely to her. Now, the billionaire mom is done playing nice and the PTA is about to learn ",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=983785557468357",
-      "ad_id": "983785557468357",
+      "body_snippet": "You too can be like the goat. It’s A’Two time at Nike Chicago. #TeamNike #NikePartner @nike",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26285662184444542",
+      "ad_id": "26285662184444542",
       "copa_score": 0
     }
   ],
@@ -7577,34 +7386,43 @@
       "country": "AR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 176500,
+      "growth_pct": 174300,
       "raw_query": "codigos album virtual mundial 2026",
       "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#albummundial2026tapadura",
+      "country": "AR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 120150,
+      "raw_query": "album mundial 2026 tapa dura",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#prelistacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 99000,
+      "raw_query": "pre lista copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
     },
     {
       "tag": "#cromoscocacolamundial2026",
       "country": "AR",
       "posts": 0,
-      "rank": 2,
-      "growth_pct": 60900,
+      "rank": 4,
+      "growth_pct": 62450,
       "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#álbumdelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 57650,
-      "raw_query": "álbum del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#aprendetodoaqui",
       "country": "BR",
       "posts": 0,
-      "rank": 4,
-      "growth_pct": 41450,
+      "rank": 5,
+      "growth_pct": 57450,
       "raw_query": "aprende todo aqui",
       "seed": "Mundial 2026"
     },
@@ -7612,25 +7430,25 @@
       "tag": "#extrastickersmundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 34550,
+      "rank": 6,
+      "growth_pct": 35800,
       "raw_query": "extra stickers mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#codigosparaelalbumvirtualmundi",
-      "country": "AR",
+      "tag": "#estampasdelmundial2026paraimpr",
+      "country": "MX",
       "posts": 0,
-      "rank": 6,
-      "growth_pct": 25150,
-      "raw_query": "codigos para el album virtual mundial 2026",
+      "rank": 7,
+      "growth_pct": 23950,
+      "raw_query": "estampas del mundial 2026 para imprimir",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#dondecomprarelalbumdelmundial2",
       "country": "AR",
       "posts": 0,
-      "rank": 7,
+      "rank": 8,
       "growth_pct": 21500,
       "raw_query": "donde comprar el album del mundial 2026",
       "seed": "Mundial 2026"
@@ -7639,8 +7457,8 @@
       "tag": "#dondecomprarsobresdelmundial20",
       "country": "MX",
       "posts": 0,
-      "rank": 8,
-      "growth_pct": 20100,
+      "rank": 9,
+      "growth_pct": 21200,
       "raw_query": "donde comprar sobres del mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -7648,8 +7466,8 @@
       "tag": "#cromoscocacolamundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 9,
-      "growth_pct": 14900,
+      "rank": 10,
+      "growth_pct": 15500,
       "raw_query": "cromos coca cola mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -7657,89 +7475,35 @@
       "tag": "#prelistamexicomundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 10,
-      "growth_pct": 11100,
+      "rank": 11,
+      "growth_pct": 11800,
       "raw_query": "prelista mexico mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#paramountplusmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 11050,
-      "raw_query": "paramount plus mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 9900,
-      "raw_query": "caja de sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albummundial2026tapadura",
+      "tag": "#figuritademessimundial2026",
       "country": "AR",
       "posts": 0,
-      "rank": 13,
-      "growth_pct": 9300,
-      "raw_query": "album mundial 2026 tapa dura",
+      "rank": 12,
+      "growth_pct": 2050,
+      "raw_query": "figurita de messi mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#prelistacopadomundo2026",
+      "tag": "#álbumdelmundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 14,
-      "growth_pct": 9050,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#albummundial2026pastadura",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 7800,
-      "raw_query": "album mundial 2026 pasta dura",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 2300,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantocuestaelalbumdelmundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 2200,
-      "raw_query": "cuanto cuesta el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#sobresdelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 1900,
-      "raw_query": "sobres del mundial 2026",
+      "rank": 13,
+      "growth_pct": 1150,
+      "raw_query": "álbum del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#figurinhadacopadomundode2026",
       "country": "BR",
       "posts": 0,
-      "rank": 19,
-      "growth_pct": 1100,
+      "rank": 14,
+      "growth_pct": 1050,
       "raw_query": "figurinha da copa do mundo de 2026",
       "seed": "Copa do Mundo 2026"
     },
@@ -7747,16 +7511,61 @@
       "tag": "#albumcopadomundo2026capadura",
       "country": "BR",
       "posts": 0,
-      "rank": 20,
-      "growth_pct": 950,
+      "rank": 15,
+      "growth_pct": 850,
       "raw_query": "album copa do mundo 2026 capa dura",
       "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#figurinhacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 650,
+      "raw_query": "figurinha copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#datadaconvocaçãoparacopadomund",
+      "country": "BR",
+      "posts": 0,
+      "rank": 17,
+      "growth_pct": 500,
+      "raw_query": "data da convocação para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#kingsleaguemundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 18,
+      "growth_pct": 400,
+      "raw_query": "kings league mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#figuritasmundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 19,
+      "growth_pct": 250,
+      "raw_query": "figuritas mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#albummundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 20,
+      "growth_pct": 160,
+      "raw_query": "album mundial 2026",
+      "seed": "Mundial 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-25970872",
+      "sku": "signal-27014261",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7770,9 +7579,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 101,
+      "signals_60d": 99,
       "latas_detected": 0,
-      "ads_active": 0,
+      "ads_active": 2,
       "youtube_uploads_30d": 0,
       "top_movement": "Equipaciones de Francia para la Copa Mundial de la FIFA 2026: local, visitante, fechas de ",
       "top_source": "Google News AR"
@@ -7781,9 +7590,9 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 67,
+      "signals_60d": 66,
       "latas_detected": 1,
-      "ads_active": 49,
+      "ads_active": 31,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -8031,8 +7840,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 52,
-    "Puma": 52,
+    "Nike": 51,
+    "Puma": 51,
     "Under Armour": 5,
     "Penalty": 1,
     "Joma": 2,
