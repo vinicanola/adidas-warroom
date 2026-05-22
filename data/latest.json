@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-21T23:42:18.920739+00:00",
+  "generated_at": "2026-05-22T11:27:11.635768+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 242,
-      "elapsed_s": 36.5
+      "count": 236,
+      "elapsed_s": 42.5
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 93.1
+      "elapsed_s": 86.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.6
+      "elapsed_s": 6.1
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.5
+      "elapsed_s": 7.0
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.7
+      "elapsed_s": 9.7
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 47,
-      "elapsed_s": 30.1
+      "count": 12,
+      "elapsed_s": 31.1
     },
     "trending_topics": {
       "status": "ok",
       "count": 20,
-      "elapsed_s": 23.2
+      "elapsed_s": 23.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.9
+      "elapsed_s": 23.7,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.8
+      "elapsed_s": 4.4
     }
   },
   "competitors": [
@@ -100,40 +101,40 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 77,
+      "signals": 81,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 47,
-      "signals": 34,
+      "score": 46,
+      "signals": 33,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 25,
-      "signals": 17,
+      "score": 26,
+      "signals": 18,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 47,
+    "ads_active_total": 12,
     "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 47,
+    "ads_active_top_count": 12,
     "search_leader_brand": "Nike",
     "search_leader_pct": 54.9,
     "search_leader_delta_pp": -13.4,
-    "signals_60d": 214,
-    "signals_delta_pct": 119,
+    "signals_60d": 218,
+    "signals_delta_pct": 130,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 120,
+    "ambush_attempts_total": 121,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 54,
+    "ambush_top_count": 56,
     "fifa_signals_total": 0,
     "selecao_signals_total": 25,
     "official_signals_total": 0
@@ -580,19 +581,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Seleção Brasileira e Nike divulgam camisa amarela para a Copa do Mundo - Alagoas 24 Horas",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUprSTM4RDAzemlTbGJnd0dfb3pOcjZ2V0ZobUIwblI4RjQ3Uzk2S1M2TlUtY1d5RG1jdnMzOThLYkJHazRvRlY3cHZ2bGQzaDhQLTZ5T2x6VTlVbGh2c3I1c2hINjdpREdFa3Z1anl3MUxkVmZXUVhnaENRMmJQU1UtOURSblFoZ0RGby1ITXdjMkNIUkNPU1dOVVpQODNzX1pRa2tfUjF3RXc1YUQtSWVmbw?oc=5",
-      "timestamp": "Sun, 22 Mar 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
     },
     {
       "level": "green",
@@ -2169,6 +2157,19 @@
     },
     {
       "level": "green",
+      "title": "Equipaciones para el Mundial 2026: reveladas las camisetas de Argentina, Brasil, España, Inglaterra y el resto de las grandes selecciones - Goal.com",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPeDdQNWJ2dkNvRnhxSzVGNDFwdzRqdVpNSmR0b2VQODZRRnJfTDVXU0Z4bkw1YU5BQjVKREthSHcwUVpvWU5jaENocXZ2OFlveXQ2R2oyZkFacTB1c0hRdkpIVEZjY015UjFURWo3UFFZTGxMUFQzVVJxa3JYVnpLcFFiek90Qjk5UDlnYVlSbmZ3OUNlY0lmSnNJOEQ5NlNVYTZpRFQtRkVkeVFCR0w5Nkh0b2JoeElOMl84Q0J5Y3IxcFpaekZTdWU4M1ltbE1MWENxSHR2VEcyZ3MtRGtXQTRGUkM1bzdGNUZDN1NZTDY3b2M1clBONlcySDBLOEtOSGRia2tGYUdTU2Y2Vk52UVIxY2FYZw?oc=5",
+      "timestamp": "Wed, 13 May 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "México: VENUE Sports y Nike buscan reconectar al fútbol con su origen rumbo al Mundial 2026 - DossierNet",
       "market": "MX",
       "source": "Google News MX",
@@ -2213,19 +2214,6 @@
       "source": "Google News CO",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbXlIWmFqbHNkTjVOQUdCRWRFc2I2VFBJbC1WSldDRm9BSWg2b2VlWEhzOTVDMmhpTVpwYTViTmZJX2FWYjBzSkYwQVdXQmR5VWtIX056YlZGQ3Y1MmpLSGlPNDY5V2NXY2NCdXNSdDAzRDBiNm14eEpNSmhHUXd6ZzdveWhkWVNNQ3ZQdTlQaUJVQ0Z2UjB4ZTRTYm5YSHpTWTQ4OEUtbkM3R2tYMm9IZUZHWFNkSDNRMnJRanUxWGpUTldVaXlHRTk1SVdocmJ2ZnVtNlV3dTlHSVU?oc=5",
       "timestamp": "Wed, 13 May 2026 20:25:10 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Equipaciones para el Mundial 2026: reveladas las camisetas de Argentina, Brasil, España, Inglaterra y el resto de las grandes selecciones - Goal.com",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPeDdQNWJ2dkNvRnhxSzVGNDFwdzRqdVpNSmR0b2VQODZRRnJfTDVXU0Z4bkw1YU5BQjVKREthSHcwUVpvWU5jaENocXZ2OFlveXQ2R2oyZkFacTB1c0hRdkpIVEZjY015UjFURWo3UFFZTGxMUFQzVVJxa3JYVnpLcFFiek90Qjk5UDlnYVlSbmZ3OUNlY0lmSnNJOEQ5NlNVYTZpRFQtRkVkeVFCR0w5Nkh0b2JoeElOMl84Q0J5Y3IxcFpaekZTdWU4M1ltbE1MWENxSHR2VEcyZ3MtRGtXQTRGUkM1bzdGNUZDN1NZTDY3b2M1clBONlcySDBLOEtOSGRia2tGYUdTU2Y2Vk52UVIxY2FYZw?oc=5",
-      "timestamp": "Wed, 13 May 2026 07:00:00 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2733,6 +2721,19 @@
       "source": "Google News BR",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONlJiRWNVVVgzd2dSZW92V1pGVy15bHlzMEpLN2NtUVhELUZJWmd5RkliME5ZN3RzVVpJMElGVjhvYk5yVktyWnhtaGg5UWVPcWtNWDVRbXNPOTlCcW1Nc2d5SG5uZG54RHIyaFBHYTFpRnNmdllZWGMxa2NKSDVMM1pxbmNpY2Q5WDVOUEpjeVQ4VVgxX3N6MTcySHZqZjFRekl0U1JCY20xSE5WdzhCblFkRXJtT3NobUdDdnNmRFFQVTE1TnR6V28tb1F2R2hWTE9PVzdIT0Z1bXFiTEVJR0Q3SGdCOUJGbmxJ0gH6AUFVX3lxTE82cDYwNmFFblNyRURINGp0czVPQzEtZVdIR0RSai11VmFyMC01MFlQOU5nZXdQU3NCd0N5QTktcFplcGRwTGdsVk5nVHAxWC1iOWsxWVRmZFRhLWZuLWJmVHdkWVUyMG00R005VTR0Wl80bkJ5a3pRTV93WlZqNXJkT0hXN0N4VFN0aHg2YWtZUm1WRGlOSUtHT2ZFX05HYmU1MnpzaThYXy1CRU9jR0dvVTZ3YTVKSUxsSFRxeE1EM2xRa3QwZWlTSng2SnFXa0lZNWJiWmZKU2VPZ05zQzNZWWhQOXAzaXZRNnlQSFR0b1BPc0xuT0VheXc?oc=5",
       "timestamp": "Mon, 18 May 2026 16:19:21 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Seleção Brasileira: veja a lista de convocados para a Copa do Mundo - CNN Brasil",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVWRkZkMWxSLU5Zbkdib0VEY1JVVndVWXBGR2F5WG91QktkWVdJZUlBT3J0UzlScUgyZHBrUFdJM0hsREZ4V1BXYkV6Mkx3WkQxcHNNSnVzYktoeTdxT3J3ZHJVN2tDNkJJRDZaZDRPdnZqVzNHMTVRTW84VWVkZV9fSGhYZnhiRkR6YTB4UW01TVZPZU42dGdtWndYTTRIMTZLcE1xMTJDaEpNYmVoX2tjTExnckp1TC1QY3dwV1dnSU9ORU4yeFFJWWo?oc=5",
+      "timestamp": "Mon, 18 May 2026 21:05:14 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -5557,10 +5558,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260322",
-        "views": 235
-      },
-      {
         "date": "20260323",
         "views": 163
       },
@@ -5795,13 +5792,13 @@
       {
         "date": "20260520",
         "views": 249
+      },
+      {
+        "date": "20260521",
+        "views": 199
       }
     ],
     "Nike": [
-      {
-        "date": "20260322",
-        "views": 186
-      },
       {
         "date": "20260323",
         "views": 195
@@ -6037,6 +6034,10 @@
       {
         "date": "20260520",
         "views": 245
+      },
+      {
+        "date": "20260521",
+        "views": 152
       }
     ],
     "Puma": [
@@ -6103,13 +6104,13 @@
       {
         "date": "20260514",
         "views": 1
+      },
+      {
+        "date": "20260521",
+        "views": 2
       }
     ],
     "New Balance": [
-      {
-        "date": "20260322",
-        "views": 100
-      },
       {
         "date": "20260323",
         "views": 62
@@ -6345,13 +6346,13 @@
       {
         "date": "20260520",
         "views": 51
+      },
+      {
+        "date": "20260521",
+        "views": 37
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260322",
-        "views": 24
-      },
       {
         "date": "20260323",
         "views": 32
@@ -6587,13 +6588,13 @@
       {
         "date": "20260520",
         "views": 29
+      },
+      {
+        "date": "20260521",
+        "views": 26
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260322",
-        "views": 2
-      },
       {
         "date": "20260323",
         "views": 3
@@ -6821,6 +6822,10 @@
       {
         "date": "20260520",
         "views": 7
+      },
+      {
+        "date": "20260521",
+        "views": 5
       }
     ],
     "Penalty": [
@@ -6867,564 +6872,144 @@
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984701957595958",
-      "ad_id": "984701957595958",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1010218128009415",
+      "ad_id": "1010218128009415",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1204487201681258",
-      "ad_id": "1204487201681258",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1283437163995620",
+      "ad_id": "1283437163995620",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1279134931046517",
-      "ad_id": "1279134931046517",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1602127727514937",
+      "ad_id": "1602127727514937",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2723016244749879",
-      "ad_id": "2723016244749879",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1677383670088492",
+      "ad_id": "1677383670088492",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=982341041425992",
-      "ad_id": "982341041425992",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1681402573061536",
+      "ad_id": "1681402573061536",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1534572194794816",
-      "ad_id": "1534572194794816",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1868114037684169",
+      "ad_id": "1868114037684169",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3419509154893869",
-      "ad_id": "3419509154893869",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2021295955444352",
+      "ad_id": "2021295955444352",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=962250219772126",
-      "ad_id": "962250219772126",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1750078986362835",
-      "ad_id": "1750078986362835",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2034618394101757",
-      "ad_id": "2034618394101757",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1243502094361441",
-      "ad_id": "1243502094361441",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1529353752148664",
-      "ad_id": "1529353752148664",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1940036643329355",
-      "ad_id": "1940036643329355",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1316124520453847",
-      "ad_id": "1316124520453847",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1620859265871005",
-      "ad_id": "1620859265871005",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1010585594973570",
-      "ad_id": "1010585594973570",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1492943015863479",
-      "ad_id": "1492943015863479",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=4604516106450970",
-      "ad_id": "4604516106450970",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2106526136572994",
-      "ad_id": "2106526136572994",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2286010765259683",
-      "ad_id": "2286010765259683",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1533621931677539",
-      "ad_id": "1533621931677539",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1992453421641666",
-      "ad_id": "1992453421641666",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3109964382538045",
-      "ad_id": "3109964382538045",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2488405638262577",
-      "ad_id": "2488405638262577",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=26744136911909812",
+      "ad_id": "26744136911909812",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984701957595958",
-      "ad_id": "984701957595958",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Diana Archer is out for blood, but vengeance comes with a terrifying price. To destroy the Sinclair syndicate, she’s summoned the lethal assassin known only as \"K.\" Now, trapped between a ruthless CEO",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1727857561708366",
+      "ad_id": "1727857561708366",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1204487201681258",
-      "ad_id": "1204487201681258",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "They called seven-year-old Leonie cursed, but she holds a power the village cannot comprehend. Bought for flour and cast aside, she performs miracles in the shadows. When greedy Grace threatens her, t",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1870078217006497",
+      "ad_id": "1870078217006497",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1279134931046517",
-      "ad_id": "1279134931046517",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1737259987654437",
+      "ad_id": "1737259987654437",
       "copa_score": 0
     },
     {
       "brand": "Puma",
       "page_name": "natus Puma Elmer 1076",
       "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2723016244749879",
-      "ad_id": "2723016244749879",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=982341041425992",
-      "ad_id": "982341041425992",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1534572194794816",
-      "ad_id": "1534572194794816",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3419509154893869",
-      "ad_id": "3419509154893869",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=962250219772126",
-      "ad_id": "962250219772126",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1750078986362835",
-      "ad_id": "1750078986362835",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2034618394101757",
-      "ad_id": "2034618394101757",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1243502094361441",
-      "ad_id": "1243502094361441",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1529353752148664",
-      "ad_id": "1529353752148664",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1940036643329355",
-      "ad_id": "1940036643329355",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1316124520453847",
-      "ad_id": "1316124520453847",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1620859265871005",
-      "ad_id": "1620859265871005",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1010585594973570",
-      "ad_id": "1010585594973570",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1492943015863479",
-      "ad_id": "1492943015863479",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=4604516106450970",
-      "ad_id": "4604516106450970",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2106526136572994",
-      "ad_id": "2106526136572994",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2286010765259683",
-      "ad_id": "2286010765259683",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1533621931677539",
-      "ad_id": "1533621931677539",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1992453421641666",
-      "ad_id": "1992453421641666",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-21",
-      "body_snippet": "She begged, bled, and sacrificed everything for him, only to be cast into the shadows. Now, as Elena and her daughter face certain death, he returns on black wings. Lucifer, King of Hell, has come hom",
-      "title": "🎥Watch and find out!",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3109964382538045",
-      "ad_id": "3109964382538045",
+      "platform": "facebook,instagram,audience_network,messenger",
+      "started_at": "2026-05-22",
+      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
+      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1868114037684169",
+      "ad_id": "1868114037684169",
       "copa_score": 0
     }
   ],
@@ -7553,17 +7138,17 @@
       "country": "AR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 166150,
+      "growth_pct": 169400,
       "raw_query": "codigos album virtual mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#cuantovaleelalbumdelmundial202",
-      "country": "CO",
+      "tag": "#álbumdelmundial2026",
+      "country": "BR",
       "posts": 0,
       "rank": 2,
-      "growth_pct": 89550,
-      "raw_query": "cuanto vale el album del mundial 2026",
+      "growth_pct": 62100,
+      "raw_query": "álbum del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
@@ -7571,25 +7156,16 @@
       "country": "AR",
       "posts": 0,
       "rank": 3,
-      "growth_pct": 59950,
+      "growth_pct": 59650,
       "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aprendetodoaquimundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 47550,
-      "raw_query": "aprende todo aqui mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#aprendetodoaqui",
       "country": "BR",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 47500,
+      "rank": 4,
+      "growth_pct": 50150,
       "raw_query": "aprende todo aqui",
       "seed": "Mundial 2026"
     },
@@ -7597,142 +7173,151 @@
       "tag": "#prelistaargentinamundial2026",
       "country": "AR",
       "posts": 0,
-      "rank": 6,
-      "growth_pct": 47200,
+      "rank": 5,
+      "growth_pct": 49700,
       "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cocacolapanini",
-      "country": "CO",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 45150,
-      "raw_query": "coca cola panini",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 38200,
-      "raw_query": "lista de francia mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#extrastickersmundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 9,
-      "growth_pct": 36650,
+      "rank": 6,
+      "growth_pct": 39200,
       "raw_query": "extra stickers mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumdoradomundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 35550,
-      "raw_query": "album dorado mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#planilladecontroldefiguritasmu",
-      "country": "AR",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 34900,
-      "raw_query": "planilla de control de figuritas mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026brasil",
-      "country": "BR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 29200,
-      "raw_query": "pre lista copa do mundo 2026 brasil",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocadosdebrasilparaelmundia",
-      "country": "BR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 25350,
-      "raw_query": "convocados de brasil para el mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#estampasdelmundial2026paraimpr",
       "country": "MX",
       "posts": 0,
-      "rank": 14,
-      "growth_pct": 25300,
+      "rank": 7,
+      "growth_pct": 27000,
       "raw_query": "estampas del mundial 2026 para imprimir",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#convocatoriadebrasilparaelmund",
-      "country": "CO",
+      "tag": "#codigosparaelalbumvirtualmundi",
+      "country": "AR",
       "posts": 0,
-      "rank": 15,
-      "growth_pct": 23650,
-      "raw_query": "convocatoria de brasil para el mundial 2026",
+      "rank": 8,
+      "growth_pct": 26550,
+      "raw_query": "codigos para el album virtual mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#controledefigurinhascopadomund",
+      "tag": "#dondecomprarelalbumdelmundial2",
+      "country": "AR",
+      "posts": 0,
+      "rank": 9,
+      "growth_pct": 19050,
+      "raw_query": "donde comprar el album del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#cuantocuestanlossobresdelmundi",
+      "country": "MX",
+      "posts": 0,
+      "rank": 10,
+      "growth_pct": 13400,
+      "raw_query": "cuanto cuestan los sobres del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#prelistacopadomundo2026",
       "country": "BR",
       "posts": 0,
-      "rank": 16,
-      "growth_pct": 21800,
-      "raw_query": "controle de figurinhas copa do mundo 2026",
+      "rank": 11,
+      "growth_pct": 8000,
+      "raw_query": "pre lista copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#neymarvaajugarelmundial2026",
+      "tag": "#cajadesobresdelmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 12,
+      "growth_pct": 4000,
+      "raw_query": "caja de sobres del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#cajasobresmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 3650,
+      "raw_query": "caja sobres mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#figurinhadacopadomundode2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 900,
+      "raw_query": "figurinha da copa do mundo de 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#albumcopadomundo2026capadura",
+      "country": "BR",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 750,
+      "raw_query": "album copa do mundo 2026 capa dura",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#figurinhacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 700,
+      "raw_query": "figurinha copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#datadaconvocaçãoparacopadomund",
       "country": "BR",
       "posts": 0,
       "rank": 17,
-      "growth_pct": 21750,
-      "raw_query": "neymar va a jugar el mundial 2026",
-      "seed": "Mundial 2026"
+      "growth_pct": 400,
+      "raw_query": "data da convocação para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#dondevendenelalbumdelmundial20",
-      "country": "CO",
+      "tag": "#figuritasmundial2026",
+      "country": "BR",
       "posts": 0,
       "rank": 18,
-      "growth_pct": 19350,
-      "raw_query": "donde venden el album del mundial 2026",
+      "growth_pct": 350,
+      "raw_query": "figuritas mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#estampa00mundial2026",
-      "country": "MX",
+      "tag": "#kingsleaguemundial2026",
+      "country": "BR",
       "posts": 0,
       "rank": 19,
-      "growth_pct": 19150,
-      "raw_query": "estampa 00 mundial 2026",
+      "growth_pct": 250,
+      "raw_query": "kings league mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#álbummundial2026costco",
-      "country": "MX",
+      "tag": "#albummundial2026",
+      "country": "BR",
       "posts": 0,
       "rank": 20,
-      "growth_pct": 17000,
-      "raw_query": "álbum mundial 2026 costco",
+      "growth_pct": 170,
+      "raw_query": "album mundial 2026",
       "seed": "Mundial 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-52697599",
+      "sku": "signal-70066881",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7742,7 +7327,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-98636442",
+      "sku": "signal-71927243",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7756,7 +7341,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 103,
+      "signals_60d": 107,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7767,9 +7352,9 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 69,
+      "signals_60d": 68,
       "latas_detected": 2,
-      "ads_active": 47,
+      "ads_active": 12,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -7800,7 +7385,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 17,
+      "signals_60d": 18,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -8017,8 +7602,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 54,
-    "Puma": 54,
+    "Nike": 56,
+    "Puma": 53,
     "Under Armour": 5,
     "Penalty": 1,
     "Joma": 2,
