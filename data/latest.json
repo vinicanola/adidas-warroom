@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-23T07:59:20.514071+00:00",
+  "generated_at": "2026-05-23T11:51:12.517643+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 242,
-      "elapsed_s": 33.5
+      "count": 247,
+      "elapsed_s": 34.8
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 17.9
+      "elapsed_s": 89.7
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 4.7
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.5
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 7.6
+      "elapsed_s": 7.4
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 45,
-      "elapsed_s": 28.4
+      "count": 5,
+      "elapsed_s": 62.6
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 22.2
+      "count": 0,
+      "elapsed_s": 5.3
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 24.7
+      "elapsed_s": 1.8,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.2
     }
   },
   "competitors": [
@@ -121,9 +122,9 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 45,
-    "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 42,
+    "ads_active_total": 5,
+    "ads_active_top_brand": "Nike",
+    "ads_active_top_count": 5,
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.9,
     "search_leader_delta_pp": -9.1,
@@ -131,9 +132,9 @@
     "signals_delta_pct": 153,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 127,
+    "ambush_attempts_total": 126,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 61,
+    "ambush_top_count": 60,
     "fifa_signals_total": 0,
     "selecao_signals_total": 20,
     "official_signals_total": 0
@@ -6844,507 +6845,27 @@
   },
   "active_ads": [
     {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
+      "brand": "Nike",
+      "page_name": "Nike",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "platform": "facebook,instagram",
       "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=781961025000403",
-      "ad_id": "781961025000403",
+      "body_snippet": "Got everything I needed and then some at the Nike Factory Store in Woodstock @nike #teamnike",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1539197757843507",
+      "ad_id": "1539197757843507",
       "copa_score": 0
     },
     {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
+      "brand": "Nike",
+      "page_name": "Nike",
       "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "platform": "facebook,instagram",
       "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=866941563102732",
-      "ad_id": "866941563102732",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=909434668782275",
-      "ad_id": "909434668782275",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=955457744026571",
-      "ad_id": "955457744026571",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=973142411980440",
-      "ad_id": "973142411980440",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=973745555581445",
-      "ad_id": "973745555581445",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=977713284859748",
-      "ad_id": "977713284859748",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=978303245130388",
-      "ad_id": "978303245130388",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984946020949597",
-      "ad_id": "984946020949597",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=988522720326467",
-      "ad_id": "988522720326467",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=997374052791701",
-      "ad_id": "997374052791701",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=998090326032853",
-      "ad_id": "998090326032853",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=999720979415297",
-      "ad_id": "999720979415297",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1011451941553086",
-      "ad_id": "1011451941553086",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1014399044436924",
-      "ad_id": "1014399044436924",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1016352747637096",
-      "ad_id": "1016352747637096",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1051586937202670",
-      "ad_id": "1051586937202670",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1166471743211904",
-      "ad_id": "1166471743211904",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1220660593338070",
-      "ad_id": "1220660593338070",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1242421931092204",
-      "ad_id": "1242421931092204",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1263251335583154",
-      "ad_id": "1263251335583154",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "They mocked Luna, framed her son, and threw her out, but they made one fatal mistake. The school they rule belongs to her, and the billionaire \"nobody\" is ready to collect. The PTA thought they were u",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1296971579251544",
-      "ad_id": "1296971579251544",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=817283674538852",
-      "ad_id": "817283674538852",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=822172104000939",
-      "ad_id": "822172104000939",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=897558753359926",
-      "ad_id": "897558753359926",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=938804908980637",
-      "ad_id": "938804908980637",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=955076677137635",
-      "ad_id": "955076677137635",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=955353540598014",
-      "ad_id": "955353540598014",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=956676237258609",
-      "ad_id": "956676237258609",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=961478499981435",
-      "ad_id": "961478499981435",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=963941912899364",
-      "ad_id": "963941912899364",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=970425875631602",
-      "ad_id": "970425875631602",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=977198201957325",
-      "ad_id": "977198201957325",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=980841254493896",
-      "ad_id": "980841254493896",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=981357591302460",
-      "ad_id": "981357591302460",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=987565584168070",
-      "ad_id": "987565584168070",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=993297423166096",
-      "ad_id": "993297423166096",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=994949412999624",
-      "ad_id": "994949412999624",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=998009492874320",
-      "ad_id": "998009492874320",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1000485365732630",
-      "ad_id": "1000485365732630",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1010402438403564",
-      "ad_id": "1010402438403564",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "natus Puma Elmer 1076",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-05-22",
-      "body_snippet": "Hidden as a prince for years, Princess Emeriel’s life of deception crumbles when she offers herself as a tribute to save her sister. Now trapped with the berserk High King Beast, she discovers a forbi",
-      "title": "⭐ ⭐ ⭐ ⭐ ⭐(4.9/5.0) 👉Watching Full Series👈",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1198148093379375",
-      "ad_id": "1198148093379375",
+      "body_snippet": "The @nike Community Store in Watts, Los Angeles had everything and anything a runner could want or need. While also not breaking the bank! Make sure you check out your nearest Nike Community Store to ",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2945076322365019",
+      "ad_id": "2945076322365019",
       "copa_score": 0
     },
     {
@@ -7503,192 +7024,11 @@
       "url": "https://www.youtube.com/shorts/-W6fabnwXJk"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#codigosalbumvirtualmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 165300,
-      "raw_query": "codigos album virtual mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumdacopa2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 74200,
-      "raw_query": "album da copa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 61100,
-      "raw_query": "cromos coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuantocuestaelalbumdelmundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 53600,
-      "raw_query": "cuanto cuesta el album del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aprendetodoaqui",
-      "country": "BR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 51800,
-      "raw_query": "aprende todo aqui",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistaargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 50100,
-      "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 45100,
-      "raw_query": "lista de francia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cocacola",
-      "country": "BR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 41250,
-      "raw_query": "coca cola",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#codigospaninimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 40100,
-      "raw_query": "codigos panini mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#albumdoradomundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 39250,
-      "raw_query": "album dorado mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickermundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 38550,
-      "raw_query": "extra sticker mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickersmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 36900,
-      "raw_query": "extra stickers mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#álbumpaninimundial2026virtual",
-      "country": "CO",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 35350,
-      "raw_query": "álbum panini mundial 2026 virtual",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#estampasdelmundial2026paraimpr",
-      "country": "MX",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 28650,
-      "raw_query": "estampas del mundial 2026 para imprimir",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#laminascocacolamundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 27850,
-      "raw_query": "laminas coca cola mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdebrasilparaelmundia",
-      "country": "BR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 27500,
-      "raw_query": "convocados de brasil para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listafinalseleccionmexicanamun",
-      "country": "MX",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 24800,
-      "raw_query": "lista final seleccion mexicana mundial 2026",
-      "seed": "Seleccion mexicana"
-    },
-    {
-      "tag": "#convocadosdelaselecciónmexican",
-      "country": "MX",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 21850,
-      "raw_query": "convocados de la selección mexicana para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocaçãodainglaterraparacopa",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 20050,
-      "raw_query": "convocação da inglaterra para copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#dondecomprarsobresdelmundial20",
-      "country": "MX",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 19300,
-      "raw_query": "donde comprar sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-37088166",
+      "sku": "signal-11688206",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7698,7 +7038,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-24264499",
+      "sku": "signal-18170258",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7714,7 +7054,7 @@
       "color": "#FA5400",
       "signals_60d": 106,
       "latas_detected": 0,
-      "ads_active": 3,
+      "ads_active": 5,
       "youtube_uploads_30d": 0,
       "top_movement": "Equipaciones de Francia para la Copa Mundial de la FIFA 2026: local, visitante, fechas de ",
       "top_source": "Google News AR"
@@ -7725,7 +7065,7 @@
       "color": "#E0001A",
       "signals_60d": 69,
       "latas_detected": 2,
-      "ads_active": 42,
+      "ads_active": 0,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -7973,7 +7313,7 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 61,
+    "Nike": 60,
     "Puma": 54,
     "Under Armour": 5,
     "Penalty": 1,
