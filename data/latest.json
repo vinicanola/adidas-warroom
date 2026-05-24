@@ -1,53 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-24T09:30:07.610538+00:00",
+  "generated_at": "2026-05-24T14:53:34.839330+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 238,
-      "elapsed_s": 33.9
+      "count": 239,
+      "elapsed_s": 37.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 90.7
+      "elapsed_s": 70.2
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 4.3
+      "elapsed_s": 4.6
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 2.7
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 7.8
+      "elapsed_s": 9.2
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 28.4,
+      "elapsed_s": 37.1,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 22.1
+      "count": 15,
+      "elapsed_s": 17.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.4
+      "elapsed_s": 1.8,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.9
     }
   },
   "competitors": [
@@ -92,8 +93,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 100,
-      "signals": 85,
+      "score": 99,
+      "signals": 84,
       "color": "#F40000"
     },
     {
@@ -108,8 +109,8 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 50,
-      "signals": 37,
+      "score": 49,
+      "signals": 36,
       "color": "#75AADB"
     },
     {
@@ -128,15 +129,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.6,
     "search_leader_delta_pp": -5.7,
-    "signals_60d": 222,
-    "signals_delta_pct": 147,
+    "signals_60d": 220,
+    "signals_delta_pct": 144,
     "latas_total": 2,
     "latas_unvalidated": 2,
-    "ambush_attempts_total": 127,
+    "ambush_attempts_total": 126,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 60,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 22,
+    "selecao_signals_total": 21,
     "official_signals_total": 0
   },
   "signals": [
@@ -7239,20 +7240,20 @@
     {
       "brand": "Nike",
       "channel": "Nike Football",
+      "title": "Show Dem Nike Football",
+      "published_at": "2025-12-17T09:00:22+00:00",
+      "video_id": "ZakydYptTOw",
+      "thumbnail": "https://i.ytimg.com/vi/ZakydYptTOw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZakydYptTOw"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
       "title": "The world’s most dangerous striker is back... #NikeFootball",
       "published_at": "2025-09-02T07:01:19+00:00",
       "video_id": "D4JNL9Lg6W8",
       "thumbnail": "https://i.ytimg.com/vi/D4JNL9Lg6W8/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/D4JNL9Lg6W8"
-    },
-    {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "The Canarinha flies to the top—again. 9x South American Champions. #NikeFootball",
-      "published_at": "2025-08-03T00:09:07+00:00",
-      "video_id": "6eYHGIGXlbo",
-      "thumbnail": "https://i.ytimg.com/vi/6eYHGIGXlbo/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/6eYHGIGXlbo"
     }
   ],
   "tiktok_tags": [
@@ -7261,186 +7262,141 @@
       "country": "AR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 164650,
+      "growth_pct": 164500,
       "raw_query": "codigos album virtual mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#cuantovaleelalbumdelmundial202",
-      "country": "CO",
+      "tag": "#cromoscocacolamundial2026",
+      "country": "AR",
       "posts": 0,
       "rank": 2,
-      "growth_pct": 92650,
-      "raw_query": "cuanto vale el album del mundial 2026",
+      "growth_pct": 60450,
+      "raw_query": "cromos coca cola mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#cromoscocacolamundial2026",
-      "country": "AR",
+      "tag": "#extrastickersmundial2026",
+      "country": "MX",
       "posts": 0,
       "rank": 3,
-      "growth_pct": 63050,
-      "raw_query": "cromos coca cola mundial 2026",
+      "growth_pct": 36400,
+      "raw_query": "extra stickers mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#aprendetodoaqui",
-      "country": "BR",
+      "tag": "#estampasdelmundial2026paraimpr",
+      "country": "MX",
       "posts": 0,
       "rank": 4,
-      "growth_pct": 50450,
-      "raw_query": "aprende todo aqui",
+      "growth_pct": 30250,
+      "raw_query": "estampas del mundial 2026 para imprimir",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#cajadesobresdelmundial2026",
-      "country": "CO",
+      "tag": "#codigosparaelalbumvirtualmundi",
+      "country": "AR",
       "posts": 0,
       "rank": 5,
-      "growth_pct": 48500,
-      "raw_query": "caja de sobres del mundial 2026",
+      "growth_pct": 27050,
+      "raw_query": "codigos para el album virtual mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#listadeconvocadoscolombiamundi",
-      "country": "CO",
+      "tag": "#dondecomprarelalbumdelmundial2",
+      "country": "AR",
       "posts": 0,
       "rank": 6,
-      "growth_pct": 45950,
-      "raw_query": "lista de convocados colombia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#planilladecontroldefiguritasmu",
-      "country": "AR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 41500,
-      "raw_query": "planilla de control de figuritas mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#codigospaninimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 39600,
-      "raw_query": "codigos panini mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#extrastickermundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 38850,
-      "raw_query": "extra sticker mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#logococacola",
-      "country": "AR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 31500,
-      "raw_query": "logo coca cola",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandoempiezaelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 26700,
-      "raw_query": "cuando empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocatoriadebrasilparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 23600,
-      "raw_query": "convocatoria de brasil para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#estampa00mundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 20950,
-      "raw_query": "estampa 00 mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#dondecomprarsobresdelmundial20",
-      "country": "MX",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 19450,
-      "raw_query": "donde comprar sobres del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cajasdesobresdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 18000,
-      "raw_query": "cajas de sobres del mundial 2026",
+      "growth_pct": 18350,
+      "raw_query": "donde comprar el album del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#cromoscocacolamundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 16,
-      "growth_pct": 16150,
+      "rank": 7,
+      "growth_pct": 16850,
       "raw_query": "cromos coca cola mundial 2026",
       "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#álbummundial2026costco",
-      "country": "MX",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 15950,
-      "raw_query": "álbum mundial 2026 costco",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadeconvocadosseleçãobrasil",
-      "country": "BR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 15000,
-      "raw_query": "lista de convocados seleção brasileira hoje",
-      "seed": "Copa do Mundo 2026"
     },
     {
       "tag": "#prelistacopadomundo2026",
       "country": "BR",
       "posts": 0,
-      "rank": 19,
-      "growth_pct": 9400,
+      "rank": 8,
+      "growth_pct": 6700,
       "raw_query": "pre lista copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#listadeconvocadosdebrasilparae",
+      "tag": "#cajadesobresdelmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 9,
+      "growth_pct": 5400,
+      "raw_query": "caja de sobres del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#figuritademessimundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 10,
+      "growth_pct": 2700,
+      "raw_query": "figurita de messi mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#cajasobresmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 11,
+      "growth_pct": 2600,
+      "raw_query": "caja sobres mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#figurinhadacopadomundode2026",
       "country": "BR",
       "posts": 0,
-      "rank": 20,
-      "growth_pct": 8800,
-      "raw_query": "lista de convocados de brasil para el mundial 2026",
-      "seed": "Mundial 2026"
+      "rank": 12,
+      "growth_pct": 850,
+      "raw_query": "figurinha da copa do mundo de 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#albumcopadomundo2026capadura",
+      "country": "BR",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 700,
+      "raw_query": "album copa do mundo 2026 capa dura",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#figurinhacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 650,
+      "raw_query": "figurinha copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#figurinhasdacopa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 250,
+      "raw_query": "figurinhas da copa 2026",
+      "seed": "Copa do Mundo 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-78545841",
+      "sku": "signal-21805131",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7450,7 +7406,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-39109587",
+      "sku": "signal-18943646",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7464,7 +7420,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 107,
+      "signals_60d": 106,
       "latas_detected": 0,
       "ads_active": 3,
       "youtube_uploads_30d": 0,
@@ -7475,7 +7431,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 69,
+      "signals_60d": 68,
       "latas_detected": 2,
       "ads_active": 24,
       "youtube_uploads_30d": 0,
@@ -7726,7 +7682,7 @@
   },
   "ambush_by_brand": {
     "Nike": 60,
-    "Puma": 55,
+    "Puma": 54,
     "Under Armour": 5,
     "Penalty": 1,
     "Joma": 2,
