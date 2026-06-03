@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-03T01:48:01.909276+00:00",
+  "generated_at": "2026-06-03T07:05:38.632675+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 243,
-      "elapsed_s": 37.1
+      "count": 244,
+      "elapsed_s": 35.8
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 63.0
+      "elapsed_s": 56.1
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 4.6
+      "count": 11,
+      "elapsed_s": 4.4
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.6
+      "elapsed_s": 2.8
     },
     "youtube_rss": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 8.5
+      "elapsed_s": 8.6
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 5,
-      "elapsed_s": 41.3
+      "elapsed_s": 48.0
     },
     "trending_topics": {
       "status": "ok",
-      "count": 5,
-      "elapsed_s": 7.2
+      "count": 0,
+      "elapsed_s": 4.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.6
+      "elapsed_s": 2.2,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.4
     }
   },
   "competitors": [
@@ -92,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 90,
+      "signals": 91,
       "color": "#F40000"
     },
     {
@@ -100,23 +101,23 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 101,
+      "signals": 100,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 40,
-      "signals": 31,
+      "score": 41,
+      "signals": 32,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 34,
-      "signals": 22,
+      "score": 35,
+      "signals": 23,
       "color": "#FFCD00"
     }
   ],
@@ -127,11 +128,11 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 58.7,
     "search_leader_delta_pp": 1.4,
-    "signals_60d": 244,
-    "signals_delta_pct": 170,
+    "signals_60d": 246,
+    "signals_delta_pct": 173,
     "latas_total": 3,
     "latas_unvalidated": 3,
-    "ambush_attempts_total": 131,
+    "ambush_attempts_total": 132,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 63,
     "fifa_signals_total": 0,
@@ -999,11 +1000,11 @@
     },
     {
       "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
       "market": "MX",
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
+      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -1012,11 +1013,11 @@
     },
     {
       "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
       "market": "MX",
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
+      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -1025,11 +1026,11 @@
     },
     {
       "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
       "market": "MX",
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -1038,11 +1039,11 @@
     },
     {
       "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
+      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
       "market": "MX",
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
       "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2091,19 +2092,6 @@
     },
     {
       "level": "green",
-      "title": "Se produce la filtración de las camisetas de Nike para Croacia, Turquía, Polonia y Canadá (Copa del Mundo 2026) - Footy Headlines",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQWgxdkJfdFpwYnlVTFdMX1BwaUdQdVBNbmk1aFp2YTAwa0F4OG02YTBJME8zTkJkTEVGbVBra3NSMVBsQU84cnd0VnNNT0Y5LWcxbUVmUG1NMVMweEFiUGxaUXdGamhxRjVXc1ExemJrM0RRR3QtVzhTNU82QjJUMERVRE0xNjYyZEdvOHRMMWZ3cjNNbm8tUU52VDQwT19VMDRMRFlQaC1EM1RZUGFaMXIxQ2h2aDJqNG54ajlIM3hTZVRQb3BJVlNiWnQzQUpoVzFJSmFZMmJKV1hyUWJuVg?oc=5",
-      "timestamp": "Wed, 13 May 2026 07:44:22 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
       "title": "Se han presentado las camisetas locales y visitantes de Canadá para el Mundial de 2026 - Footy Headlines",
       "market": "MX",
       "source": "Google News MX",
@@ -2214,6 +2202,19 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUE5uZVhLM3ZkWThjazlZMFl4RUtMdld4YTZXV3VnQmFhd0dKS0U0SV9tbngydmtHRGNURkVKSnhtMzA5d0tFcVFoRjRvTnFNai14QUVHM3AxUkN6NkhSTk9UXzdCRldzS1NNUVJDcTdDc1ZyNGNzNklTaG52ZDB6Z3NwQ3JHazN5OVVXTTZ4U0dmTkpHV293THI0NEs0cnRSbDM4aVlxY2lQazllYUlpLWZOVGpxZ1FjOURMdG92MHBCa0hEUm9NYmRibmFNT2QyUk1qRVIwZmd6cEtGWGln?oc=5",
       "timestamp": "Wed, 13 May 2026 07:00:00 GMT",
       "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Se produce la filtración de las camisetas de Nike para Croacia, Turquía, Polonia y Canadá (Copa del Mundo 2026) - Footy Headlines",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQWgxdkJfdFpwYnlVTFdMX1BwaUdQdVBNbmk1aFp2YTAwa0F4OG02YTBJME8zTkJkTEVGbVBra3NSMVBsQU84cnd0VnNNT0Y5LWcxbUVmUG1NMVMweEFiUGxaUXdGamhxRjVXc1ExemJrM0RRR3QtVzhTNU82QjJUMERVRE0xNjYyZEdvOHRMMWZ3cjNNbm8tUU52VDQwT19VMDRMRFlQaC1EM1RZUGFaMXIxQ2h2aDJqNG54ajlIM3hTZVRQb3BJVlNiWnQzQUpoVzFJSmFZMmJKV1hyUWJuVg?oc=5",
+      "timestamp": "Wed, 13 May 2026 07:44:22 GMT",
+      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -7022,57 +7023,11 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#listadeconvocadoscolombiamundi",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 68000,
-      "raw_query": "lista de convocados colombia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdebrasilparaelmundia",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 55000,
-      "raw_query": "convocados de brasil para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocatoriadecolombiaparaelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 40450,
-      "raw_query": "convocatoria de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 40100,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocatoriainglaterramundial2",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 16100,
-      "raw_query": "convocatoria inglaterra mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-35237788",
+      "sku": "signal-41432307",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7082,7 +7037,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-64522534",
+      "sku": "signal-66357880",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7092,7 +7047,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-69812455",
+      "sku": "signal-32580991",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7117,7 +7072,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 75,
+      "signals_60d": 76,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7172,7 +7127,7 @@
       "brand": "Joma",
       "category": "Sportswear",
       "color": "#F39200",
-      "signals_60d": 10,
+      "signals_60d": 11,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7372,6 +7327,6 @@
     "Under Armour": 6,
     "New Balance": 1,
     "Mizuno": 1,
-    "Joma": 1
+    "Joma": 2
   }
 }
