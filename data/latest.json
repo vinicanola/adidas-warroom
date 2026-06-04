@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-04T16:30:30.923877+00:00",
+  "generated_at": "2026-06-04T19:32:46.092241+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 233,
+      "count": 237,
       "elapsed_s": 40.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 36.6
+      "elapsed_s": 75.8
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 4.6
+      "elapsed_s": 4.8
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.3
+      "elapsed_s": 4.1
     },
     "youtube_rss": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 10.2
+      "elapsed_s": 9.6
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 38.8,
-      "fallback": "kept_previous"
+      "count": 1,
+      "elapsed_s": 34.9
     },
     "trending_topics": {
       "status": "ok",
-      "count": 19,
-      "elapsed_s": 23.2
+      "count": 10,
+      "elapsed_s": 13.7
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 10.9
+      "elapsed_s": 9.4,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 3.4
     }
   },
   "competitors": [
@@ -93,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 94,
+      "signals": 96,
       "color": "#F40000"
     },
     {
@@ -101,35 +101,35 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 106,
+      "signals": 105,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 48,
-      "signals": 35,
+      "score": 51,
+      "signals": 34,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 33,
-      "signals": 21,
+      "score": 31,
+      "signals": 19,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 3,
-    "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 3,
+    "ads_active_total": 1,
+    "ads_active_top_brand": "Nike",
+    "ads_active_top_count": 1,
     "search_leader_brand": "Nike",
     "search_leader_pct": 58.7,
     "search_leader_delta_pp": 1.3,
-    "signals_60d": 256,
-    "signals_delta_pct": 188,
+    "signals_60d": 254,
+    "signals_delta_pct": 185,
     "latas_total": 4,
     "latas_unvalidated": 4,
     "ambush_attempts_total": 141,
@@ -438,6 +438,19 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
+    },
+    {
+      "level": "red",
+      "title": "🎥 Mbappé, Haaland, Ted Lasso... Nike lanza su vídeo para el Mundial - OneFootball",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR1ladFhkdkFqeExlSTNZN1h2M2J5bFVMZVd2QnQtSUJ2S1gyOUdsU0R2VjI1Wk1hU1BzNnRfQ3Z1X2ZOX2pES3U4cVY5bVNVdTNFajV6RjVRNURieVRHRXU2akdJNTFEQ1M0Y1FmU2s1R18tNVd3TE9oZEhocTBGci01UmdoMXZ4cWxVcUdQX2wwa3Y5NjFEd1dhWVQzRU1uWVZ0MzFvQVg?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 17:05:34 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
     },
     {
       "level": "yellow",
@@ -2726,19 +2739,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Tras dejar sin invicto y corona al Puma Martínez, Jesse Rodríguez quiere destronar a Naoya Inoue: “Es inevi... - bolavip.com",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0JYSlQ5bFRqWUpxTmtJdWlXVGIwa1JJQnRYYlBWZDEyY1hfbmp1SmdINFZoYmI0S2x2UnF3eWNXajFKLUUyUXJMM3NiRmFzS1M5cHFabDRaNW5zV21FSzJoYWpOTzN5T250WXNiNkEtVFEzaWxob2RhUnA3SFpTZlFDZ1RuZVljRy1JMjQzbFJhTGtWTHhWVDludndXTkVNNjlSODlBV1J0VUNwMHRRSlZmQkNYYWNYVE5TcGc3Y1pPRUtxdVJMenpUc09FMGpDRU5nY9IB2gFBVV95cUxPY05WZEVtTjI2NndZZm1IN0d0Mkt2V0hXN2ZEdDI4S1ZqN05wYTNXM2l6YXFsUllmazdiMkN3TUdGbFRKZnJIMVhRN0UtNjQxSEQ3Tm9aUkNJMFJJVUlCU2NBN0VuN0xOcEEzM2N0eHRQTW8tYVNjOU5TWXhlSzU2TzE2SHNPcVFPWXg2dE5EZ09XdmY4X2lPU211SEZ0bkN3QVFzdkU2VmhvSDluYVdQR243aFdOTFBUcEY0aU9Hb3AtbmRtUXlBSU9Na2F1UVpQUGxBaUFHZTRhZw?oc=5",
-      "timestamp": "Sat, 16 May 2026 07:00:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -4624,40 +4624,16 @@
   },
   "active_ads": [
     {
-      "brand": "Puma",
-      "page_name": "El Mentor Puma",
-      "country": "MX",
-      "platform": "facebook,instagram,threads",
-      "started_at": "2026-06-02",
-      "body_snippet": "Miles ya lo Probaron y ahora lo recomiedan Mira  el  Video y entiende el por que,",
-      "title": "Tu video  ya Comenzo Toca Aqui 👉",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1751560939558346",
-      "ad_id": "1751560939558346",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "El Mentor Puma",
-      "country": "AR",
-      "platform": "facebook,instagram,threads",
-      "started_at": "2026-06-02",
-      "body_snippet": "Miles ya lo Probaron y ahora lo recomiedan Mira  el  Video y entiende el por que,",
-      "title": "Tu video  ya Comenzo Toca Aqui 👉",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1751560939558346",
-      "ad_id": "1751560939558346",
-      "copa_score": 0
-    },
-    {
-      "brand": "Puma",
-      "page_name": "El Mentor Puma",
+      "brand": "Nike",
+      "page_name": "Gonzalez Gearalt Nike",
       "country": "CO",
-      "platform": "facebook,instagram,threads",
-      "started_at": "2026-06-02",
-      "body_snippet": "Miles ya lo Probaron y ahora lo recomiedan Mira  el  Video y entiende el por que,",
-      "title": "Tu video  ya Comenzo Toca Aqui 👉",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1751560939558346",
-      "ad_id": "1751560939558346",
-      "copa_score": 0
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-04",
+      "body_snippet": "I’m just an ordinary football enthusiast with no professional fashion design certificate and no cooperation with top sports brands. In my spare time, I design free customized professional football jer",
+      "title": "Jersey Designers Mocked My Free Custom Kits, I Created the World Cup Official Jersey Material & Aerodynamic System",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2427574797719758",
+      "ad_id": "2427574797719758",
+      "copa_score": 6
     }
   ],
   "youtube_uploads": [
@@ -4763,75 +4739,75 @@
   ],
   "tiktok_tags": [
     {
-      "tag": "#prelistacopadomundo2026",
+      "tag": "#convocaçãoparacopadomundo2026h",
       "country": "BR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 74850,
-      "raw_query": "pre lista copa do mundo 2026",
+      "growth_pct": 36550,
+      "raw_query": "convocação para copa do mundo 2026 horario",
       "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#cuandoiniciaelmundialdefutbol2",
-      "country": "CO",
+      "tag": "#convocaçãoparacopadomundo2026d",
+      "country": "BR",
       "posts": 0,
       "rank": 2,
-      "growth_pct": 29900,
-      "raw_query": "cuando inicia el mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 12650,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
+      "growth_pct": 10350,
+      "raw_query": "convocação para copa do mundo 2026 data e hora",
+      "seed": "Copa do Mundo 2026"
     },
     {
       "tag": "#prelistamexicomundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 4,
-      "growth_pct": 8900,
+      "rank": 3,
+      "growth_pct": 8800,
       "raw_query": "prelista mexico mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#prelistaargentinamundial2026",
-      "country": "AR",
+      "tag": "#prelistacopadomundo2026",
+      "country": "BR",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 2800,
-      "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
+      "rank": 4,
+      "growth_pct": 7550,
+      "raw_query": "pre lista copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
+      "tag": "#listadosconvocadosparacopadomu",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 4600,
+      "raw_query": "lista dos convocados para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#listadosconvocadoscopadomundo2",
+      "country": "BR",
       "posts": 0,
       "rank": 6,
-      "growth_pct": 1650,
-      "raw_query": "costa rica va al mundial 2026",
+      "growth_pct": 3500,
+      "raw_query": "lista dos convocados copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#estampa00mundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 7,
+      "growth_pct": 1900,
+      "raw_query": "estampa 00 mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#shakiramundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 1650,
-      "raw_query": "shakira mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdemexicoparaelmundia",
       "country": "MX",
       "posts": 0,
       "rank": 8,
-      "growth_pct": 1600,
-      "raw_query": "convocados de mexico para el mundial 2026",
+      "growth_pct": 1850,
+      "raw_query": "shakira mundial 2026",
       "seed": "Mundial 2026"
     },
     {
@@ -4839,7 +4815,7 @@
       "country": "MX",
       "posts": 0,
       "rank": 9,
-      "growth_pct": 1450,
+      "growth_pct": 1550,
       "raw_query": "monedas del mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -4848,96 +4824,15 @@
       "country": "MX",
       "posts": 0,
       "rank": 10,
-      "growth_pct": 1400,
+      "growth_pct": 1350,
       "raw_query": "lista de convocados para el mundial 2026 mexico",
       "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#shakiramundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 1350,
-      "raw_query": "shakira mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 800,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 650,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figuritademessimundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 300,
-      "raw_query": "figurita de messi mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandocomienzaelmundialdefutbo",
-      "country": "AR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 250,
-      "raw_query": "cuando comienza el mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#datadaconvocaçãoparacopadomund",
-      "country": "BR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 170,
-      "raw_query": "data da convocação para copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#logococacola",
-      "country": "AR",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 140,
-      "raw_query": "logo coca cola",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#figurinhacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 60,
-      "raw_query": "figurinha copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#tabeladacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 40,
-      "raw_query": "tabela da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-71735880",
+      "sku": "signal-253590",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -4947,7 +4842,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-48561157",
+      "sku": "signal-36945812",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -4957,7 +4852,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-85694275",
+      "sku": "signal-81685563",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -4967,7 +4862,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-62383350",
+      "sku": "signal-81269511",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -4981,9 +4876,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 122,
+      "signals_60d": 121,
       "latas_detected": 2,
-      "ads_active": 0,
+      "ads_active": 1,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -4992,9 +4887,9 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 77,
+      "signals_60d": 75,
       "latas_detected": 2,
-      "ads_active": 3,
+      "ads_active": 0,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -5014,7 +4909,7 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 15,
+      "signals_60d": 16,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 1,
@@ -5243,8 +5138,8 @@
   },
   "ambush_by_brand": {
     "Nike": 66,
-    "Puma": 60,
-    "Under Armour": 8,
+    "Puma": 59,
+    "Under Armour": 9,
     "New Balance": 1,
     "Mizuno": 5,
     "Joma": 1
