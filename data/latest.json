@@ -1,53 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-07T18:18:03.158280+00:00",
+  "generated_at": "2026-06-07T20:24:07.995339+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 238,
-      "elapsed_s": 38.3
+      "count": 243,
+      "elapsed_s": 35.3
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 66.2
+      "elapsed_s": 23.4
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.8
+      "elapsed_s": 4.6
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.1
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.9
+      "elapsed_s": 9.0
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 44.1,
+      "elapsed_s": 38.9,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 22.3
+      "count": 17,
+      "elapsed_s": 15.8
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 23.4
+      "elapsed_s": 14.8,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -93,7 +94,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 98,
+      "signals": 99,
       "color": "#F40000"
     },
     {
@@ -108,16 +109,16 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 63,
-      "signals": 38,
+      "score": 64,
+      "signals": 39,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 30,
-      "signals": 18,
+      "score": 35,
+      "signals": 23,
       "color": "#FFCD00"
     }
   ],
@@ -128,13 +129,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 60.0,
     "search_leader_delta_pp": 1.1,
-    "signals_60d": 260,
-    "signals_delta_pct": 80,
+    "signals_60d": 267,
+    "signals_delta_pct": 84,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 144,
+    "ambush_attempts_total": 150,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 66,
+    "ambush_top_count": 70,
     "fifa_signals_total": 0,
     "selecao_signals_total": 30,
     "official_signals_total": 0
@@ -7030,20 +7031,11 @@
   ],
   "tiktok_tags": [
     {
-      "tag": "#listadeconvocadoscolombiamundi",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 68500,
-      "raw_query": "lista de convocados colombia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
       "tag": "#convocadosargentinamundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 2,
-      "growth_pct": 56000,
+      "rank": 1,
+      "growth_pct": 55850,
       "raw_query": "convocados argentina mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -7051,89 +7043,44 @@
       "tag": "#cuandoempiezaelmundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 3,
-      "growth_pct": 55200,
+      "rank": 2,
+      "growth_pct": 54000,
       "raw_query": "cuando empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdebrasilparaelmundia",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 51350,
-      "raw_query": "convocados de brasil para el mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#aprendetodoaquimundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 48600,
+      "rank": 3,
+      "growth_pct": 47800,
       "raw_query": "aprende todo aqui mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 40000,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocatoriadecolombiaparaelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 39050,
-      "raw_query": "convocatoria de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aprendetodoaqui",
-      "country": "BR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 33750,
-      "raw_query": "aprende todo aqui",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#convocadosdebrasilparaelmundia",
       "country": "BR",
       "posts": 0,
-      "rank": 9,
-      "growth_pct": 33650,
+      "rank": 4,
+      "growth_pct": 33600,
       "raw_query": "convocados de brasil para el mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#prelistaseleçãobrasileira",
+      "tag": "#aprendetodoaqui",
       "country": "BR",
       "posts": 0,
-      "rank": 10,
-      "growth_pct": 30850,
-      "raw_query": "pre lista seleção brasileira",
-      "seed": "Selecao Brasileira"
-    },
-    {
-      "tag": "#inauguracióndelmundial2026hora",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 25150,
-      "raw_query": "inauguración del mundial 2026 horario",
+      "rank": 5,
+      "growth_pct": 32850,
+      "raw_query": "aprende todo aqui",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#prelistacopadomundo2026brasil",
       "country": "BR",
       "posts": 0,
-      "rank": 12,
-      "growth_pct": 24900,
+      "rank": 6,
+      "growth_pct": 24800,
       "raw_query": "pre lista copa do mundo 2026 brasil",
       "seed": "Copa do Mundo 2026"
     },
@@ -7141,34 +7088,16 @@
       "tag": "#convocaçãodainglaterraparacopa",
       "country": "BR",
       "posts": 0,
-      "rank": 13,
-      "growth_pct": 18450,
+      "rank": 7,
+      "growth_pct": 18350,
       "raw_query": "convocação da inglaterra para copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 17350,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistaselecaobrasileira",
-      "country": "BR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 11800,
-      "raw_query": "pre.lista selecao brasileira",
-      "seed": "Selecao Brasileira"
     },
     {
       "tag": "#convocaçãoparacopadomundo2026d",
       "country": "BR",
       "posts": 0,
-      "rank": 16,
+      "rank": 8,
       "growth_pct": 9900,
       "raw_query": "convocação para copa do mundo 2026 data e hora",
       "seed": "Copa do Mundo 2026"
@@ -7177,8 +7106,8 @@
       "tag": "#prelistamexicomundial2026",
       "country": "MX",
       "posts": 0,
-      "rank": 17,
-      "growth_pct": 8300,
+      "rank": 9,
+      "growth_pct": 8250,
       "raw_query": "prelista mexico mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -7186,7 +7115,7 @@
       "tag": "#listadosconvocadosparacopadomu",
       "country": "BR",
       "posts": 0,
-      "rank": 18,
+      "rank": 10,
       "growth_pct": 4600,
       "raw_query": "lista dos convocados para copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
@@ -7195,25 +7124,70 @@
       "tag": "#convocaçãoparacopadomundo2026h",
       "country": "BR",
       "posts": 0,
-      "rank": 19,
-      "growth_pct": 4600,
+      "rank": 11,
+      "growth_pct": 4550,
       "raw_query": "convocação para copa do mundo 2026 horario",
       "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
+      "tag": "#serbiamundial2026",
+      "country": "MX",
       "posts": 0,
-      "rank": 20,
-      "growth_pct": 4500,
-      "raw_query": "lista de francia mundial 2026",
+      "rank": 12,
+      "growth_pct": 2300,
+      "raw_query": "serbia mundial 2026",
       "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#monedasdelmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 2150,
+      "raw_query": "monedas del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocadosdemexicoparaelmundia",
+      "country": "MX",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 1550,
+      "raw_query": "convocados de mexico para el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#monedasconmemorativasmundial20",
+      "country": "MX",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 1400,
+      "raw_query": "monedas conmemorativas mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#isaiasviolanteseleccionmexican",
+      "country": "MX",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 900,
+      "raw_query": "isaias violante seleccion mexicana",
+      "seed": "Seleccion mexicana"
+    },
+    {
+      "tag": "#listaoficialseleccionmexicana",
+      "country": "MX",
+      "posts": 0,
+      "rank": 17,
+      "growth_pct": 40,
+      "raw_query": "lista oficial seleccion mexicana",
+      "seed": "Seleccion mexicana"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-23036771",
+      "sku": "signal-96875037",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7223,7 +7197,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-85911232",
+      "sku": "signal-46561933",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7233,7 +7207,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-15956112",
+      "sku": "signal-2844716",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7243,7 +7217,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-63682706",
+      "sku": "signal-53807015",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7257,7 +7231,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 123,
+      "signals_60d": 128,
       "latas_detected": 2,
       "ads_active": 3,
       "youtube_uploads_30d": 4,
@@ -7268,7 +7242,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 79,
+      "signals_60d": 81,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7518,8 +7492,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 66,
-    "Puma": 63,
+    "Nike": 70,
+    "Puma": 65,
     "Under Armour": 7,
     "New Balance": 1,
     "Mizuno": 5,
