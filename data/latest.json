@@ -1,48 +1,49 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-08T00:22:51.226066+00:00",
+  "generated_at": "2026-06-08T06:06:07.378424+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 245,
-      "elapsed_s": 39.6
+      "count": 243,
+      "elapsed_s": 39.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 44.8
+      "elapsed_s": 52.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.0
+      "elapsed_s": 5.1
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.4
+      "elapsed_s": 8.5
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 9.9
+      "count": 2,
+      "elapsed_s": 9.4
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 40.9,
+      "elapsed_s": 61.1,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 22.9
+      "count": 0,
+      "elapsed_s": 5.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.1
+      "elapsed_s": 3.0,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
@@ -101,23 +102,23 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 108,
+      "signals": 107,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 60,
-      "signals": 35,
+      "score": 61,
+      "signals": 36,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 36,
-      "signals": 24,
+      "score": 35,
+      "signals": 23,
       "color": "#FFCD00"
     }
   ],
@@ -128,8 +129,8 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 60.9,
     "search_leader_delta_pp": 2.0,
-    "signals_60d": 267,
-    "signals_delta_pct": 84,
+    "signals_60d": 266,
+    "signals_delta_pct": 83,
     "latas_total": 4,
     "latas_unvalidated": 4,
     "ambush_attempts_total": 150,
@@ -5792,6 +5793,10 @@
       {
         "date": "20260606",
         "views": 256
+      },
+      {
+        "date": "20260607",
+        "views": 287
       }
     ],
     "Nike": [
@@ -6030,6 +6035,10 @@
       {
         "date": "20260606",
         "views": 167
+      },
+      {
+        "date": "20260607",
+        "views": 216
       }
     ],
     "Puma": [
@@ -6112,6 +6121,10 @@
       {
         "date": "20260605",
         "views": 1
+      },
+      {
+        "date": "20260607",
+        "views": 2
       }
     ],
     "New Balance": [
@@ -6350,6 +6363,10 @@
       {
         "date": "20260606",
         "views": 64
+      },
+      {
+        "date": "20260607",
+        "views": 82
       }
     ],
     "Under Armour": [
@@ -6588,6 +6605,10 @@
       {
         "date": "20260606",
         "views": 24
+      },
+      {
+        "date": "20260607",
+        "views": 29
       }
     ],
     "Mizuno": [
@@ -6818,6 +6839,10 @@
       {
         "date": "20260606",
         "views": 4
+      },
+      {
+        "date": "20260607",
+        "views": 4
       }
     ],
     "Penalty": [
@@ -6843,6 +6868,10 @@
       },
       {
         "date": "20260523",
+        "views": 1
+      },
+      {
+        "date": "20260607",
         "views": 1
       }
     ]
@@ -6888,66 +6917,12 @@
   "youtube_uploads": [
     {
       "brand": "Adidas",
-      "channel": "adidas",
-      "title": "Have you eaten? #adidas #football #worldcup",
-      "published_at": "2026-06-07T13:00:21+00:00",
-      "video_id": "LuWyf8wJyZI",
-      "thumbnail": "https://i.ytimg.com/vi/LuWyf8wJyZI/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/LuWyf8wJyZI"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "the 🐐, forever #football #adidas #worldcup",
-      "published_at": "2026-06-05T14:00:01+00:00",
-      "video_id": "-yTBis17F9c",
-      "thumbnail": "https://i.ytimg.com/vi/-yTBis17F9c/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/-yTBis17F9c"
-    },
-    {
-      "brand": "Adidas",
       "channel": "Real Madrid",
       "title": "😆 Vini Jr. 1-0 Admin #ViniJr #RealMadrid",
       "published_at": "2026-06-05T08:21:33+00:00",
       "video_id": "uvQidhZMR_E",
       "thumbnail": "https://i.ytimg.com/vi/uvQidhZMR_E/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/uvQidhZMR_E"
-    },
-    {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "Rip The Script | Nike Football",
-      "published_at": "2026-06-04T15:59:06+00:00",
-      "video_id": "IyZ1WIua_1s",
-      "thumbnail": "https://i.ytimg.com/vi/IyZ1WIua_1s/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=IyZ1WIua_1s"
-    },
-    {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "Rip The Script | Nike Football",
-      "published_at": "2026-06-04T15:59:06+00:00",
-      "video_id": "IyZ1WIua_1s",
-      "thumbnail": "https://i.ytimg.com/vi/IyZ1WIua_1s/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=IyZ1WIua_1s"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "team F50 or Pred? #football #worldcup #adidas",
-      "published_at": "2026-06-04T08:30:06+00:00",
-      "video_id": "KGD7MXgavV0",
-      "thumbnail": "https://i.ytimg.com/vi/KGD7MXgavV0/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/KGD7MXgavV0"
-    },
-    {
-      "brand": "New Balance",
-      "channel": "newbalance",
-      "title": "New Balance Global Football | We Got Now | 2026",
-      "published_at": "2026-06-02T16:08:14+00:00",
-      "video_id": "ugsgSwOAZx0",
-      "thumbnail": "https://i.ytimg.com/vi/ugsgSwOAZx0/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/ugsgSwOAZx0"
     },
     {
       "brand": "Adidas",
@@ -6957,239 +6932,13 @@
       "video_id": "udwpnuhdmKU",
       "thumbnail": "https://i.ytimg.com/vi/udwpnuhdmKU/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/udwpnuhdmKU"
-    },
-    {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "On set with the fastest duo in football.",
-      "published_at": "2026-06-02T07:02:08+00:00",
-      "video_id": "Nicudp4FDJQ",
-      "thumbnail": "https://i.ytimg.com/vi/Nicudp4FDJQ/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
-    },
-    {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "On set with the fastest duo in football.",
-      "published_at": "2026-06-02T07:02:08+00:00",
-      "video_id": "Nicudp4FDJQ",
-      "thumbnail": "https://i.ytimg.com/vi/Nicudp4FDJQ/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
-    },
-    {
-      "brand": "Under Armour",
-      "channel": "Under Armour",
-      "title": "Not your average cotton t-shirt😤🔥 #sports #football #athlete",
-      "published_at": "2026-06-01T15:04:54+00:00",
-      "video_id": "xzxRwdWVqBA",
-      "thumbnail": "https://i.ytimg.com/vi/xzxRwdWVqBA/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/xzxRwdWVqBA"
-    },
-    {
-      "brand": "New Balance",
-      "channel": "newbalance",
-      "title": "New Balance Global Football | We Got Now | 2026",
-      "published_at": "2026-05-15T14:09:25+00:00",
-      "video_id": "rH-YloK2Te4",
-      "thumbnail": "https://i.ytimg.com/vi/rH-YloK2Te4/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=rH-YloK2Te4"
-    },
-    {
-      "brand": "New Balance",
-      "channel": "newbalance",
-      "title": "Yan Diomande | New Balance Football",
-      "published_at": "2026-04-08T17:02:56+00:00",
-      "video_id": "M6VTC-N-diw",
-      "thumbnail": "https://i.ytimg.com/vi/M6VTC-N-diw/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 66550,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aprendetodoaqui",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 52650,
-      "raw_query": "aprende todo aqui",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#gruposdelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 22750,
-      "raw_query": "grupos del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandoiniciaelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 11600,
-      "raw_query": "cuando inicia el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 10750,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 10550,
-      "raw_query": "inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 7800,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#prelistamexicomundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 7550,
-      "raw_query": "prelista mexico mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistaargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 2700,
-      "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#monedasdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 1850,
-      "raw_query": "monedas del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#monedasconmemorativasmundial20",
-      "country": "MX",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 1650,
-      "raw_query": "monedas conmemorativas mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 1250,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadeconvocadosparaelmundial",
-      "country": "MX",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 1100,
-      "raw_query": "lista de convocados para el mundial 2026 mexico",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdemexicoparaelmundia",
-      "country": "MX",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 1050,
-      "raw_query": "convocados de mexico para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 900,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 800,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 800,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 750,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#shakiramundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 400,
-      "raw_query": "shakira mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandocomienzaelmundialdefutbo",
-      "country": "AR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 160,
-      "raw_query": "cuando comienza el mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-71052375",
+      "sku": "signal-52191903",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7199,7 +6948,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-45960647",
+      "sku": "signal-54641167",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7209,7 +6958,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-64143864",
+      "sku": "signal-60363206",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7219,7 +6968,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-48488435",
+      "sku": "signal-5888469",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7236,7 +6985,7 @@
       "signals_60d": 128,
       "latas_detected": 2,
       "ads_active": 3,
-      "youtube_uploads_30d": 4,
+      "youtube_uploads_30d": 0,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
     },
@@ -7244,7 +6993,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 80,
+      "signals_60d": 79,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7258,7 +7007,7 @@
       "signals_60d": 5,
       "latas_detected": 0,
       "ads_active": 0,
-      "youtube_uploads_30d": 2,
+      "youtube_uploads_30d": 0,
       "top_movement": "New Balance e São Paulo renovam parceria até 2032; veja todos os detalhes - CNN Brasil",
       "top_source": "Google News BR"
     },
@@ -7269,7 +7018,7 @@
       "signals_60d": 15,
       "latas_detected": 0,
       "ads_active": 0,
-      "youtube_uploads_30d": 1,
+      "youtube_uploads_30d": 0,
       "top_movement": "¡Como si fuera 1998! Under Armour y ABA Sport crean alianza para relanzar jersey de la Pie",
       "top_source": "Google News MX"
     },
