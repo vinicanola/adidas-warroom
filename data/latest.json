@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-09T08:40:55.137185+00:00",
+  "generated_at": "2026-06-09T12:16:08.188588+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 236,
-      "elapsed_s": 36.1
+      "count": 237,
+      "elapsed_s": 36.0
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 31.2
+      "elapsed_s": 30.9
     },
     "inpi_proxy": {
       "status": "ok",
@@ -21,28 +21,28 @@
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.2
+      "elapsed_s": 6.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.9
+      "elapsed_s": 9.5
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 53.1,
+      "elapsed_s": 52.7,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.0
+      "elapsed_s": 5.2
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.3,
+      "elapsed_s": 2.5,
       "fallback": "kept_previous"
     },
     "wikipedia": {
@@ -94,7 +94,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 94,
+      "signals": 95,
       "color": "#F40000"
     },
     {
@@ -102,15 +102,15 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 104,
+      "signals": 102,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 61,
-      "signals": 36,
+      "score": 63,
+      "signals": 38,
       "color": "#75AADB"
     },
     {
@@ -129,15 +129,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 58.3,
     "search_leader_delta_pp": 0.0,
-    "signals_60d": 257,
-    "signals_delta_pct": 86,
+    "signals_60d": 258,
+    "signals_delta_pct": 84,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 148,
+    "ambush_attempts_total": 149,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 70,
+    "ambush_top_count": 71,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 26,
+    "selecao_signals_total": 27,
     "official_signals_total": 0
   },
   "signals": [
@@ -7041,7 +7041,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-21239250",
+      "sku": "signal-74988548",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7051,7 +7051,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-11400284",
+      "sku": "signal-63998557",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7061,7 +7061,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-2962220",
+      "sku": "signal-22415555",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7071,7 +7071,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-10967287",
+      "sku": "signal-11847648",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7085,7 +7085,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 124,
+      "signals_60d": 126,
       "latas_detected": 2,
       "ads_active": 3,
       "youtube_uploads_30d": 4,
@@ -7151,7 +7151,7 @@
       "brand": "Joma",
       "category": "Sportswear",
       "color": "#F39200",
-      "signals_60d": 11,
+      "signals_60d": 10,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7346,7 +7346,7 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 70,
+    "Nike": 71,
     "Puma": 61,
     "Under Armour": 7,
     "New Balance": 3,
