@@ -1,54 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-09T04:23:05.628493+00:00",
+  "generated_at": "2026-06-09T08:40:55.137185+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 236,
-      "elapsed_s": 36.2
+      "elapsed_s": 36.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 59.2
+      "elapsed_s": 31.2
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 11,
-      "elapsed_s": 4.6
+      "count": 12,
+      "elapsed_s": 4.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 4.2
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 9.1,
-      "fallback": "kept_previous"
+      "count": 13,
+      "elapsed_s": 8.9
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 53.4,
+      "elapsed_s": 53.1,
       "fallback": "kept_previous"
     },
     "trending_topics": {
       "status": "ok",
-      "count": 5,
-      "elapsed_s": 10.1
+      "count": 0,
+      "elapsed_s": 8.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.6
+      "elapsed_s": 2.3,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 3.7
     }
   },
   "competitors": [
@@ -94,7 +94,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 97,
+      "signals": 94,
       "color": "#F40000"
     },
     {
@@ -102,7 +102,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 105,
+      "signals": 104,
       "color": "#006847"
     },
     {
@@ -129,15 +129,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 58.3,
     "search_leader_delta_pp": 0.0,
-    "signals_60d": 261,
-    "signals_delta_pct": 78,
+    "signals_60d": 257,
+    "signals_delta_pct": 86,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 150,
+    "ambush_attempts_total": 148,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 71,
+    "ambush_top_count": 70,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 28,
+    "selecao_signals_total": 26,
     "official_signals_total": 0
   },
   "signals": [
@@ -507,19 +507,6 @@
     },
     {
       "level": "yellow",
-      "title": "[Registro/marca] Sem grade: Jaecoo 7 elétrico aparece em registros no Brasil - Auto+ TV",
-      "market": "BR",
-      "source": "INPI proxy",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQW5WcFdPYnV0VVZhMjNscEtBbXFFSmJwWjVKWHMtNWpOa2xLUUNCUnBRN0xLQVFZOEpUYTVKeEh4cGdSeDZIVVlHR1lKTElOSlIwRjJhOGJObXNNUFZUcUw3a2dtVEFKOTVUVDNRdmVrNEx6SU1tNjJ5WnQwczRrTmIydExlNDVRaUI4YVhUNWNXWEF2Z2R6b2pTVXQ0azJi?oc=5",
-      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
       "title": "[Registro/marca] INPI reconhece Smart Fit como marca de ‘alto renome’ - O Globo",
       "market": "BR",
       "source": "INPI proxy",
@@ -816,58 +803,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "A falha nos uniformes da Nike para a Copa do Mundo - VEJA",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjlsT1dqSi13R3MxaUdJOS00b0dlT0VqWGJBcjhWRlJQLWc4ZDllNVlqQVNQV3cxWkJEMmNNMFBGRzc2UGhLcHFEYTNZa25mX05hWnlwNlFxdzQzbDU5ajJmYk5YV0hzUDRhSEYtamtJRkNiUTUxMm1kbUtWTngwN19rV0hQVjRPZ2lMRC1n?oc=5",
-      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
-    },
-    {
-      "level": "green",
-      "title": "Se confirmó un error irreversible en camisetas del Mundial 2026 de Francia, Brasil y otras 9 selecciones - MinutoUno",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYVhUTmVwNmxLbkRTZldfMGFrYktRTVUxZnQ3dlQxTDY0YzJkRVpqU05JRExjeWRRRms0dU04VDE2MGhHTTc4UmJCamtidHVwUmFEMjd2YWl1UjE5azI0M1lkelBSc0piem5FYnVYcktyNXN1cGdhQ0lJaFhzTDE2RDJRS1NZZWZlY1pUT3oxVWYtbFR5VDVIYnF4eGYydEhnZktRb0tZZHJBUUlwQ1FUZzBTWkxtWWI0UVBXMkdaRHFNenlMeGNLLVVJT3VFbEVSWFZvN1dXRTbSAdgBQVVfeXFMTWFYVE5lcDZsS25EU2ZXXzBha2JLUU1VMWZ0N3ZUMUw2NGMyZEVaalNOSURMY3lkUUZrNHVNOFQxNjBoR003OFJiQmprYnR1cFJhRDI3dmFpdVIxOWsyNDNZZHpQUnNKYnpuRWJ1WHJLcjVzdXBnYUNJSWhYc0wxNkQyUUtTWWVmZWNaVE96MVVmLWxUeVQ1SGJxeHhmMnRIZ2ZLUW9LWWRyQVFJcENRVGcwU1pMbVliNFFQVzJHWkRxTXp5THhjSy1VSU91RWxFUlhWbzdXV0U2?oc=5",
-      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Falla vergonzosa: camisetas Nike presentan defecto visible a meses del Mundial 2026 - Excélsior",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObUpBaHV3bWRpU3l1M1dvcDlQdzhIZHpzRG03ZlE3RUI2czhDeHFxMDN0NjNtYm4wU0JtaEp2dWVwRENGekQ2SmVySTYxRTZLN1hmMDhJUXp2M2tlZnE4clpJMGs1alNIN29ObG5zYnhfVUJSRlViX09qSUdNUERpMEJydG9VZG5TekNVYTlyVUxJV0VRX3E1WUhGRi1FeUx2Vm5lanpjb2FvUEFNQ0NHNThOdi3SAboBQVVfeXFMTTFYOGlsV2ZXemRmVl9uSDlLVW9UX0pvU1dNcTdHWi1BN1BtLTU3R2Q5TVpfbTFiTWgxZDd2aXNjZnNKMFNYc3dWUFFkSnJMdjhhYTg1VWhfY1hsNTF4RndLSzhGTWdTUjItWDJ6UGR0ZDFQRWRVSjdmWTRnX21lRVNHLTZJRXoycHVad0RFc3d5N3prdjJXcjIwMzBEX1NkNGVKdUVSOElPMjI4enpvOVhnSERhUFZjYjJ3?oc=5",
-      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike admite erro na costura das camisas fabricadas para a Copa do Mundo, diz jornal - O Globo",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGU0ZVItZkRKcko3azNiSzhOaWRxNFJ0Ukh6QlhmQlY0aFZrZ0QzRkNkbGV3Nk9FZ3Uwa2YtMFdlS2ZMTjUweUYxZ2ZJQzJWZFh3anZFblVoNERQTnc4WDRLRG1RS1RLaTJ0dm9rYjRxWWNtSW41X25zam9GZURZVENZUVZpOXBMTlFqZnBCbl9fbTZPRzB2eFZSdEtNQUpyVUFtZ1RwQTRRZ0dvRFZRQmlVNkxKNng3RFhzZWQwYnlSa05SX01ETHNEQ0RDZ0RxclpiSE9VbFfSAecBQVVfeXFMTTJPOW02eFAxTlhiX2NEeDVGOWtQdkVfZ2Z3MXBnSU9UOWtnREVYV0ZoTTNYc1ZUTy1sR2NvN0VSMWFRanhLdG1nUk1PUm1pX2ZaOUtTRi0tZVVHZmQweTAwblFPeTVPUEduNzU0NWdtY0p2NmVnWGxSZXBhSno5UjBXZC1BSlRTeC1wdVpXcG1HdUd4akRnNWlEVUdNamR0SzF2N0s5dVIyWFNmMm85WEpfQnRzVTJReGpVR2tyeEYzN2FjOWVlREtOM1IzOWppN3ltS2s4QVpnLXNQbUJ6RENWaUFCeGcw?oc=5",
-      "timestamp": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
     },
     {
       "level": "green",
@@ -2736,6 +2671,71 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR29mMVY0eTh5aDYxXzZSd0x3b18tdXdMamtLUjZ6ZnExX3pPWnREVjZVQWQyMnlwX3M0azhhR0d2NENHQ0wwTG5rV2ZsYlMtRlVSN0VTRDJ1RE5pWnZxRHBoTHhaajdIRmt3NUlCV3FVdmRWeWU3cUNfNlZxMjNQcC04cllZelRDdHhzLUxQdDFndmVy?oc=5",
       "timestamp": "Tue, 26 May 2026 15:58:10 GMT",
       "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "La icónica playera de México del Mundial de Francia 1998 se venderá de forma masiva en CDMX - Sopitas.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM3c4c0lNc2JCNTFUeVoxUkdRUWt1Z19Ta21JOUJEaC0tMWp2NUZOVnhfemNUNUtuT2otcDVQMkR5WXdMZ2hvYk1aT01SY3Fwa19Oa09XbkZ4bl9oOXRYQWJsQTJKbHozeTJWOW9HY0FXSVBWWHJ6YWdveklPT2RrOGxEQ2JCR0FVaG9NNk5iN2JRM3dETm9MVEhnVDfSAaIBQVVfeXFMTlRiTHdWWjhCTEZfVmc2LXI2ZERDa1o2cmlBOTBPWlNWVTRqR0k3dHF1VHgyb2p5amJ4a2hrbExYTHN6Mk1QM2dNSlZyQ1p3bFZTeWpQQWVVbkFYZ1pzdzZfdldyTnhHM1k2dVFJaEFiNDZHQXZiZFFJeTg4X0RQbVRGeWxHaWZFNkZpNzJIRk5iR0laSV9NR0ZsSm51ZXJiUTBn?oc=5",
+      "timestamp": "Wed, 27 May 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Motagua se despide de Joma e impactará con marca mundial: detalles sobre nuevo uniforme - ElHeraldo.hn",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ3ZIb19STUM4dlgzZ1daTVNYZGZiSl9sMUZqejlxeW1WTWctX0lGWExyRXNycnBuRGdPbHVyZmU2cl9YQkQ2UVN0Q0lWcDJWNjFaajF2N1dMSlhXLVpuT1o0WVQzdTk4S0ozMEtpTmVESUFsNFZZMjVGZHZpa2NmSXV3TGhScEpqbGd5S1FSRHBJUWxHU2FXWk1fT1VxU1F3TU9jLWNNeTF2b0xKWTlGQWRfRjhRSWxRUTEwZjVFTU9FVU5vNUJqRQ?oc=5",
+      "timestamp": "Wed, 27 May 2026 07:00:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Jersey de México para el Mundial de Francia 98 vuelve a la venta y desata nostalgia entre aficionados: esto es lo que costará - Infobae",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTHY5ZGZhaldzYUY1RGNncmRrLWxXLTREMWdkSUlBUy1tV0ZBbGZvNlZtamhXTHFvTTNQSW54NE1Bc0hyLVg3WWl5bjBVS1pyQnk5cEpiOHUzQVVJQzBBNU82ZzYwVzh3bHNNdm84MmVxYXFRME5QUDJybFl2alhyVjZYNElGWkRDZXlnUzRXWXNXdmFhQzdxbmpRYXBFeEd4VTRQcUlSSkJFZTVaUXp4RlNTYVA1bXlvczBpUEFYNzl2NzdCRjV0cFUyRGdRVVJvRlVVaVpuOXJySXVuUFYtWkxseTFRYUlvb0loN2FoTGswZVJSUjZtbU1EVzRBTVgwODVYZWQ4a9IBogJBVV95cUxPWVhOUjlrTkxBVkRsTTB5anNJelZ6TUVzSnJ3Y1FRdlpzQWppQ0lUN0NKSVBkVzZLajdtQ0JsZDZxUUEzcjhaT2JGN0Q5LXhWMDJfLWRhdDlHaWNMc1ZnMXVjc3hmNlRscDY3ZHJOWkM5TmtKQ2U0NG9tWmt3b05yZE1NUDhfNUFUTDhZSnZtdEFXRTV4WUp5Z2VvWDJfVlVrRmVPSUtyRUtJbnVVaUVMOGhXcmoyTGNOR0JlOWltQy1Fa282REFBTmxzOERnN1kzMmJLN01VSkg3QUxsSmluYnRLNDB4WWd5WG94N215SVpVUDRNS2pMRmtpc29nOUpCMDgwOENLbnRsYzhxamFxWFR0ZWl0Q2VTbjVEV3E4MWxyZw?oc=5",
+      "timestamp": "Thu, 28 May 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Adidas, Nike e Puma vestem mais seleções na Copa, mas perdem participação ante 2022 - InfoMoney",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUYtMndUTkZlZjFPYW5MYkxVcGRRcFdUX084RnhPalBTUjMzb3Z6RlVGZXhJM1o5RHllamYzVXhJS1IyUlNrOVFINmRocTRDMVVoSG15U21jUFpzaVZfVGdLaTJ6aWZfUEpWUkdtTVVpclRTS3BRcERDSFQ4bUs3Vko0M1A2ejRNTExmNlJMQ3IxcmhBNnJ4M3BkLTZ5VjU5RDdQTXR5cHJSb0dvVkh5Tl9DQVFsUUhCUXkyQtIBwgFBVV95cUxNcUlReWNsOVlqbnlpV0N5T1VVekg3Q0ZQZjhJZ2hRNU1JbmxXRkMzc0k2ZjJCTzdEUm1LZmxZal9CVzFHUFFhQ2pBZDgxUlIzdC05VVdMZWk2R2k4Y3A0NG9COExOalAza0M5cFFTOW9URmYwWnY4REpycEd3LWdtdGFYN3VPU2taYldFTGRRT2FpSlc4aEl0cjRFZ1dXQzBGN0VIUnFqVkt2ZEVWRnFsVmlqV0JySWZiT2lqazlva1ljZw?oc=5",
+      "timestamp": "Fri, 29 May 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "La colección Nike Football x LEGO® invita a los niños a jugar siguiendo sus instintos — NIKE, Inc. - About Nike",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXNuclFUZVZBWnZvYzl0cjdhQ015ajFCWjlYREtqQkZaMXcySTVnM242QlZvT2YzbWFHNDQwWEFqakRtTXMzblYyVXlhdHZiNkdBLW43V2kwWVV3ZTJfV2FPanJScDA4LVZxWGUxTG1pdktHVWVNazd0REU2N3huMC13UGM2eEFOck1JSEg5RGpYdFRZd1JSOEVLVlpRZlAzWXhFX245WDlwVUUxdmJUMFpKUTNlV0E?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -7037,57 +7037,11 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 41000,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#jordaniavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 24100,
-      "raw_query": "jordania va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 8850,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 850,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 550,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-86293726",
+      "sku": "signal-21239250",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7097,7 +7051,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-33683232",
+      "sku": "signal-11400284",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7107,7 +7061,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-22743815",
+      "sku": "signal-2962220",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7117,7 +7071,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-625116",
+      "sku": "signal-10967287",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7131,7 +7085,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 124,
       "latas_detected": 2,
       "ads_active": 3,
       "youtube_uploads_30d": 4,
@@ -7142,7 +7096,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 77,
+      "signals_60d": 76,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7392,8 +7346,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 71,
-    "Puma": 62,
+    "Nike": 70,
+    "Puma": 61,
     "Under Armour": 7,
     "New Balance": 3,
     "Mizuno": 5,
