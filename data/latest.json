@@ -1,54 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-09T12:16:08.188588+00:00",
+  "generated_at": "2026-06-09T16:14:46.165421+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 237,
-      "elapsed_s": 36.0
+      "count": 236,
+      "elapsed_s": 38.9
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 30.9
+      "elapsed_s": 61.0
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.7
+      "elapsed_s": 5.3
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.4
+      "elapsed_s": 4.3
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 9.5
+      "count": 11,
+      "elapsed_s": 10.0
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 52.7,
-      "fallback": "kept_previous"
+      "count": 9,
+      "elapsed_s": 50.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 5.2
+      "count": 20,
+      "elapsed_s": 23.8
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.5,
+      "elapsed_s": 4.7,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.7
+      "elapsed_s": 3.4
     }
   },
   "competitors": [
@@ -94,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 95,
+      "signals": 96,
       "color": "#F40000"
     },
     {
@@ -102,15 +101,15 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 102,
+      "signals": 104,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 63,
-      "signals": 38,
+      "score": 61,
+      "signals": 36,
       "color": "#75AADB"
     },
     {
@@ -123,19 +122,19 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 3,
+    "ads_active_total": 9,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 3,
+    "ads_active_top_count": 9,
     "search_leader_brand": "Nike",
     "search_leader_pct": 58.3,
     "search_leader_delta_pp": 0.0,
-    "signals_60d": 258,
-    "signals_delta_pct": 84,
+    "signals_60d": 259,
+    "signals_delta_pct": 85,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 149,
+    "ambush_attempts_total": 151,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 71,
+    "ambush_top_count": 72,
     "fifa_signals_total": 0,
     "selecao_signals_total": 27,
     "official_signals_total": 0
@@ -6883,38 +6882,110 @@
   "active_ads": [
     {
       "brand": "Nike",
-      "page_name": "Gonzalez Gearalt Nike",
+      "page_name": "Martinez Innis Nike",
       "country": "MX",
-      "platform": "facebook,instagram",
-      "started_at": "2026-06-05",
-      "body_snippet": "hello",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1319395400339773",
-      "ad_id": "1319395400339773",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
+      "ad_id": "2881026572236513",
       "copa_score": 0
     },
     {
       "brand": "Nike",
-      "page_name": "Gonzalez Gearalt Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=973002715509363",
+      "ad_id": "973002715509363",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1014071614421608",
+      "ad_id": "1014071614421608",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1001518266149505",
+      "ad_id": "1001518266149505",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
       "country": "AR",
-      "platform": "facebook,instagram",
-      "started_at": "2026-06-05",
-      "body_snippet": "hello",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1319395400339773",
-      "ad_id": "1319395400339773",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
+      "ad_id": "2881026572236513",
       "copa_score": 0
     },
     {
       "brand": "Nike",
-      "page_name": "Gonzalez Gearalt Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=3238673093187909",
+      "ad_id": "3238673093187909",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1001518266149505",
+      "ad_id": "1001518266149505",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
       "country": "CO",
-      "platform": "facebook,instagram",
-      "started_at": "2026-06-05",
-      "body_snippet": "hello",
-      "title": "",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1319395400339773",
-      "ad_id": "1319395400339773",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=973002715509363",
+      "ad_id": "973002715509363",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "CO",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1014071614421608",
+      "ad_id": "1014071614421608",
       "copa_score": 0
     }
   ],
@@ -6936,15 +7007,6 @@
       "video_id": "LuWyf8wJyZI",
       "thumbnail": "https://i.ytimg.com/vi/LuWyf8wJyZI/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/LuWyf8wJyZI"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "the 🐐, forever #football #adidas #worldcup",
-      "published_at": "2026-06-05T14:00:01+00:00",
-      "video_id": "-yTBis17F9c",
-      "thumbnail": "https://i.ytimg.com/vi/-yTBis17F9c/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/-yTBis17F9c"
     },
     {
       "brand": "Adidas",
@@ -6981,15 +7043,6 @@
       "video_id": "ugsgSwOAZx0",
       "thumbnail": "https://i.ytimg.com/vi/ugsgSwOAZx0/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/ugsgSwOAZx0"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "Real Madrid",
-      "title": "😏 Can you find a footballer for every letter of the alphabet? 🔠 Thibaut Courtois #RealMadr",
-      "published_at": "2026-06-02T16:00:04+00:00",
-      "video_id": "udwpnuhdmKU",
-      "thumbnail": "https://i.ytimg.com/vi/udwpnuhdmKU/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/udwpnuhdmKU"
     },
     {
       "brand": "Nike",
@@ -7037,11 +7090,192 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [],
+  "tiktok_tags": [
+    {
+      "tag": "#convocadosdebrasilparaelmundia",
+      "country": "CO",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 48900,
+      "raw_query": "convocados de brasil para el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#primerpartidodelmundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 43400,
+      "raw_query": "primer partido del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#costaricavaalmundial2026",
+      "country": "CO",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 40400,
+      "raw_query": "costa rica va al mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocadosargentinamundial2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 38650,
+      "raw_query": "convocados argentina mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#diamundialdacorrida2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 36900,
+      "raw_query": "dia mundial da corrida 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocadosargentinamundial2026",
+      "country": "CO",
+      "posts": 0,
+      "rank": 6,
+      "growth_pct": 26900,
+      "raw_query": "convocados argentina mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocadosdebrasilparaelmundia",
+      "country": "BR",
+      "posts": 0,
+      "rank": 7,
+      "growth_pct": 26650,
+      "raw_query": "convocados de brasil para el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#prelistacopadomundo2026brasil",
+      "country": "BR",
+      "posts": 0,
+      "rank": 8,
+      "growth_pct": 22950,
+      "raw_query": "pre lista copa do mundo 2026 brasil",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#prelistaselecaobrasileira",
+      "country": "BR",
+      "posts": 0,
+      "rank": 9,
+      "growth_pct": 17700,
+      "raw_query": "pre.lista selecao brasileira",
+      "seed": "Selecao Brasileira"
+    },
+    {
+      "tag": "#convocaçãodainglaterraparacopa",
+      "country": "BR",
+      "posts": 0,
+      "rank": 10,
+      "growth_pct": 17000,
+      "raw_query": "convocação da inglaterra para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocatoriadebrasilparaelmund",
+      "country": "CO",
+      "posts": 0,
+      "rank": 11,
+      "growth_pct": 16150,
+      "raw_query": "convocatoria de brasil para el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#listadeconvocadosargentinamund",
+      "country": "BR",
+      "posts": 0,
+      "rank": 12,
+      "growth_pct": 15150,
+      "raw_query": "lista de convocados argentina mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocaçãoparacopadomundo2026d",
+      "country": "BR",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 8800,
+      "raw_query": "convocação para copa do mundo 2026 data e hora",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#neymarvaipracopade2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 8300,
+      "raw_query": "neymar vai pra copa de 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#prelistamexicomundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 6750,
+      "raw_query": "prelista mexico mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#costaricaclasificóalmundial202",
+      "country": "CO",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 6350,
+      "raw_query": "costa rica clasificó al mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#listadefranciamundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 17,
+      "growth_pct": 5950,
+      "raw_query": "lista de francia mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#convocaçãoparacopadomundo2026h",
+      "country": "BR",
+      "posts": 0,
+      "rank": 18,
+      "growth_pct": 4050,
+      "raw_query": "convocação para copa do mundo 2026 horario",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocadosdeargentinaparaelmun",
+      "country": "AR",
+      "posts": 0,
+      "rank": 19,
+      "growth_pct": 2400,
+      "raw_query": "convocados de argentina para el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#serbiamundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 20,
+      "growth_pct": 1800,
+      "raw_query": "serbia mundial 2026",
+      "seed": "Mundial 2026"
+    }
+  ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-74988548",
+      "sku": "signal-50854283",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7051,7 +7285,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-63998557",
+      "sku": "signal-23864382",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7061,7 +7295,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-22415555",
+      "sku": "signal-75232419",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7071,7 +7305,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-11847648",
+      "sku": "signal-21862506",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7085,9 +7319,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 126,
+      "signals_60d": 127,
       "latas_detected": 2,
-      "ads_active": 3,
+      "ads_active": 9,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7346,8 +7580,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 71,
-    "Puma": 61,
+    "Nike": 72,
+    "Puma": 62,
     "Under Armour": 7,
     "New Balance": 3,
     "Mizuno": 5,
