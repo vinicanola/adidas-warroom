@@ -1,52 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-09T23:28:28.334922+00:00",
+  "generated_at": "2026-06-10T04:42:57.405618+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 242,
-      "elapsed_s": 36.0
+      "count": 243,
+      "elapsed_s": 40.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 29.8
+      "elapsed_s": 55.1
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.8
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 11,
-      "elapsed_s": 9.7
+      "count": 0,
+      "elapsed_s": 9.5,
+      "fallback": "kept_previous"
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 26,
-      "elapsed_s": 33.5
+      "count": 16,
+      "elapsed_s": 39.9
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 24.9
+      "count": 0,
+      "elapsed_s": 5.4
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.3
+      "elapsed_s": 2.7,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 4.0
     }
   },
   "competitors": [
@@ -107,33 +109,33 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 61,
-      "signals": 36,
+      "score": 60,
+      "signals": 35,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 37,
-      "signals": 24,
+      "score": 36,
+      "signals": 23,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 26,
+    "ads_active_total": 16,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 26,
+    "ads_active_top_count": 16,
     "search_leader_brand": "Nike",
     "search_leader_pct": 56.3,
     "search_leader_delta_pp": -2.4,
-    "signals_60d": 265,
-    "signals_delta_pct": 88,
+    "signals_60d": 263,
+    "signals_delta_pct": 86,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 152,
+    "ambush_attempts_total": 149,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 72,
+    "ambush_top_count": 71,
     "fifa_signals_total": 0,
     "selecao_signals_total": 30,
     "official_signals_total": 0
@@ -2039,12 +2041,12 @@
     },
     {
       "level": "green",
-      "title": "Lo que podría haber sido: Nike perdió una gran oportunidad con la camiseta local de EE. UU. para el Mundial de 2026 - Footy Headlines",
+      "title": "Se han presentado todas las camisetas de Puma para el Mundial de 2026 - Footy Headlines",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdl9jUnRtYW94Ul9zRFk5NWJYTjZzWUdqZkt4QnRMVm5xQ3FsNVhQUHRVdnM3bk9GZWdYTW1PVDBBUDhfUDVjZFpDb2Q1X0N1eGxzVF84NUNSbFhTVGd6ZUpQXzJjNWVWNXJUVnZOOGNtMklFQk9HVDMxSmQ0NUo0bGNMVDZESFZnUWxVUU1GV29kSUVUc2JzTHhHWFN2Q3Q0MnZtbEhjMFgtUEdjRlR0bWJKQWtPYnRLTW1BME01ZElDWGJVRWF5UVBzREJ5LTJxV3dsZENGQTZNTG52QV96ZGltRlFKUQ?oc=5",
-      "timestamp": "Wed, 13 May 2026 04:43:49 GMT",
-      "brand": "Nike",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPek1vVk41bklnd3JRSk1LTDU2c2w4TWJhYVQyLTY0ZDJpNkc3QVJ4NXZCd043QUpkUklUYW5xcmo5a3hoZDNmaHFVNWY1dm9fb2VRSUk4TDFfR0VYWERKYjdkekc4YUM1WU13cjZfN0Jmc3Qtang1UXJvaXZFUlpudmNOUVBkTFo3QlgzaFJFblNjRU9wRjFuYzhTQjlGV0U5N1l4LUF2d2NWdEI2cWRxQU1rQnItbjRMZy1CcVk0V2tnTW8xNzF4dTNzdmMxNG1vWlFTRHJSZ0pxMlRzT2ZZ?oc=5",
+      "timestamp": "Wed, 13 May 2026 04:39:50 GMT",
+      "brand": "Puma",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -2052,12 +2054,12 @@
     },
     {
       "level": "green",
-      "title": "Se han presentado todas las camisetas de Puma para el Mundial de 2026 - Footy Headlines",
+      "title": "Lo que podría haber sido: Nike perdió una gran oportunidad con la camiseta local de EE. UU. para el Mundial de 2026 - Footy Headlines",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPek1vVk41bklnd3JRSk1LTDU2c2w4TWJhYVQyLTY0ZDJpNkc3QVJ4NXZCd043QUpkUklUYW5xcmo5a3hoZDNmaHFVNWY1dm9fb2VRSUk4TDFfR0VYWERKYjdkekc4YUM1WU13cjZfN0Jmc3Qtang1UXJvaXZFUlpudmNOUVBkTFo3QlgzaFJFblNjRU9wRjFuYzhTQjlGV0U5N1l4LUF2d2NWdEI2cWRxQU1rQnItbjRMZy1CcVk0V2tnTW8xNzF4dTNzdmMxNG1vWlFTRHJSZ0pxMlRzT2ZZ?oc=5",
-      "timestamp": "Wed, 13 May 2026 04:39:50 GMT",
-      "brand": "Puma",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdl9jUnRtYW94Ul9zRFk5NWJYTjZzWUdqZkt4QnRMVm5xQ3FsNVhQUHRVdnM3bk9GZWdYTW1PVDBBUDhfUDVjZFpDb2Q1X0N1eGxzVF84NUNSbFhTVGd6ZUpQXzJjNWVWNXJUVnZOOGNtMklFQk9HVDMxSmQ0NUo0bGNMVDZESFZnUWxVUU1GV29kSUVUc2JzTHhHWFN2Q3Q0MnZtbEhjMFgtUEdjRlR0bWJKQWtPYnRLTW1BME01ZElDWGJVRWF5UVBzREJ5LTJxV3dsZENGQTZNTG52QV96ZGltRlFKUQ?oc=5",
+      "timestamp": "Wed, 13 May 2026 04:43:49 GMT",
+      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -5557,10 +5559,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260410",
-        "views": 192
-      },
-      {
         "date": "20260411",
         "views": 181
       },
@@ -5795,13 +5793,13 @@
       {
         "date": "20260608",
         "views": 388
+      },
+      {
+        "date": "20260609",
+        "views": 315
       }
     ],
     "Nike": [
-      {
-        "date": "20260410",
-        "views": 140
-      },
       {
         "date": "20260411",
         "views": 173
@@ -6037,13 +6035,13 @@
       {
         "date": "20260608",
         "views": 272
+      },
+      {
+        "date": "20260609",
+        "views": 274
       }
     ],
     "Puma": [
-      {
-        "date": "20260410",
-        "views": 1
-      },
       {
         "date": "20260413",
         "views": 1
@@ -6126,10 +6124,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260410",
-        "views": 44
-      },
       {
         "date": "20260411",
         "views": 65
@@ -6365,13 +6359,13 @@
       {
         "date": "20260608",
         "views": 76
+      },
+      {
+        "date": "20260609",
+        "views": 50
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260410",
-        "views": 25
-      },
       {
         "date": "20260411",
         "views": 36
@@ -6607,13 +6601,13 @@
       {
         "date": "20260608",
         "views": 42
+      },
+      {
+        "date": "20260609",
+        "views": 35
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260410",
-        "views": 7
-      },
       {
         "date": "20260411",
         "views": 3
@@ -6841,6 +6835,10 @@
       {
         "date": "20260608",
         "views": 2
+      },
+      {
+        "date": "20260609",
+        "views": 3
       }
     ],
     "Penalty": [
@@ -6875,10 +6873,50 @@
       {
         "date": "20260608",
         "views": 1
+      },
+      {
+        "date": "20260609",
+        "views": 1
       }
     ]
   },
   "active_ads": [
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
+      "ad_id": "2881026572236513",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1531547895050997",
+      "ad_id": "1531547895050997",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "BR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1001518266149505",
+      "ad_id": "1001518266149505",
+      "copa_score": 0
+    },
     {
       "brand": "Nike",
       "page_name": "Martinez Innis Nike",
@@ -6894,49 +6932,13 @@
     {
       "brand": "Nike",
       "page_name": "Martinez Innis Nike",
-      "country": "MX",
+      "country": "AR",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-09",
       "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
       "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1699058247972172",
-      "ad_id": "1699058247972172",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1019804173721722",
-      "ad_id": "1019804173721722",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1332575578939295",
-      "ad_id": "1332575578939295",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
-      "ad_id": "2881026572236513",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1539903800819527",
+      "ad_id": "1539903800819527",
       "copa_score": 0
     },
     {
@@ -6983,6 +6985,30 @@
       "started_at": "2026-06-09",
       "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
       "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2037176000202352",
+      "ad_id": "2037176000202352",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2429436297468600",
+      "ad_id": "2429436297468600",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-09",
+      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
+      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
       "ad_url": "https://www.facebook.com/ads/library/?id=4110889895722372",
       "ad_id": "4110889895722372",
       "copa_score": 0
@@ -6990,61 +7016,13 @@
     {
       "brand": "Nike",
       "page_name": "Martinez Innis Nike",
-      "country": "AR",
+      "country": "CO",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-09",
       "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
       "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=982098521403015",
-      "ad_id": "982098521403015",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3238673093187909",
-      "ad_id": "3238673093187909",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1001518266149505",
-      "ad_id": "1001518266149505",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2198459930902960",
-      "ad_id": "2198459930902960",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1141773452355686",
-      "ad_id": "1141773452355686",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
+      "ad_id": "2881026572236513",
       "copa_score": 0
     },
     {
@@ -7093,102 +7071,6 @@
       "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
       "ad_url": "https://www.facebook.com/ads/library/?id=1762718528227285",
       "ad_id": "1762718528227285",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1014071614421608",
-      "ad_id": "1014071614421608",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=984051251183367",
-      "ad_id": "984051251183367",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2768969103471205",
-      "ad_id": "2768969103471205",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2198459930902960",
-      "ad_id": "2198459930902960",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1705211394003722",
-      "ad_id": "1705211394003722",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1006861242231472",
-      "ad_id": "1006861242231472",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1415767937242205",
-      "ad_id": "1415767937242205",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1141773452355686",
-      "ad_id": "1141773452355686",
       "copa_score": 0
     }
   ],
@@ -7293,192 +7175,11 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 41450,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#jordaniavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 23450,
-      "raw_query": "jordania va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026brasil",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 22750,
-      "raw_query": "pre lista copa do mundo 2026 brasil",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocaçãoparacopadomundo2026d",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 9600,
-      "raw_query": "convocação para copa do mundo 2026 data e hora",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 6000,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadosconvocadoscopadomundo2",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 5100,
-      "raw_query": "lista dos convocados copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#listadosconvocadosparacopadomu",
-      "country": "BR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 4550,
-      "raw_query": "lista dos convocados para copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 2350,
-      "raw_query": "pre lista copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 2100,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#monedasdelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 1800,
-      "raw_query": "monedas del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#monedasconmemorativasmundial20",
-      "country": "MX",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 1750,
-      "raw_query": "monedas conmemorativas mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosargentinamundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 1700,
-      "raw_query": "convocados argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 1650,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistaargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 800,
-      "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguraciónmundial2026hora",
-      "country": "MX",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 650,
-      "raw_query": "inauguración mundial 2026 hora",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cocacola",
-      "country": "BR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 450,
-      "raw_query": "coca cola",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistamexicomundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 350,
-      "raw_query": "prelista mexico mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#estampasdelmundial2026paraimpr",
-      "country": "MX",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 350,
-      "raw_query": "estampas del mundial 2026 para imprimir",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#finalmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 250,
-      "raw_query": "final mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#primerpartidodelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 190,
-      "raw_query": "primer partido del mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-36441866",
+      "sku": "signal-45630197",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7488,7 +7189,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-31615118",
+      "sku": "signal-91245812",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7498,7 +7199,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-43391005",
+      "sku": "signal-41850965",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7508,7 +7209,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-1964120",
+      "sku": "signal-61430110",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7524,7 +7225,7 @@
       "color": "#FA5400",
       "signals_60d": 127,
       "latas_detected": 2,
-      "ads_active": 26,
+      "ads_active": 16,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7533,7 +7234,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 81,
+      "signals_60d": 78,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7566,7 +7267,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 27,
+      "signals_60d": 28,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7783,8 +7484,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 72,
-    "Puma": 63,
+    "Nike": 71,
+    "Puma": 61,
     "Under Armour": 7,
     "New Balance": 3,
     "Mizuno": 5,
