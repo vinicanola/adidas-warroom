@@ -1,48 +1,47 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-10T04:42:57.405618+00:00",
+  "generated_at": "2026-06-10T09:02:40.545664+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 243,
-      "elapsed_s": 40.7
+      "count": 239,
+      "elapsed_s": 37.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 55.1
+      "elapsed_s": 65.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.0
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.3
+      "elapsed_s": 8.2
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 9.5,
-      "fallback": "kept_previous"
+      "count": 12,
+      "elapsed_s": 9.6
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 16,
-      "elapsed_s": 39.9
+      "count": 4,
+      "elapsed_s": 80.8
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.4
+      "elapsed_s": 4.8
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.7,
+      "elapsed_s": 2.8,
       "fallback": "kept_previous"
     },
     "wikipedia": {
@@ -94,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 99,
+      "signals": 96,
       "color": "#F40000"
     },
     {
@@ -102,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 106,
+      "signals": 104,
       "color": "#006847"
     },
     {
@@ -117,27 +116,27 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 36,
-      "signals": 23,
+      "score": 37,
+      "signals": 24,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 16,
+    "ads_active_total": 4,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 16,
+    "ads_active_top_count": 4,
     "search_leader_brand": "Nike",
     "search_leader_pct": 56.3,
     "search_leader_delta_pp": -2.4,
-    "signals_60d": 263,
-    "signals_delta_pct": 86,
+    "signals_60d": 259,
+    "signals_delta_pct": 98,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 149,
+    "ambush_attempts_total": 148,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 71,
+    "ambush_top_count": 69,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 30,
+    "selecao_signals_total": 28,
     "official_signals_total": 0
   },
   "signals": [
@@ -798,71 +797,6 @@
       "source": "Google News CO",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaTVKOThsdkJxOWF3M0RlSERWS2NfbW95dGRSN2owbVNodGdhNXlSNnFvclNuTHpiMm1kckxCR1cwMHlkQU1aSnRRUkQwUktpeXBSWThqT1dYWENhdnZiUGdFTGtYenVmLUI3akNBSEtEakxnUmpvNm9Td1dGS3VoQUJnbVp1eFNMczFmUVB1RGNNNkRyVkxOaFBxNTZOYk9aYlB3X1kybnQyelhuekJIcnhsQWlja05QZ0p5SG5B?oc=5",
       "timestamp": "Mon, 08 Jun 2026 22:10:12 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike, Adidas, Puma: ¿qué marcas diseñan las camisetas de las selecciones para el Mundial 2026? - Bloomberg Línea",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMG1zTU82dnlRbnYtdGVQdXFnRG5wZ2xicHRHQmtyVXBHUWFic24yZjU5N1NHU3lEUDE3bjFRRmZtd2R1Zk1WU094WUxOZzVNczU1X3NBUklHSmpyN3drc2h6dmRuc2dlN2xodDcyTFEwbzVvdGtRVlNDRFk1dmYxdjNCTzRIM3lGN3FYMnZZNDVZUk5Kczc2dEkyQzVVM21BT0pDaFppYkp6Z0EtWXdibERxTjhHQ044dUU1X2RsZXVocWRoNWFaSWpHWXpnc0owbmfSAeYBQVVfeXFMTTRBNXNRNEt1RUJDRXJ4OF9MeWYwaElHV3VOSDJNampjcDZRZXRSelhYS0RxdzZwSS1pUEw1UTJUZnBBOThPdWRLR3NFYUJ0X0F6dkhEOFNBQTg4MjRBdHdSU1pLQ1l5R3FwWDQ4M3h0c21ScHJOd3oyZERlQlREbzhmbm5tNERwUjY5MzJhckZZdUkzOUhYRGRWN1l4QUM3NWJhdmZZN3dMY1VXaHExeDdjRENOd1AtU01TdEV0bnNDd2JETXNFb1daRnRKZzNkNEZYWnVnQWphdHFYQWc3ZlRHVWVUeWc?oc=5",
-      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike investiga problema em design dos uniformes para a Copa do Mundo - CNN Brasil",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS1N1LWNvcXpkQVE4QXFRMVlfQldZaUJ3RXZXMDFhWTRUT2VCZDUtNDJKUFNTb3FqYTBVZF9VdU44SFRhMzZoLXN2cUhDOW9XS1Naby13OW9pRlZDOXFpQVpZOWVKemZORndGZGFiclVVZUlNZEVvQUlHMHRvU3gtcUZwMVBVY01WdExFYnZXQjFNTnZ6dHpuSWhLbGl0SldfOXRSdnIxMVlwQzBXMFJsOTM3Wnh6OWpuUUxiczd1ZjA4UExOYUVLSA?oc=5",
-      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "selecao_oficial"
-    },
-    {
-      "level": "green",
-      "title": "As marcas que calçam a elite da marcha atlética no Mundial no DF - Correio Braziliense",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc1prTFZOOU9MdlpGNWUweHBOVGp6Q05wYUJ4bWx3MTQyYV9IMjFIVjd6czc5Y3dXVDlIUjNIbE1kU1NGTzRnRHFkTWo5aVgwQWJqQ3UyZkVBaF9BWXVsQUVfX0hiOWREZjAtd3k2ckI4a2haYWF0LWZ0X0Q5SkNqSkp0TWhDXzY5WlpVeVpRcHVQU09sTHhBbHhPTXB5Sk9lcFFFS3lEMlFkMmkwdUZIWE9uOXlYdVZFNHQzQ20tQk9DV3Q0X0huUnRIa1XSAdIBQVVfeXFMT1BRbGFfQm5LZ0tZRXc1SXEzNjlYZk9MNGR6ZUxRWkdhcFJMb015Mmo1akFWQWQ1aC1tS2hpYWxyN0R4d05YWEgtcjlEXzh3dXJSSzhWRkpvaVRSSVdQbDE4TVh1QzB2NDJmeHM5QV9oLWU0MHFwNzIxSGMwc25MWG9pUnhaWmdxSF9PWE1IOXRMWEpPS0RtQmp6SVl4Vm9URHhHekN1UEhQNG5QRW9uVDVBQ0RqcVp0ck4ybVBPNnA3S0ZqejB0NmxheWhPWU9wQ25R?oc=5",
-      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "brand": "New Balance",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike, Adidas, Puma: ¿qué marcas diseñan las camisetas de las selecciones para el Mundial 2026? - Bloomberg Línea",
-      "market": "AR",
-      "source": "Google News AR",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMG1zTU82dnlRbnYtdGVQdXFnRG5wZ2xicHRHQmtyVXBHUWFic24yZjU5N1NHU3lEUDE3bjFRRmZtd2R1Zk1WU094WUxOZzVNczU1X3NBUklHSmpyN3drc2h6dmRuc2dlN2xodDcyTFEwbzVvdGtRVlNDRFk1dmYxdjNCTzRIM3lGN3FYMnZZNDVZUk5Kczc2dEkyQzVVM21BT0pDaFppYkp6Z0EtWXdibERxTjhHQ044dUU1X2RsZXVocWRoNWFaSWpHWXpnc0owbmfSAeYBQVVfeXFMTTRBNXNRNEt1RUJDRXJ4OF9MeWYwaElHV3VOSDJNampjcDZRZXRSelhYS0RxdzZwSS1pUEw1UTJUZnBBOThPdWRLR3NFYUJ0X0F6dkhEOFNBQTg4MjRBdHdSU1pLQ1l5R3FwWDQ4M3h0c21ScHJOd3oyZERlQlREbzhmbm5tNERwUjY5MzJhckZZdUkzOUhYRGRWN1l4QUM3NWJhdmZZN3dMY1VXaHExeDdjRENOd1AtU01TdEV0bnNDd2JETXNFb1daRnRKZzNkNEZYWnVnQWphdHFYQWc3ZlRHVWVUeWc?oc=5",
-      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Nike admite defecto en camisetas del Mundial 2026 - Mediotiempo",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNazJpOXRIRXpVbmw1TlNsakRJOXhzWTBNdnVhSTRIM1lGeFFxVXlEX2czRkhrcHhOSzJlXy0xNWNiRmNoYkx6NjJuQW16WDVoQkZqLUJFTmxjR21BUGJmbVdnMTRQcVdWTmczbzlWVngxbldTRFVzeEFuRVZqUGFEa0lycEdQVkdIY0RrWVVOWXFCS2o1d2h2d0ZlZERPUdIBngFBVV95cUxNN2VhcEdxM1hLQ2xmNWg4bHVQdXpKLXhTRGU4ZGtXNUljYTRIZUF5ZTBESDVvQjhVbHhCdl9PbXlkUllmeXlxb1oyaGdnVFJPYWkwQzV5czRnQXRNRlMzc2ZBX2p6U2R1ZEk3aUg1VndWeG5HbGQyQ0dPYkJRVmUwaVhic291VndqUHRFSFBKcjdmWEJSaWJlYlBtTWJndw?oc=5",
-      "timestamp": "Fri, 10 Apr 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2736,6 +2670,71 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUYtMndUTkZlZjFPYW5MYkxVcGRRcFdUX084RnhPalBTUjMzb3Z6RlVGZXhJM1o5RHllamYzVXhJS1IyUlNrOVFINmRocTRDMVVoSG15U21jUFpzaVZfVGdLaTJ6aWZfUEpWUkdtTVVpclRTS3BRcERDSFQ4bUs3Vko0M1A2ejRNTExmNlJMQ3IxcmhBNnJ4M3BkLTZ5VjU5RDdQTXR5cHJSb0dvVkh5Tl9DQVFsUUhCUXkyQtIBwgFBVV95cUxNcUlReWNsOVlqbnlpV0N5T1VVekg3Q0ZQZjhJZ2hRNU1JbmxXRkMzc0k2ZjJCTzdEUm1LZmxZal9CVzFHUFFhQ2pBZDgxUlIzdC05VVdMZWk2R2k4Y3A0NG9COExOalAza0M5cFFTOW9URmYwWnY4REpycEd3LWdtdGFYN3VPU2taYldFTGRRT2FpSlc4aEl0cjRFZ1dXQzBGN0VIUnFqVkt2ZEVWRnFsVmlqV0JySWZiT2lqazlva1ljZw?oc=5",
       "timestamp": "Fri, 29 May 2026 07:00:00 GMT",
       "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "La colección Nike Football x LEGO® invita a los niños a jugar siguiendo sus instintos — NIKE, Inc. - About Nike",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXNuclFUZVZBWnZvYzl0cjdhQ015ajFCWjlYREtqQkZaMXcySTVnM242QlZvT2YzbWFHNDQwWEFqakRtTXMzblYyVXlhdHZiNkdBLW43V2kwWVV3ZTJfV2FPanJScDA4LVZxWGUxTG1pdktHVWVNazd0REU2N3huMC13UGM2eEFOck1JSEg5RGpYdFRZd1JSOEVLVlpRZlAzWXhFX245WDlwVUUxdmJUMFpKUTNlV0E?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "LEGO e Nike Football lançam coleção infantil perfeita para o verão de Copa do Mundo - Hypebeast",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX1NHdFcwUU8ydWd2MFNWdmRzakFNSUMyMHBnUmpQQ18zdm14TDlZUzRGd0prbzNhbFNoOUpDYVIxdlJoYnJwaWJsQkZXa1Bjd01NaUppcnlLamVWVm53Nm84dXQyNzVEMGtzWmZvam9jU0xTajA5c3ZFTExaX0ZkeFh2NUhiZjVKeHJadkYzXzFrUzVsZml4dUNuX1BkbUtsaEtDeV9VQldoeGVGYVpyNjZsREUyWmlISHgzWlJ6VFowanBCb0Rsb29iRW9hNElBNmdCYWE1Yw?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:36:57 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Nike, Adidas y Puma, las marcas más golpeadas por la piratería rumbo al Mundial 2026 - EL CEO",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzhDTG5PTnhNMmY2ZlhwblEzNHZPM1V1Rm1HSDk0by1TbjVDakJkMFgzRXFUUXNWUmtnaGt5RllZcDNXMUxQQ1V0c1RBNmJtQ2l6ZHdYNkFPNHZvRWd0X2RERWR2d2Y5NmtZdzdwNnZmQkFZWnV4MkZtY0VCOW1QRzY5a0MxYU9pZUVJbUVfN2ZoTmZGbXYwQkVNaXQwaVNQLVJ5OXV5RmJRTVZLVXgw?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 19:49:31 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Neymar lidera a los cracks Puma en el Mundial 2026 - PrensaFútbol",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpOWZWYWpia09VWjU4OGhVN1dFQ0xUTk5yWFBzNXlFZ2JJZ09FSFg4UGNpM0hwU3pVNTM3SHFWV0RhSGtWWV8wdlBxdzJGRW8weEs2SVlVX3ZvYm1tR1ZWVVFUSFBQd0g2Q1lhUkZnRjF6QkxRVjBFUUlGa0o4SDQ?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 21:48:49 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "WBSC y Mizuno extienden su acuerdo oficial de patrocinio de softbol hasta 2029 - World Baseball Softball Confederation - wbsc",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3puZ3Z3am85RnRnUUZfYy1ub1E0Yk54Si1VZmZZbUFKUzk2eWwyOXJQVUhPTkhocG1wOUY1VmxDRTBYMlVTWVlfTl95WVM0dHVXNkFkei1hYUdvbmRkdi04Q29oem1CTTh1b2pCQnN6NnEtS3U3QlUzNEZLUm0tRlFHZzZuNDc0eGRZMVkybDdvT1M5?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:16:12 GMT",
+      "brand": "Mizuno",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -6908,114 +6907,6 @@
     {
       "brand": "Nike",
       "page_name": "Martinez Innis Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1001518266149505",
-      "ad_id": "1001518266149505",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1705211394003722",
-      "ad_id": "1705211394003722",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1539903800819527",
-      "ad_id": "1539903800819527",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
-      "ad_id": "2881026572236513",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1201767895361418",
-      "ad_id": "1201767895361418",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1762718528227285",
-      "ad_id": "1762718528227285",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2037176000202352",
-      "ad_id": "2037176000202352",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2429436297468600",
-      "ad_id": "2429436297468600",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=4110889895722372",
-      "ad_id": "4110889895722372",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
       "country": "CO",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-09",
@@ -7036,45 +6927,18 @@
       "ad_url": "https://www.facebook.com/ads/library/?id=1504352257838417",
       "ad_id": "1504352257838417",
       "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=973002715509363",
-      "ad_id": "973002715509363",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1201767895361418",
-      "ad_id": "1201767895361418",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1762718528227285",
-      "ad_id": "1762718528227285",
-      "copa_score": 0
     }
   ],
   "youtube_uploads": [
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "can it just start already? #worldcup #football #pedri",
+      "published_at": "2026-06-10T08:00:19+00:00",
+      "video_id": "XBEbXbM1dew",
+      "thumbnail": "https://i.ytimg.com/vi/XBEbXbM1dew/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/XBEbXbM1dew"
+    },
     {
       "brand": "Adidas",
       "channel": "adidas",
@@ -7179,7 +7043,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-45630197",
+      "sku": "signal-37851980",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7189,7 +7053,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-91245812",
+      "sku": "signal-64111983",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7199,7 +7063,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-41850965",
+      "sku": "signal-73102774",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7209,7 +7073,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-61430110",
+      "sku": "signal-72313047",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7223,9 +7087,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 123,
       "latas_detected": 2,
-      "ads_active": 16,
+      "ads_active": 4,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7234,7 +7098,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 78,
+      "signals_60d": 79,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7245,11 +7109,11 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 5,
+      "signals_60d": 4,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
-      "top_movement": "As marcas que calçam a elite da marcha atlética no Mundial no DF - Correio Braziliense",
+      "top_movement": "FOOTBALL CULTURE ALÉM DAS QUATRO LINHAS 👟🔴⚪⚫ O São Paulo apresentou uma nova collab com a ",
       "top_source": "Google News BR"
     },
     {
@@ -7484,11 +7348,11 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 71,
-    "Puma": 61,
+    "Nike": 69,
+    "Puma": 63,
     "Under Armour": 7,
-    "New Balance": 3,
     "Mizuno": 5,
-    "Joma": 2
+    "Joma": 2,
+    "New Balance": 2
   }
 }
