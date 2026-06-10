@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-10T12:38:27.463999+00:00",
+  "generated_at": "2026-06-10T16:44:31.731228+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 241,
-      "elapsed_s": 49.4
+      "count": 244,
+      "elapsed_s": 38.1
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 50.9
+      "elapsed_s": 39.8
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.6
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.1
+      "elapsed_s": 4.6
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 10.8
+      "count": 14,
+      "elapsed_s": 9.1
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 85.6,
-      "fallback": "kept_previous"
+      "count": 1,
+      "elapsed_s": 37.9
     },
     "trending_topics": {
       "status": "ok",
-      "count": 10,
-      "elapsed_s": 20.5
+      "count": 0,
+      "elapsed_s": 5.6
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 29.5
+      "elapsed_s": 2.2,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.1
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -93,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 97,
+      "signals": 96,
       "color": "#F40000"
     },
     {
@@ -116,15 +116,15 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 36,
-      "signals": 23,
+      "score": 37,
+      "signals": 24,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 4,
+    "ads_active_total": 1,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 4,
+    "ads_active_top_count": 1,
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.9,
     "search_leader_delta_pp": -2.8,
@@ -132,9 +132,9 @@
     "signals_delta_pct": 95,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 147,
+    "ambush_attempts_total": 148,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 67,
+    "ambush_top_count": 69,
     "fifa_signals_total": 0,
     "selecao_signals_total": 29,
     "official_signals_total": 0
@@ -6882,54 +6882,27 @@
   "active_ads": [
     {
       "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "BR",
+      "page_name": "Miller Florian Nike",
+      "country": "MX",
       "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
-      "ad_id": "2881026572236513",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1531547895050997",
-      "ad_id": "1531547895050997",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=2881026572236513",
-      "ad_id": "2881026572236513",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Martinez Innis Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-09",
-      "body_snippet": "Scarlett es una mucama de hotel de talla grande que salva la vida de Brandon y ambos tienen una inolvidable noche de pasión juntos. A la mañana siguiente, ella desaparece y Brandon está decidido a enc",
-      "title": "Una chica de talla grande orgullosa busca al papá perdido de su bebé",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1504352257838417",
-      "ad_id": "1504352257838417",
+      "started_at": "2026-06-10",
+      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
+      "title": "Después de cinco años esperando… ¿él ya no la ama?",
+      "ad_url": "https://www.facebook.com/ads/library/?id=989501357130238",
+      "ad_id": "989501357130238",
       "copa_score": 0
     }
   ],
   "youtube_uploads": [
+    {
+      "brand": "Adidas",
+      "channel": "adidas",
+      "title": "The @RocketLeague Trionda is out of the arena! 👀 #rocketleague #football #worldcup",
+      "published_at": "2026-06-10T15:55:05+00:00",
+      "video_id": "KnuKz19OHg8",
+      "thumbnail": "https://i.ytimg.com/vi/KnuKz19OHg8/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/KnuKz19OHg8"
+    },
     {
       "brand": "Adidas",
       "channel": "adidas",
@@ -7048,102 +7021,11 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 39250,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#jordaniavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 23750,
-      "raw_query": "jordania va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 18650,
-      "raw_query": "ceremonia inaugural mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#horariosdelospartidosdelmundia",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 14400,
-      "raw_query": "horarios de los partidos del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdecolombiaparaelmund",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 7500,
-      "raw_query": "convocados de colombia para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 2300,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#prelistaargentinamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 1200,
-      "raw_query": "prelista argentina mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 1150,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#primerpartidodelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 200,
-      "raw_query": "primer partido del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandocomienzaelmundialdefutbo",
-      "country": "AR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 130,
-      "raw_query": "cuando comienza el mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-90088424",
+      "sku": "signal-37371930",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7153,7 +7035,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-88190243",
+      "sku": "signal-27301173",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7163,7 +7045,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-22450889",
+      "sku": "signal-1647339",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7173,7 +7055,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-42706064",
+      "sku": "signal-95130612",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7187,9 +7069,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 123,
+      "signals_60d": 124,
       "latas_detected": 2,
-      "ads_active": 4,
+      "ads_active": 1,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7209,7 +7091,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 3,
+      "signals_60d": 2,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
@@ -7448,11 +7330,11 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 67,
+    "Nike": 69,
     "Puma": 64,
     "Under Armour": 7,
     "Mizuno": 5,
     "Joma": 2,
-    "New Balance": 2
+    "New Balance": 1
   }
 }
