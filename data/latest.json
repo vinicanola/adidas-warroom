@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-11T18:28:25.562557+00:00",
+  "generated_at": "2026-06-11T21:31:20.910549+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 250,
-      "elapsed_s": 37.6
+      "elapsed_s": 38.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 58.8
+      "elapsed_s": 37.7
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.7
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
@@ -26,27 +26,28 @@
     "youtube_rss": {
       "status": "ok",
       "count": 15,
-      "elapsed_s": 8.9
+      "elapsed_s": 8.6
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 3,
-      "elapsed_s": 33.3
+      "count": 6,
+      "elapsed_s": 44.7
     },
     "trending_topics": {
       "status": "ok",
       "count": 20,
-      "elapsed_s": 25.9
+      "elapsed_s": 25.8
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 26.0
+      "elapsed_s": 18.0,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -92,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 99,
+      "signals": 100,
       "color": "#F40000"
     },
     {
@@ -115,27 +116,27 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 36,
-      "signals": 23,
+      "score": 37,
+      "signals": 24,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 3,
+    "ads_active_total": 6,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 3,
+    "ads_active_top_count": 5,
     "search_leader_brand": "Nike",
     "search_leader_pct": 57.0,
     "search_leader_delta_pp": -4.0,
-    "signals_60d": 266,
-    "signals_delta_pct": 102,
+    "signals_60d": 268,
+    "signals_delta_pct": 105,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 150,
+    "ambush_attempts_total": 153,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 73,
+    "ambush_top_count": 74,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 29,
+    "selecao_signals_total": 30,
     "official_signals_total": 0
   },
   "signals": [
@@ -6888,6 +6889,30 @@
   },
   "active_ads": [
     {
+      "brand": "Puma",
+      "page_name": "PUMA Football",
+      "country": "BR",
+      "platform": "instagram",
+      "started_at": "2026-06-11",
+      "body_snippet": "Now boarding to SHOWTIME ✨\nOn a scale from 1 to 10 how hyped are you and why is it 12?\n\n#PUMAShowtime #footballculture #futbol #vamos #herewego",
+      "title": "",
+      "ad_url": "https://www.facebook.com/ads/library/?id=36473794675567368",
+      "ad_id": "36473794675567368",
+      "copa_score": 4
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Miller Florian Nike",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-11",
+      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
+      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
+      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
+      "ad_id": "27387316134255359",
+      "copa_score": 0
+    },
+    {
       "brand": "Nike",
       "page_name": "Miller Florian Nike",
       "country": "MX",
@@ -6902,6 +6927,30 @@
     {
       "brand": "Nike",
       "page_name": "Miller Florian Nike",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-11",
+      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
+      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
+      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
+      "ad_id": "27387316134255359",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Miller Florian Nike",
+      "country": "CO",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-11",
+      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
+      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
+      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
+      "ad_id": "27387316134255359",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Miller Florian Nike",
       "country": "CO",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-11",
@@ -6909,18 +6958,6 @@
       "title": "Perdiste a un buen esposo, sin vuelta atrás.",
       "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
       "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=989501357130238",
-      "ad_id": "989501357130238",
       "copa_score": 0
     }
   ],
@@ -7067,34 +7104,70 @@
       "country": "BR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 94800,
+      "growth_pct": 127350,
       "raw_query": "inauguración mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslainauguracióndelmun",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 70100,
-      "raw_query": "a que hora es la inauguración del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#dondeverlainauguracióndelmundi",
       "country": "MX",
       "posts": 0,
-      "rank": 3,
-      "growth_pct": 66250,
+      "rank": 2,
+      "growth_pct": 103850,
       "raw_query": "donde ver la inauguración del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aquehoraeslainauguracióndelmun",
+      "country": "CO",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 96800,
+      "raw_query": "a que hora es la inauguración del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#quehoraséaaberturadacopadomund",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 83350,
+      "raw_query": "que horas é a abertura da copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#aquehoraempiezaelmundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 73550,
+      "raw_query": "a que hora empieza el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#ceremoniainauguralmundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 6,
+      "growth_pct": 65200,
+      "raw_query": "ceremonia inaugural mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#inauguracióndelmundial2026envi",
+      "country": "MX",
+      "posts": 0,
+      "rank": 7,
+      "growth_pct": 63150,
+      "raw_query": "inauguración del mundial 2026 en vivo",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#cuandoempiezaelmundial2026",
       "country": "BR",
       "posts": 0,
-      "rank": 4,
-      "growth_pct": 59850,
+      "rank": 8,
+      "growth_pct": 57950,
       "raw_query": "cuando empieza el mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -7102,126 +7175,90 @@
       "tag": "#qualfaseeliminatóriainéditaest",
       "country": "BR",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 53050,
+      "rank": 9,
+      "growth_pct": 50350,
       "raw_query": "qual fase eliminatória inédita estreia em 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quehoraséaaberturadacopadomund",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 51950,
-      "raw_query": "que horas é a abertura da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#listadeconvocadoscolombiamundi",
-      "country": "CO",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 50550,
-      "raw_query": "lista de convocados colombia mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#quaispaísesdomundialde2026temd",
       "country": "BR",
       "posts": 0,
-      "rank": 8,
-      "growth_pct": 49850,
+      "rank": 10,
+      "growth_pct": 47900,
       "raw_query": "quais países do mundial de 2026 tem deserto em seus territórios",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 49550,
-      "raw_query": "lista de francia mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#emqualpaísbicampeãomundialaspe",
       "country": "BR",
       "posts": 0,
-      "rank": 10,
-      "growth_pct": 48900,
+      "rank": 11,
+      "growth_pct": 46650,
       "raw_query": "em qual país bicampeão mundial as pessoas trocam cartões no ano novo",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "AR",
+      "tag": "#inauguracionmundial2026horacol",
+      "country": "CO",
       "posts": 0,
-      "rank": 11,
-      "growth_pct": 45950,
-      "raw_query": "ceremonia inaugural mundial 2026",
+      "rank": 12,
+      "growth_pct": 45150,
+      "raw_query": "inauguracion mundial 2026 hora colombia",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#aquehoraempiezaelmundial2026",
+      "tag": "#listadefranciamundial2026",
       "country": "AR",
       "posts": 0,
-      "rank": 12,
-      "growth_pct": 44550,
-      "raw_query": "a que hora empieza el mundial 2026",
+      "rank": 13,
+      "growth_pct": 44200,
+      "raw_query": "lista de francia mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#listadeconvocadoscolombiamundi",
+      "country": "CO",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 41100,
+      "raw_query": "lista de convocados colombia mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aquehoraseslainauguracióndelmu",
+      "country": "CO",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 34550,
+      "raw_query": "a que horas es la inauguración del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#convocadosdebrasilparaelmundia",
       "country": "CO",
       "posts": 0,
-      "rank": 13,
-      "growth_pct": 40700,
+      "rank": 16,
+      "growth_pct": 33200,
       "raw_query": "convocados de brasil para el mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#inauguracióndelmundial2026envi",
+      "tag": "#inauguracionmundial2026dondeve",
       "country": "MX",
       "posts": 0,
-      "rank": 14,
-      "growth_pct": 34050,
-      "raw_query": "inauguración del mundial 2026 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#jordaniavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 18600,
-      "raw_query": "jordania va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundialdefutbol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 18350,
-      "raw_query": "inauguración del mundial de futbol 2026",
+      "rank": 17,
+      "growth_pct": 29700,
+      "raw_query": "inauguracion mundial 2026 donde ver",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#aquehoraeslaaperturadelmundial",
       "country": "AR",
       "posts": 0,
-      "rank": 17,
-      "growth_pct": 15550,
-      "raw_query": "a que hora es la apertura del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "MX",
-      "posts": 0,
       "rank": 18,
-      "growth_pct": 13200,
-      "raw_query": "ceremonia inaugural mundial 2026",
+      "growth_pct": 22500,
+      "raw_query": "a que hora es la apertura del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
@@ -7229,24 +7266,24 @@
       "country": "MX",
       "posts": 0,
       "rank": 19,
-      "growth_pct": 12850,
+      "growth_pct": 21100,
       "raw_query": "transmisión inauguración mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#aquehoraempiezalainauguraciónd",
+      "tag": "#ceremoniainauguralmundial2026",
       "country": "MX",
       "posts": 0,
       "rank": 20,
-      "growth_pct": 12600,
-      "raw_query": "a que hora empieza la inauguración del mundial 2026",
+      "growth_pct": 19550,
+      "raw_query": "ceremonia inaugural mundial 2026",
       "seed": "Mundial 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-92147657",
+      "sku": "signal-40237181",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7256,7 +7293,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-31317298",
+      "sku": "signal-94370230",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7266,7 +7303,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-72942292",
+      "sku": "signal-60235848",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7276,7 +7313,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-10073951",
+      "sku": "signal-85968466",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7290,9 +7327,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 128,
       "latas_detected": 2,
-      "ads_active": 3,
+      "ads_active": 5,
       "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7303,7 +7340,7 @@
       "color": "#E0001A",
       "signals_60d": 79,
       "latas_detected": 2,
-      "ads_active": 0,
+      "ads_active": 1,
       "youtube_uploads_30d": 0,
       "top_movement": "Puma se impone entre los sponsors técnicos de la Copa Libertadores y Nike predomina en la ",
       "top_source": "Google News AR"
@@ -7334,7 +7371,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 29,
+      "signals_60d": 30,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7551,10 +7588,10 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 73,
-    "Puma": 61,
+    "Nike": 74,
+    "Puma": 62,
     "Under Armour": 8,
-    "Mizuno": 5,
+    "Mizuno": 6,
     "Joma": 2,
     "New Balance": 1
   }
