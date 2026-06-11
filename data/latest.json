@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-11T10:59:43.304526+00:00",
+  "generated_at": "2026-06-11T14:54:00.710481+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 250,
-      "elapsed_s": 41.8
+      "count": 247,
+      "elapsed_s": 38.7
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 50.7
+      "elapsed_s": 49.0
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 5.9
+      "elapsed_s": 5.3
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 8.2
+      "elapsed_s": 3.5
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 14,
-      "elapsed_s": 11.4
+      "count": 15,
+      "elapsed_s": 9.0
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 6,
-      "elapsed_s": 53.8
+      "count": 2,
+      "elapsed_s": 50.8
     },
     "trending_topics": {
       "status": "ok",
-      "count": 5,
-      "elapsed_s": 11.5
+      "count": 0,
+      "elapsed_s": 3.5
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 3.6,
+      "elapsed_s": 2.2,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 4.2
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -93,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 98,
+      "signals": 100,
       "color": "#F40000"
     },
     {
@@ -101,15 +101,15 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 108,
+      "signals": 107,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 59,
-      "signals": 34,
+      "score": 58,
+      "signals": 33,
       "color": "#75AADB"
     },
     {
@@ -122,21 +122,21 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 6,
+    "ads_active_total": 2,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 6,
+    "ads_active_top_count": 2,
     "search_leader_brand": "Nike",
     "search_leader_pct": 57.7,
     "search_leader_delta_pp": -3.0,
     "signals_60d": 263,
-    "signals_delta_pct": 99,
+    "signals_delta_pct": 96,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 149,
+    "ambush_attempts_total": 145,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 71,
+    "ambush_top_count": 70,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 27,
+    "selecao_signals_total": 29,
     "official_signals_total": 0
   },
   "signals": [
@@ -2703,6 +2703,19 @@
     },
     {
       "level": "green",
+      "title": "Icónico jersey de México del Mundial 1998 de ABA Sport sale a la venta HOY en tiendas Under Armour: precio de - la-lista.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOb3R2SlR1alNiYzdaaTFMX0tFelZSbDVVRzE5Y3R4Vk93dHZnb3h6dGZaUWRvNjZ0cXZDODFlandtdE1FQ1U0aXpiLXhia1g1NGpLajRteGVYUkEzcncwTVVLTm8zYURUWXhteFFvM3ZGUGsyUFRNRlpSN3VsWXE2OWtuTzhjcFZUMEk0alhOQmRnUTItNTFKTlBOVWxSWTYwNXZ1Nlk0eTVnU1MyUDNzeWM0eFZITUdCbVI3Z09ZeHV6VmpKdDhrYUtkLWh0QnRSZ2NsRkpkSG80TW1Xam1oRTRKU0t1UUh3YkdPODZVYlhpOU91YkhDLVBIWjNDZ2RPVGdtQ2RR0gGTAkFVX3lxTE5GVkRKZWtCWUhWcU45SkpDV3Y4UmhlUjZKLUF1YS1RU2FjTDI5SGs3bUJseXZCTVh5MVE4Wl9wbldFcjJjanZTaTRuY0V0ZG92S2F5Qy1GLTMyb1lrWFgxVy15UVVSc3p3bGxqVEtUSmdOT0NJd0JteDNJODcwb3hYR0J0SjBxbVJlTlpkeUo1VHJqYmZTa1NnNUdDczhZNXpnRUhCR0tJRDJaN3YxdFMyY3I4US1Sd1cwYzloZGxuOEFZeWtEUDlZZEY3elVha2syVlVtMHZkRTdYalI4NklwNVJRNzh3clhKb1JhU0ZFSjJvZFd5N3lGTzVUeHEtVVFFRTJaZWhoZE9pemtFUlYtMEVJ?oc=5",
+      "timestamp": "Thu, 28 May 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "Adidas, Nike e Puma vestem mais seleções na Copa, mas perdem participação ante 2022 - InfoMoney",
       "market": "BR",
       "source": "Google News BR",
@@ -2721,19 +2734,6 @@
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejB5YkRGZFVHRUJmcktndURjTDh0c0JHTTgzSHc1QVpIYkQxU1lIWjNUcUM0TXg3WEd5anhHbURDZDhpRllRemw0RUswbnZTNjVhaUpQOF9rOVRONnJfZjc0RGZXWW1rSC1tcThRRGpYLVpzMHNjaG9VQVlfaF9oeXc3SGg2cV9ONGU4Z016R2JSenAtdk5uR1FQZTJvZVNvWktnU1J1V1ZwNHVqVk1hN292UGtrVWFGU2Qza21yWnRUbzhpZmVkeXk5Ti1SYTNkLW9EVGF2QWM?oc=5",
       "timestamp": "Fri, 29 May 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "La colección Nike Football x LEGO® invita a los niños a jugar siguiendo sus instintos — NIKE, Inc. - About Nike",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXNuclFUZVZBWnZvYzl0cjdhQ015ajFCWjlYREtqQkZaMXcySTVnM242QlZvT2YzbWFHNDQwWEFqakRtTXMzblYyVXlhdHZiNkdBLW43V2kwWVV3ZTJfV2FPanJScDA4LVZxWGUxTG1pdktHVWVNazd0REU2N3huMC13UGM2eEFOck1JSEg5RGpYdFRZd1JSOEVLVlpRZlAzWXhFX245WDlwVUUxdmJUMFpKUTNlV0E?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -6911,57 +6911,27 @@
       "ad_url": "https://www.facebook.com/ads/library/?id=992523323564618",
       "ad_id": "992523323564618",
       "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=989501357130238",
-      "ad_id": "989501357130238",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1159107656399801",
-      "ad_id": "1159107656399801",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1329520932459330",
-      "ad_id": "1329520932459330",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1740820810244755",
-      "ad_id": "1740820810244755",
-      "copa_score": 0
     }
   ],
   "youtube_uploads": [
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "Rip The Script | King Eric's Message | Nike Football",
+      "published_at": "2026-06-11T14:00:48+00:00",
+      "video_id": "KCeChDMx8FE",
+      "thumbnail": "https://i.ytimg.com/vi/KCeChDMx8FE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KCeChDMx8FE"
+    },
+    {
+      "brand": "Nike",
+      "channel": "Nike Football",
+      "title": "Rip The Script | King Eric's Message | Nike Football",
+      "published_at": "2026-06-11T14:00:48+00:00",
+      "video_id": "KCeChDMx8FE",
+      "thumbnail": "https://i.ytimg.com/vi/KCeChDMx8FE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KCeChDMx8FE"
+    },
     {
       "brand": "Adidas",
       "channel": "adidas",
@@ -7053,15 +7023,6 @@
       "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
     },
     {
-      "brand": "Nike",
-      "channel": "Nike Football",
-      "title": "On set with the fastest duo in football.",
-      "published_at": "2026-06-02T07:02:08+00:00",
-      "video_id": "Nicudp4FDJQ",
-      "thumbnail": "https://i.ytimg.com/vi/Nicudp4FDJQ/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
-    },
-    {
       "brand": "Under Armour",
       "channel": "Under Armour",
       "title": "Not your average cotton t-shirt😤🔥 #sports #football #athlete",
@@ -7089,57 +7050,11 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#convocaçãoparacopadomundo2026h",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 28550,
-      "raw_query": "convocação para copa do mundo 2026 horario",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#prelistacopadomundo2026brasil",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 20700,
-      "raw_query": "pre lista copa do mundo 2026 brasil",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocaçãodainglaterraparacopa",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 15700,
-      "raw_query": "convocação da inglaterra para copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocaçãoparacopadomundo2026d",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 7850,
-      "raw_query": "convocação para copa do mundo 2026 data e hora",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#listadosconvocadosparacopadomu",
-      "country": "BR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 4200,
-      "raw_query": "lista dos convocados para copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-34062413",
+      "sku": "signal-20932938",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7149,7 +7064,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-63331653",
+      "sku": "signal-78648244",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7159,7 +7074,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-83556744",
+      "sku": "signal-15431860",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7169,7 +7084,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-74845846",
+      "sku": "signal-81952848",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7183,10 +7098,10 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 125,
+      "signals_60d": 126,
       "latas_detected": 2,
-      "ads_active": 6,
-      "youtube_uploads_30d": 4,
+      "ads_active": 2,
+      "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
     },
@@ -7194,7 +7109,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 80,
+      "signals_60d": 77,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7205,7 +7120,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 4,
+      "signals_60d": 5,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
@@ -7216,7 +7131,7 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 15,
+      "signals_60d": 16,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 1,
@@ -7444,9 +7359,9 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 71,
-    "Puma": 63,
-    "Under Armour": 7,
+    "Nike": 70,
+    "Puma": 59,
+    "Under Armour": 8,
     "Mizuno": 5,
     "Joma": 2,
     "New Balance": 1
