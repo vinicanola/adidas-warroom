@@ -1,54 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-11T06:05:23.360019+00:00",
+  "generated_at": "2026-06-11T10:59:43.304526+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 252,
-      "elapsed_s": 35.3
+      "count": 250,
+      "elapsed_s": 41.8
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 72.0
+      "elapsed_s": 50.7
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 4.9
+      "elapsed_s": 5.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 2.8
+      "elapsed_s": 8.2
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 7.8,
-      "fallback": "kept_previous"
+      "count": 14,
+      "elapsed_s": 11.4
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 11,
-      "elapsed_s": 47.9
+      "count": 6,
+      "elapsed_s": 53.8
     },
     "trending_topics": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 2.8
+      "count": 5,
+      "elapsed_s": 11.5
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 1.8,
+      "elapsed_s": 3.6,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.2
+      "elapsed_s": 4.2
     }
   },
   "competitors": [
@@ -94,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 102,
+      "signals": 98,
       "color": "#F40000"
     },
     {
@@ -109,35 +108,35 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 60,
-      "signals": 35,
+      "score": 59,
+      "signals": 34,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 38,
-      "signals": 25,
+      "score": 36,
+      "signals": 23,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 11,
+    "ads_active_total": 6,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 11,
+    "ads_active_top_count": 6,
     "search_leader_brand": "Nike",
     "search_leader_pct": 57.7,
     "search_leader_delta_pp": -3.0,
-    "signals_60d": 270,
-    "signals_delta_pct": 107,
+    "signals_60d": 263,
+    "signals_delta_pct": 99,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 150,
+    "ambush_attempts_total": 149,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 69,
+    "ambush_top_count": 71,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 29,
+    "selecao_signals_total": 27,
     "official_signals_total": 0
   },
   "signals": [
@@ -2145,6 +2144,19 @@
     },
     {
       "level": "green",
+      "title": "Ni New Balance ni adidas: estas son las zapatillas favoritas de quienes trabajan todo el día de pie - SPORT",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLTdoc0hWR3pkWktmS0xWYThxVXExa01ZSEJaRnNJX1Y3OGdySUEySVQ0dE5GSjNfcGNOWGVKenlPSzBZbi0xTVh2bzFtWldFOHdzY0IxREVRUGJfS0tKdy1KcHpDQ0RFUExHdTZvQmo2U0J5a3VrSGVjcUZlM2xRNEd3cEpRcmJkaFVzX29kTjJzbDFobm1KYkQ4a2xNdlhqMFV1WmtkTFhhdFBROUQxd0tLTznSAbQBQVVfeXFMTzg5Y2ZhcGM0ZzFqa0w1MmFiNTgyT2Zsa1lkOENDWTF6YUMxajRsVTRWRnRxN2dIUmY2NmpOb1ptZDEySDRZZnEtUjMwRkRONTBMSGFEX2xLWW1MYjd2OTUyQVFLLXplOGhibXBCalBBMVYzQjl5NkFLbVhKaG5tODVDdXlvT2RFajJjT2EwaHpvcjdVMmVEWkxjWFFNUVBWdEV1UGd4Vm1RVVZrUDBENlNYbURa?oc=5",
+      "timestamp": "Wed, 13 May 2026 07:00:00 GMT",
+      "brand": "New Balance",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "México: VENUE Sports y Nike buscan reconectar al fútbol con su origen rumbo al Mundial 2026 - DossierNet",
       "market": "MX",
       "source": "Google News MX",
@@ -2216,19 +2228,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVGdtWVR6U3ZvRjRFSVVYenpTWWpxWU5OMU5PVDB2dWhQLW02LUJVVXVTZjNsQzVESE5QNVRHRUtXeE83U2RDZVlMZWh1bUpUOGxqdTh5WVhVSFJaUE9BcEktNkRFUy0zLWkyZkI0OE5lZ2pGSVlJWnlCLUtMUHoxbW0tR015dWtpVS1vRkxvNzcxaWM1akU4d0FwaENtSGRqT1EtOUV3RU1JaVRURkstUVdXTENDYlZUQkJRajRzVHZIb1M0NFRxY2RqamFGeGtoaW9GWnhR?oc=5",
       "timestamp": "Thu, 14 May 2026 04:53:55 GMT",
       "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Ni New Balance ni adidas: estas son las zapatillas favoritas de quienes trabajan todo el día de pie - SPORT",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLTdoc0hWR3pkWktmS0xWYThxVXExa01ZSEJaRnNJX1Y3OGdySUEySVQ0dE5GSjNfcGNOWGVKenlPSzBZbi0xTVh2bzFtWldFOHdzY0IxREVRUGJfS0tKdy1KcHpDQ0RFUExHdTZvQmo2U0J5a3VrSGVjcUZlM2xRNEd3cEpRcmJkaFVzX29kTjJzbDFobm1KYkQ4a2xNdlhqMFV1WmtkTFhhdFBROUQxd0tLTznSAbQBQVVfeXFMTzg5Y2ZhcGM0ZzFqa0w1MmFiNTgyT2Zsa1lkOENDWTF6YUMxajRsVTRWRnRxN2dIUmY2NmpOb1ptZDEySDRZZnEtUjMwRkRONTBMSGFEX2xLWW1MYjd2OTUyQVFLLXplOGhibXBCalBBMVYzQjl5NkFLbVhKaG5tODVDdXlvT2RFajJjT2EwaHpvcjdVMmVEWkxjWFFNUVBWdEV1UGd4Vm1RVVZrUDBENlNYbURa?oc=5",
-      "timestamp": "Wed, 13 May 2026 07:00:00 GMT",
-      "brand": "New Balance",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -2717,11 +2716,11 @@
     },
     {
       "level": "green",
-      "title": "La colección Nike Football x LEGO® invita a los niños a jugar siguiendo sus instintos — NIKE, Inc. - About Nike",
+      "title": "Nike lleva a las estrellas mundiales del futbol callejero a un escenario global con Toma Live - About Nike",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXNuclFUZVZBWnZvYzl0cjdhQ015ajFCWjlYREtqQkZaMXcySTVnM242QlZvT2YzbWFHNDQwWEFqakRtTXMzblYyVXlhdHZiNkdBLW43V2kwWVV3ZTJfV2FPanJScDA4LVZxWGUxTG1pdktHVWVNazd0REU2N3huMC13UGM2eEFOck1JSEg5RGpYdFRZd1JSOEVLVlpRZlAzWXhFX245WDlwVUUxdmJUMFpKUTNlV0E?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejB5YkRGZFVHRUJmcktndURjTDh0c0JHTTgzSHc1QVpIYkQxU1lIWjNUcUM0TXg3WEd5anhHbURDZDhpRllRemw0RUswbnZTNjVhaUpQOF9rOVRONnJfZjc0RGZXWW1rSC1tcThRRGpYLVpzMHNjaG9VQVlfaF9oeXc3SGg2cV9ONGU4Z016R2JSenAtdk5uR1FQZTJvZVNvWktnU1J1V1ZwNHVqVk1hN292UGtrVWFGU2Qza21yWnRUbzhpZmVkeXk5Ti1SYTNkLW9EVGF2QWM?oc=5",
+      "timestamp": "Fri, 29 May 2026 07:00:00 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2730,12 +2729,12 @@
     },
     {
       "level": "green",
-      "title": "Nike, Adidas y Puma, las marcas más golpeadas por la piratería rumbo al Mundial 2026 - EL CEO",
+      "title": "La colección Nike Football x LEGO® invita a los niños a jugar siguiendo sus instintos — NIKE, Inc. - About Nike",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzhDTG5PTnhNMmY2ZlhwblEzNHZPM1V1Rm1HSDk0by1TbjVDakJkMFgzRXFUUXNWUmtnaGt5RllZcDNXMUxQQ1V0c1RBNmJtQ2l6ZHdYNkFPNHZvRWd0X2RERWR2d2Y5NmtZdzdwNnZmQkFZWnV4MkZtY0VCOW1QRzY5a0MxYU9pZUVJbUVfN2ZoTmZGbXYwQkVNaXQwaVNQLVJ5OXV5RmJRTVZLVXgw?oc=5",
-      "timestamp": "Mon, 01 Jun 2026 19:49:31 GMT",
-      "brand": "Puma",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXNuclFUZVZBWnZvYzl0cjdhQ015ajFCWjlYREtqQkZaMXcySTVnM242QlZvT2YzbWFHNDQwWEFqakRtTXMzblYyVXlhdHZiNkdBLW43V2kwWVV3ZTJfV2FPanJScDA4LVZxWGUxTG1pdktHVWVNazd0REU2N3huMC13UGM2eEFOck1JSEg5RGpYdFRZd1JSOEVLVlpRZlAzWXhFX245WDlwVUUxdmJUMFpKUTNlV0E?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -6904,66 +6903,6 @@
     {
       "brand": "Nike",
       "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1325872408945202",
-      "ad_id": "1325872408945202",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=989501357130238",
-      "ad_id": "989501357130238",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1338926361637120",
-      "ad_id": "1338926361637120",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=996895023093866",
-      "ad_id": "996895023093866",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Valeria iba a regresar a Villavicencio con su prometido Cristóbal para organizar su boda, pero él la humilló y traicionó terriblemente. Para salvar las apariencias ante su familia, Valeria acepta a re",
-      "title": "Sorpresa de Navidad: No soy un vagabundo, soy un multimillonario",
-      "ad_url": "https://www.facebook.com/ads/library/?id=4376165645990583",
-      "ad_id": "4376165645990583",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
       "country": "AR",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-10",
@@ -7150,11 +7089,57 @@
       "url": "https://www.youtube.com/watch?v=M6VTC-N-diw"
     }
   ],
-  "tiktok_tags": [],
+  "tiktok_tags": [
+    {
+      "tag": "#convocaçãoparacopadomundo2026h",
+      "country": "BR",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 28550,
+      "raw_query": "convocação para copa do mundo 2026 horario",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#prelistacopadomundo2026brasil",
+      "country": "BR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 20700,
+      "raw_query": "pre lista copa do mundo 2026 brasil",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocaçãodainglaterraparacopa",
+      "country": "BR",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 15700,
+      "raw_query": "convocação da inglaterra para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocaçãoparacopadomundo2026d",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 7850,
+      "raw_query": "convocação para copa do mundo 2026 data e hora",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#listadosconvocadosparacopadomu",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 4200,
+      "raw_query": "lista dos convocados para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    }
+  ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-1512054",
+      "sku": "signal-34062413",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7164,7 +7149,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-80195868",
+      "sku": "signal-63331653",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7174,7 +7159,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-39076696",
+      "sku": "signal-83556744",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7184,7 +7169,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-59361629",
+      "sku": "signal-74845846",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7198,9 +7183,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 126,
+      "signals_60d": 125,
       "latas_detected": 2,
-      "ads_active": 11,
+      "ads_active": 6,
       "youtube_uploads_30d": 4,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7209,7 +7194,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 84,
+      "signals_60d": 80,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7220,7 +7205,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 6,
+      "signals_60d": 4,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
@@ -7459,8 +7444,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 69,
-    "Puma": 66,
+    "Nike": 71,
+    "Puma": 63,
     "Under Armour": 7,
     "Mizuno": 5,
     "Joma": 2,
