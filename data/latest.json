@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-12T19:22:53.853271+00:00",
+  "generated_at": "2026-06-12T22:00:47.114159+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 246,
-      "elapsed_s": 37.7
+      "elapsed_s": 36.4
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 63.5
+      "elapsed_s": 37.9
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 12,
-      "elapsed_s": 4.9
+      "count": 13,
+      "elapsed_s": 5.0
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.1
+      "elapsed_s": 3.6
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 9.3
+      "elapsed_s": 9.0
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 35.6
+      "elapsed_s": 35.7
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 26.8
+      "count": 16,
+      "elapsed_s": 16.3
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 27.6
+      "elapsed_s": 2.0,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -92,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 99,
+      "signals": 96,
       "color": "#F40000"
     },
     {
@@ -100,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 109,
+      "signals": 111,
       "color": "#006847"
     },
     {
@@ -115,8 +116,8 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 38,
-      "signals": 25,
+      "score": 39,
+      "signals": 26,
       "color": "#FFCD00"
     }
   ],
@@ -128,14 +129,14 @@
     "search_leader_pct": 54.9,
     "search_leader_delta_pp": -5.0,
     "signals_60d": 271,
-    "signals_delta_pct": 95,
+    "signals_delta_pct": 88,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 154,
+    "ambush_attempts_total": 155,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 73,
+    "ambush_top_count": 74,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 28,
+    "selecao_signals_total": 27,
     "official_signals_total": 0
   },
   "signals": [
@@ -550,6 +551,19 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNmJUalh3VFRaREdDOTJKOEhodGRabEZzU21UQ09oNmtIX3lnTkxuVU5SNkZad3o0Wlh5bU5TV0tEeHh1U2FfejNabFJNUE1HX0J3QWJqVXYzYXJTSG9USUdxTk1qR2FsYjF6QldZYlZtTXZoMG51R28waF9vcThVRHYtZ0xGNUtKaHlESEZkMFVsOGJaU1JVTlVOSkpwUQ?oc=5",
       "timestamp": "Fri, 12 Jun 2026 11:27:37 GMT",
       "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "New Balance lanza actividades por Mundial 2026 en sucursales de Guadalajara, Monterrey, Puebla, CDMX y Edomex: Del 11 al 19 de Julio - InformaBTL",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN180ZGQySzAtRkxHRVhKOVZCVkdoSi1kdHBiVGFWTWpOU2xIZkphZlVjR09PY1REcmc4eWgtMHFNOTBuTjNzc3B5azJKYjh0LUVGbkZDR2FSUV9VOUJNdWd5VW5JQVJuaThXNnhfX3NWem9xWm1zaEVrVjJmX2NJUHB3dXBtWDRRVmp6T2s2ZUJRR2JOV0xtcElpbnhHa3Rrck5qWkc3M20xc05wWDJ3RjFBNDlNWTNCOTE2a0Rua29UNG1iMmt5dFlWVTFia3diS3JlclZ3U2xwNjFXdDlvOUNlbEJXVzFwcG14ZA?oc=5",
+      "timestamp": "Fri, 12 Jun 2026 20:42:25 GMT",
+      "brand": "New Balance",
       "category": "Sportswear",
       "raw_meta": {},
       "time_human": "-",
@@ -2725,19 +2739,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Motagua se despide de Joma e impactará con marca mundial: detalles sobre nuevo uniforme - ElHeraldo.hn",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ3ZIb19STUM4dlgzZ1daTVNYZGZiSl9sMUZqejlxeW1WTWctX0lGWExyRXNycnBuRGdPbHVyZmU2cl9YQkQ2UVN0Q0lWcDJWNjFaajF2N1dMSlhXLVpuT1o0WVQzdTk4S0ozMEtpTmVESUFsNFZZMjVGZHZpa2NmSXV3TGhScEpqbGd5S1FSRHBJUWxHU2FXWk1fT1VxU1F3TU9jLWNNeTF2b0xKWTlGQWRfRjhRSWxRUTEwZjVFTU9FVU5vNUJqRQ?oc=5",
-      "timestamp": "Wed, 27 May 2026 07:00:00 GMT",
-      "brand": "Joma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -7026,38 +7027,29 @@
   ],
   "tiktok_tags": [
     {
-      "tag": "#convocacaoselecaobrasileirahor",
+      "tag": "#copamundialdefútbolde2026",
       "country": "BR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 240250,
-      "raw_query": "convocacao selecao brasileira horario",
-      "seed": "Selecao Brasileira"
+      "growth_pct": 72300,
+      "raw_query": "copa mundial de fútbol de 2026",
+      "seed": "Mundial 2026"
     },
     {
       "tag": "#quantospaíseseuropeusvãojogaro",
       "country": "BR",
       "posts": 0,
       "rank": 2,
-      "growth_pct": 69400,
+      "growth_pct": 69700,
       "raw_query": "quantos países europeus vão jogar o mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdefútbolde2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 68300,
-      "raw_query": "copa mundial de fútbol de 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#qualpaísparticipantedomundial2",
       "country": "BR",
       "posts": 0,
-      "rank": 4,
-      "growth_pct": 61950,
+      "rank": 3,
+      "growth_pct": 62650,
       "raw_query": "qual país participante do mundial 2026 fica em dois continentes",
       "seed": "Mundial 2026"
     },
@@ -7065,8 +7057,8 @@
       "tag": "#qualpaíséconhecidocomoberçodac",
       "country": "BR",
       "posts": 0,
-      "rank": 5,
-      "growth_pct": 60450,
+      "rank": 4,
+      "growth_pct": 60950,
       "raw_query": "qual país é conhecido como berço da civilização",
       "seed": "Mundial 2026"
     },
@@ -7074,8 +7066,8 @@
       "tag": "#qualpaísdomundialde2026possuim",
       "country": "BR",
       "posts": 0,
-      "rank": 6,
-      "growth_pct": 59850,
+      "rank": 5,
+      "growth_pct": 60150,
       "raw_query": "qual país do mundial de 2026 possui mais de 200 mil ilhas",
       "seed": "Mundial 2026"
     },
@@ -7083,107 +7075,35 @@
       "tag": "#inauguracióndelmundial2026envi",
       "country": "MX",
       "posts": 0,
-      "rank": 7,
-      "growth_pct": 54500,
+      "rank": 6,
+      "growth_pct": 54350,
       "raw_query": "inauguración del mundial 2026 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026horacol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 43050,
-      "raw_query": "inauguracion mundial 2026 hora colombia",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 40050,
-      "raw_query": "lista de francia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslainauguracióndelmun",
-      "country": "AR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 39950,
-      "raw_query": "a que hora es la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraseslainauguracióndelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 31800,
-      "raw_query": "a que horas es la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundialdefutbol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 25900,
-      "raw_query": "inauguración del mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslaaperturadelmundial",
-      "country": "AR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 22250,
-      "raw_query": "a que hora es la apertura del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#transmisióninauguraciónmundial",
       "country": "MX",
       "posts": 0,
-      "rank": 14,
-      "growth_pct": 19450,
+      "rank": 7,
+      "growth_pct": 21150,
       "raw_query": "transmisión inauguración mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 17600,
-      "raw_query": "ceremonia inaugural mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#dondeverlainauguracióndelmundi",
       "country": "MX",
       "posts": 0,
-      "rank": 16,
-      "growth_pct": 16500,
+      "rank": 8,
+      "growth_pct": 16700,
       "raw_query": "donde ver la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 15150,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#copamundialdelafifa2026grupos",
       "country": "MX",
       "posts": 0,
-      "rank": 18,
-      "growth_pct": 13750,
+      "rank": 9,
+      "growth_pct": 14950,
       "raw_query": "copa mundial de la fifa 2026 grupos",
       "seed": "Mundial 2026"
     },
@@ -7191,25 +7111,70 @@
       "tag": "#convocaçãodainglaterraparacopa",
       "country": "BR",
       "posts": 0,
-      "rank": 19,
-      "growth_pct": 11250,
+      "rank": 10,
+      "growth_pct": 11100,
       "raw_query": "convocação da inglaterra para copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
     },
     {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "AR",
+      "tag": "#quienjuegahoyenelmundial2026",
+      "country": "MX",
       "posts": 0,
-      "rank": 20,
-      "growth_pct": 8600,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
+      "rank": 11,
+      "growth_pct": 10600,
+      "raw_query": "quien juega hoy en el mundial 2026",
       "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#quehoraséaaberturadacopadomund",
+      "country": "BR",
+      "posts": 0,
+      "rank": 12,
+      "growth_pct": 2150,
+      "raw_query": "que horas é a abertura da copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#listadosconvocadosparacopadomu",
+      "country": "BR",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 1950,
+      "raw_query": "lista dos convocados para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#aberturadacopadomundo2026datae",
+      "country": "BR",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 1750,
+      "raw_query": "abertura da copa do mundo 2026 data e horário",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#listadosconvocadoscopadomundo2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 1750,
+      "raw_query": "lista dos convocados copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#maximogoleadordelaseleccionmex",
+      "country": "MX",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 90,
+      "raw_query": "maximo goleador de la seleccion mexicana",
+      "seed": "Seleccion mexicana"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-87240557",
+      "sku": "signal-63988687",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7219,7 +7184,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-23323513",
+      "sku": "signal-55058228",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7229,7 +7194,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-98276123",
+      "sku": "signal-21497860",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7239,7 +7204,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-51451724",
+      "sku": "signal-62727794",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7253,7 +7218,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 125,
+      "signals_60d": 126,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 5,
@@ -7275,11 +7240,11 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 6,
+      "signals_60d": 7,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
-      "top_movement": "Ni New Balance ni adidas: estas son las zapatillas favoritas de quienes trabajan todo el d",
+      "top_movement": "New Balance lanza actividades por Mundial 2026 en sucursales de Guadalajara, Monterrey, Pu",
       "top_source": "Google News MX"
     },
     {
@@ -7297,7 +7262,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 31,
+      "signals_60d": 29,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7514,11 +7479,11 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 73,
+    "Nike": 74,
     "Puma": 64,
     "Under Armour": 8,
-    "Mizuno": 6,
-    "Joma": 2,
-    "New Balance": 1
+    "New Balance": 2,
+    "Mizuno": 5,
+    "Joma": 2
   }
 }
