@@ -1,48 +1,47 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-12T13:40:40.716936+00:00",
+  "generated_at": "2026-06-12T16:56:01.639342+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 248,
-      "elapsed_s": 37.9
+      "count": 247,
+      "elapsed_s": 37.2
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 30.9
+      "elapsed_s": 34.6
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 5.2
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.4
+      "elapsed_s": 4.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 8.6
+      "elapsed_s": 9.1
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 79.5,
-      "fallback": "kept_previous"
+      "count": 1,
+      "elapsed_s": 29.7
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.4
+      "elapsed_s": 4.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 1.7,
+      "elapsed_s": 2.3,
       "fallback": "kept_previous"
     },
     "wikipedia": {
@@ -94,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 99,
+      "signals": 98,
       "color": "#F40000"
     },
     {
@@ -102,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 109,
+      "signals": 110,
       "color": "#006847"
     },
     {
@@ -117,23 +116,23 @@
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 38,
-      "signals": 25,
+      "score": 37,
+      "signals": 24,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 9,
-    "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 8,
+    "ads_active_total": 1,
+    "ads_active_top_brand": "Puma",
+    "ads_active_top_count": 1,
     "search_leader_brand": "Nike",
     "search_leader_pct": 56.3,
     "search_leader_delta_pp": -3.6,
-    "signals_60d": 270,
-    "signals_delta_pct": 103,
+    "signals_60d": 269,
+    "signals_delta_pct": 99,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 156,
+    "ambush_attempts_total": 152,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 73,
     "fifa_signals_total": 0,
@@ -538,6 +537,19 @@
       "source": "Google News MX",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMEo1UTJiWDU5dmloVm4tQkpCWXc0TTMzb1ZiY1YwTU90V0NkYzdScTZyQ0h3QlY0aTFvckVRSFRsaXZINFZ3MDlSYkxqYnRCNFNPem1lMlVPbGhHTkxtSF9lM1ZYVG13WFc4bEx2VlA5Q2xYUUlHcE9tU3FodGJpQWZ0dTF3XzR3b3NkZjVlYmxSOU16Q2VVeGpWMUhTanJ4QmJCSjVXM1cwVHEwcWp6YjkzV1czUWwtM28yQ2JfRWMwQmhrMkhraGdjczhsUHM0TW1EVFh0MVFUdGVxOS1PNzR6OHdQNm1YTXFvQ3Rtdw?oc=5",
       "timestamp": "Fri, 12 Jun 2026 13:34:02 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Estados Unidos para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Yahoo",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNmJUalh3VFRaREdDOTJKOEhodGRabEZzU21UQ09oNmtIX3lnTkxuVU5SNkZad3o0Wlh5bU5TV0tEeHh1U2FfejNabFJNUE1HX0J3QWJqVXYzYXJTSG9USUdxTk1qR2FsYjF6QldZYlZtTXZoMG51R28waF9vcThVRHYtZ0xGNUtKaHlESEZkMFVsOGJaU1JVTlVOSkpwUQ?oc=5",
+      "timestamp": "Fri, 12 Jun 2026 11:27:37 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -2639,6 +2651,19 @@
     },
     {
       "level": "green",
+      "title": "Botafogo lança coleção de uniformes com a Mizuno; veja fotos - Lance!",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkQyYUlCU0pGb1pnblFteVl0OVlpdmRnZ3JJZjlzQjJfVzUzNTJVeHMtWjNiRzZWWEZtWHZyWmUyRk1BNjgydmMtRHhDT1hZeW1vQWw0QWxPQXVlUWp2d1hzeVBycG5SRVpubTdzaTBUU3MtdFYzUTlZbV90OG4ySEZTbXhwU2s0VGdOWHRTT1I5ZXhKWEJJS1lnWkdoUE0?oc=5",
+      "timestamp": "Fri, 22 May 2026 07:00:00 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
       "title": "Ronaldinho, Lisa, Kardashian e mais: Nike reúne time de estrelas em campanha de Copa do Mundo - FFW",
       "market": "BR",
       "source": "Google News BR",
@@ -2714,32 +2739,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Jersey de México para el Mundial de Francia 98 vuelve a la venta y desata nostalgia entre aficionados: esto es lo que costará - Infobae",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTHY5ZGZhaldzYUY1RGNncmRrLWxXLTREMWdkSUlBUy1tV0ZBbGZvNlZtamhXTHFvTTNQSW54NE1Bc0hyLVg3WWl5bjBVS1pyQnk5cEpiOHUzQVVJQzBBNU82ZzYwVzh3bHNNdm84MmVxYXFRME5QUDJybFl2alhyVjZYNElGWkRDZXlnUzRXWXNXdmFhQzdxbmpRYXBFeEd4VTRQcUlSSkJFZTVaUXp4RlNTYVA1bXlvczBpUEFYNzl2NzdCRjV0cFUyRGdRVVJvRlVVaVpuOXJySXVuUFYtWkxseTFRYUlvb0loN2FoTGswZVJSUjZtbU1EVzRBTVgwODVYZWQ4a9IBogJBVV95cUxPWVhOUjlrTkxBVkRsTTB5anNJelZ6TUVzSnJ3Y1FRdlpzQWppQ0lUN0NKSVBkVzZLajdtQ0JsZDZxUUEzcjhaT2JGN0Q5LXhWMDJfLWRhdDlHaWNMc1ZnMXVjc3hmNlRscDY3ZHJOWkM5TmtKQ2U0NG9tWmt3b05yZE1NUDhfNUFUTDhZSnZtdEFXRTV4WUp5Z2VvWDJfVlVrRmVPSUtyRUtJbnVVaUVMOGhXcmoyTGNOR0JlOWltQy1Fa282REFBTmxzOERnN1kzMmJLN01VSkg3QUxsSmluYnRLNDB4WWd5WG94N215SVpVUDRNS2pMRmtpc29nOUpCMDgwOENLbnRsYzhxamFxWFR0ZWl0Q2VTbjVEV3E4MWxyZw?oc=5",
-      "timestamp": "Thu, 28 May 2026 07:00:00 GMT",
-      "brand": "Under Armour",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Icónico jersey de México del Mundial 1998 de ABA Sport sale a la venta HOY en tiendas Under Armour: precio de - la-lista.com",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOb3R2SlR1alNiYzdaaTFMX0tFelZSbDVVRzE5Y3R4Vk93dHZnb3h6dGZaUWRvNjZ0cXZDODFlandtdE1FQ1U0aXpiLXhia1g1NGpLajRteGVYUkEzcncwTVVLTm8zYURUWXhteFFvM3ZGUGsyUFRNRlpSN3VsWXE2OWtuTzhjcFZUMEk0alhOQmRnUTItNTFKTlBOVWxSWTYwNXZ1Nlk0eTVnU1MyUDNzeWM0eFZITUdCbVI3Z09ZeHV6VmpKdDhrYUtkLWh0QnRSZ2NsRkpkSG80TW1Xam1oRTRKU0t1UUh3YkdPODZVYlhpOU91YkhDLVBIWjNDZ2RPVGdtQ2RR0gGTAkFVX3lxTE5GVkRKZWtCWUhWcU45SkpDV3Y4UmhlUjZKLUF1YS1RU2FjTDI5SGs3bUJseXZCTVh5MVE4Wl9wbldFcjJjanZTaTRuY0V0ZG92S2F5Qy1GLTMyb1lrWFgxVy15UVVSc3p3bGxqVEtUSmdOT0NJd0JteDNJODcwb3hYR0J0SjBxbVJlTlpkeUo1VHJqYmZTa1NnNUdDczhZNXpnRUhCR0tJRDJaN3YxdFMyY3I4US1Sd1cwYzloZGxuOEFZeWtEUDlZZEY3elVha2syVlVtMHZkRTdYalI4NklwNVJRNzh3clhKb1JhU0ZFSjJvZFd5N3lGTzVUeHEtVVFFRTJaZWhoZE9pemtFUlYtMEVJ?oc=5",
-      "timestamp": "Thu, 28 May 2026 07:00:00 GMT",
-      "brand": "Under Armour",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
     }
   ],
   "search_interest": {
@@ -6334,105 +6333,18 @@
       "ad_url": "https://www.facebook.com/ads/library/?id=36473794675567368",
       "ad_id": "36473794675567368",
       "copa_score": 4
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
-      "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1401943738623209",
-      "ad_id": "1401943738623209",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
-      "ad_id": "27387316134255359",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
-      "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1401943738623209",
-      "ad_id": "1401943738623209",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1028772353139797",
-      "ad_id": "1028772353139797",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
-      "ad_id": "27387316134255359",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
-      "ad_id": "985922797521857",
-      "copa_score": 0
     }
   ],
   "youtube_uploads": [
+    {
+      "brand": "Adidas",
+      "channel": "Real Madrid",
+      "title": "The Magic BRAHIM DÍAZ Brings to the 2026 World Cup | Morocco x Real Madrid",
+      "published_at": "2026-06-12T16:00:10+00:00",
+      "video_id": "tf4coLn7Tzk",
+      "thumbnail": "https://i.ytimg.com/vi/tf4coLn7Tzk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=tf4coLn7Tzk"
+    },
     {
       "brand": "Adidas",
       "channel": "adidas",
@@ -6497,15 +6409,6 @@
       "url": "https://www.youtube.com/shorts/XBEbXbM1dew"
     },
     {
-      "brand": "Adidas",
-      "channel": "Real Madrid",
-      "title": "😆 Vini Jr. 1-0 Admin #ViniJr #RealMadrid",
-      "published_at": "2026-06-05T08:21:33+00:00",
-      "video_id": "uvQidhZMR_E",
-      "thumbnail": "https://i.ytimg.com/vi/uvQidhZMR_E/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/uvQidhZMR_E"
-    },
-    {
       "brand": "Nike",
       "channel": "Nike Football",
       "title": "Rip The Script | Nike Football",
@@ -6564,7 +6467,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-52064404",
+      "sku": "signal-96512834",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -6574,7 +6477,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-57514978",
+      "sku": "signal-11343426",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -6584,7 +6487,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-9182473",
+      "sku": "signal-29740931",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -6594,7 +6497,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-31769239",
+      "sku": "signal-32888896",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -6608,9 +6511,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 126,
       "latas_detected": 2,
-      "ads_active": 8,
+      "ads_active": 0,
       "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -6619,7 +6522,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 82,
+      "signals_60d": 81,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -6630,7 +6533,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 5,
+      "signals_60d": 6,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 2,
@@ -6870,9 +6773,9 @@
   },
   "ambush_by_brand": {
     "Nike": 73,
-    "Puma": 66,
+    "Puma": 63,
     "Under Armour": 8,
-    "Mizuno": 6,
+    "Mizuno": 5,
     "Joma": 2,
     "New Balance": 1
   }
