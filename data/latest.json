@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-11T23:50:54.942460+00:00",
+  "generated_at": "2026-06-12T04:59:40.165960+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 245,
-      "elapsed_s": 35.4
+      "count": 249,
+      "elapsed_s": 35.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 61.4
+      "elapsed_s": 30.3
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.7
+      "elapsed_s": 4.6
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.3
+      "elapsed_s": 6.3
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 8.4
+      "elapsed_s": 9.6
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 11,
-      "elapsed_s": 25.8
+      "count": 2,
+      "elapsed_s": 28.0
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 20.5
+      "count": 5,
+      "elapsed_s": 14.0
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 22.7
+      "elapsed_s": 2.9,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.1
+      "elapsed_s": 3.6
     }
   },
   "competitors": [
@@ -92,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 98,
+      "signals": 101,
       "color": "#F40000"
     },
     {
@@ -100,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 109,
+      "signals": 110,
       "color": "#006847"
     },
     {
@@ -121,19 +122,19 @@
     }
   ],
   "kpis": {
-    "ads_active_total": 11,
-    "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 10,
+    "ads_active_total": 2,
+    "ads_active_top_brand": "Puma",
+    "ads_active_top_count": 1,
     "search_leader_brand": "Nike",
     "search_leader_pct": 56.3,
     "search_leader_delta_pp": -3.6,
-    "signals_60d": 266,
-    "signals_delta_pct": 102,
+    "signals_60d": 270,
+    "signals_delta_pct": 107,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 152,
+    "ambush_attempts_total": 155,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 74,
+    "ambush_top_count": 75,
     "fifa_signals_total": 0,
     "selecao_signals_total": 29,
     "official_signals_total": 0
@@ -4995,10 +4996,6 @@
   "wikipedia_pageviews": {
     "Adidas": [
       {
-        "date": "20260412",
-        "views": 189
-      },
-      {
         "date": "20260413",
         "views": 183
       },
@@ -5233,13 +5230,13 @@
       {
         "date": "20260610",
         "views": 232
+      },
+      {
+        "date": "20260611",
+        "views": 257
       }
     ],
     "Nike": [
-      {
-        "date": "20260412",
-        "views": 153
-      },
       {
         "date": "20260413",
         "views": 146
@@ -5475,6 +5472,10 @@
       {
         "date": "20260610",
         "views": 146
+      },
+      {
+        "date": "20260611",
+        "views": 161
       }
     ],
     "Puma": [
@@ -5564,10 +5565,6 @@
       }
     ],
     "New Balance": [
-      {
-        "date": "20260412",
-        "views": 73
-      },
       {
         "date": "20260413",
         "views": 58
@@ -5803,13 +5800,13 @@
       {
         "date": "20260610",
         "views": 62
+      },
+      {
+        "date": "20260611",
+        "views": 53
       }
     ],
     "Under Armour": [
-      {
-        "date": "20260412",
-        "views": 35
-      },
       {
         "date": "20260413",
         "views": 45
@@ -6045,13 +6042,13 @@
       {
         "date": "20260610",
         "views": 23
+      },
+      {
+        "date": "20260611",
+        "views": 19
       }
     ],
     "Mizuno": [
-      {
-        "date": "20260412",
-        "views": 4
-      },
       {
         "date": "20260413",
         "views": 7
@@ -6279,13 +6276,13 @@
       {
         "date": "20260610",
         "views": 3
+      },
+      {
+        "date": "20260611",
+        "views": 8
       }
     ],
     "Penalty": [
-      {
-        "date": "20260412",
-        "views": 1
-      },
       {
         "date": "20260422",
         "views": 1
@@ -6347,114 +6344,6 @@
       "title": "Perdiste a un buen esposo, sin vuelta atrás.",
       "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
       "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=3563589507112723",
-      "ad_id": "3563589507112723",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "MX",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1028772353139797",
-      "ad_id": "1028772353139797",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
-      "ad_id": "27387316134255359",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "AR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
-      "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1401943738623209",
-      "ad_id": "1401943738623209",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=1028772353139797",
-      "ad_id": "1028772353139797",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=27387316134255359",
-      "ad_id": "27387316134255359",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "CO",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-11",
-      "body_snippet": "Harold, el Rey del Juego, protegió en secreto a los Dalton y a Grace durante tres años por lealtad a su maestro. Pese a recibir solo desprecio, interviene ante una estafa fatal para salvar a la famili",
-      "title": "Perdiste a un buen esposo, sin vuelta atrás.",
-      "ad_url": "https://www.facebook.com/ads/library/?id=985922797521857",
-      "ad_id": "985922797521857",
-      "copa_score": 0
-    },
-    {
-      "brand": "Nike",
-      "page_name": "Miller Florian Nike",
-      "country": "BR",
-      "platform": "facebook,instagram,audience_network,messenger,threads",
-      "started_at": "2026-06-10",
-      "body_snippet": "Diana Navarro lleva cinco años casada con Fabián Serrano. Ha entregado todo a la danza para cumplir el acuerdo con la madre de él y ganarse el derecho a ser reconocida como su esposa. Sin embargo, cua",
-      "title": "Después de cinco años esperando… ¿él ya no la ama?",
-      "ad_url": "https://www.facebook.com/ads/library/?id=989501357130238",
-      "ad_id": "989501357130238",
       "copa_score": 0
     }
   ],
@@ -6592,186 +6481,51 @@
       "country": "BR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 127650,
+      "growth_pct": 134250,
       "raw_query": "inauguración mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#dondeverlainauguracióndelmundi",
-      "country": "MX",
+      "tag": "#copamundialdelafifa2026",
+      "country": "BR",
       "posts": 0,
       "rank": 2,
-      "growth_pct": 101950,
-      "raw_query": "donde ver la inauguración del mundial 2026",
+      "growth_pct": 124600,
+      "raw_query": "copa mundial de la fifa 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#aquehoraeslainauguracióndelmun",
-      "country": "CO",
+      "tag": "#mundialfifa2026",
+      "country": "BR",
       "posts": 0,
       "rank": 3,
-      "growth_pct": 98450,
-      "raw_query": "a que hora es la inauguración del mundial 2026",
+      "growth_pct": 300,
+      "raw_query": "mundial fifa 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#quehoraséaaberturadacopadomund",
+      "tag": "#fixturemundial2026",
       "country": "BR",
       "posts": 0,
       "rank": 4,
-      "growth_pct": 81700,
-      "raw_query": "que horas é a abertura da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
+      "growth_pct": 250,
+      "raw_query": "fixture mundial 2026",
+      "seed": "Mundial 2026"
     },
     {
-      "tag": "#aquehoraempiezaelmundial2026",
-      "country": "AR",
+      "tag": "#finalmundial2026",
+      "country": "BR",
       "posts": 0,
       "rank": 5,
-      "growth_pct": 72950,
-      "raw_query": "a que hora empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 66500,
-      "raw_query": "ceremonia inaugural mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundial2026envi",
-      "country": "MX",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 63250,
-      "raw_query": "inauguración del mundial 2026 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaísparticipantedomundial2",
-      "country": "BR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 62850,
-      "raw_query": "qual país participante do mundial 2026 fica em dois continentes",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quantospaísesdaaméricadosulvão",
-      "country": "BR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 62000,
-      "raw_query": "quantos países da américa do sul vão jogar o mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaísdomundialde2026possuim",
-      "country": "BR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 61100,
-      "raw_query": "qual país do mundial de 2026 possui mais de 200 mil ilhas",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#cuandoempiezaelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 56750,
-      "raw_query": "cuando empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026horacol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 44350,
-      "raw_query": "inauguracion mundial 2026 hora colombia",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadefranciamundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 41750,
-      "raw_query": "lista de francia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#listadeconvocadoscolombiamundi",
-      "country": "CO",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 39800,
-      "raw_query": "lista de convocados colombia mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraseslainauguracióndelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 32900,
-      "raw_query": "a que horas es la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#convocadosdebrasilparaelmundia",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 32100,
-      "raw_query": "convocados de brasil para el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#canal5envivo",
-      "country": "MX",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 22400,
-      "raw_query": "canal 5 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#transmisióninauguraciónmundial",
-      "country": "MX",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 20800,
-      "raw_query": "transmisión inauguración mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslaaperturadelmundial",
-      "country": "AR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 20200,
-      "raw_query": "a que hora es la apertura del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 18000,
-      "raw_query": "ceremonia inaugural mundial 2026",
+      "growth_pct": 180,
+      "raw_query": "final mundial 2026",
       "seed": "Mundial 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-28314628",
+      "sku": "signal-76754763",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -6781,7 +6535,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-61621700",
+      "sku": "signal-32745953",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -6791,7 +6545,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-7713334",
+      "sku": "signal-13714605",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -6801,7 +6555,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-67662691",
+      "sku": "signal-48016215",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -6815,9 +6569,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 129,
       "latas_detected": 2,
-      "ads_active": 10,
+      "ads_active": 1,
       "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -6826,7 +6580,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 78,
+      "signals_60d": 80,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -7076,8 +6830,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 74,
-    "Puma": 61,
+    "Nike": 75,
+    "Puma": 63,
     "Under Armour": 8,
     "Mizuno": 6,
     "Joma": 2,
