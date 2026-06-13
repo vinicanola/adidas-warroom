@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T08:32:44.606561+00:00",
+  "generated_at": "2026-06-13T11:25:50.182948+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 245,
-      "elapsed_s": 34.3
+      "elapsed_s": 36.3
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 74.9
+      "elapsed_s": 29.4
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 4.6
+      "count": 12,
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.1
+      "elapsed_s": 5.7
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 8.5
+      "elapsed_s": 8.6
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 36.4
+      "elapsed_s": 47.6
     },
     "trending_topics": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 6.3
+      "count": 10,
+      "elapsed_s": 12.6
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 1.8,
+      "elapsed_s": 4.9,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.7
     }
   },
   "competitors": [
@@ -101,7 +101,7 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 109,
+      "signals": 111,
       "color": "#006847"
     },
     {
@@ -128,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.6,
     "search_leader_delta_pp": -4.1,
-    "signals_60d": 266,
-    "signals_delta_pct": 27,
+    "signals_60d": 268,
+    "signals_delta_pct": 29,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 154,
+    "ambush_attempts_total": 156,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 72,
+    "ambush_top_count": 74,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 26,
+    "selecao_signals_total": 25,
     "official_signals_total": 0
   },
   "signals": [
@@ -6900,6 +6900,15 @@
   "youtube_uploads": [
     {
       "brand": "Adidas",
+      "channel": "adidas",
+      "title": "Not tonight bro 🫪 #fifaworldcup #worldcup #football",
+      "published_at": "2026-06-13T10:37:47+00:00",
+      "video_id": "8vHPaGUVPaU",
+      "thumbnail": "https://i.ytimg.com/vi/8vHPaGUVPaU/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/8vHPaGUVPaU"
+    },
+    {
+      "brand": "Adidas",
       "channel": "Real Madrid",
       "title": "The Magic BRAHIM DÍAZ Brings to the 2026 World Cup | Morocco x Real Madrid",
       "published_at": "2026-06-12T16:00:10+00:00",
@@ -6962,15 +6971,6 @@
       "url": "https://www.youtube.com/shorts/4vpjprxmTnA"
     },
     {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "can it just start already? #worldcup #football #pedri",
-      "published_at": "2026-06-10T08:00:19+00:00",
-      "video_id": "XBEbXbM1dew",
-      "thumbnail": "https://i.ytimg.com/vi/XBEbXbM1dew/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/XBEbXbM1dew"
-    },
-    {
       "brand": "Nike",
       "channel": "Nike Football",
       "title": "Rip The Script | Nike Football",
@@ -7025,11 +7025,102 @@
       "url": "https://www.youtube.com/watch?v=rH-YloK2Te4"
     }
   ],
-  "tiktok_tags": [],
+  "tiktok_tags": [
+    {
+      "tag": "#quandovaiserafinaldomundialde2",
+      "country": "BR",
+      "posts": 0,
+      "rank": 1,
+      "growth_pct": 79700,
+      "raw_query": "quando vai ser a final do mundial de 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#oquevaiacontecerpelaprimeirave",
+      "country": "BR",
+      "posts": 0,
+      "rank": 2,
+      "growth_pct": 74800,
+      "raw_query": "o que vai acontecer pela primeira vez na final do mundial de 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#quehoraséaaberturadacopadomund",
+      "country": "BR",
+      "posts": 0,
+      "rank": 3,
+      "growth_pct": 69600,
+      "raw_query": "que horas é a abertura da copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#qualpaíséconhecidocomoberçodac",
+      "country": "BR",
+      "posts": 0,
+      "rank": 4,
+      "growth_pct": 57800,
+      "raw_query": "qual país é conhecido como berço da civilização",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#emqualpaísbicampeãomundialaspe",
+      "country": "BR",
+      "posts": 0,
+      "rank": 5,
+      "growth_pct": 39050,
+      "raw_query": "em qual país bicampeão mundial as pessoas trocam cartões no ano novo",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#quaisseleçõesseclassificarampa",
+      "country": "BR",
+      "posts": 0,
+      "rank": 6,
+      "growth_pct": 37550,
+      "raw_query": "quais seleções se classificaram para o mundial só na repescagem",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aberturadacopadomundo2026datae",
+      "country": "BR",
+      "posts": 0,
+      "rank": 7,
+      "growth_pct": 2050,
+      "raw_query": "abertura da copa do mundo 2026 data e horário",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocaçãodainglaterraparacopa",
+      "country": "BR",
+      "posts": 0,
+      "rank": 8,
+      "growth_pct": 1600,
+      "raw_query": "convocação da inglaterra para copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#copadomundodafifa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 9,
+      "growth_pct": 1550,
+      "raw_query": "copa do mundo da fifa 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#cerimoniadeaberturacopadomundo",
+      "country": "BR",
+      "posts": 0,
+      "rank": 10,
+      "growth_pct": 1450,
+      "raw_query": "cerimonia de abertura copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    }
+  ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-4095615",
+      "sku": "signal-33389014",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7039,7 +7130,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-12770789",
+      "sku": "signal-67382457",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7049,7 +7140,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-14541227",
+      "sku": "signal-53839922",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7059,7 +7150,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-57946372",
+      "sku": "signal-59069894",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7073,7 +7164,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 124,
+      "signals_60d": 125,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 5,
@@ -7117,7 +7208,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 29,
+      "signals_60d": 30,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7334,7 +7425,7 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 72,
+    "Nike": 74,
     "Puma": 64,
     "Under Armour": 8,
     "New Balance": 3,
