@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-15T12:40:16.141491+00:00",
+  "generated_at": "2026-06-15T18:03:37.536028+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
       "count": 236,
-      "elapsed_s": 36.5
+      "elapsed_s": 39.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 32.4
+      "elapsed_s": 79.4
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.7
+      "elapsed_s": 4.9
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.4
+      "elapsed_s": 4.2
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 8.6
+      "elapsed_s": 9.1
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 1,
-      "elapsed_s": 38.9
+      "count": 3,
+      "elapsed_s": 40.1
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.4
+      "elapsed_s": 6.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.2,
+      "elapsed_s": 4.5,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.4
     }
   },
   "competitors": [
@@ -93,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 95,
+      "signals": 94,
       "color": "#F40000"
     },
     {
@@ -101,38 +101,38 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 102,
+      "signals": 103,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 65,
-      "signals": 40,
+      "score": 63,
+      "signals": 38,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 40,
-      "signals": 27,
+      "score": 38,
+      "signals": 25,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 1,
-    "ads_active_top_brand": "Puma",
-    "ads_active_top_count": 1,
+    "ads_active_total": 3,
+    "ads_active_top_brand": "Nike",
+    "ads_active_top_count": 2,
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.0,
     "search_leader_delta_pp": -1.9,
-    "signals_60d": 264,
-    "signals_delta_pct": -22,
+    "signals_60d": 260,
+    "signals_delta_pct": -24,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 152,
+    "ambush_attempts_total": 150,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 71,
     "fifa_signals_total": 0,
@@ -6903,9 +6903,42 @@
       "ad_url": "https://www.facebook.com/ads/library/?id=36473794675567368",
       "ad_id": "36473794675567368",
       "copa_score": 4
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "MX",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-15",
+      "body_snippet": "En una maratón de identidades, Elena debe enfrentar a su ex infiel, su amante, sus madres, su nuevo pretendiente real, las mujeres tras su verdadero amor y, finalmente, a la dominante suegra. ¿Podrá E",
+      "title": "¡Mi identidad supera la tuya!",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1510115257506734",
+      "ad_id": "1510115257506734",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "CO",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-15",
+      "body_snippet": "En una maratón de identidades, Elena debe enfrentar a su ex infiel, su amante, sus madres, su nuevo pretendiente real, las mujeres tras su verdadero amor y, finalmente, a la dominante suegra. ¿Podrá E",
+      "title": "¡Mi identidad supera la tuya!",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1510115257506734",
+      "ad_id": "1510115257506734",
+      "copa_score": 0
     }
   ],
   "youtube_uploads": [
+    {
+      "brand": "Adidas",
+      "channel": "Real Madrid",
+      "title": "COURTOIS is READY for the 2026 World Cup | Belgium x Real Madrid",
+      "published_at": "2026-06-15T17:59:21+00:00",
+      "video_id": "d71h-tObti8",
+      "thumbnail": "https://i.ytimg.com/vi/d71h-tObti8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=d71h-tObti8"
+    },
     {
       "brand": "Adidas",
       "channel": "adidas",
@@ -6923,15 +6956,6 @@
       "video_id": "Fi-ZJFUtkdw",
       "thumbnail": "https://i.ytimg.com/vi/Fi-ZJFUtkdw/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/Fi-ZJFUtkdw"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "Real Madrid",
-      "title": "RÜDIGER is READY for the 2026 World Cup | Germany x Real Madrid",
-      "published_at": "2026-06-14T14:06:21+00:00",
-      "video_id": "yraJ9zbOo1M",
-      "thumbnail": "https://i.ytimg.com/vi/yraJ9zbOo1M/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yraJ9zbOo1M"
     },
     {
       "brand": "Adidas",
@@ -7037,7 +7061,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-32326054",
+      "sku": "signal-63584251",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7047,7 +7071,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-99036592",
+      "sku": "signal-25473713",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7057,7 +7081,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-59225260",
+      "sku": "signal-14542501",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7067,7 +7091,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-12067991",
+      "sku": "signal-73240112",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7081,9 +7105,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 124,
+      "signals_60d": 123,
       "latas_detected": 2,
-      "ads_active": 0,
+      "ads_active": 2,
       "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
       "top_source": "Google News MX"
@@ -7092,7 +7116,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 77,
+      "signals_60d": 75,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -7106,7 +7130,7 @@
       "signals_60d": 8,
       "latas_detected": 0,
       "ads_active": 0,
-      "youtube_uploads_30d": 2,
+      "youtube_uploads_30d": 1,
       "top_movement": "New Balance lanza actividades por Mundial 2026 en sucursales de Guadalajara, Monterrey, Pu",
       "top_source": "Google News MX"
     },
@@ -7147,7 +7171,7 @@
       "brand": "Joma",
       "category": "Sportswear",
       "color": "#F39200",
-      "signals_60d": 12,
+      "signals_60d": 11,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7343,7 +7367,7 @@
   },
   "ambush_by_brand": {
     "Nike": 71,
-    "Puma": 63,
+    "Puma": 61,
     "Under Armour": 8,
     "New Balance": 4,
     "Mizuno": 4,
