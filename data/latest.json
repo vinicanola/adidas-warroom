@@ -1,52 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-15T05:24:43.169980+00:00",
+  "generated_at": "2026-06-15T12:40:16.141491+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 234,
-      "elapsed_s": 34.2
+      "count": 236,
+      "elapsed_s": 36.5
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 42.5
+      "elapsed_s": 32.4
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 12,
-      "elapsed_s": 4.5
+      "elapsed_s": 4.7
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.1
+      "elapsed_s": 3.4
     },
     "youtube_rss": {
       "status": "ok",
       "count": 14,
-      "elapsed_s": 8.2
+      "elapsed_s": 8.6
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 32.7
+      "elapsed_s": 38.9
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 22.2
+      "count": 0,
+      "elapsed_s": 3.4
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 25.1
+      "elapsed_s": 2.2,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -100,15 +101,15 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 104,
+      "signals": 102,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 66,
-      "signals": 41,
+      "score": 65,
+      "signals": 40,
       "color": "#75AADB"
     },
     {
@@ -127,13 +128,13 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.0,
     "search_leader_delta_pp": -1.9,
-    "signals_60d": 267,
-    "signals_delta_pct": -24,
+    "signals_60d": 264,
+    "signals_delta_pct": -22,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 157,
+    "ambush_attempts_total": 152,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 74,
+    "ambush_top_count": 71,
     "fifa_signals_total": 0,
     "selecao_signals_total": 28,
     "official_signals_total": 0
@@ -569,6 +570,19 @@
       "sponsorship_status": "ambush"
     },
     {
+      "level": "red",
+      "title": "Under Armour lanza las Shadow Elite 4 para el gran escaparate mundial - Interempresas Media",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeDFBTVlRZ25XM09QX2tWaENsYnEtLTU4ZGhrTG5qd0RmWlpWbFlPeGVHa09ITlREQUFYeVRuSGgzME1aRFZJcG55eFBMcjNQeFdDeE9mRVRCQWZvUTczM1E2YnhuVm9IUWlEVWJ2akpMUi1PMlQ3MEhhQVNscDJDdjEtYnE5bUJIaUtOeXZ6NlpXa05BcGNwVmRYQ3oxTUgyalJ1eWZCYVJ2RTRpbmh2N1paem1ZRVQteTJBWS1GeXVReEVHekJ4cEh3?oc=5",
+      "timestamp": "Mon, 15 Jun 2026 08:46:25 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
       "level": "yellow",
       "title": "Botafogo anuncia saída da Reebok e terá Mizuno a partir do 2º semestre - Máquina do Esporte",
       "market": "BR",
@@ -869,19 +883,6 @@
     },
     {
       "level": "yellow",
-      "title": "[Registro/marca] Transportadora é condenada por reproduzir símbolo de marca de alto renome - Debate Jurídico",
-      "market": "BR",
-      "source": "INPI proxy",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU3d2VV9RS0dwd185S2xYWWRUN0pkQzJfLWlncTZqaFI3dWFqVXRPSGNkOE9Ka2xHcmRDRmdDNnZLaDVSYktsY21ETTJiem5XdFhneGxpYVVTZE5zck5NVDF4eWlGeE5JUzY3bTY4MExMR2g2UTRyMHRRT01naF9Udi1ldS1UYkZiTW5ISXdHWFBRM3o3Y3E5RmpOdk0tRVJEQkM5dld2MA?oc=5",
-      "timestamp": "Fri, 12 Jun 2026 18:10:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
       "title": "Vini Jr. e outros astros do esporte mundial estrelam nova campanha da Nike - Alma Preta Jornalismo",
       "market": "BR",
       "source": "Google News BR",
@@ -892,58 +893,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "selecao_oficial"
-    },
-    {
-      "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - America Retail Malls",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Adidas lidera el mercado de patrocinios para el Mundial - AmericaMalls & Retail",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUpIYWFIZzBtdGZWeE9MSHREVkc1bmtYSnRuSlFZTlFlUmEwcEotYmM1TlEzS0FzMW5idFAxSmIxT2RRZzQycW44TnA4dDJQT0ozanItaWdRemFmR2FmclZOV05qWVhpOW1WVmc4cXQ2S2d6a25uYlBwTEp3M2pJREw4bnBkWHdzME9weVhfUkhma0VZcXNsUXctX2x5NzdHRS1UM3ljcXNsQ21feVgwS0J1bmpFUQ?oc=5",
-      "timestamp": "Wed, 15 Apr 2026 09:53:11 GMT",
-      "brand": "Puma",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
     },
     {
       "level": "green",
@@ -2738,6 +2687,58 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "LEGO e Nike Football lançam coleção infantil perfeita para o verão de Copa do Mundo - Hypebeast",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX1NHdFcwUU8ydWd2MFNWdmRzakFNSUMyMHBnUmpQQ18zdm14TDlZUzRGd0prbzNhbFNoOUpDYVIxdlJoYnJwaWJsQkZXa1Bjd01NaUppcnlLamVWVm53Nm84dXQyNzVEMGtzWmZvam9jU0xTajA5c3ZFTExaX0ZkeFh2NUhiZjVKeHJadkYzXzFrUzVsZml4dUNuX1BkbUtsaEtDeV9VQldoeGVGYVpyNjZsREUyWmlISHgzWlJ6VFowanBCb0Rsb29iRW9hNElBNmdCYWE1Yw?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:36:57 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "WBSC y Mizuno extienden su acuerdo oficial de patrocinio de softbol hasta 2029 - World Baseball Softball Confederation (WBSC)",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3puZ3Z3am85RnRnUUZfYy1ub1E0Yk54Si1VZmZZbUFKUzk2eWwyOXJQVUhPTkhocG1wOUY1VmxDRTBYMlVTWVlfTl95WVM0dHVXNkFkei1hYUdvbmRkdi04Q29oem1CTTh1b2pCQnN6NnEtS3U3QlUzNEZLUm0tRlFHZzZuNDc0eGRZMVkybDdvT1M5?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:16:12 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Joma se inspira en la emoción compartida en su colección retro de fútbol previa al Mundial - Diario Siglo XXI",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMWVfcWRJX1BPX2tmN2JvNzFkbXlfRk5qSjN5N2g1WExWN2pGUy1zdkItNGg3aVQ3eERQTUJvR0dYYkhlNi1ETjdHa1RxdnFrYnJlblVmOXpUSmxSZ0ZXNENzTVA1cm5HLTFnSVJTcGNqSWlGdENaSjNOWVVpeXJKd21MTndPdHJ0NWlCdS1pZnB5TDhZT3ZmYW1YOS01UUprWGhFbjY1NTFEeF9iR2VUblpPWGItaXVyTTRyY2lRbHlzNUZwQWJ3RHlKV2I?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:05:00 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Joma se inspira en la emoción compartida en su colección retro de fútbol previa al Mundial - Notimérica",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQzU2bWtmanJsRmZRWTNJY3ZLOUhTRUZTQW1ndkV0Y3FSeDNodU5SaHRDYms1YjVEeGpPQjVWRUxTbllhcTU2MjJVWkhudUFmdUhWUDltTVlQMnZkaEVCS0w5NnRZSlZHWGpOeWZiZ1NFa05hZ0JKMUZYOU9STi1rUGJtYjFiNVpUMUZkQzBLWVJFa1NEcjRhYVo2NGdNVDNjVy1zTUx5V1FEYjJQUnJBc2FGbTJjQV8yaFdyWWp0NVAyRlFnWEJ3dGhmTU92V0g1WEVWeURR?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:06:09 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -7032,192 +7033,11 @@
       "url": "https://www.youtube.com/watch?v=rH-YloK2Te4"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#quantasfigurinhastemoálbumdomu",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 71300,
-      "raw_query": "quantas figurinhas tem o álbum do mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslainauguracióndelmun",
-      "country": "CO",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 59850,
-      "raw_query": "a que hora es la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quehoraséaaberturadacopadomund",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 52450,
-      "raw_query": "que horas é a abertura da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#quantospaíseseuropeusvãojogaro",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 49750,
-      "raw_query": "quantos países europeus vão jogar o mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaísparticipantedomundial2",
-      "country": "BR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 49200,
-      "raw_query": "qual país participante do mundial 2026 fica em dois continentes",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quantospaísesdaaméricadosulvão",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 48000,
-      "raw_query": "quantos países da américa do sul vão jogar o mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaíséconhecidocomoberçodac",
-      "country": "BR",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 46450,
-      "raw_query": "qual país é conhecido como berço da civilização",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quienjuegahoyenelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 41750,
-      "raw_query": "quien juega hoy en el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "MX",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 35100,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguraciónmundial2026horaarg",
-      "country": "AR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 34700,
-      "raw_query": "inauguración mundial 2026 hora argentina",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundial2026envi",
-      "country": "MX",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 33100,
-      "raw_query": "inauguración del mundial 2026 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "CO",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 32050,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraeslainauguracióndelmun",
-      "country": "AR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 29150,
-      "raw_query": "a que hora es la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundialdefutbol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 18750,
-      "raw_query": "inauguración del mundial de futbol 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 17150,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 15950,
-      "raw_query": "costa rica va al mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 12850,
-      "raw_query": "ceremonia inaugural mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#canal5envivo",
-      "country": "MX",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 12450,
-      "raw_query": "canal 5 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#transmisióninauguraciónmundial",
-      "country": "MX",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 11750,
-      "raw_query": "transmisión inauguración mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 7950,
-      "raw_query": "ceremonia inaugural mundial 2026",
-      "seed": "Mundial 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-25180228",
+      "sku": "signal-32326054",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7227,7 +7047,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-60125982",
+      "sku": "signal-99036592",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7237,7 +7057,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-33420285",
+      "sku": "signal-59225260",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7247,7 +7067,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-59710401",
+      "sku": "signal-12067991",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7261,7 +7081,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 126,
+      "signals_60d": 124,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 5,
@@ -7272,7 +7092,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 80,
+      "signals_60d": 77,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -7294,7 +7114,7 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 14,
+      "signals_60d": 15,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 1,
@@ -7327,7 +7147,7 @@
       "brand": "Joma",
       "category": "Sportswear",
       "color": "#F39200",
-      "signals_60d": 11,
+      "signals_60d": 12,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7522,8 +7342,8 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 74,
-    "Puma": 65,
+    "Nike": 71,
+    "Puma": 63,
     "Under Armour": 8,
     "New Balance": 4,
     "Mizuno": 4,
