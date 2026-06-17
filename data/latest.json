@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-17T05:08:51.507289+00:00",
+  "generated_at": "2026-06-17T11:18:05.891412+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 237,
-      "elapsed_s": 35.4
+      "count": 231,
+      "elapsed_s": 34.9
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 53.0
+      "elapsed_s": 74.2
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 14,
-      "elapsed_s": 5.1
+      "count": 13,
+      "elapsed_s": 4.8
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 3.1
+      "elapsed_s": 6.2
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 0,
-      "elapsed_s": 7.4,
-      "fallback": "kept_previous"
+      "count": 14,
+      "elapsed_s": 8.7
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 49.9
+      "elapsed_s": 66.9
     },
     "trending_topics": {
       "status": "ok",
       "count": 20,
-      "elapsed_s": 29.3
+      "elapsed_s": 21.3
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 12.1
+      "elapsed_s": 11.7,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.6
     }
   },
   "competitors": [
@@ -92,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 100,
-      "signals": 95,
+      "score": 99,
+      "signals": 85,
       "color": "#F40000"
     },
     {
@@ -101,15 +101,15 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 109,
+      "signals": 108,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 69,
-      "signals": 40,
+      "score": 70,
+      "signals": 41,
       "color": "#75AADB"
     },
     {
@@ -128,44 +128,18 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 54.3,
     "search_leader_delta_pp": -1.4,
-    "signals_60d": 270,
-    "signals_delta_pct": -16,
+    "signals_60d": 260,
+    "signals_delta_pct": -6,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 161,
+    "ambush_attempts_total": 160,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 76,
+    "ambush_top_count": 74,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 27,
+    "selecao_signals_total": 28,
     "official_signals_total": 0
   },
   "signals": [
-    {
-      "level": "red",
-      "title": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTGdaU3FPSlR6dFlPV1FidS1WalBJcDIxRUpjZklvXzFfU2VteEhjenF1cUN1OFhKY0VySmlQMjQ5V2xob2hZM3FOdkoxcm9tZXZ6bkRQV1lEVmo4RDY0LUtFU1ZBX2MxanRtQ25Na0JoMEFGOTJQR1RaRTg5QmlseTRDZS1jeXJreURtVV9kYTN3a09YZWxHWW05Qmd3RWdYLThvY3JPSTRYNTgyejNlT1h4YkZHVDdWbUNJNWFYWXg3NnE3bUk3TDBPREw2UlhyV3c1X1k2dWlZeG4zY0RMbEtjLVRvUkZsc1hZV0FDYmV0Zmw2dkE?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "red",
-      "title": "Cambio de sponsor técnico para Botafogo: pasará de vestir Reebok a Mizuno - Marketing Registrado",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMjNvT0NpQXh2WWhMN2JLYkJ3b05GUWRkZFBGa2tvNG51dGNTUF9keWZFekJuSm1PM0lMT0xhZlhSUDFQamxjX0xmNlU4Z0E1UFFqUnNnSEFIcXROR0VGLVh1VDJwZWpBNU1DR0VILXE1VjFrenNyUktHeVEyR0dmVVlOR1RPNUZOMkNXMktyT29WUGhqWlpweVdWMzRidnRfYkNvc1c5Z1g5Z1dZQ2ttWW5haDnSAbgBQVVfeXFMTzItZ21FUWNwdk5rcVh1SWlHNVRPR3ZPekUzWTdlTHBINkdkejdrWEJJc2w1VGx3WjI4Rkd5MUV3QkRwZU8xQ255N3ZHOUZEZ1JDOVlJTU5ydDRmeWlFTFd0YW15ajBmZ3pMN1g3N2hXOWVPbVdZYjk4TkFUQkFkSERxcFJ1c0xMT0x4MXAzeUFWbFcySzNBek9EV0swOUZFSlAyVXdBR3pPaEVvTm5Hd1ZfUmo4R2pOVw?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
     {
       "level": "red",
       "title": "Equipaciones de Noruega para la Copa Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
@@ -649,84 +623,6 @@
     },
     {
       "level": "yellow",
-      "title": "Botafogo anuncia Mizuno como nova fornecedora de material esportivo - CNN Brasil",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmNKRUN2ZFBoZWJENkdyVzRSTVY1VDQ0cnVPR2xfcTI1cC1Sel8xWEpGancyaVl5SlhJdUk2aWRVSWdKVk1NTFFiUldaUFlZOGVCQW1pUHBibWlObHY1U2ZXc2N3LTktRVE3b3J1TWMwRkRxQ0FzaFlCVDE2bDRCMDhHRXJ1allUUFBkeFlMWEhDd2RyeEJpalUxYjU2OUdLbXNHY0lxaG9KYWR0RzZ1WG0yZXE4VUtEeVB3TXA1S3Q?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
-      "title": "Botafogo anuncia Mizuno como nova fornecedora até 2029 - Revista PLACAR",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjdxaERyUlo1WW5ZN0p5c0hRTFRFZ0RZOUdZQ21oekVFYVJYUXJ0Y2hZUWxpZXJ2ek9sZTNwWW9wOWFraXFHd0xQWldlWjRKME5adkt2MVZFaHRTMlhSckl4MzE5QnRvRERWa3pqZ3FYWER0QUlIZUhlekRITFFzYlV6TVB4TklqM01EcnFn?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
-      "title": "BOTAFOGO ANUNCIA MIZUNO COMO NOVA FORNECEDORA DE MATERIAL ESPORTIVO ATÉ 2029 - FogãoNET",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2daYlhUR0pJME5pMlFNQUFJLWdqZldEY1RXdFBudjZha3FQOUdiaDNybFNWdTJhVDRhLXVKQkd0LXNMQ3JNTjVJVGdMRHNNM3N0bWFsUmtwc2tqUG9VUW1HQVh1R2lEdDdNNW1CdXBJWFBXUWNCLWRFMTU2U1MyRXNGejVjak01ZkhIdGRST3dNNTdjakpoOVhwWTktZFBRMF9henhvcmpOZw?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
-      "title": "LIVE | Botafogo anuncia Mizuno como nova fornecedora; chance para engrenar na temporada - FogãoNET",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX1FnU2JhcV9yTVhrVTdLNUpoSTFKc21EN0FXSzRIT3lPMWY2MWhIZW5TY1NVWWlXU1RieFdFcTNiLWVUWnZ0WVZaY3hRbEN1S1FVTlNXcDZaSFBEa2stUzRhZ2xjM1pYTm9GOEtIRm9jeXNDemltY0E2R1I4ZVN0MjlTeWw0MW1DM2RjZUthUXNVbkVDZGwwOERIOUNHZXJsb1pBS0k2Z0llT0F1WjZVS2lqcVh0TGR1?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
-      "title": "Botafogo anuncia Mizuno como nova fornecedora de material esportivo - Rádio Itatiaia",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY09BRHlMcUJOcVdzU3FFZnR3UUtmQTRMX1FsUU15eG96ZEI4dnFGMGJoQndoUXVCbjJJNEh1YUhaYmpzaGZzMFFTc2pZeE9jWFJjTm9uZ1NMc0prMzFjOEFGeHhjY0JFc2kxZXNZUTdlV2RTS0J1ckJuZmxOVmFXTGE1OTFscWxYQUpNTndFc3BXMldtcWx3bXA4TENVRno2WVNFdWtqWVhDMnVEbHZCNDVCUWdvR0FKSTNudURabk1ONF8yYXc0NXNrQll6Z0lzVGt2aEYzOEFXRi1tWU9ZQ3ZmUEZZbmRRTk1F?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
-      "title": "Botafogo anuncia Mizuno como nova fornecedora de material esportivo - Poder360",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM1BndjJfTGJmZUhWLWI4Zl9wcHF6UDZ3Yi1fclZ4c0NOOEdYU1VpcFRzYUxNQmRwRUtTQ2dCOWJWN0M3NnRMV0ZzVVR2TldaYUZoV0RocEVUWnp1Ym5UNGNpMGdEOUVYX0U0TGgzejZkRWhnTGlfdDlBVkxvaEFMaHB1ckp2NjduR2FULUZTbUZJWHJBVjVGX3dvSnlBQm94QktKSldoRkJsLVFEWGdSZmFB?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "yellow",
       "title": "Copa do Mundo de 2026 pode ser o catalisador que Nike e Adidas precisam no 2º tri - Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "market": "BR",
       "source": "Google News BR",
@@ -958,71 +854,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Botafogo oficializa Mizuno como fornecedora de material esportivo - Máquina do Esporte",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFZvXzNiVDBNZTJQVm1WTnlNNVhRWWxUUE11aTl6VDdlaVVnS3gyY0N4RHZFNzRYRklsdjNrb1NoekExdlBiNjJPWmg3NHI2cEV1U01udXhmSjVFYnVNUTM0TGtQSFBwcWtfblNubDd6RUtsb1M2U19DUnM4b0h6bkc1MnA1cm8weVU3dkQwNzFQdFhfQ0ZvUFM2SFVGWVdYNGc4NDZOakZ6UQ?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "BOTAFOGO + MIZUNO - Botafogo de Futebol e Regatas",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsdWdHNDVjRzZRZTAxaTRZQ2RGc09CT2FnQkV2VHFCdk1EckI5cWlxdXVSM3BTVEY2YmpLckhZYUV3RXhYaUhaYk5TMVA4Y3RIWm95Y055VncwTWJsWVIxSFZn?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Mizuno assume Botafogo e promete mudança no uniforme até 2029 - diário do estado",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3FTS3BOMWpmTGt1YlJ3UGlwQUJKeURjZ0NCVm5WM0RzWkRTWXhzX1pfUUNiZFFVT2xzeWt4Q09PUTVuV0FlZFF3STU0NjEzb0s2UjE3Q1Y1ZnJlMkxzZXUzZmhDTGRjOHRxN0RPUXZnajVUSVNVV1o2NlB0a1JEaFRNbE1RQV83d0doUmpQRGJaV00ycFRhdi1B?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Botafogo oficializa Mizuno como nova fornecedora de material esportivo - Tribuna do Sertão",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNTZ0amhXcUhqVzhKTU14MWlIUEd3eU1BOHlEM3BNMU0yZ3RQUjNza0Y1cGJDdHFtSE1hUFdwN0hiTHE3Y2oxd2ZjSFBKb1I4dGM2T1h6RjB5UldLV01BMnhvTWZkcTk0UW03WXlNNnNxVkpzbkQwcnpHUGJ4VW9XS1l0Tmc5RWd1Y0lKOGV2cXBtZTFTLVJhd3czZ0Zac241bndlZTFCQWxSLWNXT2NqSmZ3Q1JZbTNFVVVMZVloaFN2dmJ6VVNma0tzd3labDRLWElMQg?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
-    },
-    {
-      "level": "green",
-      "title": "Mizuno assume Botafogo e aquece rivalidade entre marcas esportivas - diário do estado",
-      "market": "BR",
-      "source": "Google News BR",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUpPbzNNeFhqX0lBbDhkelp1LVdNbF9YS1RkcllMdUVTU09IaVVFZXNsVUt4WDZ0cDh5YTZUNUtFSGtDUmswZ0RSS2lHYlpGaXU4SFl2QzFLTmpESndXVktNdWRMdDRDT3ZhNk9Ebjh1OXFqOXRWMFVkR29sMG1qVXFKak5xVVlERDd2S2pQcWIxS1ZaM2ZzSGZ0MUF6SUZs?oc=5",
-      "timestamp": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "brand": "Mizuno",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     },
     {
       "level": "green",
@@ -2739,6 +2570,175 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Con Neymar a la cabeza: mira los jugadores que lucirán sus zapatos de fútbol en el Mundial - RedGol",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVzZrV3l5eDA4WkJMNjFOMXNjNU9sN3pOdEZxaTB5X1ZCNTlHd2hTM05DMmYxdF9aMVZ2aFFJYjF6RUQ1OE9mX2JUM182QzlzcXZqRjJPN0JVRFRtdVpnMVZuRVBUXzZiajNvcUxDNl9FWmJJVGh0WklTWDhCUEdxVjNlXzhzamIxTkF5OW4tZG12UUxSamFsUGV6b0pka09Udnp2TlNxTWFIeUZ0YzFqRGNXSElNQdIBuwFBVV95cUxOMk1NQUl5c1ZpVk5HamZlU3RjTnNmd2M4WTBNREx6VlhYXzVMeVpiSDlXN0FSZi1zc0JYMXNPd09sLTN5c21TSHM3VjlSR1dQWUlkZjJjNWN1NVAwakNTdVItNGNRS3IxVjFBNDE2VnpWVFVXTzU1NlZ0cUJaUmRudmlUY2ozTXhvTlRFZG43YmlwMTh5LTdld0IxMlVZc3FFZ1Q2X211bDV0YURQdl9rTHAydmFvSXhUWlhN?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Ferran Torres luce en primicia la chaqueta de piel de Under Armour x 424, una colaboración que no verás en tiendas hasta 2027 - GQ España",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DUTJuZTZjYmY3RzBDQV9HRFBlaE5ndnA5Q2xuRlltWG9IalhHSnVTa1NoZDdINFBkbXROamhnMWkyUWlqd1o4QUZ5ZzBJR2hTbElxTFp1WTVBR0c5V2JIeUktbjNVbjhDS2ZfR3BLdmxwc3Roc1E?oc=5",
+      "timestamp": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "LEGO e Nike Football lançam coleção infantil perfeita para o verão de Copa do Mundo - Hypebeast",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX1NHdFcwUU8ydWd2MFNWdmRzakFNSUMyMHBnUmpQQ18zdm14TDlZUzRGd0prbzNhbFNoOUpDYVIxdlJoYnJwaWJsQkZXa1Bjd01NaUppcnlLamVWVm53Nm84dXQyNzVEMGtzWmZvam9jU0xTajA5c3ZFTExaX0ZkeFh2NUhiZjVKeHJadkYzXzFrUzVsZml4dUNuX1BkbUtsaEtDeV9VQldoeGVGYVpyNjZsREUyWmlISHgzWlJ6VFowanBCb0Rsb29iRW9hNElBNmdCYWE1Yw?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "Puma vive frustração com lista final do Uruguai, e Vasco terá Gómez como único representante na Copa - ge",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaFI1SjEtbnRlOHRaS2liQnpsN1JGQ2xKbUVrdFF6VER5UUMza2FQdlZuV3pYU3BFdWppLVpFcVdEcDdoM3g5MUxfanNVWjRzTFYzcDJmXzJhbGxTWEdpV0lJZVlrZmNnSmF3cWhvNkxKcldrOWRrVjA3VFlaR2RINWlMU2NSS290cEdFVzlFcmQ1Y3RLVHYxME0tSkUwTDhJUGI5UDBKbWpzNW92elYxOVM4Ny14S05WS3psNkxpcDVvRElDSTVuUkJPR0pqLVJ2QW9Ka1Z0UkgzTk02bmxHYW9nWkItblhjUzJNeWFHVjN5WHpXZzV4Y9IBhwJBVV95cUxPQzA4RDlBVThHbW1Ib21IZTNYOVZlaUNpdzFkcVBOWFNxZ1I2T1Y2R2plZEVWVFNsR2RmU0lUSjRSaU9KQXV6U1dqVUt3R0YwVkpBcjE0MzAyWXVFblZ5MFlPWnFxNlNYUlljWnRBUDA0Z2l1NUNnQW4zY2JnNExBNGRiZGZwc1RVUDlfb2lvbWp1ODhLSmNxVHZKMEx1ZVpoY0ZMXy1Dd0lYZThLQ205cnBJMVdkSjVaSXpxSkxJRjdZVUNfekJybS10d0RLYlBzOWsyVWF1UmJ0RDZtVFJkQklmNXFWdmNkRl9lajJVX3IxRjRLTnkxdkFVeXBLcldQVV9rSXRBSQ?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "WBSC y Mizuno extienden su acuerdo oficial de patrocinio de softbol hasta 2029 - World Baseball Softball Confederation (WBSC)",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3puZ3Z3am85RnRnUUZfYy1ub1E0Yk54Si1VZmZZbUFKUzk2eWwyOXJQVUhPTkhocG1wOUY1VmxDRTBYMlVTWVlfTl95WVM0dHVXNkFkei1hYUdvbmRkdi04Q29oem1CTTh1b2pCQnN6NnEtS3U3QlUzNEZLUm0tRlFHZzZuNDc0eGRZMVkybDdvT1M5?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 08:16:12 GMT",
+      "brand": "Mizuno",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Joma se inspira en la emoción compartida en su colección retro de fútbol previa al Mundial - Teleprensa",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR0FvbzBzRHlhMWwyT0ZDQ19MV3Z3VGVVTmJIeHc0Mm1zc05DbGlSQzFnUGtVNmNfMnlGczVsRE5qSmFBdFVNNzIyakdlenpjUFlxbU9MRDhSaEkwQms4R0pqNTNMbGplLWduVndMQk0xZU5BTzZoZE9HS0NYSWVSWVlEN2taZE5yV29OSHFJNGNRVHVaQU5FalYwc1U3MVlhem1WM2RBY1hJNnktN3hjLThweVhnOFBoNk9Ka29YaE9Da2NxV25JYVBXa2ZwclcwajQ1eXVOZEPSAd4BQVVfeXFMTnp2eUhRMDRHbFBvOG13OG95ZDRGSGhrU3RDTzJXazRqX212WUtwb2V2SS1GQWNMSW9vNUtaT1FicmdHQnFsTnhRNkh4UkNYQk43ZGZidGJneFVZRHNLV3NuQjhSejI5NHVWQXpwa1VyNHFTWlg5cWMweGhuazlidU9tdUlhTmxZNUs2YUEzaFZnQk1tc0gyTnNHZlJYcEdyS3ZaTWYxVVN3VW5YZWtkeTlRNEdYWWJJRnBhaTNMdEx2RUY0QklvT0ItVEVWZzVqX2lzam1TMFc0dTg3bTRR?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:07:23 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Joma se inspira en la emoción compartida en su colección retro de fútbol previa al Mundial - Notimérica",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQzU2bWtmanJsRmZRWTNJY3ZLOUhTRUZTQW1ndkV0Y3FSeDNodU5SaHRDYms1YjVEeGpPQjVWRUxTbllhcTU2MjJVWkhudUFmdUhWUDltTVlQMnZkaEVCS0w5NnRZSlZHWGpOeWZiZ1NFa05hZ0JKMUZYOU9STi1rUGJtYjFiNVpUMUZkQzBLWVJFa1NEcjRhYVo2NGdNVDNjVy1zTUx5V1FEYjJQUnJBc2FGbTJjQV8yaFdyWWp0NVAyRlFnWEJ3dGhmTU92V0g1WEVWeURR?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 11:06:09 GMT",
+      "brand": "Joma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
+    },
+    {
+      "level": "green",
+      "title": "Puma presenta en Argentina las camisetas de sus selecciones para el Mundial 2026 - FashionNetwork Perú",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0dsaG9pNml6aWNMZmVyM2tndkF5UTMwWFZYX2hmNkNlZllSUFVYUi1OZkJCWEJ3ZU1UZ2hzSmc0UnNlOXNUMkFKZDNWMjJBRE8zc0NqN0F0cFNialhTY3NGZXgtZS01anBnNTRlb1lwdlpBcGVESTNPNWhUZzVHbDJZcHBfOHhObVVQUkZQMWJVTndtMWIwbkExWmJfbTJvdFoxTXE1ek1YVVh6TUVBUXZ1MmlFemlGNGRfRzVLSXFCcFJXNEdZ?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 21:28:11 GMT",
+      "brand": "Puma",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Nike revoluciona el Mundial 2026 con siete colaboraciones entre fútbol y moda | El Colombiano - El Colombiano",
+      "market": "CO",
+      "source": "Google News CO",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEJxUXRxRVp1bjlYajhVcmxOV0lDQUNlS1ZTUzlJOVhIejlZSENJR1JCaUNXZU1JdS1XZlgzTEJOVl8xLVI2T25Hd0FBS3M4VTE2aTEyeDg1RjRsMlRESXJOYUZrb0FsckMtMnNXQndxZEFIaXFjSHdQOGlJbGV1OHZBcXVBVHBkUmtwQVZrUDBwSThOaUZjZHQxS3E1Y2gxaUdnMFBDYXlIcHhOYnNERUdB0gG3AUFVX3lxTFBlek9oRGNwU01YZ3MzZmRyUC1DOVNienUxbHlOSWNCNFlqSjlnQ3hDMWpDQWJpbElONkwyRVNDcVd4QTg2Tm5BZE14MFVGZjk3Rm1UUVRud2JwVHU0RkRzOWczWElyS2t5MUlWc2V5Nkl6TlpMdEI3NmV0b1hiemsyZWVqM0ZPc0VQeGZCS2hhREppZExJdjFxWVU5RmpBNjVjNEF3ZVRLYWRLSGRrRnJRWXB3VmZFRQ?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Rip the Script: Nike celebra a criatividade em campanha para a Copa do Mundo - GKPB - Geek Publicitário",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjOXpxZnVaVkpnUGlTbnNscGtobTYyekV0NEZXb3AxNGdlQU9aalA0cWotTVhBcXlNRnF0YmJ0cENXZjF3SzJlVnRFaWh6dzVVSDFuNnhOdkFOLUVNa3ZtdERpZlhkdHMxeXZSMEdB?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
+      "title": "El brutal anuncio de Nike que une a Cristiano Ronaldo, Raúl Jiménez, Kim Kardashian, Jorge Campos, Vinicius Jr., Erling Haaland, Mbappé y muchas estrellas más - Yahoo",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPb2c1MmNZRTdTd2lDNlZzZmVSUllxLWZVWEdUTFNBSGFLMDZ6cmNjVV9xTkdpZmVhS2hEenJ0WXdPSFBwdDJhdFBJRkNqcGw0NXBpYmZ3Qzl3cVpadkNuZUx3NjgyUEhselh4LXRwMmg4eHJ3bjFWQ1lrS21PX25NZm1aMXpiWW5TblZzYlJtaVVqV005SGxYN1hCejBiS1dwY0FGUjMyWDYyVjA4RmRadHVyZHZJWnNtc3liZWtWZ1AyTTlPcE9ENlNPRjVzcl9sV2duOXlFb29kNmMwZlE2UEN0RUtTS2Fzd2dISnhxUmhKbjNfX19nVXVLREF0ZElDTVpuNGNuaTdFeU01S2FfUi1pMFNMcGNqU19zVllMSms1azczUGc?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "CR7, Vinicius Jr., Mbappé y más estrellas del fútbol brillan juntos en el spot mundialista de Nike - Mercado Negro",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80czFFREdIakVqQXp6WTAySVJ4Qk9LT2hfNm9xZ204czRqODFOcWhCZVB4NDNCWjh6amZfc2hWd2E5WWNiZFVYX2dIQ21oOVVURk5oUzNXWUoyVjMxNmRxSVdSTF9XMG5wS25sOU9zRS1ZU2g5cXUzUWpQeHplZ0E?oc=5",
+      "timestamp": "Wed, 03 Jun 2026 21:46:34 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
+      "title": "Regresa la icónica playera de México 98: así es la edición especial de Under Armour - Dónde Ir",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUVI4UmpmWjd3a1h4OXBWTnlobG1tVUd4WDFfblBzM3YxLVhLV1F6LXZtbXRrNi1JZE1zX2xFcG9ZeGdBQ2N3c3lzMkc5eFQ2Yk1GM1Jsd3ZhNnF4NFZaaGRxendZZkpOUmhSQWtnclpQT0VERzNXb183UmFEUkpiem5zZzBoQzhrXzdnYjFzRjZ0T3FFOWV2R3hJNHhkWWY1LWpRS0hKaTVhaHI3MUxSQ1BXekRTdzgyY3RiZHp4aVRoQdIBygFBVV95cUxNdURBejRZT21lcG1UUnluaVJxWkRBV0RFNUFmd2JKbE9LQ1pMbVdYOUJlODVNa2UxcFpqckU2bVpCVEloTWE4djdzUUtvT3dadWFabjRrZFZuNFM4bXlHT1VfV0pPeFVxbkxSUk10LTlHV0NRR2tHQ1d6XzBKck9GVWhIdnhaRHNDRXdteUxjR0RieTRNaVAwSEZmZUpZcEFfYW8wSEZLZXF6NGhmTmJOSE96dGJkUE8xSV9mc25oRl96RWpQOS04VElR?oc=5",
+      "timestamp": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "brand": "Under Armour",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -4659,6 +4659,15 @@
   "youtube_uploads": [
     {
       "brand": "Adidas",
+      "channel": "adidas",
+      "title": "Can Marcelo do everything? #worldcup #football #marcelo",
+      "published_at": "2026-06-17T10:00:06+00:00",
+      "video_id": "mh8Ezl6-Foo",
+      "thumbnail": "https://i.ytimg.com/vi/mh8Ezl6-Foo/mqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/mh8Ezl6-Foo"
+    },
+    {
+      "brand": "Adidas",
       "channel": "Real Madrid",
       "title": "MBAPPÉ to chase more HISTORY at the 2026 World Cup | France x Real Madrid",
       "published_at": "2026-06-16T18:00:15+00:00",
@@ -4701,15 +4710,6 @@
       "video_id": "Fi-ZJFUtkdw",
       "thumbnail": "https://i.ytimg.com/vi/Fi-ZJFUtkdw/mqdefault.jpg",
       "url": "https://www.youtube.com/shorts/Fi-ZJFUtkdw"
-    },
-    {
-      "brand": "Adidas",
-      "channel": "adidas",
-      "title": "All aboard Scot 🏴󠁧󠁢󠁳󠁣󠁴󠁿 #fifaworldcup #football #adidas",
-      "published_at": "2026-06-14T00:00:22+00:00",
-      "video_id": "8gsyuVzSXXw",
-      "thumbnail": "https://i.ytimg.com/vi/8gsyuVzSXXw/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/8gsyuVzSXXw"
     },
     {
       "brand": "Nike",
@@ -4786,92 +4786,20 @@
   ],
   "tiktok_tags": [
     {
-      "tag": "#quantasfigurinhastemoálbumdomu",
+      "tag": "#fixturemundial2026",
       "country": "BR",
       "posts": 0,
       "rank": 1,
-      "growth_pct": 56400,
-      "raw_query": "quantas figurinhas tem o álbum do mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#dondeverlainauguracióndelmundi",
-      "country": "MX",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 41800,
-      "raw_query": "donde ver la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quantospaíseseuropeusvãojogaro",
-      "country": "BR",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 40700,
-      "raw_query": "quantos países europeus vão jogar o mundial de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 39750,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaíséconhecidocomoberçodac",
-      "country": "BR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 39600,
-      "raw_query": "qual país é conhecido como berço da civilização",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaísparticipantedomundial2",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 38600,
-      "raw_query": "qual país participante do mundial 2026 fica em dois continentes",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "MX",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 38150,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraempiezaelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 37700,
-      "raw_query": "a que hora empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#qualpaísdomundialde2026possuim",
-      "country": "BR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 37250,
-      "raw_query": "qual país do mundial de 2026 possui mais de 200 mil ilhas",
+      "growth_pct": 114300,
+      "raw_query": "fixture mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#quienjuegahoyenelmundial2026",
-      "country": "CO",
+      "country": "AR",
       "posts": 0,
-      "rank": 10,
-      "growth_pct": 35500,
+      "rank": 2,
+      "growth_pct": 39700,
       "raw_query": "quien juega hoy en el mundial 2026",
       "seed": "Mundial 2026"
     },
@@ -4879,97 +4807,169 @@
       "tag": "#inauguracióndelmundial2026envi",
       "country": "MX",
       "posts": 0,
-      "rank": 11,
-      "growth_pct": 27200,
+      "rank": 3,
+      "growth_pct": 27250,
       "raw_query": "inauguración del mundial 2026 en vivo",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#dondesepuedeverelmundial2026",
-      "country": "MX",
+      "tag": "#primerpartidodelmundial2026",
+      "country": "BR",
       "posts": 0,
-      "rank": 12,
-      "growth_pct": 20800,
-      "raw_query": "donde se puede ver el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026horacol",
-      "country": "CO",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 19300,
-      "raw_query": "inauguracion mundial 2026 hora colombia",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#costaricavaalmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 19050,
-      "raw_query": "costa rica va al mundial 2026",
+      "rank": 4,
+      "growth_pct": 25900,
+      "raw_query": "primer partido del mundial 2026",
       "seed": "Mundial 2026"
     },
     {
       "tag": "#copamundialdelafifa2026",
       "country": "AR",
       "posts": 0,
-      "rank": 15,
-      "growth_pct": 18550,
+      "rank": 5,
+      "growth_pct": 17600,
       "raw_query": "copa mundial de la fifa 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#cuandojuegaportugalenelmundial",
+      "tag": "#canal5envivo",
       "country": "MX",
       "posts": 0,
-      "rank": 16,
-      "growth_pct": 18450,
-      "raw_query": "cuando juega portugal en el mundial 2026",
+      "rank": 6,
+      "growth_pct": 10050,
+      "raw_query": "canal 5 en vivo",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#maximogoleadordelaseleccionmex",
+      "tag": "#copamundialdelafifa2026",
       "country": "MX",
       "posts": 0,
-      "rank": 17,
-      "growth_pct": 18050,
-      "raw_query": "maximo goleador de la seleccion mexicana",
-      "seed": "Seleccion mexicana"
-    },
-    {
-      "tag": "#aquehoraseslainauguracióndelmu",
-      "country": "CO",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 16150,
-      "raw_query": "a que horas es la inauguración del mundial 2026",
+      "rank": 7,
+      "growth_pct": 9800,
+      "raw_query": "copa mundial de la fifa 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#aquehoraeslaaperturadelmundial",
+      "tag": "#quienjuegahoyenelmundial2026",
+      "country": "MX",
+      "posts": 0,
+      "rank": 8,
+      "growth_pct": 6700,
+      "raw_query": "quien juega hoy en el mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aquehoraempiezalainauguraciónd",
+      "country": "MX",
+      "posts": 0,
+      "rank": 9,
+      "growth_pct": 6650,
+      "raw_query": "a que hora empieza la inauguración del mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aquehoraempiezaelmundial2026",
       "country": "AR",
       "posts": 0,
-      "rank": 19,
-      "growth_pct": 12400,
-      "raw_query": "a que hora es la apertura del mundial 2026",
+      "rank": 10,
+      "growth_pct": 5900,
+      "raw_query": "a que hora empieza el mundial 2026",
       "seed": "Mundial 2026"
     },
     {
-      "tag": "#quehoraséaaberturadacopadomund",
+      "tag": "#ceremoniainauguralmundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 11,
+      "growth_pct": 5750,
+      "raw_query": "ceremonia inaugural mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#inauguracionmundial2026",
+      "country": "AR",
+      "posts": 0,
+      "rank": 12,
+      "growth_pct": 4650,
+      "raw_query": "inauguracion mundial 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#copamundialdelafifa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 13,
+      "growth_pct": 4250,
+      "raw_query": "copa mundial de la fifa 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#copamundialdefútbolde2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 14,
+      "growth_pct": 1600,
+      "raw_query": "copa mundial de fútbol de 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#mundialfifa2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 15,
+      "growth_pct": 650,
+      "raw_query": "mundial fifa 2026",
+      "seed": "Mundial 2026"
+    },
+    {
+      "tag": "#aberturadacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 16,
+      "growth_pct": 350,
+      "raw_query": "abertura da copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#copadomundo2026abertura",
+      "country": "BR",
+      "posts": 0,
+      "rank": 17,
+      "growth_pct": 350,
+      "raw_query": "copa do mundo 2026 abertura",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#tabeladacopadomundo2026",
+      "country": "BR",
+      "posts": 0,
+      "rank": 18,
+      "growth_pct": 160,
+      "raw_query": "tabela da copa do mundo 2026",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#convocaçãoparacopadomundo2026h",
+      "country": "BR",
+      "posts": 0,
+      "rank": 19,
+      "growth_pct": 150,
+      "raw_query": "convocação para copa do mundo 2026 horario",
+      "seed": "Copa do Mundo 2026"
+    },
+    {
+      "tag": "#jogosdacopadomundo2026",
       "country": "BR",
       "posts": 0,
       "rank": 20,
-      "growth_pct": 5350,
-      "raw_query": "que horas é a abertura da copa do mundo 2026",
+      "growth_pct": 110,
+      "raw_query": "jogos da copa do mundo 2026",
       "seed": "Copa do Mundo 2026"
     }
   ],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-31581514",
+      "sku": "signal-76860326",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -4979,7 +4979,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-40195975",
+      "sku": "signal-47990034",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -4989,7 +4989,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-10036756",
+      "sku": "signal-23807059",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -4999,7 +4999,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-2138978",
+      "sku": "signal-73156315",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -5013,18 +5013,18 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 127,
+      "signals_60d": 126,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 5,
-      "top_movement": "Equipaciones de Canadá para la Copa Mundial de la FIFA 2026: local, visitante, fechas de l",
+      "top_movement": "Equipaciones de Noruega para la Copa Mundial de la FIFA 2026: local, visitante, fechas de ",
       "top_source": "Google News MX"
     },
     {
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 77,
+      "signals_60d": 78,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -5046,7 +5046,7 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 16,
+      "signals_60d": 18,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 1,
@@ -5057,11 +5057,11 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 27,
+      "signals_60d": 15,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
-      "top_movement": "Cambio de sponsor técnico para Botafogo: pasará de vestir Reebok a Mizuno - Marketing Regi",
+      "top_movement": "Lanzamiento de las primeras botas Mizuno exclusivas de João Félix - Footy Headlines",
       "top_source": "Google News MX"
     },
     {
@@ -5274,11 +5274,11 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 76,
+    "Nike": 74,
     "Puma": 63,
-    "Under Armour": 8,
+    "Under Armour": 10,
     "New Balance": 7,
-    "Mizuno": 5,
-    "Joma": 2
+    "Joma": 2,
+    "Mizuno": 4
   }
 }
