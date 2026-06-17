@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-17T11:18:05.891412+00:00",
+  "generated_at": "2026-06-17T16:01:34.398694+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 231,
-      "elapsed_s": 34.9
+      "count": 222,
+      "elapsed_s": 38.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 74.2
+      "elapsed_s": 58.9
     },
     "inpi_proxy": {
       "status": "ok",
-      "count": 13,
-      "elapsed_s": 4.8
+      "count": 12,
+      "elapsed_s": 5.2
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 3.3
     },
     "youtube_rss": {
       "status": "ok",
-      "count": 14,
-      "elapsed_s": 8.7
+      "count": 13,
+      "elapsed_s": 8.8
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 66.9
+      "elapsed_s": 67.2
     },
     "trending_topics": {
       "status": "ok",
-      "count": 20,
-      "elapsed_s": 21.3
+      "count": 0,
+      "elapsed_s": 3.6
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 11.7,
+      "elapsed_s": 2.2,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.6
+      "elapsed_s": 3.3
     }
   },
   "competitors": [
@@ -92,8 +92,8 @@
       "country": "Brasil",
       "code": "BR",
       "flag": "🇧🇷",
-      "score": 99,
-      "signals": 85,
+      "score": 100,
+      "signals": 86,
       "color": "#F40000"
     },
     {
@@ -101,23 +101,23 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 108,
+      "signals": 106,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 70,
-      "signals": 41,
+      "score": 73,
+      "signals": 44,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 39,
-      "signals": 26,
+      "score": 41,
+      "signals": 28,
       "color": "#FFCD00"
     }
   ],
@@ -128,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 54.3,
     "search_leader_delta_pp": -1.4,
-    "signals_60d": 260,
-    "signals_delta_pct": -6,
+    "signals_60d": 264,
+    "signals_delta_pct": -3,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 160,
+    "ambush_attempts_total": 164,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 74,
+    "ambush_top_count": 75,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 28,
+    "selecao_signals_total": 29,
     "official_signals_total": 0
   },
   "signals": [
@@ -558,11 +558,11 @@
     },
     {
       "level": "red",
-      "title": "Equipaciones de Francia para el Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "title": "Nike lanzará la colección de Jorge Campos para el Mundial de 2026 - Footy Headlines",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRmlUSWVKTWx5bW9sallnelB6TGh1QlBVWDVsa2RQOTU1TWJaejJ3bnVNM01RSW5weG4wLTVxVFBaQl9qamhqdVpHN3phbWFmbjNkSzBGcnJ5THNWVnB4Mk41eFFPcDg1YVBDQThzcXZRanhjQ2h5WkhSMkRVeTFDa05IdHhPZGhoQ1cyUXM0ckZGRm5va0lNRzY1VFB0cWhoSTlTdHJ5V0FVMFozVVVwVE54bnR5ZUNGSkFJMDZNZXJxNWFjLTRnNFQzcUFndFBOZTFmNmZSNlpWRFV4X2Fwek5wbXVqZ054V19VSVZrTUU?oc=5",
-      "timestamp": "Tue, 16 Jun 2026 16:10:30 GMT",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUTYtMnY2cGR4eG1uRGFnRFdfVG54VlY0MjVEMDNSWVUtR0k2SFJqd0IxWlJ3X1ZVeUFwNXo4aDFoeDVRa3JRRTN6Q0NGdHU2VmhGbHcyVkJ3VVFDeldjeDN1Y1lzZFE1aDdYS3ZXOFdid1I4ZXlBcFB4Z3NOT2I3QU1IN0pWalMyZlRKbFBUUzdwd3V0enNTX1VBQWg4YlhJN1hidWk3MVpoclY4eGc?oc=5",
+      "timestamp": "Tue, 16 Jun 2026 11:35:13 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -571,11 +571,11 @@
     },
     {
       "level": "red",
-      "title": "Nike lanzará la colección de Jorge Campos para el Mundial de 2026 - Footy Headlines",
+      "title": "Equipaciones de Francia para el Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
       "market": "MX",
       "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUTYtMnY2cGR4eG1uRGFnRFdfVG54VlY0MjVEMDNSWVUtR0k2SFJqd0IxWlJ3X1ZVeUFwNXo4aDFoeDVRa3JRRTN6Q0NGdHU2VmhGbHcyVkJ3VVFDeldjeDN1Y1lzZFE1aDdYS3ZXOFdid1I4ZXlBcFB4Z3NOT2I3QU1IN0pWalMyZlRKbFBUUzdwd3V0enNTX1VBQWg4YlhJN1hidWk3MVpoclY4eGc?oc=5",
-      "timestamp": "Tue, 16 Jun 2026 11:35:13 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRmlUSWVKTWx5bW9sallnelB6TGh1QlBVWDVsa2RQOTU1TWJaejJ3bnVNM01RSW5weG4wLTVxVFBaQl9qamhqdVpHN3phbWFmbjNkSzBGcnJ5THNWVnB4Mk41eFFPcDg1YVBDQThzcXZRanhjQ2h5WkhSMkRVeTFDa05IdHhPZGhoQ1cyUXM0ckZGRm5va0lNRzY1VFB0cWhoSTlTdHJ5V0FVMFozVVVwVE54bnR5ZUNGSkFJMDZNZXJxNWFjLTRnNFQzcUFndFBOZTFmNmZSNlpWRFV4X2Fwek5wbXVqZ054V19VSVZrTUU?oc=5",
+      "timestamp": "Tue, 16 Jun 2026 16:10:30 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -615,6 +615,19 @@
       "source": "Google News AR",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbjVnMFAxM1B4ckR1VTNTd0lIak9uTERlTkNmTGNtYVhucFlpRFAtTjFpVG0wUmZEUU1VcWl4UmJtT2d6N2FsYUQ4WUZKZmowbFBKOElxc1d5TG5WSFNlMFhKZW1YZjhQOWN6YnI2U3RfRVRkMnZ2NDhzYS1TYXVhckVVUGxLWmRNUlR2WnhCTGtkUk1tVmVzNWpmcFlFWl82azhHZUxiTjYzelh2V2Ryc2pSQ1NQZTNZdnJNbXJSdG1aWmVYTHVoSE9lQkZLV0UtQ1hMRVEwTTV1R2xkUHdycDQzMklKUFlYSEw3LUxzS2c?oc=5",
       "timestamp": "Tue, 16 Jun 2026 21:25:58 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "red",
+      "title": "Equipaciones de Inglaterra para el Mundial de la FIFA 2026: local, visitante, fechas de lanzamiento y precios - Goal.com",
+      "market": "MX",
+      "source": "Google News MX",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMFpFRWNkRGdDLW14bkZSN1pheWRLcDg3c2NsZTZfd0NUZUhTMkxLZXlrd1NmLWdkWmFNQnRucEdQdktEczcyQkJmWVhQc1gyVnhfSUNyUXdXVXVwUkJPVHNkN2xVZXdFT3dnY0dDa2RGaXNvaG1RZ0diejlWMWZfMmVCbXhEV2ZGR0lmOGN2S1BuOEVYVi10UW9BSnhfWENtQzZBblNoZTVZcHdSMUc3NjRZQ25pWEZxNlVLUWNEMUtSWDN0ZzluQjRLNDJibzl0WFphS0RsS3ZGb1BYZzF4TkhoNmcxU05PS1dkTm95aTdfQ2tJ?oc=5",
+      "timestamp": "Wed, 17 Jun 2026 15:57:22 GMT",
       "brand": "Nike",
       "category": "Sportswear",
       "raw_meta": {},
@@ -818,7 +831,7 @@
     },
     {
       "level": "yellow",
-      "title": "[Registro/marca] Em meio a ataques dos EUA, governo registra Pix como marca de alto renome no INPI - ISTOÉ DINHEIRO",
+      "title": "[Registro/marca] Em meio a ataques dos EUA, governo registra Pix como marca de alto renome no INPI - istoedinheiro.com.br",
       "market": "BR",
       "source": "INPI proxy",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbTlDemZRRzVUNkdnRWVrZ3pVd2dMQWZidFlQeUFicG5UcVZ4QVoyNDFHOHdoRGJ6UHRRNmR6UnE3bEIzVDdmbHlMYTJma1F2bFRRczBBYVo5dzhyV09CbUpZeEppd3V6b2VjVktocFBQWGM1NzR3eU1DT1p0WGhIVXVISHhQaDNtTUMtbmJXNG9wVHBpcVllZFRNNG9xSjQwSWpNY2Y1clVBMnM2NHc?oc=5",
@@ -2482,6 +2495,19 @@
     },
     {
       "level": "green",
+      "title": "Slawn se asocia con Nike Football para una colección que rinde homenaje a Nigeria de cara a la Copa Mundial de 2026 - selecta bisso",
+      "market": "AR",
+      "source": "Google News AR",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTWxLQjVRS2xtT1RRcm15RldqR25XZE5qelhjVXNSa3lUc1Ytc1VWZHNVX0VvTFRLTjc1YjA0MjNpQmo2eS1BdWhmbmVrQlNhRzNEelF0N2ZRXzdnbVVjVklOam9oaWRjdDZfZ2tkWHJCRDBBNTRvT3hQUmZDaEw2dHAyU2VoV09HTnd4bFVWcUp1bEZhNmRiY3ctb2tqMG9iM3RmWngzaXFXamNoMHVpLTlvemg2V3lMbnlQaVFhOEN2TnVWYXVKcEZXcUd5bkdtcHRGX25kRmtEYmhqMFdJa2ltWW0?oc=5",
+      "timestamp": "Tue, 26 May 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "ambush"
+    },
+    {
+      "level": "green",
       "title": "La icónica playera de México del Mundial de Francia 1998 se venderá de forma masiva en CDMX - Sopitas.com",
       "market": "MX",
       "source": "Google News MX",
@@ -2664,6 +2690,19 @@
     },
     {
       "level": "green",
+      "title": "Mais de 99 milhões de brasileiros devem ir às compras devido à Copa do Mundo, e cerca de 60% planejam adquirir produtos ou serviços voltados à Copa, de acordo com estudo da CNDL (Confederação Nacional de Dirigentes Lojistas) e do SPC Brasil. E as - instagram.com",
+      "market": "BR",
+      "source": "Google News BR",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PN3N0UGJ0d0FnVDF5SGMwbFdESjN5Q0h6X18zMi1qLXNqVFlTa0xUdFhZZnkwN1gyYWZrVUV5Umk4SlZDVEdOOTE1aG5WaU5kNzJZd1NB?oc=5",
+      "timestamp": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "brand": "Nike",
+      "category": "Sportswear",
+      "raw_meta": {},
+      "time_human": "-",
+      "sponsorship_status": "selecao_oficial"
+    },
+    {
+      "level": "green",
       "title": "Puma presenta en Argentina las camisetas de sus selecciones para el Mundial 2026 - FashionNetwork Perú",
       "market": "AR",
       "source": "Google News AR",
@@ -2700,45 +2739,6 @@
       "raw_meta": {},
       "time_human": "-",
       "sponsorship_status": "selecao_oficial"
-    },
-    {
-      "level": "green",
-      "title": "El brutal anuncio de Nike que une a Cristiano Ronaldo, Raúl Jiménez, Kim Kardashian, Jorge Campos, Vinicius Jr., Erling Haaland, Mbappé y muchas estrellas más - Yahoo",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPb2c1MmNZRTdTd2lDNlZzZmVSUllxLWZVWEdUTFNBSGFLMDZ6cmNjVV9xTkdpZmVhS2hEenJ0WXdPSFBwdDJhdFBJRkNqcGw0NXBpYmZ3Qzl3cVpadkNuZUx3NjgyUEhselh4LXRwMmg4eHJ3bjFWQ1lrS21PX25NZm1aMXpiWW5TblZzYlJtaVVqV005SGxYN1hCejBiS1dwY0FGUjMyWDYyVjA4RmRadHVyZHZJWnNtc3liZWtWZ1AyTTlPcE9ENlNPRjVzcl9sV2duOXlFb29kNmMwZlE2UEN0RUtTS2Fzd2dISnhxUmhKbjNfX19nVXVLREF0ZElDTVpuNGNuaTdFeU01S2FfUi1pMFNMcGNqU19zVllMSms1azczUGc?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "CR7, Vinicius Jr., Mbappé y más estrellas del fútbol brillan juntos en el spot mundialista de Nike - Mercado Negro",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80czFFREdIakVqQXp6WTAySVJ4Qk9LT2hfNm9xZ204czRqODFOcWhCZVB4NDNCWjh6amZfc2hWd2E5WWNiZFVYX2dIQ21oOVVURk5oUzNXWUoyVjMxNmRxSVdSTF9XMG5wS25sOU9zRS1ZU2g5cXUzUWpQeHplZ0E?oc=5",
-      "timestamp": "Wed, 03 Jun 2026 21:46:34 GMT",
-      "brand": "Nike",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "ambush"
-    },
-    {
-      "level": "green",
-      "title": "Regresa la icónica playera de México 98: así es la edición especial de Under Armour - Dónde Ir",
-      "market": "MX",
-      "source": "Google News MX",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUVI4UmpmWjd3a1h4OXBWTnlobG1tVUd4WDFfblBzM3YxLVhLV1F6LXZtbXRrNi1JZE1zX2xFcG9ZeGdBQ2N3c3lzMkc5eFQ2Yk1GM1Jsd3ZhNnF4NFZaaGRxendZZkpOUmhSQWtnclpQT0VERzNXb183UmFEUkpiem5zZzBoQzhrXzdnYjFzRjZ0T3FFOWV2R3hJNHhkWWY1LWpRS0hKaTVhaHI3MUxSQ1BXekRTdzgyY3RiZHp4aVRoQdIBygFBVV95cUxNdURBejRZT21lcG1UUnluaVJxWkRBV0RFNUFmd2JKbE9LQ1pMbVdYOUJlODVNa2UxcFpqckU2bVpCVEloTWE4djdzUUtvT3dadWFabjRrZFZuNFM4bXlHT1VfV0pPeFVxbkxSUk10LTlHV0NRR2tHQ1d6XzBKck9GVWhIdnhaRHNDRXdteUxjR0RieTRNaVAwSEZmZUpZcEFfYW8wSEZLZXF6NGhmTmJOSE96dGJkUE8xSV9mc25oRl96RWpQOS04VElR?oc=5",
-      "timestamp": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "brand": "Under Armour",
-      "category": "Sportswear",
-      "raw_meta": {},
-      "time_human": "-",
-      "sponsorship_status": "neutral"
     }
   ],
   "search_interest": {
@@ -4766,15 +4766,6 @@
       "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
     },
     {
-      "brand": "Under Armour",
-      "channel": "Under Armour",
-      "title": "Not your average cotton t-shirt😤🔥 #sports #football #athlete",
-      "published_at": "2026-06-01T15:04:54+00:00",
-      "video_id": "xzxRwdWVqBA",
-      "thumbnail": "https://i.ytimg.com/vi/xzxRwdWVqBA/mqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/xzxRwdWVqBA"
-    },
-    {
       "brand": "New Balance",
       "channel": "newbalance",
       "title": "New Balance Global Football | We Got Now | 2026",
@@ -4784,192 +4775,11 @@
       "url": "https://www.youtube.com/watch?v=rH-YloK2Te4"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#fixturemundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 114300,
-      "raw_query": "fixture mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quienjuegahoyenelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 39700,
-      "raw_query": "quien juega hoy en el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracióndelmundial2026envi",
-      "country": "MX",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 27250,
-      "raw_query": "inauguración del mundial 2026 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#primerpartidodelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 25900,
-      "raw_query": "primer partido del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 17600,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#canal5envivo",
-      "country": "MX",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 10050,
-      "raw_query": "canal 5 en vivo",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 9800,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quienjuegahoyenelmundial2026",
-      "country": "MX",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 6700,
-      "raw_query": "quien juega hoy en el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraempiezalainauguraciónd",
-      "country": "MX",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 6650,
-      "raw_query": "a que hora empieza la inauguración del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aquehoraempiezaelmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 5900,
-      "raw_query": "a que hora empieza el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#ceremoniainauguralmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 5750,
-      "raw_query": "ceremonia inaugural mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#inauguracionmundial2026",
-      "country": "AR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 4650,
-      "raw_query": "inauguracion mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 4250,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdefútbolde2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 1600,
-      "raw_query": "copa mundial de fútbol de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#mundialfifa2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 650,
-      "raw_query": "mundial fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#aberturadacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 16,
-      "growth_pct": 350,
-      "raw_query": "abertura da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#copadomundo2026abertura",
-      "country": "BR",
-      "posts": 0,
-      "rank": 17,
-      "growth_pct": 350,
-      "raw_query": "copa do mundo 2026 abertura",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#tabeladacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 18,
-      "growth_pct": 160,
-      "raw_query": "tabela da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#convocaçãoparacopadomundo2026h",
-      "country": "BR",
-      "posts": 0,
-      "rank": 19,
-      "growth_pct": 150,
-      "raw_query": "convocação para copa do mundo 2026 horario",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#jogosdacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 20,
-      "growth_pct": 110,
-      "raw_query": "jogos da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-76860326",
+      "sku": "signal-94235179",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -4979,7 +4789,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-47990034",
+      "sku": "signal-42208556",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -4989,7 +4799,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-23807059",
+      "sku": "signal-40828903",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -4999,7 +4809,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-73156315",
+      "sku": "signal-79986814",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -5013,7 +4823,7 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 126,
+      "signals_60d": 128,
       "latas_detected": 2,
       "ads_active": 0,
       "youtube_uploads_30d": 5,
@@ -5024,7 +4834,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 78,
+      "signals_60d": 81,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -5046,10 +4856,10 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 18,
+      "signals_60d": 17,
       "latas_detected": 0,
       "ads_active": 0,
-      "youtube_uploads_30d": 1,
+      "youtube_uploads_30d": 0,
       "top_movement": "¡Como si fuera 1998! Under Armour y ABA Sport crean alianza para relanzar jersey de la Pie",
       "top_source": "Google News MX"
     },
@@ -5274,10 +5084,10 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 74,
-    "Puma": 63,
-    "Under Armour": 10,
-    "New Balance": 7,
+    "Nike": 75,
+    "Puma": 66,
+    "Under Armour": 9,
+    "New Balance": 8,
     "Joma": 2,
     "Mizuno": 4
   }
