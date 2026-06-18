@@ -1,53 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-18T09:25:48.914412+00:00",
+  "generated_at": "2026-06-18T13:39:55.378412+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 235,
-      "elapsed_s": 36.2
+      "count": 236,
+      "elapsed_s": 39.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 42.2
+      "elapsed_s": 60.3
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 5.1
+      "elapsed_s": 5.2
     },
     "mercadolibre": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 4.4
+      "elapsed_s": 8.0
     },
     "youtube_rss": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 8.0
+      "elapsed_s": 8.9
     },
     "meta_ad_library": {
       "status": "ok",
-      "count": 2,
-      "elapsed_s": 45.9
+      "count": 3,
+      "elapsed_s": 49.4
     },
     "trending_topics": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 5.7
+      "elapsed_s": 5.5
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 2.3,
+      "elapsed_s": 2.8,
       "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.7
+      "elapsed_s": 4.0
     }
   },
   "competitors": [
@@ -108,23 +108,23 @@
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 74,
-      "signals": 45,
+      "score": 73,
+      "signals": 44,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 42,
-      "signals": 29,
+      "score": 43,
+      "signals": 30,
       "color": "#FFCD00"
     }
   ],
   "kpis": {
-    "ads_active_total": 2,
+    "ads_active_total": 3,
     "ads_active_top_brand": "Nike",
-    "ads_active_top_count": 1,
+    "ads_active_top_count": 2,
     "search_leader_brand": "Nike",
     "search_leader_pct": 53.7,
     "search_leader_delta_pp": -2.9,
@@ -132,7 +132,7 @@
     "signals_delta_pct": -1,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 167,
+    "ambush_attempts_total": 166,
     "ambush_top_brand": "Nike",
     "ambush_top_count": 79,
     "fifa_signals_total": 0,
@@ -5792,6 +5792,10 @@
       {
         "date": "20260616",
         "views": 355
+      },
+      {
+        "date": "20260617",
+        "views": 350
       }
     ],
     "Nike": [
@@ -6030,6 +6034,10 @@
       {
         "date": "20260616",
         "views": 227
+      },
+      {
+        "date": "20260617",
+        "views": 263
       }
     ],
     "Puma": [
@@ -6115,6 +6123,10 @@
       },
       {
         "date": "20260612",
+        "views": 1
+      },
+      {
+        "date": "20260617",
         "views": 1
       }
     ],
@@ -6354,6 +6366,10 @@
       {
         "date": "20260616",
         "views": 274
+      },
+      {
+        "date": "20260617",
+        "views": 245
       }
     ],
     "Under Armour": [
@@ -6592,6 +6608,10 @@
       {
         "date": "20260616",
         "views": 27
+      },
+      {
+        "date": "20260617",
+        "views": 33
       }
     ],
     "Mizuno": [
@@ -6822,6 +6842,10 @@
       {
         "date": "20260616",
         "views": 2
+      },
+      {
+        "date": "20260617",
+        "views": 6
       }
     ],
     "Penalty": [
@@ -6868,6 +6892,10 @@
       {
         "date": "20260614",
         "views": 1
+      },
+      {
+        "date": "20260617",
+        "views": 1
       }
     ]
   },
@@ -6875,7 +6903,19 @@
     {
       "brand": "Nike",
       "page_name": "Martinez Innis Nike",
-      "country": "MX",
+      "country": "AR",
+      "platform": "facebook,instagram,audience_network,messenger,threads",
+      "started_at": "2026-06-17",
+      "body_snippet": "Tras años cultivando la inmortalidad, Leo Vargas desciende de la montaña convertido en un maestro invencible en la ciudad. Termina enfrentándose a su amiga de la infancia y conquistando a una diosa de",
+      "title": "¡El maestro desciende de la montaña, conquistando a las diosas!",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2581968172228559",
+      "ad_id": "2581968172228559",
+      "copa_score": 0
+    },
+    {
+      "brand": "Nike",
+      "page_name": "Martinez Innis Nike",
+      "country": "CO",
       "platform": "facebook,instagram,audience_network,messenger,threads",
       "started_at": "2026-06-17",
       "body_snippet": "Tras años cultivando la inmortalidad, Leo Vargas desciende de la montaña convertido en un maestro invencible en la ciudad. Termina enfrentándose a su amiga de la infancia y conquistando a una diosa de",
@@ -7020,7 +7060,7 @@
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-84484639",
+      "sku": "signal-95623606",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7030,7 +7070,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-18459696",
+      "sku": "signal-84457731",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7040,7 +7080,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-31640045",
+      "sku": "signal-46471972",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7050,7 +7090,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-57348873",
+      "sku": "signal-49100015",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7064,9 +7104,9 @@
       "brand": "Nike",
       "category": "Sportswear",
       "color": "#FA5400",
-      "signals_60d": 133,
+      "signals_60d": 134,
       "latas_detected": 2,
-      "ads_active": 1,
+      "ads_active": 2,
       "youtube_uploads_30d": 5,
       "top_movement": "Equipaciones de Noruega para la Copa Mundial de la FIFA 2026: local, visitante, fechas de ",
       "top_source": "Google News MX"
@@ -7108,7 +7148,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 15,
+      "signals_60d": 14,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7330,6 +7370,6 @@
     "Under Armour": 9,
     "New Balance": 7,
     "Joma": 2,
-    "Mizuno": 4
+    "Mizuno": 3
   }
 }
