@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-20T14:31:13.010330+00:00",
+  "generated_at": "2026-06-20T16:45:41.809354+00:00",
   "history_days": 60,
   "sources_health": {
     "google_news": {
       "status": "ok",
-      "count": 242,
-      "elapsed_s": 35.6
+      "count": 234,
+      "elapsed_s": 41.6
     },
     "gdelt": {
       "status": "ok",
       "count": 0,
-      "elapsed_s": 35.8
+      "elapsed_s": 25.9
     },
     "inpi_proxy": {
       "status": "ok",
       "count": 13,
-      "elapsed_s": 4.9
+      "elapsed_s": 4.8
     },
     "mercadolibre": {
       "status": "ok",
@@ -26,27 +26,28 @@
     "youtube_rss": {
       "status": "ok",
       "count": 11,
-      "elapsed_s": 9.1
+      "elapsed_s": 9.3
     },
     "meta_ad_library": {
       "status": "ok",
       "count": 1,
-      "elapsed_s": 64.9
+      "elapsed_s": 65.1
     },
     "trending_topics": {
       "status": "ok",
-      "count": 15,
-      "elapsed_s": 20.1
+      "count": 0,
+      "elapsed_s": 6.1
     },
     "google_trends": {
       "status": "ok",
       "count": 2,
-      "elapsed_s": 24.6
+      "elapsed_s": 5.3,
+      "fallback": "kept_previous"
     },
     "wikipedia": {
       "status": "ok",
       "count": 7,
-      "elapsed_s": 3.7
+      "elapsed_s": 3.6
     }
   },
   "competitors": [
@@ -92,7 +93,7 @@
       "code": "BR",
       "flag": "🇧🇷",
       "score": 100,
-      "signals": 87,
+      "signals": 89,
       "color": "#F40000"
     },
     {
@@ -100,23 +101,23 @@
       "code": "MX",
       "flag": "🇲🇽",
       "score": 100,
-      "signals": 106,
+      "signals": 114,
       "color": "#006847"
     },
     {
       "country": "Argentina",
       "code": "AR",
       "flag": "🇦🇷",
-      "score": 78,
-      "signals": 49,
+      "score": 68,
+      "signals": 39,
       "color": "#75AADB"
     },
     {
       "country": "Colombia",
       "code": "CO",
       "flag": "🇨🇴",
-      "score": 51,
-      "signals": 30,
+      "score": 52,
+      "signals": 31,
       "color": "#FFCD00"
     }
   ],
@@ -127,15 +128,15 @@
     "search_leader_brand": "Nike",
     "search_leader_pct": 55.0,
     "search_leader_delta_pp": -1.0,
-    "signals_60d": 272,
-    "signals_delta_pct": 0,
+    "signals_60d": 273,
+    "signals_delta_pct": 1,
     "latas_total": 4,
     "latas_unvalidated": 4,
-    "ambush_attempts_total": 180,
+    "ambush_attempts_total": 177,
     "ambush_top_brand": "Nike",
-    "ambush_top_count": 87,
+    "ambush_top_count": 85,
     "fifa_signals_total": 0,
-    "selecao_signals_total": 26,
+    "selecao_signals_total": 28,
     "official_signals_total": 0
   },
   "signals": [
@@ -7021,147 +7022,11 @@
       "url": "https://www.youtube.com/shorts/Nicudp4FDJQ"
     }
   ],
-  "tiktok_tags": [
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 1,
-      "growth_pct": 676400,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#partidosdehoymundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 2,
-      "growth_pct": 87900,
-      "raw_query": "partidos de hoy mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026grupos",
-      "country": "CO",
-      "posts": 0,
-      "rank": 3,
-      "growth_pct": 46300,
-      "raw_query": "copa mundial de la fifa 2026 grupos",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#quienjuegahoyenelmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 4,
-      "growth_pct": 41350,
-      "raw_query": "quien juega hoy en el mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#brasilvsmarruecosmundial2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 5,
-      "growth_pct": 21050,
-      "raw_query": "brasil vs marruecos mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#primerpartidodelmundial2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 6,
-      "growth_pct": 20650,
-      "raw_query": "primer partido del mundial 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdelafifa2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 7,
-      "growth_pct": 8000,
-      "raw_query": "copa mundial de la fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialfifa2026",
-      "country": "CO",
-      "posts": 0,
-      "rank": 8,
-      "growth_pct": 6050,
-      "raw_query": "copa mundial fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copamundialdefútbolde2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 9,
-      "growth_pct": 1250,
-      "raw_query": "copa mundial de fútbol de 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#mundialfifa2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 10,
-      "growth_pct": 900,
-      "raw_query": "mundial fifa 2026",
-      "seed": "Mundial 2026"
-    },
-    {
-      "tag": "#copadomundo2026abertura",
-      "country": "BR",
-      "posts": 0,
-      "rank": 11,
-      "growth_pct": 300,
-      "raw_query": "copa do mundo 2026 abertura",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#aberturadacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 12,
-      "growth_pct": 300,
-      "raw_query": "abertura da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#tabeladacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 13,
-      "growth_pct": 160,
-      "raw_query": "tabela da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#jogosdacopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 14,
-      "growth_pct": 130,
-      "raw_query": "jogos da copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    },
-    {
-      "tag": "#tabelajogoscopadomundo2026",
-      "country": "BR",
-      "posts": 0,
-      "rank": 15,
-      "growth_pct": 80,
-      "raw_query": "tabela jogos copa do mundo 2026",
-      "seed": "Copa do Mundo 2026"
-    }
-  ],
+  "tiktok_tags": [],
   "latas": [
     {
       "brand": "Puma",
-      "sku": "signal-42962444",
+      "sku": "signal-41402848",
       "label": "Lanzamiento del pack especial «City Edition» de Puma pa",
       "color": "#E0001A",
       "market": "CO",
@@ -7171,7 +7036,7 @@
     },
     {
       "brand": "Puma",
-      "sku": "signal-44975947",
+      "sku": "signal-52926311",
       "label": "Lanzamiento de la colección Puma para el Mundial 2026: ",
       "color": "#E0001A",
       "market": "MX",
@@ -7181,7 +7046,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-40253033",
+      "sku": "signal-60925373",
       "label": "Lanzamiento del pack de botas «Breakout» de Nike para e",
       "color": "#FA5400",
       "market": "MX",
@@ -7191,7 +7056,7 @@
     },
     {
       "brand": "Nike",
-      "sku": "signal-60351082",
+      "sku": "signal-98190576",
       "label": "Lanzamiento del pack de botas Nike «Breakout» para el M",
       "color": "#FA5400",
       "market": "AR",
@@ -7216,7 +7081,7 @@
       "brand": "Puma",
       "category": "Sportswear",
       "color": "#E0001A",
-      "signals_60d": 79,
+      "signals_60d": 80,
       "latas_detected": 2,
       "ads_active": 1,
       "youtube_uploads_30d": 0,
@@ -7227,7 +7092,7 @@
       "brand": "New Balance",
       "category": "Sportswear",
       "color": "#E50020",
-      "signals_60d": 12,
+      "signals_60d": 13,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7238,7 +7103,7 @@
       "brand": "Under Armour",
       "category": "Sportswear",
       "color": "#E81B23",
-      "signals_60d": 16,
+      "signals_60d": 17,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7249,7 +7114,7 @@
       "brand": "Mizuno",
       "category": "Sportswear",
       "color": "#0066CC",
-      "signals_60d": 15,
+      "signals_60d": 13,
       "latas_detected": 0,
       "ads_active": 0,
       "youtube_uploads_30d": 0,
@@ -7466,11 +7331,11 @@
     ]
   },
   "ambush_by_brand": {
-    "Nike": 87,
-    "Puma": 67,
+    "Nike": 85,
+    "Puma": 68,
     "Under Armour": 9,
     "New Balance": 11,
     "Joma": 2,
-    "Mizuno": 4
+    "Mizuno": 2
   }
 }
